@@ -63,7 +63,7 @@
 			"url": "modules/ravanno-dnd5e-es/assets/logo.png"
 		}
 	],
-    "url": "https://github.com/cswendrowski/FoundryVTT-Encounter-Builder",
-    "manifest": "https://github.com/cswendrowski/FoundryVTT-Encounter-Builder/releases/latest/module.json",
-    "download": "https://github.com/cswendrowski/FoundryVTT-Encounter-Builder/releases/download/1.0.0/module.zip"
+    "url": "https://github.com/ravanno/ravanno-dnd5e-es",
+    "manifest": "https://raw.githubusercontent.com/ravanno/ravanno-dnd5e-es/main/module.json",
+    "download": "https://github.com/ravanno/ravanno-dnd5e-es/archive/refs/heads/main.zip"
 }

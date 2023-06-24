@@ -1,0 +1,69 @@
+{
+    "id": "ravanno-dnd5e-es",
+    "title": "Traducción: Español [DnD5e]",
+    "description": "Traducción al español del sistema de Dungeons & Dragons 5E.",
+    "version": "2.2.1",
+    "compatibility": {
+        "minimum": 10,
+        "verified": 11.302,
+        "maximum": 11
+    },
+    "authors": [
+        {
+            "name": "Juan J. Fernández",
+            "email": "neoravenous@gmail.com",
+            "discord": "ravanno#1489"
+        },
+        {
+            "name": "Cosmo Corban#4840" 
+        }
+    ],
+    "esmodules": [
+        "babele-register.js"
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+                "compatibility": {
+                    "minimum": "2.2.1",
+                    "verified": "2.2.1",
+                    "maximum": "2.2.1"
+                }
+            }
+        ],
+        "requires": [
+            {
+                "id": "babele",
+                "type": "module",
+                "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+                "compatibility": {
+                    "minimum": "2.4.0",
+                    "verified": "2.4.0",
+                    "maximum": "2.4.0"
+                }
+            }
+        ]
+    },
+    "languages": [
+        {
+            "lang": "es",
+            "name": "Español",
+            "path": "lang/es.json" 
+        }
+    ],
+    "media": [
+		{
+			"type": "setup",
+			"url": "modules/ravanno-dnd5e-es/assets/setup-cover.png"
+		},
+		{
+			"type": "cover",
+			"url": "modules/ravanno-dnd5e-es/assets/logo.png"
+		}
+	],
+    "url": "https://github.com/cswendrowski/FoundryVTT-Encounter-Builder",
+    "manifest": "https://github.com/cswendrowski/FoundryVTT-Encounter-Builder/releases/latest/module.json",
+    "download": "https://github.com/cswendrowski/FoundryVTT-Encounter-Builder/releases/download/1.0.0/module.zip"
+}

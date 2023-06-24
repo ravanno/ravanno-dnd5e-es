@@ -1,0 +1,59 @@
+{
+	"label": "Reglas (SRD)",
+	"entries": {
+		"Appendix A: Conditions": {
+			"name": "Apéndice A: Estados"
+		},
+		"Appendix B: Gods and the Multiverse": {
+			"name": "Apéndice B: Dioses y el Multiverso"
+		},
+		"Appendix C: Creatures": {
+			"name": "Apéndice C: Criaturas"
+		},
+		"Appendix D: Senses and Speeds": {
+			"name": "Apéndice D: Sentidos y Velocidades"
+		},
+		"Chapter 1: Beyond 1st Level": {
+			"name": "Capítulo 1: Más Allá del Nivel 1"
+		},
+		"Chapter 10: Spellcasting": {
+			"name": "Capítulo 10: Lanzamiento de Hechizos"
+		},
+		"Chapter 11: DM Tools": {
+			"name": "Capítulo 11: Herramientas para el DM"
+		},
+		"Chapter 2: Races": {
+			"name": "Capítulo 2: Razas"
+		},
+		"Chapter 3: Classes": {
+			"name": "Capítulo 3: Clases"
+		},
+		"Chapter 4: Personality and Background": {
+			"name": "Capítulo 4: Personalidad y Trasfondo"
+		},
+		"Chapter 5: Equipment": {
+			"name": "Capítulo 5: Equipo"
+		},
+		"Chapter 6: Customization Options": {
+			"name": "Capítulo 6: Opciones de Personalización"
+		},
+		"Chapter 7: Using Ability Scores": {
+			"name": "Capítulo 7: Usando los Puntos de Habilidad"
+		},
+		"Chapter 8: Adventuring": {
+			"name": "Capítulo 8: Aventuras"
+		},
+		"Chapter 9: Combat": {
+			"name": "Capítulo 9: Combate"
+		},
+		"Disclaimer": {
+			"name": "Disclaimer"
+		},
+		"Magic Items A-Z": {
+			"name": "Objetos Mágicos A-Z"
+		},
+		"Spells A-Z": {
+			"name": "Hechizos A-Z"
+		}
+	}
+}

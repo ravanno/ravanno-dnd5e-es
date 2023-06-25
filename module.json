@@ -21,6 +21,9 @@
     "esmodules": [
         "babele-register.js"
     ],
+    "styles": [
+        "css/dnd5e-es.css"
+    ],
     "relationships": {
         "systems": [
             {

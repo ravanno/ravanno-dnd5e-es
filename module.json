@@ -1,11 +1,11 @@
 {
   "id": "ravanno-dnd5e-es",
-  "title": "Traducción: Español [DnD5e]",
-  "description": "Traducción al español del sistema de Dungeons &amp; Dragons 5E.",
-  "version": "2.2.1",
+  "title": "Translation: Español [DnD5e]",
+  "description": "Traducción al español del sistema de Dungeons &amp; Dragons 5E (SRD).",
+  "version": "2.2.2",
   "compatibility": {
     "minimum": "10",
-    "verified": "11.302",
+    "verified": "11.305",
     "maximum": "11"
   },
   "authors": [
@@ -32,9 +32,9 @@
         "id": "dnd5e",
         "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
-          "minimum": "2.2.1",
-          "verified": "2.2.1",
-          "maximum": "2.2.1"
+          "minimum": "2.2.2",
+          "verified": "2.2.2",
+          "maximum": "2.2.2"
         },
         "type": "system"
       }

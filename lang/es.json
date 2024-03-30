@@ -1506,8 +1506,8 @@
     "Empty": "Haz click arriba para añadir un perfil o deja caer una criatura para invocar aquí."
   },
   "Prompt": {
-    "Label": "comando para Invocación",
-    "Hint": "Desactiva los comandos de invocación cuando se utiliza. Los jugadores puede todavía invocar desde la pestaña de chat."
+    "Label": "Mensaje de Invocación",
+    "Hint": "Desactiva el mensaje de invocación cuandos se utiliza un objeto. Los jugadores todavía podrán hacer invocaciones desde la pestaña de chat."
   },
   "Warning": {
     "CreateActor": "Debes tener el permiso 'Crear Nuevos Actores' para poder invocar directamente dese un compendio.",

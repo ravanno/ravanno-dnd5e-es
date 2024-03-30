@@ -135,6 +135,7 @@
 "DND5E.ActionRSAK": "Ataque con Conjuro a Distancia",
 "DND5E.ActionRWAK": "Ataque con Arma a Distancia",
 "DND5E.ActionSave": "Tirada de Salvación",
+"DND5E.ActionSumm": "Invocar",
 "DND5E.ActionUtil": "Utilidad",
 "DND5E.ActionWarningNoItem": "El objeto solicitado {item} ya no existe en el Personaje {name}",
 "DND5E.ActionWarningNoToken": "Debe controlar uno o más tokens para poder utilizar esta opción.",
@@ -283,6 +284,7 @@
 "DND5E.AdvancementTraitModeUpgradeHint": "Ganar competencia en un rasgo a menos que ya la tuvieras, en ese caso, ganará pericia.",
 "DND5E.AdvancementTraitType": "Tipo de Rasgo",
 "DND5E.Advantage": "Ventaja",
+"DND5E.AdvantageMode": "Modo Ventaja",
 "DND5E.Age": "Edad",
 "DND5E.Alignment": "Alineamiento",
 "DND5E.AlignmentCE": "Caótico Malvado",
@@ -328,6 +330,9 @@
 "DND5E.AttackPl": "Ataques",
 "DND5E.AttackRoll": "Tirada de Ataque",
 "DND5E.Attributes": "Atributos",
+"DND5E.AttrConcentration": {
+  "Limit": "Límite"
+},
 "DND5E.Automatic": "Automático",
 "DND5E.AutomaticValue": "Automático ({value})",
 "DND5E.Award": {
@@ -353,6 +358,7 @@
 "DND5E.BonusAbility": "Bonificaciones Globales de Habilidad",
 "DND5E.BonusAbilityCheck": "Bonificación global a las Pruebas de característica",
 "DND5E.BonusAbilitySave": "Bonificación global a las Tiradas de salvación",
+"DND5E.BonusAbilitySaveTitle": "Tiradas de Salvación globales",
 "DND5E.BonusAbilitySkill": "Bonificación global a las Pruebas de habilidad",
 "DND5E.BonusAction": "Acción Adicional",
 "DND5E.BonusActionAbbr": "AA",
@@ -382,6 +388,8 @@
 "DND5E.ChatContextTempHP": "Aplicar PG Temporales",
 "DND5E.ChatContextDoubleDamage": "Aplicar Doble Daño",
 "DND5E.ChatContextHalfDamage": "Aplicar Mitad de Daño",
+"DND5E.ChatContextSelectHit": "Seleccionar Objetivos Golpeados",
+"DND5E.ChatContextSelectMiss": "Seleccionar Objetivos Fallados",
 "DND5E.ChatFlavor": "Mensaje adicional en el chat",
 "DND5E.CheckBonus": "Bonificación de Prueba",
 "DND5E.ClassAdd": "Añadir Clase",
@@ -393,6 +401,7 @@
 "DND5E.ClassName": "Nombre de la Clase",
 "DND5E.ClassOriginal": "Clase Original",
 "DND5E.ClassSaves": "Tiradas de Salvación",
+"DND5E.Confirm": "Confirmar",
 "DND5E.ComponentMaterial": "Material",
 "DND5E.ComponentMaterialAbbr": "M",
 "DND5E.ComponentSomatic": "Somático",
@@ -436,11 +445,25 @@
 "DND5E.ConUnconscious": "Inconsciente",
 "DND5E.Concentration": "Concentración",
 "DND5E.ConcentrationAbbr": "C",
+"DND5E.ConcentrationBreak": "Romper Concentración",
+"DND5E.ConcentrationBreakWarning": "Romper la concentación en un efecto que está activo en otras criaturas requiere la presencia de un DM activo.",
+"DND5E.ConcentrationBonus": "Bonificación de Concentración",
+"DND5E.ConcentrationDuration": "Concentración, hasta {duration}",
+"DND5E.ConcentratingOn": "Estás manteniendo la concentración en los efectos de {type} '{name}'.",
+"DND5E.ConcentratingEndChoice": "Estás concentrándote en efectos con más de un origen. Elige qué efecto finalizar.",
+"DND5E.ConcentratingMissingItem": "El efecto en el que se está concentrado y que se va a reemplazar no existe.",
+"DND5E.ConcentratingLimited": "No puedes empezar a concentrarte en un efecto adicional.",
+"DND5E.ConcentrationLimit": "Límite de Concentración",
+"DND5E.ConcentratingEnd": "Terminar Concentración",
+"DND5E.ConcentratingItemless": "Concentración Sin Un Origen",
+"DND5E.ConcentratingWarnLimit": "¡No puedes mantener la concentración en más efectos!",
+"DND5E.ConcentratingWarnLimitOptional": "Puedes terminar la concentración en uno de tus efectos para utilizar este objeto.",
+"DND5E.ConcentratingWarnLimitZero": "¡No puedes mantener la concentración en ningún efecto!",
+"DND5E.ConcentrationConfigurationHint": "Configurar los modificadores y bonificaciones de concentración que se aplican a esta criatura.",
 "DND5E.ConsumeTitle": "Consumo de Recurso",
 "DND5E.ConsumeAmount": "Cantidad de Consumo",
 "DND5E.ConsumeTarget": "Objetivo de Consumo",
 "DND5E.ConsumeType": "Categoría de Consumo",
-"DND5E.ConsumeQuanity": "Cantidad Consumida",
 "DND5E.ConsumeAmmunition": "Munición",
 "DND5E.ConsumeAttribute": "Atributo",
 "DND5E.ConsumeHitDice": "Dados de Golpe",
@@ -558,11 +581,26 @@
 "DND5E.Damage": "Daño",
 "DND5E.DamageAcid": "Ácido",
 "DND5E.DamageAll": "Todo el Daño",
+"DND5E.DamageApplication": {
+  "Change": {
+    "Modification": "Modificación de {type}",
+    "Immunity": "Inmunidad a {type}",
+    "Resistance": "Resistencia a {type}",
+    "Vulnerability": "Vulnerable a {type}"
+  },
+  "Downgrading": "Degradar {source} a Resistencia",
+  "Ignoring": "Ignorar {source}"
+},
 "DND5E.DamageBludgeoning": "Contundente",
 "DND5E.DamageCold": "Frío",
 "DND5E.DamageFire": "Fuego",
 "DND5E.DamageForce": "Fuerza",
 "DND5E.DamageLightning": "Relámpago",
+"DND5E.DamageModification": {
+  "Label": "Modificación de Daño",
+  "Hint": "Förmulas para puntuaciones que serán añadidas al tipo de daño aplicado a este actor. Los valores negativos reducen el daño sufrido.",
+  "BypassHint": "Estas propiedades de arma evitarán la modificación del daño por daño físico."
+},
 "DND5E.DamageNecrotic": "Necrótico",
 "DND5E.DamagePiercing": "Perforante",
 "DND5E.DamagePhysical": "Físico No Mágico",
@@ -633,7 +671,8 @@
 "DND5E.Effect": "Efecto",
 "DND5E.Effects": "Efectos",
 "DND5E.EffectsApplyTokens": "Aplicar a los tokens seleccionados",
-"DND5E.EffectApplyWarning": "Los efectos no pueden aplicarse a tokens de los que no eres propietario.",
+"DND5E.EffectApplyWarningConcentration": "Aplicar un efecto que está siendo concentrado por otro personaje, requiere permisos de DM.",
+"DND5E.EffectApplyWarningOwnership": "Los efectos no puede aplicarse a tokens de los que no se es propietario.",
 "DND5E.EffectsSearch": "Buscar efectos",
 "DND5E.Environment": "Entorno",
 "DND5E.EquipmentBonus": "Bonificación Mágica",
@@ -693,9 +732,12 @@
       "EpicBoon": "Beneficio Épico"
     }
 },
-"DND5E.Focus.Arcane": "Foco Aracano",
-"DND5E.Focus.Druidic": "Foco Druídico",
-"DND5E.Focus.Holy": "Foco Sagrado",
+"DND5E.Focus": {
+  "Label": "Foco para Lanzamiento de Conjuros",
+  "Arcane": "Foco Aracano",
+  "Druidic": "Foco Druídico",
+  "Holy": "Foco Sagrado"
+},
 "DND5E.Loot.Art": "Objeto de Arte",
 "DND5E.Loot.Gear": "Equipo de Aventurero",
 "DND5E.Loot.Gem": "Piedra Preciosa",
@@ -834,6 +876,10 @@
 "DND5E.HPFormulaRollMessage": "Fórmula de Tirada de Puntos de Golpe",
 "DND5E.HitDie": "Dado de Golpe",
 "DND5E.HitDice": "Dados de Golpe",
+"DND5E.HitDiceAutoSpend": {
+  "Label": "Auto Gastar DG",
+  "Hint": "Gastar automáticamente dados de golpe hasta que se agoten o la salud esté llena."
+},
 "DND5E.HitDiceConfig": "Ajustar Dados de Golpe",
 "DND5E.HitDiceConfigHint": "Ajustar los dados de golpe restantes por nivel a cada clase.",
 "DND5E.HitDiceMax": "Dados de Golpe Máximos",
@@ -863,6 +909,8 @@
 "DND5E.ItemActivationType": "Tipo de Activación",
 "DND5E.ItemAmmoProperties": "Propiedades de la Munición",
 "DND5E.ItemAttackBonus": "Bonificación en Tirada de Ataque",
+"DND5E.ItemAttackFlat": "Bonificación Plana",
+"DND5E.ItemAttackFlatHint": "Si se marca, no se añaden modificadores de competencia, habilidad, o cualquier otra bonificación a las tiradas de ataque excepto los incluidos aquí.",
 "DND5E.ItemConsumableActivation": "Activación del Consumible",
 "DND5E.ItemConsumableUsage": "Uso del Consumible",
 "DND5E.ItemConsumableDetails": "Destalles del Consumible",
@@ -1013,16 +1061,20 @@
 "DND5E.LongRestEpic": "Descanso Largo (1 hora)",
 "DND5E.LongRestOvernight": "Descanso Largo (Nuevo Día)",
 "DND5E.LongRestHint": "¿Realizar un descanso largo? Tras un descanso largo recuperarás puntos de golpe, la mitad de su total de Dados de Golpe, recursos de clase, cargas de objetos limitadas y espacios de conjuro.",
+"DND5E.LongRestHintGroup": "¿Realizar un descanso largo? Tras un descanso largo los miembros del grupo recuperarán puntos de golpe, la mitad de su total de dados de golpe, recursos de clase, cargas de objetos limitadas y espacios de conjuro.",
 "DND5E.LongRestRecovery": "Se Recupera tras un Descanso Largo",
 "DND5E.LongRestResult": "{name} realiza un descanso largo y recupera {health} Punto(s) de Golpe y {dice} Dado(s) de Golpe.",
 "DND5E.LongRestResultHitDice": "{name} realiza un descanso largo y recupera {dice} Dados de Golpe.",
 "DND5E.LongRestResultHitPoints": "{name} realiza un descanso largo y recupera {health} Puntos de Golpe.",
 "DND5E.LongRestResultShort": "{name} realiza un descanso largo.",
+"DND5E.MagicalBonus": "Bonificación Mágica",
 "DND5E.Materials": "Materiales",
 "DND5E.Max": "Máx",
 "DND5E.MaxCharacterLevelExceededWarn": "El personaje no puede avanzar más allá del nivel {max}.",
 "DND5E.MaxClassLevelExceededWarn": "La clase no puede avanzar más allá del nivel {max}.",
 "DND5E.MaxClassLevelMinimumWarn": "La clase debe tener al menos un nivel.",
+"DND5E.Maximum": "Máximo",
+"DND5E.Minimum": "Mínimo",
 "DND5E.Modifier": "Modificador",
 "DND5E.ModuleArtConfigH": "Configurar qué arte proporcionado por el módulo debería usarse.",
 "DND5E.ModuleArtConfigL": "Configurar Arte",
@@ -1205,6 +1257,7 @@
 "DND5E.ShortRestEpic": "Descanso Corto (5 minutos)",
 "DND5E.ShortRestOvernight": "Descanso Corto (Nuevo Día)",
 "DND5E.ShortRestHint": "¿Tomar un descanso corto? Con un descanso corto puedes gastar los dados de golpe restantes y recuperar recursos primarios o secundarios.",
+"DND5E.ShortRestHintGroup": "¿Tomar un descanso corto? Con un descanso corto, los miembros del grupo pueden gastar Dados de Golpe y recuperarán los usos de los objetos.",
 "DND5E.ShortRestNoHD": "No tienes Dados de Golpe restantes",
 "DND5E.ShortRestRecovery": "Se Recupera tras un Descanso Corto",
 "DND5E.ShortRestResult": "{name} toma un descanso corto gastando {dice} Dados de Golpe para recuperar {health} Puntos de Golpe.",
@@ -1355,12 +1408,115 @@
 "DND5E.SpellUnprepared": "No Preparado",
 "DND5E.SpellUsage": "Uso del Conjuro",
 "DND5E.Spellbook": "Libro de Conjuros",
+"DND5E.StartingEquipment": {
+  "Title": "Equipo Inicial",
+  "Action": {
+    "AddEntry": "Añadir Entrada",
+    "Configure": "Configurar Equipo Inicial",
+    "RemoveEntry": "Eliminar Entrada"
+  },
+  "Choice": {
+    "Armor": "Elegir Armadura",
+    "Focus": "Elegir Foco para Lanzar Conjuros",
+    "Tool": "Elegir Herramienta",
+    "Weapon": "Elegir Arma"
+  },
+  "DropHint": "Deja un objeto aquí para enlazarlo",
+  "IfProficient": "Competente",
+  "Operator": {
+    "AND": "Todos…",
+    "OR": "Alguno…"
+  },
+  "RequireProficiency": "Necesita Competencia",
+  "SpecificItem": "Objeto Específico",
+  "Warning": {
+    "Depth": "Sólo se permiten tres niveles de profundidad en el equipo inicial.",
+    "ItemTypeInvalid": "No pueden añadirse objetos de tipo {type} al equipo inicial."
+  },
+  "Wealth": {
+    "Label": "Salud Inicial",
+    "Hint": "Fórmula en PO que puede usarse en lugar del equipo inicial."
+  }
+},
 "DND5E.SubclassIdentifierHint": "Este identificador debe coincidir con el identificador de la clase padre para asegurar que están correctamente enlazados.",
 "DND5E.SubclassAssignmentError": "{class} ya tiene una subclase. Elimine la subclase {subclass} existente antes de añadir una nueva.",
 "DND5E.SubclassDuplicateError": "Una subclase con el identificador {identifier} ya existe en este actor.",
 "DND5E.SubclassMismatchWarn": "La subclase {name} no coincide con ninguna clase con identificador '{class}'.",
 "DND5E.SubclassName": "Nombre de la Subclase",
 "DND5E.Subtype": "Subtipo",
+"DND5E.Summoning": {
+  "Label": "Invocaciones",
+  "Action": {
+    "Add": "Añadir Perfil",
+    "Configure": "Configurar Invocaciones",
+    "Place": "Lanzar Invocaciones",
+    "Remove": "Eliminar Perfil",
+    "Summon": "Invocar"
+  },
+  "Bonuses": {
+    "ArmorClass": {
+      "Label": "Bonificación Clase Armadura",
+      "Hint": "Bonificación a la Clase de Armadura establecida en la criatura invocada agregada a lo especificado en su bloque de estadísticas."
+    },
+    "Attack": {
+      "Label": "Bonficación Daño Ataque",
+      "Hint": "Daño adicional hecho por los ataques de la criatura."
+    },
+    "Healing": {
+      "Label": "Bonificación Curación",
+      "Hint": "Curación adicional provista por las habilidades de curación."
+    },
+    "HitPoints": {
+      "Label": "Bonificación Puntos de Golpe",
+      "Hint": "Puntos de golpe añadidos a la criatura por encima de lo especificado en su bloque de estadísticas."
+    },
+    "Saves": {
+      "Label": "Bonificación Daño Salvación",
+      "Hint": "Daño adicional hecho por las habilidades de la criatura que requieren tiradas de salvación."
+    }
+  },
+  "Configuration": "Configuración de Invocaciones",
+  "CreatureChanges": {
+    "Label": "Cambios en la Criatura",
+    "Hint": "Cambios que se harán a la criatura invocada. Cualquier referencia @ utilizada en las siguientes fórmulas, toman como base las estadística del invocador."
+  },
+  "DisplayName": "Nombre Mostrado",
+  "DropHint": "Dejar criatura aquí",
+  "ItemChanges": {
+    "Label": "Cambios en Objetos",
+    "Hint": "Cambios hechos a los objetos de la criatura invocada."
+  },
+  "Match": {
+    "Attacks": {
+      "Label": "Iguala Ataques",
+      "Hint": "Modificar los valores de golpe de los ataques de la criatura invocada para igualar los del invocador."
+    },
+    "Proficiency": {
+      "Label": "Igualar Competencias",
+      "Hint": "Modificar las competencias de la criatura invocada para igualar las del invocador."
+    },
+    "Saves": {
+      "Label": "Igualar Salvaciones",
+      "Hint": "Modificar las CD de las tiradas de salvación de las habilidades de la criatura invocada para igualar las del invocador."
+    }
+  },
+  "Profile": {
+    "Label": "Perfil de Invocaciones",
+    "LabelPl": "Perfiles de Invocaciones",
+    "Empty": "Haz click arriba para añadir un perfil o deja caer una criatura para invocar aquí."
+  },
+  "Prompt": {
+    "Label": "comando para Invocación",
+    "Hint": "Desactiva los comandos de invocación cuando se utiliza. Los jugadores puede todavía invocar desde la pestaña de chat."
+  },
+  "Warning": {
+    "CreateActor": "Debes tener el permiso 'Crear Nuevos Actores' para poder invocar directamente dese un compendio.",
+    "NoActor": "No se puede encontrar un actor con el UUID '{uuid}' para invocar.",
+    "NoOwnership": "Debes ser el propietario de '{actor}' para poder invocarlo.",
+    "NoProfile": "No se puede encontrar el perfil de invocación {profileId} en '{item}'.",
+    "Wildcard": "Debes tener el permiso 'Utilizar Navegador de Archivos' para invocar criaturas con arte wildcard."
+  }
+},
 "DND5E.Supply": "Cantidad",
 "DND5E.Suppressed": "Reprimido",
 "DND5E.Target": "Objetivo",
@@ -1407,6 +1563,12 @@
 "DND5E.TimeYear": "Años",
 "DND5E.TMP": "TMP",
 "DND5E.ToHit": "Para Golpear",
+"DND5E.Tokens": {
+  "NoneSelected": "No hay Tokens Seleccionados",
+  "NoneTargeted": "No hoy Tokens Marcados como Objetivo",
+  "Selected": "Seleccionado",
+  "Targeted": "Marcado como Objetivo"
+},
 "DND5E.TokenRings": {
     "BackgroundColor": "Color de Fondo",
     "Effects": {
@@ -1489,6 +1651,20 @@
 "DND5E.UsesAvailable": "Usos Disponibles",
 "DND5E.UsesMax": "Usos Máximos",
 "DND5E.UsesPeriod": "Periodo de Recuperación",
+"DND5E.UsesPeriods": {
+  "Charges": "Cargas",
+  "ChargesAbbreviation": "Cargas",
+  "Dawn": "Amanecer",
+  "DawnAbbreviation": "Amanecer",
+  "Day": "Día",
+  "DayAbbreviation": "Día",
+  "Dusk": "Atarceder",
+  "DuskAbbreviation": "Atarceder",
+  "Lr": "Descanso Largo",
+  "LrAbbreviation": "DL",
+  "Sr": "Descanso Corto",
+  "SrAbbreviation": "DC"
+},
 "DND5E.Vehicle": "Vehículo",
 "DND5E.VehicleActions": "Acciones",
 "DND5E.VehicleActionsHint": "Acciones realizadas con la tripulación completa",
@@ -1526,6 +1702,7 @@
 "DND5E.WarnCantAddMultipleAdvancements": "Actualmente no es posible añadir múltiples elementos con progresos a un actor al mismo tiempo. Por favor, añádelos de manera individual.",
 "DND5E.WarnMultipleArmor": "Más de una armadura equipada, el cálculo de la CA puede ser incorrecto.",
 "DND5E.WarnMultipleShields": "Más de un escudo equipado, el cálculo de la CA puede ser incorrecto.",
+"DND5E.WeaponCategory": "Arma {category}",
 "DND5E.WeaponImprov": "Improvisada",
 "DND5E.WeaponMartialM": "Cuerpo a Cuerpo Marcial",
 "DND5E.WeaponMartialProficiency": "Armas Marciales",
@@ -1545,6 +1722,7 @@
 "DND5E.spell": "conjuro",
 
 "EDITOR.DND5E.Inline": {
+  "ApplyStatus": "Aplicar Estado a los Tokens Seleccionados",
     "AwardEach": "{award} cada",
     "CheckShort": "{check}",
     "CheckLong": "prueba de {check}",
@@ -1562,22 +1740,28 @@
 },
   
   "EFFECT.DND5E": {
+    "StatusBleeding": "Sangrando",
     "StatusBurrowing": "Excavando",
     "StatusConcentrating": "Concentrándose",
     "StatusCursed": "Maldito",
+    "StatusDead": "Muerto",
     "StatusDodging": "Esquivando",
     "StatusEncumbered": "Sobrecargado",
+    "StatusEthereal": "Etéreo",
     "StatusExceedingCarryingCapacity": "Superando la Capacidad de Carga",
     "StatusFlying": "Volando",
     "StatusHeavilyEncumbered": "Muy Sobrecargado",
     "StatusHidden": "Oculto",
+    "StatusHovering": "Flotando",
     "StatusMarked": "Marcado",
+    "StatusSilenced": "Silenciado",
     "StatusSleeping": "Durmiendo",
+    "StatusStable": "Estable",
     "StatusSurprised": "Sorprendido",
     "StatusTransformed": "Transformado"
 },
 
-"JOURNALENTRYPAGE.TypeClass": "Resumen de Clase",
+"TYPES.JournalEntryPage.class": "Resumen de Clase",
 "TYPES.JournalEntryPage.map": "Localización del Mapa",
 "TYPES.JournalEntryPage.rule": "Regla",
 "JOURNALENTRYPAGE.DND5E.Class.AdditionalEquipment": "Equipo",
@@ -1664,6 +1848,8 @@
 "SETTINGS.5eMetricL": "Sustituye todas las referencias a lbs por kgs y actualiza los cálculos de carga para utilizar unidades de peso métricas.",
 "SETTINGS.5eNoAdvancementsN": "Desactivar automatización al subir de nivel",
 "SETTINGS.5eNoAdvancementsL": "No solicitar elecciones de subida de nivel o de creación de personajes.",
+"SETTINGS.5eNoConcentrationN": "Deshabilitar seguimiento de concentración",
+"SETTINGS.5eNoConcentrationL": "Desactiva el seguimiento automático de la concentración del sistema.",
 "SETTINGS.5eNoExpL": "Elimina la barra de experiencia de las hojas de personaje.",
 "SETTINGS.5eNoExpN": "Desactivar el Recuento de Experiencia",
 "SETTINGS.5eProfBonus": "MdJ: Bonificación (+2, +3, +4, +5, +6)",
@@ -1684,6 +1870,25 @@
 "SETTINGS.5eTokenRings": {
     "Name": "Desactivar los Anillos de Token Dinámicos",
     "Hint": "Desactivar las animaciones de los anillos de token puede mejorar el rendimiento."
+},
+"SETTINGS.DND5E": {
+  "ALLOWSUMMONING": {
+    "Name": "Permitir Invocar",
+    "Hint": "Permite a los jugadores usar habilidades de invocación para convocar actores. Los jugadores también deben tener el permiso de Crear Token para que funcione."
+  },
+  "THEME": {
+    "Name": "Tema",
+    "Hint": "Tema visual que se aplicará a la UI y a todas las hojas por defecto. Se determinará automáticamente según tu navegador o sistema operativo."
+  }
+},
+
+"SHEETS.DND5E": {
+  "THEME": {
+    "Label": "Tema",
+    "Automatic": "Automático",
+    "Dark": "Modo Oscuro",
+    "Light": "Modo Claro"
+  }
 },
 
 "SOURCE.BOOK.SRD": "Documento de Referencia del Sistema (SRD) 5.1"

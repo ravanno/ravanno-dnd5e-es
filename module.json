@@ -2,7 +2,7 @@
   "id": "ravanno-dnd5e-es",
   "title": "Translation: Español [DnD5e]",
   "description": "Traducción al español del sistema de Dungeons &amp; Dragons 5E (SRD).",
-  "version": "3.1.1",
+  "version": "3.1.1.1",
   "compatibility": {
     "minimum": "10",
     "verified": "11.315",
@@ -45,9 +45,9 @@
         "type": "module",
         "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
         "compatibility": {
-          "minimum": "2.5.2",
-          "verified": "2.5.2",
-          "maximum": "2.5.2"
+          "minimum": "2.5.3",
+          "verified": "2.5.3",
+          "maximum": "2.5.3"
         }
       }
     ]

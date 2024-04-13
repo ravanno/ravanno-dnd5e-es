@@ -9,4 +9,4 @@ Actualizando para DnD5e 3.1.2.1 y Foundry 11.315
 
 **To Do List**
 - Translate all SRD 1.1 compendiums.
-- Añadidas traducciones del SRD 1.1 para objetos y rasgos de monstruos (gracias a Francisco González (frankygonzalez001@gmail.com)).
+- Añadidas traducciones del SRD 1.1 para objetos y rasgos de monstruos, gracias a Francisco González (frankygonzalez001@gmail.com).

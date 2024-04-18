@@ -1,53 +1,53 @@
 {
-	"label": "Starter Heroes",
+	"label": "Héroes de inicio",
 	"entries": {
 		"Akra (Dragonborn Cleric)": {
-			"name": "Akra (Dragonborn Cleric)",
-			"description": "<p>A devout follower of her deity and of her society's customs, Akra feels somewhat out of place adventuring in foreign lands. But she feels bound to do everything in her power to bring peace to the region.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+			"name": "Akra (clérigo dracónido)",
+			"description": "<p>Fiel a su deidad y a las costumbres de su sociedad, Akra se siente un poco fuera de lugar al aventurarse por tierras desconocidas. Sin embargo, se siente en la obligación de hacer todo lo que esté en su mano para llevar la paz a la región.</p>\n<blockquote>Arte del actor proporcionado por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>"
 		},
 		"Aoth (Human Druid)": {
-			"name": "Aoth (Human Druid)",
-			"description": "<p>Aoth lived among animals for so long that he now has difficulty speaking Common. His natural habitat in danger, he decided to join an adventuring group to return balance to his land.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+			"name": "Aoth (druida humano)",
+			"description": "<p>Aoth vivió entre animales durante tanto tiempo que ahora le resulta difícil hablar en común. Su hábitat natural corre peligro, por lo que decidió unirse a un grupo de aventureros para devolver el equilibrio a su tierra.</p>\n<blockquote>Arte del actor proporcionado por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>"
 		},
 		"Beiro (Half-Elf Bard)": {
-			"name": "Beiro (Half-Elf Bard)",
-			"description": "<p>Beiro was a famed entertainer at his local tavern, when he one day ran out of stories to tell. To solve this, he set out to make his own stories, so as to one day tell them again at his tavern.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+			"name": "Beiro (bardo semielfo)",
+			"description": "<p>Beiro era un famoso artista en su taberna local, hasta que un día se quedó sin historias que contar. Para solucionarlo, se propuso fabricar sus propias historias, y así poder volver a contarlas algún día en su taberna.</p>\n<blockquote>Arte del actor proporcionado por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>"
 		},
 		"Krusk (Half-Orc Paladin)": {
-			"name": "Krusk (Half-Orc Paladin)",
-			"description": "<p>Roaming the land brigning justice to all, Krusk has just one goal: the destruction of evil wherever it lies.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+			"name": "Krusk (paladín semiorco)",
+			"description": "<p>Al recorrer la región impartiendo justicia a todos, Krusk sólo tiene un objetivo: la destrucción del mal dondequiera que se encuentre.</p>\n<blockquote>Arte del actor proporcionado por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>"
 		},
 		"Merric (Halfling Barbarian)": {
-			"name": "Merric (Halfling Barbarian)",
-			"description": "<p>Merric was once a vigilante, due to her innate sense of street justice. Though her small size may not seem like much in combat, she more than makes up for it with her violent outbursts of anger.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+			"name": "Merric (bárbaro mediano)",
+			"description": "<p>Merric fue en su día un justiciero, gracias a su sentido innato de la justicia callejera. Aunque su pequeño tamaño no parezca gran cosa en combate, lo compensa con creces con sus violentos arrebatos de ira.</p>\n<blockquote>Arte del actor proporcionado por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>"
 		},
 		"Morthos (Tiefling Sorcerer)": {
-			"name": "Morthos (Tiefling Sorcerer)",
-			"description": "<p>Morthos's investigation into her complex draconic-infernal ancestry led her to an academic life, but it soon became apparent that the fools in charge were keeping many secrets from her.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+			"name": "Morthos (hechicera tiefling)",
+			"description": "<p>La investigación de Morthos sobre su compleja ascendencia dracónica-infernal la llevó a una vida académica, pero pronto se hizo evidente que los necios al mando le ocultaban muchos secretos.</p>\n<blockquote>Arte del actor proporcionado por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>"
 		},
 		"Perrin (Halfling Monk)": {
-			"name": "Perrin (Halfling Monk)",
-			"description": "<p>A devoted student of his local monastery, Perrin has been tasked with bringing balance to the surrounding lands.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+			"name": "Perrin (monje mediano)",
+			"description": "<p>Como devoto estudiante de su monasterio local, a Perrin se le ha encomendado la tarea de traer el equilibrio a las tierras cercanas.</p>\n<blockquote><p>Arte del actor proporcionado por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></p></blockquote>"
 		},
 		"Quillathe (Elf Ranger)": {
-			"name": "Quillathe (Elf Ranger)",
-			"description": "<p>Quillathe cleanses monsters from her woods as a hobby, but now a new force menaces her land and she must band with adventurers to defeat it.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+			"name": "Quillathe (explorador elfo)",
+			"description": "<p>Quillathe elimina los monstruos de sus bosques como pasatiempo, pero ahora una nueva fuerza amenaza su tierra y debe unirse a los aventureros para derrotarla.</p>\n<blockquote>Arte del actor proporcionado por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>"
 		},
 		"Randal (Human Fighter)": {
-			"name": "Randal (Human Fighter)",
-			"description": "<p>Randal worked his way through the ranks of his hometown's guard, ultimately growing restless with city life and wandering off in search of adventure.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+			"name": "Randal (guerrero humano)",
+			"description": "<p>Randal se abrió paso entre los miembros de la guardia de su ciudad natal, pero al final se cansó de la vida en la ciudad y se marchó en busca de aventuras.</p>\n<blockquote>Arte del actor proporcionado por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>"
 		},
 		"Riswynn (Dwarf Rogue)": {
-			"name": "Riswynn (Dwarf Rogue)",
-			"description": "<p>Once a well-respected bureaucrat at the dwarven halls, Riswynn dabbled in intruigue, picked up a few tricks, and ran intro trouble with some nobles. She looks to make a name for herself and regain her social status.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+			"name": "Riswynn (pícara enana)",
+			"description": "<p>En su día, fue una respetada burócrata en los salones enanos, pero Riswynn se dedicó a la intriga, se hizo con algunos trucos y se metió en problemas con algunos nobles. Busca hacerse un nombre y recuperar su estatus social.</p>\n<blockquote>Arte del actor proporcionado por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>"
 		},
 		"Sefris (Half-Elf Warlock)": {
-			"name": "Sefris (Half-Elf Warlock)",
-			"description": "<p>Sefris's pickpocketing as a child grew into small burglaries and eventually complex heists, using the dark bond with his fiend to aid his exploits. He'll work for anyone who can throw some coin his way.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+			"name": "Sefris (brujo semielfo)",
+			"description": "<p>El robo de carteras de Sefris cuando era niño se convirtió en pequeños hurtos y, finalmente, en complejos atracos, utilizando el oscuro vínculo con su demonio para ayudarse en sus operaciones. Trabaja para cualquiera que le ofrezca algo de dinero.</p>\n<blockquote>Arte del actor proporcionado por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>"
 		},
 		"Zanna (Gnome Wizard)": {
-			"name": "Zanna (Gnome Wizard)",
-			"description": "<p>Always interested in tinkering, Zanna set out for adventure in order to find more spells for her spellbook, and perhaps one day create some of her own.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+			"name": "Zanna (maga gnoma)",
+			"description": "<p>Siempre interesada en trastear, Zanna se lanzó a la aventura con el fin de encontrar más conjuros para su libro de conjuros, y puede que algún día crear los suyos propios.</p>\n<blockquote>Arte del actor proporcionado por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>"
 		}
 	}
 }

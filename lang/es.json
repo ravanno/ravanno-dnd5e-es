@@ -110,6 +110,7 @@
 "DND5E.AbilityUseConsumableDestroyHint": "Usar este {type} consumirá su última carga y se destruirá.",
 "DND5E.AbilityUseConsumableDestroyResourceHint": "Usar este {type} consumirá la última carga de {name} y lo destruirá.",
 "DND5E.AbilityUseConsume": "¿Consumir carga disponible?",
+"DND5E.AbilityUseConsumeAction": "Consumir Carga",
 "DND5E.AbilityUseChargesLabel": "{value} Cargas",
 "DND5E.AbilityUseConsumableLabel": "{max} por {per}",
 "DND5E.AbilityUseCast": "Lanzar Conjuro",
@@ -128,6 +129,7 @@
 "DND5E.ActionAbbr": "A",
 "DND5E.ActionPl": "Acciones",
 "DND5E.ActionAbil": "Prueba de Característica",
+"DND5E.ActionEnch": "Encantar",
 "DND5E.ActionHeal": "Curación",
 "DND5E.ActionMSAK": "Ataque con Conjuro Cuerpo a Cuerpo",
 "DND5E.ActionMWAK": "Ataque con Arma Cuerpo a Cuerpo",
@@ -144,6 +146,7 @@
 "DND5E.ActiveEffectOverrideWarning": "Este valor está siendo modificado por un Efecto Activo y no puede ser editado. Desactiva el efecto para editarlo.",
 "DND5E.Add": "Añadir",
 "DND5E.AdditionalControls": "Controles Adicionales",
+"DND5E.AdditionalSettings": "configuración Adicional",
 "DND5E.AddEmbeddedItemPromptHint": "¿Quieres añadir estos objetos a tu hoja de personaje?",
 "DND5E.AdvancementAbilityScoreImprovementTitle": "Mejora de Puntuación de Característica",
 "DND5E.AdvancementAbilityScoreImprovementHint": "Permitir al jugador aumentar los puntos de una o más características o elegir un rasgo opcional.",
@@ -152,6 +155,7 @@
 "DND5E.AdvancementAbilityScoreImprovementCapDisplay.one": "Máx {points} punto por puntuación",
 "DND5E.AdvancementAbilityScoreImprovementCapDisplay.other": "Máx {points} puntos por puntuación",
 "DND5E.AdvancementAbilityScoreImprovementFeatHint": "Arrastra aquí un rasgo en lugar de aplicar una mejora de puntuación de característica.",
+"DND5E.AdvancementAbilityScoreImprovementFeatLevelWarning": "Debe tener al menos el nivel {level} para coger este rasgo.",
 "DND5E.AdvancementAbilityScoreImprovementFeatWarning": "Sólo los rasgos pueden ser seleccionados.",
 "DND5E.AdvancementAbilityScoreImprovementFixed": "Mejora Fija",
 "DND5E.AdvancementAbilityScoreImprovementLockedHint": "Las puntuaciones no se pueden modificar con un rasgo seleccionado.",
@@ -195,9 +199,16 @@
 "DND5E.AdvancementHitPointsRollButton": "Tirar {die}",
 "DND5E.AdvancementItemChoiceTitle": "Elegir Objetos",
 "DND5E.AdvancementItemChoiceHint": "EL jugador actual que tenga que elegir entre varios objetos (equipo, rasgos, o hechizos) pueden ser para su personaje a nivel 1 o más.",
+"DND5E.AdvancementItemChoiceChoices": "Opciones",
+"DND5E.AdvancementItemChoiceChoose": "elegir {count}",
 "DND5E.AdvancementItemChoiceChosen": "Elegidos: {current} de {max}",
+"DND5E.AdvancementItemChoiceFeatureLevelWarning": "Debes tener al menos nivel {level} para escoger este rasgo.",
 "DND5E.AdvancementItemChoiceLevelsHint": "Especificar cuántas elecciones se permiten por cada nivel.",
-"DND5E.AdvancementItemChoicePreviouslyChosenWarning": "Este elemento ya ha sido escogiod en un nivel previo.",
+"DND5E.AdvancementItemChoiceNoOriginalError": "La elección previa no está ya disponible para reemplazar.",
+"DND5E.AdvancementItemChoicePreviouslyChosenWarning": "Este elemento ya ha sido escogido en un nivel previo.",
+"DND5E.AdvancementItemChoiceReplacement": "Permitir Reemplazar",
+"DND5E.AdvancementItemChoiceReplacementNone": "Sin Reemplazo",
+"DND5E.AdvancementItemChoiceReplacementTitle": "reemplazar",
 "DND5E.AdvancementItemChoiceSpellLevelAvailable": "Cualquier Nivel Disponible",
 "DND5E.AdvancementItemChoiceSpellLevelAvailableWarning": "Sólo hechizos de nivel {level} o inferior pueden elegirse para esta progresión.",
 "DND5E.AdvancementItemChoiceSpellLevelSpecificWarning": "Sólo hechizos de nivel {level} puede elegirse para este progresión.",
@@ -301,6 +312,7 @@
 "DND5E.Attunement": "Sintonización",
 "DND5E.AttunementMax": "Objetos Sintonizados Máximos",
 "DND5E.AttunementNone": "No se requiere sintonización",
+"DND5E.AttunementOptional": "Sintonización Opcional",
 "DND5E.AttunementRequired": "Se requiere sintonización",
 "DND5E.AttunementAttuned": "Sintonizado",
 "DND5E.AttunementOverride": "Anular sintonización",
@@ -380,6 +392,12 @@
 "DND5E.BonusesHint": "Define las bonificaciones globales como fórmulas que se añadirán a ciertas tiradas. Por ejemplo: 1d4 + 2",
 "DND5E.BonusesInstructions": "Configura las bonificaciones que se añadirán al dado respectivo",
 "DND5E.Conditions": "Estados",
+"DND5E.Controls": {
+  "Hint": "Activar ciertas ayudas en la UI para ciertos controles de ratón y teclado.",
+  "LockHint": "Clic-Central para bloquear",
+  "MiddleClick": "Clic Central",
+  "Name": "Activar Ayudas de Control"
+},
 "DND5E.ChallengeRating": "Valor de Dificultad",
 "DND5E.Charged": "Cargado",
 "DND5E.Charges": "Cargas",
@@ -462,6 +480,10 @@
 "DND5E.ConcentrationConfigurationHint": "Configurar los modificadores y bonificaciones de concentración que se aplican a esta criatura.",
 "DND5E.ConsumeTitle": "Consumo de Recurso",
 "DND5E.ConsumeAmount": "Cantidad de Consumo",
+"DND5E.ConsumeHint": {
+  "Attribute": "Atributo a consumir (p.e. currency.gp)",
+  "Item": "UUID del objetivo en el compendio"
+},
 "DND5E.ConsumeTarget": "Objetivo de Consumo",
 "DND5E.ConsumeType": "Categoría de Consumo",
 "DND5E.ConsumeAmmunition": "Munición",
@@ -477,7 +499,8 @@
 "DND5E.ConsumeWarningNoSource": "¡La fuente {type} establecida que {name} consume ya no existe!",
 "DND5E.ConsumeWarningNoQuantity": "¡{name} se ha quedado sin su {type} establecido!",
 "DND5E.ConsumeWarningZeroAttribute": "¡{name} se ha quedado sin nada del recurso establecido!",
-"DND5E.ConsumeResource": "¿Consumir recurso?",
+"DND5E.ConsumeResource": "¿Consumir Recurso?",
+"DND5E.ConsumeResourceAction": "Consumir Recurso",
 "DND5E.ConsumeRecharge": "¿Consumir recarga?",
 "DND5E.ConsumeScaling": "Escalado de Recursos",
 "DND5E.ConsumeScalingLabel": "Utilizar Recursos",
@@ -660,6 +683,7 @@
 "DND5E.DistMiAbbr": "mi",
 "DND5E.DistSelf": "Lanzador",
 "DND5E.DistTouch": "Toque",
+"DND5E.DocumentUseWarn": "No tienes permisos para utilizar un objeto en este documento.",
 "DND5E.DocumentViewWarn": "No tienes permisos para ver este documento.",
 "DND5E.Duration": "Duración",
 "DND5E.DurationPermanent": "Permanente",
@@ -674,6 +698,80 @@
 "DND5E.EffectApplyWarningConcentration": "Aplicar un efecto que está siendo concentrado por otro personaje, requiere permisos de DM.",
 "DND5E.EffectApplyWarningOwnership": "Los efectos no puede aplicarse a tokens de los que no se es propietario.",
 "DND5E.EffectsSearch": "Buscar efectos",
+"DND5E.Enchantment": {
+  "Action": {
+    "Apply": "Aplicar Encantamiento",
+    "Configure": "Configurar Encantamiento",
+    "Create": "Crear Encantamiento",
+    "Delete": "Borrar Encantamiento",
+    "Disable": "Desactivar Encantamiento",
+    "Edit": "Editar Encantamiento",
+    "Enable": "Activar Encantamiento",
+    "Remove": "Eliminar Encantamiento"
+  },
+  "Category": {
+    "Active": "Activar Encantamientos",
+    "Empty": "No se han creado encantamientos, utiliza el botón de arriba para crear uno.",
+    "General": "Encantamientos",
+    "Inactive": "Encantamientos Inactivos"
+  },
+  "Configuration": "Configuración del Encantamiento",
+  "DropArea": "Colocar el objeto aquí para encantarlo...",
+  "FIELDS": {
+    "enchantment": {
+      "label": "Configuración del Encantamiento",
+      "classIdentifier": {
+        "hint": "Identificador usado para determinar tanto el nivel del personaje o un nivel de clase específico que debería ser utilizado para el nivel límite del encantamiento."
+      },
+      "items": {
+        "max": {
+          "label": "Límite del Objeto",
+          "hint": "Fórmula para el número máximo de encantamientos de este tipo que se pueden activar a la vez."
+        },
+        "period": {
+          "label": "Periodo de Reemplazo",
+          "hint": "Cuántas veces los encantamientos de este tipo pueden ser vinculados de nuevo a objetos diferentes."
+        }
+      },
+      "restrictions": {
+        "label": "Restricciones",
+        "hint": "Restricciones al timpo de objeto al que puede aplicarse este encantamiento.",
+        "allowMagical": {
+          "label": "Permitir Mágicos",
+          "hint": "Permitir a los objetos mágicos ser encantados."
+        },
+        "type": {
+          "label": "Tipo de Objeto",
+          "hint": "Tipo de objeto al que se le puede aplicar este encantamiento."
+        }
+      }
+    }
+  },
+  "Label": "Encantamiento",
+  "Level": {
+    "Hint": "Rango de niveles necesarios para usar este encantamiento."
+  },
+  "Items": {
+    "Entry": "{item} en <em>{actor}</em>"
+  },
+  "Riders": {
+    "Effect": {
+      "Label": "Efectos Adicionales",
+      "Hint": "Estos efectos adicionales se añadirán al objeto encantado cuando este encantamiento se añada, y se eliminarán cuando se elimine el encantamiento."
+    },
+    "Item": {
+      "Label": "Objetos Adicionales",
+      "Hint": "Estos objetos adicionales se añadirán a la criatura cuando uno de sus objetos sea encantado, y se eliminarán cuando se elimine el encantamiento."
+    }
+  },
+  "Warning": {
+    "ConcentrationEnded": "No se puede aplicar este encantamiento porque la concentración ha terminado.",
+    "NoMagicalItems": "Los objetos que ya son mágicos no pueden ser encantados.",
+    "NotOnActor": "Los encantamientos sólo pueden añadirse a los objetos, no directamente a los actores.",
+    "Override": "Este valor está siendo modificado por un Encantamiento y no puede ser editado. Desactiva el encantamiento en la pestaña de efectos para poder editarlo.",
+    "WrongType": "Objetos {incorrectType} no pueden ser encantados por este encantamiento, sólo objetos {allowedType} pueden usarse."
+  }
+},
 "DND5E.Environment": "Entorno",
 "DND5E.EquipmentBonus": "Bonificación Mágica",
 "DND5E.EquipmentClothing": "Ropa",
@@ -757,6 +855,12 @@
 "DND5E.EffectPassive": "Efectos Pasivos",
 "DND5E.EffectInactive": "Efectos Inactivos",
 "DND5E.EffectNew": "Nuevo Efecto",
+"DND5E.EffectType": {
+  "Inactive": "Inactivo",
+  "Passive": "Pasivo",
+  "Temporary": "Temporal",
+  "Unavailable": "No disponible"
+},
 "DND5E.EffectUnavailable": "Efectos No Disponibles",
 "DND5E.EffectUnavailableInfo": "El elemento fuente debe estar equipado o sintonizado para activar estos",
 "DND5E.Encumbrance": "Carga",
@@ -840,6 +944,7 @@
       "one": "Miembro",
       "other": "Miembros"
     },
+    "PlaceMembers": "Colocar Miembros",
     "Primary": {
       "Remove": "Desmarcar de Equipo Principal",
       "Set": "Marcar como Equipo Principal"
@@ -856,6 +961,7 @@
 "DND5E.Hair": "Pelo",
 "DND5E.HalfProficient": "Medio Competente",
 "DND5E.Healing": "Curación",
+"DND5E.HealingRoll": "Tirada de Curación",
 "DND5E.HealingTemp": "Curación (Temporal)",
 "DND5E.Height": "Altura",
 "DND5E.HitPoints": "Puntos de Golpe",
@@ -887,6 +993,7 @@
 "DND5E.HitDiceRoll": "Tirar Dado de Golpe",
 "DND5E.HitDiceUsed": "Dados de Golpe Usados",
 "DND5E.HitDiceWarn": "¡{name} no tiene ningún Dado de Golpe {formula} restante!",
+"DND5E.HitDiceNPCWarn": "¡{name} no tiene Dados de Golpe restantes!",
 "DND5E.Ideals": "Ideales",
 "DND5E.Identified": "Identificado",
 "DND5E.Identifier": "Identificador",
@@ -990,10 +1097,12 @@
 "DND5E.ItemRequiredStr": "Fuerza Necesaria",
 "DND5E.ItemToolBase": "Herramienta Básica",
 "DND5E.ItemToolBonus": "Bonificación con Herramienta",
+"DND5E.ItemToolDetails": "Detalles de la Herramienta",
 "DND5E.ItemToolProficiency": "Competencia con Herramienta",
 "DND5E.ItemToolProperties": "Propiedades de la Herramienta",
 "DND5E.ItemToolStatus": "Estado de la Herramienta",
 "DND5E.ItemToolType": "Tipo de Herramienta",
+"DND5E.ItemToolUsage": "Uso de la Herramienta",
 "DND5E.ItemView": "Ver Elemento",
 "DND5E.ItemWeaponAttack": "Ataque del Arma",
 "DND5E.ItemWeaponBase": "Arma Básica",
@@ -1046,6 +1155,11 @@
 "DND5E.LevelActionDecrease": "Bajar Nivel",
 "DND5E.LevelActionIncrease": "Subir Nivel",
 "DND5E.LevelCount": "{ordinal} Nivel",
+"DND5E.LevelLimit": {
+  "Label": "Límite de Nivel",
+  "Max": "Nivel Máximo",
+  "Min": "Nivel Mínimo"
+},
 "DND5E.LevelNumber": "Nivel {level}",
 "DND5E.LevelScaling": "Escala de Nivel",
 "DND5E.LimitedUses": "Usos Limitados",
@@ -1136,6 +1250,17 @@
 "DND5E.PolymorphWildShape": "Forma Salvaje",
 "DND5E.Portrait": "Retrato",
 "DND5E.Prepared": "Preparado",
+"DND5E.Prerequisites": {
+  "Header": "Prerrequisitos del Rasgo",
+  "FIELDS": {
+    "prerequisites": {
+      "level": {
+        "label": "Nivel Necesario",
+        "hint": "Nivel de personaje o clase necesario para seleccionar este rasgo al subir de nivel."
+      }
+    }
+  }
+},
 "DND5E.Price": "Precio",
 "DND5E.Proficiency": "Competencia",
 "DND5E.ProficiencyBonus": "Bonificación por Competencia",
@@ -1211,8 +1336,18 @@
 "DND5E.NewDayHint": "¿Recuperar los usos limitados de las capacidades que se recargan \"por día\"?",
 "DND5E.SaveBonus": "Bonificación en Tirada de Salvación",
 "DND5E.SaveGlobalBonusHint": "Este bono se aplica a todas las tiradas de salvación realizadas por este actor.",
-"DND5E.ScrollDetails": "Detalles del Pergamino",
-"DND5E.ScrollRequiresConcentration": "Necesita Concentración",
+"DND5E.Scroll": {
+  "CreateFrom": "Crear Pergamino desde {spell}",
+  "CreateScroll": "Crear Pergamino",
+  "Details": "Detalles del Pergamino",
+  "Explanation": {
+    "Label": "Explicación",
+    "Hint": "Cantidad de reglas para utilizar pergaminos de conjuro para incluir en el pergamino creado.",
+    "Complete": "Completar",
+    "Reference": "Referencia"
+  },
+  "RequiresConcentration": "Necesita Concentración"
+},
 "DND5E.Senses": "Sentidos",
 "DND5E.SensesConfig": "Configurar Sentidos",
 "DND5E.SensesConfigHint": "Configura cualquier capacidad especial de percepción sensorial que posea este actor.",
@@ -1232,6 +1367,7 @@
 "DND5E.SheetClassMapLocation": "Hoja de Localización en el Mapa 5e por defecto",
 "DND5E.SheetClassNPC": "Hoja de PNJ 5e por defecto",
 "DND5E.SheetClassRule": "Hoja de Regla 5e por defecto",
+"DND5E.SheetClassSpellList": "Hoja de Lista de Conjuros 5e por defecto",
 "DND5E.SheetClassToken": "Hoja de Token 5e por defecto",
 "DND5E.SheetClassVehicle": "Hoja de Vehículo 5e por defecto",
 "DND5E.SheetModeEdit": "Editar",
@@ -1375,6 +1511,7 @@
 "DND5E.SpellNone": "Ninguno",
 "DND5E.SpellPrepAtWill": "A Voluntad",
 "DND5E.SpellPrepInnate": "Conjuro Innato",
+"DND5E.SpellPrepRitual": "Sólo Ritual",
 "DND5E.SpellPrepPrepared": "Preparado",
 "DND5E.SpellPrepAlways": "Siempre Preparado",
 "DND5E.SpellPreparation": "Preparación del Conjuro",
@@ -1451,7 +1588,8 @@
     "Configure": "Configurar Invocaciones",
     "Place": "Lanzar Invocaciones",
     "Remove": "Eliminar Perfil",
-    "Summon": "Invocar"
+    "Summon": "Invocar",
+    "View": "Ver Invocación"
   },
   "Bonuses": {
     "ArmorClass": {
@@ -1466,6 +1604,10 @@
       "Label": "Bonificación Curación",
       "Hint": "Curación adicional provista por las habilidades de curación."
     },
+    "HitDice": {
+      "Label": "Bonificación Dados de Golpe",
+      "Hint": "Dado de golpe adicional añadido a la criatura además de lo que se deriva de la fórmula de Puntos de Golpe en su bloque de estadísticas. Sólo se puede usar cuando se invocan actores PNJ."
+    },
     "HitPoints": {
       "Label": "Bonificación Puntos de Golpe",
       "Hint": "Puntos de golpe añadidos a la criatura por encima de lo especificado en su bloque de estadísticas."
@@ -1476,15 +1618,30 @@
     }
   },
   "Configuration": "Configuración de Invocaciones",
+  "Count": {
+    "Label": "Cuenta"
+  },
   "CreatureChanges": {
     "Label": "Cambios en la Criatura",
-    "Hint": "Cambios que se harán a la criatura invocada. Cualquier referencia @ utilizada en las siguientes fórmulas, toman como base las estadística del invocador."
+    "Hint": "Cambios que se harán a la criatura invocada. Cualquier referencia @ utilizada en las siguientes fórmulas, toman como base las estadística del invocador. Las estadísticas de la criatura invocada pueden ser referenciadas usando @summon (p.e. @summon.attributes.hd.max para referenciar el contador de dados de golpe de la criatura)."
+  },
+  "CreatureSizes": {
+    "Label": "Tamaños de Criatura",
+    "Hint": "Tanto la criatura invocada como su token se ajustarán a este tamaño. Si se elige más de un tamaño, el jugador podrá seleccionar entre ellos a la hora de hacer la invocación."
+  },
+  "CreatureTypes": {
+    "Label": "Tipos de Criatura",
+    "Hint": "La criatura invocada se cambiará a este tipo. Si se elige más de un tipo, el jugador podrá seleccionar entre ellos a la hora de hacer la invocación."
   },
   "DisplayName": "Nombre Mostrado",
   "DropHint": "Dejar criatura aquí",
   "ItemChanges": {
     "Label": "Cambios en Objetos",
     "Hint": "Cambios hechos a los objetos de la criatura invocada."
+  },
+  "Level": {
+    "Hint": "Rango de niveles necesarios para poder usar este perfil.",
+    "IdentifierHint": "Identificador utilizado para determinar qué nivel de personaje o de una clase en concreto se debe tener para entrar en los límites de nivel de perfil."
   },
   "Match": {
     "Attacks": {
@@ -1652,6 +1809,7 @@
 "DND5E.UsesMax": "Usos Máximos",
 "DND5E.UsesPeriod": "Periodo de Recuperación",
 "DND5E.UsesPeriods": {
+  "AtWill": "A Voluntad",
   "Charges": "Cargas",
   "ChargesAbbreviation": "Cargas",
   "Dawn": "Amanecer",
@@ -1662,6 +1820,7 @@
   "DuskAbbreviation": "Atarceder",
   "Lr": "Descanso Largo",
   "LrAbbreviation": "DL",
+  "Never": "Nunca",
   "Sr": "Descanso Corto",
   "SrAbbreviation": "DC"
 },
@@ -1713,6 +1872,25 @@
 "DND5E.WeaponSimpleProficiency": "Armas sencillas",
 "DND5E.WeaponSimpleR": "A distancia sencilla",
 "DND5E.Weight": "Peso",
+"DND5E.WeightUnit": {
+  "Label": "Unidades de Peso",
+  "Kilograms": {
+    "Label": "Kilogramos",
+    "Abbreviation": "kg"
+  },
+  "Megagrams": {
+    "Label": "Toneladas",
+    "Abbreviation": "t"
+  },
+  "Pounds": {
+    "Label": "Libras",
+    "Abbreviation": "lb"
+  },
+  "Tons": {
+    "Label": "Montones",
+    "Abbreviation": "tn"
+  }
+},
 "DND5E.WhisperedTo": "Susurrado a",
 "DND5E.Wiki": "Wiki",
 "DND5E.available": "disponible",
@@ -1736,7 +1914,11 @@
     "RollRequest": "Pedir Tirada",
     "SaveShort": "{save}",
     "SaveLong": "tirada de salvación de {save}",
-    "SpecificCheck": "{ability} ({type})"
+    "SpecificCheck": "{ability} ({type})",
+    "Warning": {
+      "NoActor": "No se encontró un actor seleccionado o asignado para poder realizar esta tirada.",
+      "NoItemOnActor": "{actor} no tiene un Objeto con el nombre {item}."
+    }
 },
   
   "EFFECT.DND5E": {
@@ -1764,39 +1946,75 @@
 "TYPES.JournalEntryPage.class": "Resumen de Clase",
 "TYPES.JournalEntryPage.map": "Localización del Mapa",
 "TYPES.JournalEntryPage.rule": "Regla",
-"JOURNALENTRYPAGE.DND5E.Class.AdditionalEquipment": "Equipo",
-"JOURNALENTRYPAGE.DND5E.Class.AdditionalEquipmentHint": "Lista de equipo que se obtiene por esta clase si se toma a primer nivel.",
-"JOURNALENTRYPAGE.DND5E.Class.AdditionalHitPoints": "Descripción de los Puntos de Golpe Adicionales",
-"JOURNALENTRYPAGE.DND5E.Class.AdditionalHitPointsHint": "Texto descriptivo adicional que se muestra debajo de la sección de puntos de golpe generados automáticamente.",
-"JOURNALENTRYPAGE.DND5E.Class.AdditionalTraits": "Rasgos",
-"JOURNALENTRYPAGE.DND5E.Class.AdditionalTraitsHint": "Lista de rasgos de esta clase.",
-"JOURNALENTRYPAGE.DND5E.Class.Description": "Introducción",
-"JOURNALENTRYPAGE.DND5E.Class.DescriptionHint": "Descripción principal de la clase que aparecerá primero.",
-"JOURNALENTRYPAGE.DND5E.Class.EquipmentHeader": "Equipo",
-"JOURNALENTRYPAGE.DND5E.Class.FeaturesHeader": "Rasgos de Clase",
-"JOURNALENTRYPAGE.DND5E.Class.FeaturesDescription": "Como {lowercaseName}, obtienes los siguientes rasgos de clase, los cuales aparecen resumidos en la tabla {name}.",
-"JOURNALENTRYPAGE.DND5E.Class.HitDice": "<strong>Dados de Golpe:</strong> {dice} por nivel de {class}",
-"JOURNALENTRYPAGE.DND5E.Class.HitPointsHeader": "Puntos de Golpe",
-"JOURNALENTRYPAGE.DND5E.Class.HitPointsLevel1": "<strong>Puntos de Golpe a Nivel 1:</strong> {max} + tu modificador de Constitución",
-"JOURNALENTRYPAGE.DND5E.Class.HitPointsLevelX": "<strong>Puntos de Golpe a Niveles Más Altos:</strong> {dice} (o {average}) + tu modificador de Constitución por cada nivel de {class} después del primero",
-"JOURNALENTRYPAGE.DND5E.Class.Item": "Clase Elegida",
-"JOURNALENTRYPAGE.DND5E.Class.ItemHint": "Deja caer una clase aquí",
-"JOURNALENTRYPAGE.DND5E.Class.NoValidClass": "No se ha seleccionado una clase válida, pulsa en el botón de editar para añadir una clase.",
-"JOURNALENTRYPAGE.DND5E.Class.OptionalFeaturesCaption": "Rasgos de Clase Opcionales",
-"JOURNALENTRYPAGE.DND5E.Class.OptionalFeaturesDescription": "La siguiente sección contiene los rasgos de {class} opcionales. Estos rasgos no se obtienen automáticamente, y puedes escoger uno, algunos o todos, a discreción del DM.",
-"JOURNALENTRYPAGE.DND5E.Class.SpellSlotLevel": "Nivel del Espacio",
-"JOURNALENTRYPAGE.DND5E.Class.SpellSlots": "Espacios de Conjuro",
-"JOURNALENTRYPAGE.DND5E.Class.SpellSlotsPerSpellLevel": "—Espacios de Conjuro por Nivel de Conjuro-",
-"JOURNALENTRYPAGE.DND5E.Class.SubclassHeader": "Cabecera de Subclase",
-"JOURNALENTRYPAGE.DND5E.Class.SubclassHint": "Deja caer las subclases aquí",
-"JOURNALENTRYPAGE.DND5E.Class.SubclassDescription": "Introduccón de la Subclase",
-"JOURNALENTRYPAGE.DND5E.Class.SubclassDescriptionHint": "Introducción que aparecerá antes de las subclases de esta clase.",
-"JOURNALENTRYPAGE.DND5E.Class.SubclassItems": "Subclases",
-"JOURNALENTRYPAGE.DND5E.Class.TableCaption": "{class}",
-"JOURNALENTRYPAGE.DND5E.Class.TableOptionalCaption": "Rasgos de {class} Opcionales",
-"JOURNALENTRYPAGE.DND5E.Class.TraitsHeader": "Rasgos",
-"JOURNALENTRYPAGE.DND5E.EditDescription": "Editar",
-"JOURNALENTRYPAGE.DND5E.TableTOC": "Tabla: {caption}",
+"TYPES.JournalEntryPage.spells": "Lista de Conjuros",
+"TYPES.JournalEntryPage.subclass": "Resumen de Subclase",
+"JOURNALENTRYPAGE.DND5E": {
+  "Class": {
+    "AdditionalEquipment": "Descripción de Equipo Adicional",
+    "AdditionalEquipmentHint": "Texto descriptivo adicional que se muestra debajo de la sección de equipo inicial..",
+    "AdditionalHitPoints": "Descripción de Puntos de Golpe Adicionales",
+    "AdditionalHitPointsHint": "Texto descriptivo adicional que se muestra debajo de la sección de puntos de golpe generados automáticamente.",
+    "AdditionalTraits": "Descripción de Competencias Adicionales",
+    "AdditionalTraitsHint": "Texto descriptivo adicional mostrado debajo de la lista de competencias otorgadas por esta clase.",
+    "Description": "Introducción",
+    "DescriptionHint": "Descripción principal de la clase que aparecerá primero.",
+    "EquipmentHeader": "Equipo",
+    "EquipmentDescription": "Comienzas con el siguiente equipo, además del equipo otorgado por tu trasfondo:",
+    "FeaturesHeader": "Rasgos de Clase",
+    "FeaturesDescription": "Como {lowercaseName}, ganas los siguientes rasgos de clase, que se resumen en la tabla {name}.",
+    "HitDice": "<strong>Dados de Golpe:</strong> {dice} por nivel de {class}",
+    "HitPointsHeader": "Puntos de Golpe",
+    "HitPointsLevel1": "<strong>Puntos de Golpe a Nivel 1:</strong> {max} + tu modificador por Constitución",
+    "HitPointsLevelX": "<strong>Puntos de Golpe a niveles superiores:</strong> {dice} (o {average}) + tu modificador de Constitución por cada nivel de {class} después del primero",
+    "Item": "Clase Seleccionada",
+    "ItemHint": "Dejar caer la clase aquí",
+    "NoValidClass": "No hay una clase válida seleccionada, pulsa en el botón de editar para añadir una clase.",
+    "OptionalFeaturesCaption": "Rasgos Opcionales de la Clase",
+    "OptionalFeaturesDescription": "La siguiente sección contiene opciones de rasgos para {class}. Estos rasgos no se otorgan automáticamente y puedes elegir una, algunas o todas, a discreción de tu DM.",
+    "SpellSlotLevel": "Nivel del Espacio",
+    "SpellSlots": "Espacios de Conjuro",
+    "SpellSlotsPerSpellLevel": "—Espacios de Conjuro por Nivel de Conjuro—",
+    "SubclassHeader": "Cabecera de Subclase",
+    "SubclassHint": "Dejar caer subclases aquí",
+    "SubclassDescription": "Introducción de la Subclase",
+    "SubclassDescriptionHint": "Introducción que se mostrará antes de las subclases de esta clase.",
+    "SubclassItems": "Subclases",
+    "TableCaption": "El {class}",
+    "TableOptionalCaption": "Rasgos Opcionales de {class}",
+    "TraitsHeader": "Competencias"
+  },
+  "EditDescription": "Editar",
+  "TableTOC": "Tabla: {caption}",
+  "SpellList": {
+    "DropHint": "Dejar caer conjuros o listas de conjuros aquí para añadirlos a la lista",
+    "Grouping": {
+      "Label": "Modo de Agrupación",
+      "Hint": "Controla cómo se agrupan los conjuros por defecto en la lista de conjuros.",
+      "Alphabetical": "Por Letra Inicial",
+      "Level": "Por Nivel",
+      "None": "sin Agrupación",
+      "School": "Por Escuela"
+    },
+    "IdentifierHint": "El identificador debería coincidir con el que está definido en el documento asociado, si aplica. Por ejemplo, cuando se crea una lista de conjuros para clase de Mago, el identficador debería ser 'wizard'.",
+    "Type": {
+      "Label": "Tipo de la Lista de Conjuros",
+      "Other": "Sin categorizar"
+    },
+    "UnlinkedSpells": {
+      "Label": "conjuros No Vinculados",
+      "Add": "Añadir un Conjuro No Vinculado",
+      "Configuration": "Configuración del Conjuro",
+      "Edit": "Editar Conjuro No Vinculado"
+    }
+  },
+  "Subclass": {
+    "Description": "Introducción",
+    "DescriptionHint": "Descripción de la subclase que se mostrará antes de los rasgos listados.",
+    "Item": "Subclase Seleccionada",
+    "ItemHint": "Dejar caer una subclase aquí",
+    "NoValidSubclass": "No hay una subclase válida seleccionada, pulsa en el botón de editar para añadir una subclase."
+  }
+},
 
 "MACRO.5eMissingTargetWarn": "El actor que controlas '{actor}' no tiene un {type} con el nombre '{name}'.",
 "MACRO.5eMultipleTargetsWarn": "El actor que controlas '{actor}' tiene más de un {type} con el nombre '{name}'. Se elegirá la primera coincidencia.",
@@ -1876,6 +2094,13 @@
     "Name": "Permitir Invocar",
     "Hint": "Permite a los jugadores usar habilidades de invocación para convocar actores. Los jugadores también deben tener el permiso de Crear Token para que funcione."
   },
+  "COLLAPSETRAYS": {
+    "Name": "Contraer Bloques en el Chat",
+    "Hint": "Contrar automáticamente los bloques de daño, golpe y efectos que aparecen en las tarjetas del chat.",
+    "Always": "Contraer Todo",
+    "Older": "Contraer Bloques Antiguos",
+    "Never": "Expandir Todo"
+  },
   "THEME": {
     "Name": "Tema",
     "Hint": "Tema visual que se aplicará a la UI y a todas las hojas por defecto. Se determinará automáticamente según tu navegador o sistema operativo."
@@ -1891,5 +2116,6 @@
   }
 },
 
-"SOURCE.BOOK.SRD": "Documento de Referencia del Sistema (SRD) 5.1"
+"SOURCE.BOOK.SRD": "Documento de Referencia del Sistema (SRD) 5.1",
+"SIDEBAR.SortModePriority": "Ordenar por prioridad"
 }

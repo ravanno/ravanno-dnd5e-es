@@ -3,7 +3,7 @@
 	"entries": {
 		"Canvas": {
 			"name": "Lona",
-			"description": "<p>Una yarda cuadrada de tela de calidad media y peso. Se usa para muchos artículos y ropa.</p>\n<p>Calificado del 1 al 12, cuanto menor sea el número, mejor será la calidad y más pesado será. El lienzo de calidad número 1 pesa alrededor de 1.7 libras por yarda cuadrada, mientras que el 12, más débil y liviano, puede pesar solo 0.7 libras.</p>"
+			"description": "<p>Una yarda cuadrada de tela de calidad media y peso. Se usa para muchos artículos y ropa.</p><p>Calificado del 1 al 12, cuanto menor sea el número, mejor será la calidad y más pesado será. El lienzo de calidad número 1 pesa alrededor de 1.7 libras por yarda cuadrada, mientras que el 12, más débil y liviano, puede pesar solo 0.7 libras.</p>"
 		},
 		"Chicken": {
 			"name": "Pollo",
@@ -15,19 +15,19 @@
 		},
 		"Cloves": {
 			"name": "Clavo",
-			"description": "<p>Una especia fuerte atesorada tanto por los chefs como por los destiladores, ya que funciona bien para dar sabor a la carne y a los guisos, a las salsas intensas, a las bebidas calientes como la sidra y el té chai, al pan, a los quesos y a los postres dulces como las tartas y los pasteles de frutas.</p>\n<p>Los clavos son los ricos brotes secos y sin abrir del Syzygium aromaticum, un árbol de hoja perenne de la familia del mirto.</p>"
+			"description": "<p>Una especia fuerte atesorada tanto por los chefs como por los destiladores, ya que funciona bien para dar sabor a la carne y a los guisos, a las salsas intensas, a las bebidas calientes como la sidra y el té chai, al pan, a los quesos y a los postres dulces como las tartas y los pasteles de frutas.</p><p>Los clavos son los ricos brotes secos y sin abrir del Syzygium aromaticum, un árbol de hoja perenne de la familia del mirto.</p>"
 		},
 		"Copper": {
 			"name": "Cobre",
-			"description": "<p>Codiciado por los navieros expertos, los alquimistas, ciertos joyeros y los cocineros; el cobre se extrae comúnmente de la superficie, pero existe la minería subterránea cuando las fuentes de la superficie se han agotado o no se pueden localizar.</p>\n<p>Aunque se puede utilizar para las armaduras, es mucho mejor mezclado con estaño para hacer una aleación de bronce muy superior para las necesidades militares.</p>"
+			"description": "<p>Codiciado por los navieros expertos, los alquimistas, ciertos joyeros y los cocineros; el cobre se extrae comúnmente de la superficie, pero existe la minería subterránea cuando las fuentes de la superficie se han agotado o no se pueden localizar.</p><p>Aunque se puede utilizar para las armaduras, es mucho mejor mezclado con estaño para hacer una aleación de bronce muy superior para las necesidades militares.</p>"
 		},
 		"Cotton": {
 			"name": "Algodón",
-			"description": "<p> Un metro cuadrado de algodón de peso y calidad promedio. Se usa para muchos artículos y ropa.</p>\n<p>Mucho más ligero, cómodo y fácil de trabajar que la lona; sin embargo, su producción comparativamente más delicada significa que, en consecuencia, es más caro y potencialmente más difícil de conseguir.</p>"
+			"description": "<p> Un metro cuadrado de algodón de peso y calidad promedio. Se usa para muchos artículos y ropa.</p><p>Mucho más ligero, cómodo y fácil de trabajar que la lona; sin embargo, su producción comparativamente más delicada significa que, en consecuencia, es más caro y potencialmente más difícil de conseguir.</p>"
 		},
 		"Cow": {
 			"name": "Vaca",
-			"description": "<p>Las vacas, una criatura para los ganaderos de grandes superficies, requieren grandes superficies de pastos planos, por lo que no son tan comunes como otro tipo de ganado. Sin embargo, viven más tiempo y dan mucha más leche. También son una fuente de cuero mucho más duradero, menos propenso a agrietarse y resistente al calor y la suciedad.</p>\n<p>Dependiendo del sexo y la raza, las vacas adultas pueden pesar entre 1.000 y 1.800 libras.</p>"
+			"description": "<p>Las vacas, una criatura para los ganaderos de grandes superficies, requieren grandes superficies de pastos planos, por lo que no son tan comunes como otro tipo de ganado. Sin embargo, viven más tiempo y dan mucha más leche. También son una fuente de cuero mucho más duradero, menos propenso a agrietarse y resistente al calor y la suciedad.</p><p>Dependiendo del sexo y la raza, las vacas adultas pueden pesar entre 1.000 y 1.800 libras.</p>"
 		},
 		"Flour": {
 			"name": "Harina",
@@ -35,15 +35,15 @@
 		},
 		"Ginger": {
 			"name": "Jengibre",
-			"description": "<p> Una especia que proviene de la raíz fresca o seca de la planta de jengibre Zingiber officinale. Pertenece a la misma familia que la cúrcuma y el cardamomo.</p>\n<p>Valorado por chefs y fabricantes de dulces, amados por niños y personas con gustos más picantes.</p>"
+			"description": "<p> Una especia que proviene de la raíz fresca o seca de la planta de jengibre Zingiber officinale. Pertenece a la misma familia que la cúrcuma y el cardamomo.</p><p>Valorado por chefs y fabricantes de dulces, amados por niños y personas con gustos más picantes.</p>"
 		},
 		"Goat": {
 			"name": "Cabra",
-			"description": "<p>Una criatura útil para los granjeros de áreas pequeñas y los habitantes de las tierras altas. Las cabras son efectivas para evitar que los prados crezcan excesivamente mientras proporcionan leche, queso y posteriormente pieles y carne.</p>\n<p>Dependiendo de la raza, las cabras adultas pueden variar desde las 45 hasta 300 libras.</p>"
+			"description": "<p>Una criatura útil para los granjeros de áreas pequeñas y los habitantes de las tierras altas. Las cabras son efectivas para evitar que los prados crezcan excesivamente mientras proporcionan leche, queso y posteriormente pieles y carne.</p><p>Dependiendo de la raza, las cabras adultas pueden variar desde las 45 hasta 300 libras.</p>"
 		},
 		"Gold": {
 			"name": "Oro",
-			"description": "<p>El oro es el rey de la moneda para muchas civilizaciones. Suele ser más común que el platino, pero no tanto como otros metales como el hierro, y ocupa un lugar privilegiado en cuanto a rareza e irreactividad.</p>\n<p>A diferencia de la plata, el oro se encuentra más fácilmente en la superficie. Tanto la minería superficial como la subterránea pueden ser extremadamente rentables. Las fiebres del oro pueden ser, y han sido, fuente de grandes alegrías y enormes tragedias.</p>"
+			"description": "<p>El oro es el rey de la moneda para muchas civilizaciones. Suele ser más común que el platino, pero no tanto como otros metales como el hierro, y ocupa un lugar privilegiado en cuanto a rareza e irreactividad.</p><p>A diferencia de la plata, el oro se encuentra más fácilmente en la superficie. Tanto la minería superficial como la subterránea pueden ser extremadamente rentables. Las fiebres del oro pueden ser, y han sido, fuente de grandes alegrías y enormes tragedias.</p>"
 		},
 		"Iron": {
 			"name": "Hierro",
@@ -51,7 +51,7 @@
 		},
 		"Linen": {
 			"name": "Lino",
-			"description": "<p>Una yarda cuadrada de lino de calidad y peso medio. Se utiliza para todo tipo de artículos y prendas de vestir.</p>\n<p>Más resistente que el algodón, su durabilidad y transpirabilidad lo hacen especialmente apreciado en climas cálidos.</p>\n<p>Existen diferentes tipos de lino, con tejidos más ligeros a partir de 6 onzas por yarda cuadrada, y el resto hasta 15 onzas.</p>"
+			"description": "<p>Una yarda cuadrada de lino de calidad y peso medio. Se utiliza para todo tipo de artículos y prendas de vestir.</p><p>Más resistente que el algodón, su durabilidad y transpirabilidad lo hacen especialmente apreciado en climas cálidos.</p><p>Existen diferentes tipos de lino, con tejidos más ligeros a partir de 6 onzas por yarda cuadrada, y el resto hasta 15 onzas.</p>"
 		},
 		"Ox": {
 			"name": "Buey",
@@ -63,11 +63,11 @@
 		},
 		"Pig": {
 			"name": "Cerdo",
-			"description": "<p>Los cerdos, una criatura para los agricultores de áreas medianas o grandes, se reproducen con relativa rapidez y son criaturas robustas que ofrecen todo tipo de posibilidades culinarias al cocinero emprendedor, la más importante de las cuales es, por supuesto, el tocino. Su piel también puede utilizarse como cuero barato, pero es menos resistente al desgarro en comparación con la del cordero o la cabra. El cerdo es también la fuente de la manteca.</p>\n<p>La mayoría de los cerdos pesan entre 250 y 270 libras en el momento de la matanza, lo que permite obtener cortes óptimos para la venta al por menor y una capa de grasa media.</p>"
+			"description": "<p>Los cerdos, una criatura para los agricultores de áreas medianas o grandes, se reproducen con relativa rapidez y son criaturas robustas que ofrecen todo tipo de posibilidades culinarias al cocinero emprendedor, la más importante de las cuales es, por supuesto, el tocino. Su piel también puede utilizarse como cuero barato, pero es menos resistente al desgarro en comparación con la del cordero o la cabra. El cerdo es también la fuente de la manteca.</p><p>La mayoría de los cerdos pesan entre 250 y 270 libras en el momento de la matanza, lo que permite obtener cortes óptimos para la venta al por menor y una capa de grasa media.</p>"
 		},
 		"Platinum": {
 			"name": "Platino",
-			"description": "<p>Mucho más raro que el oro, el platino puede ser tratado como la cúspide de la riqueza, o como el vestigio de una época pasada que puede ser percibido con desconfianza o envidia.</p>\n<p>A diferencia del oro, el platino se extrae casi exclusivamente bajo tierra.</p>"
+			"description": "<p>Mucho más raro que el oro, el platino puede ser tratado como la cúspide de la riqueza, o como el vestigio de una época pasada que puede ser percibido con desconfianza o envidia.</p><p>A diferencia del oro, el platino se extrae casi exclusivamente bajo tierra.</p>"
 		},
 		"Saffron": {
 			"name": "Azafrán",
@@ -79,15 +79,15 @@
 		},
 		"Sheep": {
 			"name": "Oveja",
-			"description": "<p>Aunque no son tan ágiles como las cabras, son una criatura útil para los granjeros de las áreas pequeñas y los habitantes de las tierras altas, ya que tienen la valiosa ventaja de poder ser esquiladas cada año, lo que permite a la gente obtener ropa, alfombras y mantas para las camas y las sillas. Su mayor tamaño también significa que son más valiosas para el consumo.</p>\n<p>Dependiendo de la raza, las ovejas adultas pueden pesar desde 100 a 350 libras.</p>"
+			"description": "<p>Aunque no son tan ágiles como las cabras, son una criatura útil para los granjeros de las áreas pequeñas y los habitantes de las tierras altas, ya que tienen la valiosa ventaja de poder ser esquiladas cada año, lo que permite a la gente obtener ropa, alfombras y mantas para las camas y las sillas. Su mayor tamaño también significa que son más valiosas para el consumo.</p><p>Dependiendo de la raza, las ovejas adultas pueden pesar desde 100 a 350 libras.</p>"
 		},
 		"Silk": {
 			"name": "Seda",
-			"description": "<p>Una yarda cuadrada de seda de calidad y peso medio. Se utiliza para muchos artículos y prendas de vestir.</p>\n<p>La seda, el más fino y deseable de los tejidos ordinarios, es también el más ligero. La mayoría de las sedas pesan entre 2 y 4 onzas por yarda cuadrada. Cuanto más pesada sea la seda, mayor será su calidad, más duradera y más opaco será su color.</p>"
+			"description": "<p>Una yarda cuadrada de seda de calidad y peso medio. Se utiliza para muchos artículos y prendas de vestir.</p><p>La seda, el más fino y deseable de los tejidos ordinarios, es también el más ligero. La mayoría de las sedas pesan entre 2 y 4 onzas por yarda cuadrada. Cuanto más pesada sea la seda, mayor será su calidad, más duradera y más opaco será su color.</p>"
 		},
 		"Silver": {
 			"name": "Plata",
-			"description": "<p>La plata ha sido apreciada durante mucho tiempo por su naturaleza poco reactiva y por la facilidad con la que se le puede dar forma en las más finas decoraciones, adornos y, por supuesto, utilizarla como moneda.</p>\n<p>La plata rara vez se encuentra en su forma original en pepitas. Generalmente se encuentra mezclada con otras sustancias como el azufre o el cloro, en minerales, o como aleación con el oro. Se puede encontrar plata en la superficie, pero es mucho más común que se extraiga bajo tierra. La minería de la plata es lucrativa y puede inspirar las fiebres de la plata.</p>"
+			"description": "<p>La plata ha sido apreciada durante mucho tiempo por su naturaleza poco reactiva y por la facilidad con la que se le puede dar forma en las más finas decoraciones, adornos y, por supuesto, utilizarla como moneda.</p><p>La plata rara vez se encuentra en su forma original en pepitas. Generalmente se encuentra mezclada con otras sustancias como el azufre o el cloro, en minerales, o como aleación con el oro. Se puede encontrar plata en la superficie, pero es mucho más común que se extraiga bajo tierra. La minería de la plata es lucrativa y puede inspirar las fiebres de la plata.</p>"
 		},
 		"Wheat": {
 			"name": "Trigo",

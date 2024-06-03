@@ -2,7 +2,7 @@
   "id": "ravanno-dnd5e-es",
   "title": "Translation: Español [DnD5e]",
   "description": "Traducción al español del sistema de Dungeons &amp; Dragons 5E (SRD).",
-  "version": "3.2.0.2",
+  "version": "3.2.0.3",
   "compatibility": {
     "minimum": "11.315",
     "verified": "12"
@@ -18,6 +18,9 @@
       "name": "Cosmo Corban#4840",
       "flags": {}
     }
+  ],
+  "esmodules": [
+    "babele-register.js"
   ],
   "styles": [
     "css/dnd5e-es.css"
@@ -41,9 +44,9 @@
         "type": "module",
         "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
         "compatibility": {
-          "minimum": "2.5.4",
-          "verified": "2.5.4",
-          "maximum": "2.5.4"
+          "minimum": "2.5.5",
+          "verified": "2.5.5",
+          "maximum": "2.5.5"
         }
       }
     ]

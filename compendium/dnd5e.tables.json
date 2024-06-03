@@ -2,127 +2,127 @@
 	"label": "Tablas (SRD)",
 	"entries": {
 		"Armor of Resistance": {
-			"name": "Armor of Resistance",
+			"name": "Armadura de Resistencia",
 			"description": ""
 		},
 		"Bag of Beans": {
-			"name": "Bag of Beans",
+			"name": "Bolsa de Judías",
 			"description": ""
 		},
 		"Bonds (Acolyte)": {
-			"name": "Bonds (Acolyte)",
+			"name": "Vínculos (Acólito)",
 			"description": ""
 		},
 		"Candle of Invocation": {
-			"name": "Candelabro de invocación",
+			"name": "Vela de Invocación",
 			"description": ""
 		},
 		"Carpet of Flying": {
-			"name": "Carpet of Flying",
+			"name": "Alfombra Voladora",
 			"description": ""
 		},
 		"Confusion": {
-			"name": "Confusion",
+			"name": "Confusión",
 			"description": ""
 		},
 		"Efreeti Bottle": {
-			"name": "Efreeti Bottle",
+			"name": "Botella de Ifrit",
 			"description": ""
 		},
 		"Feather Token": {
-			"name": "Feather Token",
-			"description": "This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect."
+			"name": "Ficha de Pluma",
+			"description": "Este diminuto objeto parece una pluma. Existen diferentes tipos de fichas de pluma, cada uno con un efecto diferente de un solo uso."
 		},
 		"Flaws (Acolyte)": {
-			"name": "Flaws (Acolyte)",
+			"name": "Defectos (Acólito)",
 			"description": ""
 		},
 		"Grey Bag of Tricks": {
-			"name": "Grey Bag of Tricks",
+			"name": "Bolsa de Trucos Gris",
 			"description": ""
 		},
 		"Horn of Valhalla": {
-			"name": "Horn of Valhalla",
+			"name": "Cuerno del Valhalla",
 			"description": ""
 		},
 		"Ideals (Acolyte)": {
-			"name": "Ideals (Acolyte)",
+			"name": "Ideales (Acólito)",
 			"description": ""
 		},
 		"Indefinite Madness": {
-			"name": "Indefinite Madness",
-			"description": "The character is afflicted with indefinite madness."
+			"name": "Locura Indefinida",
+			"description": "El personaje sufre de locura indefinida."
 		},
 		"Iron Flask": {
-			"name": "Iron Flask",
+			"name": "Frasco de Hierro",
 			"description": ""
 		},
 		"Long-Term Madness": {
-			"name": "Long-Term Madness",
-			"description": "The character is afflicted with long-­term madness for [[1d10*10]] hours."
+			"name": "Locura a Largo Plazo",
+			"description": "El personaej sufre de locura a largo plazo durante [[1d10*10]] horas."
 		},
 		"Manual of Golems": {
-			"name": "Manual of Golems",
+			"name": "Manual de Gólems",
 			"description": ""
 		},
 		"Necklace of Prayer Beads": {
-			"name": "Necklace of Prayer Beads",
+			"name": "Collar de Plegarias",
 			"description": ""
 		},
 		"Personality Traits (Acolyte)": {
-			"name": "Personality Traits (Acolyte)",
+			"name": "Rasgos de Personalidad (Acólito)",
 			"description": ""
 		},
 		"Potion of Resistance": {
-			"name": "Potion of Resistance",
+			"name": "Poción de Resistencia",
 			"description": ""
 		},
 		"Reincarnate": {
-			"name": "Reincarnate",
+			"name": "Reencarnar",
 			"description": ""
 		},
 		"Ring of Resistance": {
-			"name": "Ring of Resistance",
+			"name": "Anillo de Resistencia",
 			"description": ""
 		},
 		"Robe of Useful Items": {
-			"name": "Robe of Useful Items",
+			"name": "Túnica de Objetos Útiles",
 			"description": ""
 		},
 		"Rust Bag of Tricks": {
-			"name": "Rust Bag of Tricks",
+			"name": "Bolsa de Trucos Rojiza",
 			"description": ""
 		},
 		"Sentient Magic Items Alignment": {
-			"name": "Sentient Magic Items Alignment",
+			"name": "Alineamiento de Objetos Mágicos Conscientes",
 			"description": ""
 		},
 		"Sentient Magic Items Communication": {
-			"name": "Sentient Magic Items Communication",
+			"name": "Comunicación de Objetos Mágicos Conscientes",
 			"description": ""
 		},
 		"Sentient Magic Items Purpose": {
-			"name": "Sentient Magic Items Purpose",
+			"name": "Proposito de Objetos Mágicos Conscientes",
 			"description": ""
 		},
 		"Sentient Magic Items Senses": {
-			"name": "Sentient Magic Items Senses",
+			"name": "Sentidos de Objetos Mágicos Conscientes",
 			"description": ""
 		},
 		"Short-Term Madness": {
-			"name": "Short-Term Madness",
-			"description": "The character is afflicted with short-­term madness for [[1d10]] minutes."
+			"name": "Locura a Corto Plazo",
+			"description": "El personaje sufre de locura a corto plazo durante [[1d10]] minutos."
 		},
 		"Sphere of Annihilation": {
-			"name": "Sphere of Annihilation",
+			"name": "Esfera de Aniquilación",
 			"description": ""
 		},
 		"Tan Bag of Tricks": {
-			"name": "Tan Bag of Tricks",
+			"name": "Bolsa de Trucos Marrón",
 			"description": ""
 		},
 		"Wand of Wonder": {
-			"name": "Wand of Wonder",
+			"name": "Varita de las Maravillas",
 			"description": ""
 		}
 	}

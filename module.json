@@ -4,7 +4,7 @@
   "description": "Traducción al español del sistema de Dungeons &amp; Dragons 5E (SRD).",
   "version": "3.3.0",
   "compatibility": {
-    "minimum": "11.329",
+    "minimum": "11.315",
     "verified": "12"
   },
   "authors": [

@@ -148,6 +148,7 @@
 "DND5E.AdditionalControls": "Controles Adicionales",
 "DND5E.AdditionalSettings": "configuración Adicional",
 "DND5E.AddEmbeddedItemPromptHint": "¿Quieres añadir estos objetos a tu hoja de personaje?",
+"DND5E.Advanced": "Avanzado",
 "DND5E.AdvancementAbilityScoreImprovementTitle": "Mejora de Puntuación de Característica",
 "DND5E.AdvancementAbilityScoreImprovementHint": "Permitir al jugador aumentar los puntos de una o más características o elegir un rasgo opcional.",
 "DND5E.AdvancementAbilityScoreImprovementCap": "Límite de Puntos",
@@ -365,6 +366,7 @@
 "DND5E.BackgroundName": "Nombre del Trasfondo",
 "DND5E.Biography": "Biografía",
 "DND5E.BiographyPublic": "Biografía Pública",
+"DND5E.BiopgrahyPublicEdit": "Editar Biografía Pública",
 "DND5E.Bonds": "Vínculos",
 "DND5E.Bonus": "Bonificación",
 "DND5E.BonusAbility": "Bonificaciones Globales de Habilidad",
@@ -420,6 +422,52 @@
 "DND5E.ClassOriginal": "Clase Original",
 "DND5E.ClassSaves": "Tiradas de Salvación",
 "DND5E.Confirm": "Confirmar",
+"DND5E.CompendiumBrowser": {
+  "Title": "Navegador de Compendios",
+  "Action": {
+    "Open": "Abrir Navegador de Compendios"
+  },
+  "Column": {
+    "Icon": "Icono",
+    "Name": "Nombre",
+    "Results": "Resultados"
+  },
+  "Filters": {
+    "Label": "Filtros",
+    "HasDarkvision": "Tiene Visión en la Oscuridad",
+    "HasSpellcasting": "Puede Lanzar Conjuros",
+    "SearchResults": "Buscar resultados"
+  },
+  "Selection": {
+    "Label": "Seleccionado: {summary}",
+    "Select": "Seleccionar",
+    "Summary": {
+      "Max": "<span class=\"value\">{value}</span> hasta {max}",
+      "Min": "<span class=\"value\">{value}</span> al menos {min}",
+      "Range": "<span class=\"value\">{value}</span> de {min} a {max}",
+      "Single": "<span class=\"value\">{value}</span> de {max}"
+    },
+    "Warning": {
+      "Document": {
+        "one": "documento",
+        "other": "documentos"
+      },
+      "Max": "Se deben seleccionar como mucho {max} {document}, {value} seleccioandos.",
+      "Min": "Se deben seleccionar al menos {min} {document}, {value} seleccioandos.",
+      "Range": "Se deben seleccionar entre {min} y {max} documentos, {value} seleccioandos.",
+      "Single": "Se deben seleccionar {max} {document}, {value} seleccioandos."
+    }
+  },
+  "Tabs": {
+    "Feat.other": "Rasgos",
+    "Item.other": "Objetos",
+    "Monster.other": "Monstruos"
+  },
+  "Types": {
+    "Label": "Tipos"
+  },
+  "Locked": "Bloqueado"
+},
 "DND5E.ComponentMaterial": "Material",
 "DND5E.ComponentMaterialAbbr": "M",
 "DND5E.ComponentSomatic": "Somático",
@@ -439,6 +487,8 @@
 "DND5E.ContextMenuActionEquip": "Equipar",
 "DND5E.ContextMenuActionUnequip": "Desequipar",
 "DND5E.ContextMenuActionPrepare": "Preparar",
+"DND5E.ContextMenuActionExpendCharge": "Descargar",
+"DND5E.ContextMenuActionCharge": "Cargar",
 "DND5E.ContextMenuActionUnprepare": "No preparar",
 "DND5E.ContextMenuActionAttune": "Armonizar",
 "DND5E.ContextMenuActionUnattune": "Desarmonizar",
@@ -572,6 +622,7 @@
 "DND5E.Critical": "Crítico",
 "DND5E.CriticalHit": "Golpe crítico",
 "DND5E.PowerfulCritical": "Crítico Poderoso",
+"DND5E.CRLabel": "VD {cr}",
 "DND5E.Currency": "Moneda",
 "DND5E.CurrencyAbbrCP": "pc",
 "DND5E.CurrencyAbbrEP": "pe",
@@ -668,6 +719,7 @@
 "DND5E.DescriptionSummary": "Resumen de la Descripción",
 "DND5E.DescriptionUnidentified": "Descripción Para Sin Identificar",
 "DND5E.Details": "Detalles",
+"DND5E.DetailsEdit": "Editar Detalles",
 "DND5E.Dimensions": "Dimensiones",
 "DND5E.Disadvantage": "Desventaja",
 "DND5E.Discord": "Discord",
@@ -717,6 +769,7 @@
   },
   "Configuration": "Configuración del Encantamiento",
   "DropArea": "Colocar el objeto aquí para encantarlo...",
+  "Enchanted": "{current} &sol; {max} encantados",
   "FIELDS": {
     "enchantment": {
       "label": "Configuración del Encantamiento",
@@ -867,6 +920,7 @@
 "DND5E.IdentifierCopy": "Copiar Identificador",
 "DND5E.IdentifierCopied": "¡Copiado!",
 "DND5E.ItemRarityCommon": "común",
+"DND5E.ItemRarityMundane": "mundano",
 "DND5E.ItemRarityUncommon": "poco común",
 "DND5E.ItemRarityRare": "raro",
 "DND5E.ItemRarityVeryRare": "muy raro",
@@ -894,6 +948,7 @@
 "DND5E.FilterClear": "Limpiar Filtros",
 "DND5E.FilterGroupCategory": "Agrupar por Categoría",
 "DND5E.FilterGroupOrigin": "Agrupar por Origen", 
+"DND5E.FilterGroupAction": "Agrupar por Acción",
 "DND5E.FilterNoSpells": "No se encontraron conjuros con estos filtros.",
 "DND5E.NoSpellLevels": "Este personaje no tiene niveles de lanzador, pero puedes agregar conjuros manualmente.",
 "DND5E.FlagsInstructions": "Determina los rasgos y atributos del personaje para cambiar el comportamiento del sistema DnD5e",
@@ -1001,6 +1056,7 @@
 "DND5E.Identify": "Identificar",
 "DND5E.Immunities": "Inmunidades",
 "DND5E.Initiative": "Iniciativa",
+"DND5E.InitiativeAbbr": "Inic",
 "DND5E.InitiativeBonus": "Bonificación de Iniciativa",
 "DND5E.InitiativeRoll": "Tirada de Iniciativa",
 "DND5E.InitiativeConfig": "Configurar Iniciativa",
@@ -1060,6 +1116,10 @@
 "DND5E.ItemName": "Nombre del Elemento",
 "DND5E.ItemNew": "Nuevo {type}",
 "DND5E.Item": {
+  "Category": {
+    "Label": "Categoría",
+    "Physical": "Física"
+  },
     "Property": {
       "Adamantine": "Adamantino",
       "Ammunition": "Munición",
@@ -1144,10 +1204,18 @@
 "DND5E.LanguagesThievesCant": "Jerga de Ladrones",
 "DND5E.LanguagesUndercommon": "Infracomún",
 "DND5E.LegAct": "Acciones Legendarias",
+"DND5E.LegActN.one": "1a. Acción Legendaria",
+"DND5E.LegActN.two": "2a. Acción Legendaria",
+"DND5E.LegActN.few": "3a. Acción Legendaria",
+"DND5E.LegActN.other": "{n}a. Acción Legendaria",
 "DND5E.LegActMax": "Acciones Legendarias Máximas",
 "DND5E.LegActRemaining": "Acciones Legendarias Restantes",
 "DND5E.LegendaryActionLabel": "Acción Legendaria",
 "DND5E.LegRes": "Resistencia Legendaria",
+"DND5E.LegResN.one": "1a. Resistencia Legendaria",
+"DND5E.LegResN.two": "2a. Resistencia Legendaria",
+"DND5E.LegResN.few": "3a. Resistencia Legendaria",
+"DND5E.LegResN.other": "{n}a. Resistencia Legendaria",
 "DND5E.LegResMax": "Resistencias Legendarias Máximas",
 "DND5E.LegResRemaining": "Resistencias Legendarias Restantes",
 "DND5E.Level": "Nivel",
@@ -1208,9 +1276,11 @@
 "DND5E.Normal": "Normal",
 "DND5E.NotProficient": "No Competente",
 "DND5E.Notes": "Notas",
+"DND5E.NPC": "PNJ",
 "DND5E.OtherFormula": "Otra Fórmula",
 "DND5E.PactMagic": "Magia del Pacto",
 "DND5E.Passive": "Pasiva",
+"DND5E.PassivePerception": "Percepción Pasiva",
 "DND5E.PersonalityTraits": "Rasgos de Personalidad",
 "DND5E.PlaceTemplate": "Colocar Plantilla de Medición",
 "DND5E.PlaceTemplateError": "Fallo al colocar plantilla de medición",
@@ -1271,6 +1341,7 @@
 "DND5E.Properties": "Propiedades",
 "DND5E.PropertyBase": "Base",
 "DND5E.PropertyTotal": "Total",
+"DND5E.Public": "Público",
 "DND5E.Quantity": "Cantidad",
 "DND5E.QuantityAbbr": "Cant.",
 "DND5E.QuantityFormula": "Fórmula Cantidad",
@@ -1366,6 +1437,7 @@
 "DND5E.SheetClassJournalEntry": "Hoja de Entrada de Diario 5e por defecto",
 "DND5E.SheetClassMapLocation": "Hoja de Localización en el Mapa 5e por defecto",
 "DND5E.SheetClassNPC": "Hoja de PNJ 5e por defecto",
+"DND5E.SheetClassNPCLegacy": "Hoja de PNJ 5e Legacy",
 "DND5E.SheetClassRule": "Hoja de Regla 5e por defecto",
 "DND5E.SheetClassSpellList": "Hoja de Lista de Conjuros 5e por defecto",
 "DND5E.SheetClassToken": "Hoja de Token 5e por defecto",
@@ -1374,6 +1446,7 @@
 "DND5E.SheetModePlay": "Jugar",
 "DND5E.SavingThrow": "Tirada de Salvación",
 "DND5E.SavingThrowDC": "CD {dc} Tirada de Salvación de {ability}",
+"DND5E.SavingThrowRoll": "Hacer Tirada de Salvación de {ability}",
 "DND5E.SaveDC": "{ability} CD {dc}",
 "DND5E.SavePromptTitle": "Tirada de Salvación de {ability}",
 "DND5E.ScalingFormula": "Fórmula de Escala",
@@ -1435,6 +1508,7 @@
 "DND5E.SkillPromptTitle": "Prueba de Habilidad de {skill}",
 "DND5E.SkillConfigureTitle": "Configurar {skill}",
 "DND5E.SkillConfigure": "Configurar Habilidad",
+"DND5E.SkillsConfig": "Configurar Habilidades",
 "DND5E.SkillBonuses": "Bonificaciones de Habilidad",
 "DND5E.SkillBonusCheck": "Bonificación en Pruebas",
 "DND5E.SkillBonusPassive": "Bonficación Pasiva",
@@ -1516,6 +1590,7 @@
 "DND5E.SpellPrepAlways": "Siempre Preparado",
 "DND5E.SpellPreparation": "Preparación del Conjuro",
 "DND5E.SpellPreparationMode": "Forma de Preparar el Conjuro",
+"DND5E.SpellSourceClass": "Clase Origen",
 "DND5E.SpellPrepared": "Preparado",
 "DND5E.SpellProgArt": "Artificiero",
 "DND5E.SpellProgAvailable": "Espacios disponibles",
@@ -1657,10 +1732,18 @@
       "Hint": "Modificar las CD de las tiradas de salvación de las habilidades de la criatura invocada para igualar las del invocador."
     }
   },
+  "Mode": {
+    "Label": "Modo",
+    "Hint": "Establece cómo se especifican las criaturas que se van a invocar.",
+    "CR": "Por Valor de Desafío y Tipo",
+    "Direct": "Por Enlace Directo"
+  },
   "Profile": {
     "Label": "Perfil de Invocaciones",
     "LabelPl": "Perfiles de Invocaciones",
-    "Empty": "Haz click arriba para añadir un perfil o deja caer una criatura para invocar aquí."
+    "ChallengeRatingLabel": "Valor de Desafío de {cr} o más bajo",
+    "Empty": "Haz click arriba para añadir un perfil.",
+    "EmptyDrop": "Haz click arriba para añadir un perfil o deja caer una criatura para invocar aquí."
   },
   "Prompt": {
     "Label": "Mensaje de Invocación",
@@ -1668,6 +1751,7 @@
   },
   "Warning": {
     "CreateActor": "Debes tener el permiso 'Crear Nuevos Actores' para poder invocar directamente dese un compendio.",
+    "CRV11": "La invocación basada en el valor de desafío de la criatura sólo funciona en Foundry V12 o superior.",
     "NoActor": "No se puede encontrar un actor con el UUID '{uuid}' para invocar.",
     "NoOwnership": "Debes ser el propietario de '{actor}' para poder invocarlo.",
     "NoProfile": "No se puede encontrar el perfil de invocación {profileId} en '{item}'.",
@@ -1677,6 +1761,7 @@
 "DND5E.Supply": "Cantidad",
 "DND5E.Suppressed": "Reprimido",
 "DND5E.Target": "Objetivo",
+"DND5E.TargetPl": "Objetivos",
 "DND5E.TargetAlly": "Aliado",
 "DND5E.TargetAny": "Cualquiera",
 "DND5E.TargetCone": "Cono",
@@ -1743,6 +1828,7 @@
     },
     "Title": "Anillo Dinámico"
 },
+"DND5E.ToggleDescription": "Activar Descripción",
 "DND5E.ToolArtisans": "Herramientas de Artesano",
 "DND5E.ToolBonuses": "Bonificaciones de Herramientas",
 "DND5E.ToolCheck": "Prueba de Herramienta",

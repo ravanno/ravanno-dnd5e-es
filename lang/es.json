@@ -842,6 +842,7 @@
 "DND5E.ExperiencePoints": "Puntos de Experiencia",
 "DND5E.ExperiencePointsAbbr": "XP",
 "DND5E.ExperiencePointsCurrent": "XP Actual",
+"DND5E.ExperiencePointsFormat": "{value} XP",
 "DND5E.ExperiencePointsLabel": "Progreso hasta el siguiente nivel",
 "DND5E.ExperiencePointsMax": "XP para el Siguiente Nivel",
 "DND5E.ExperiencePointsMin": "XP Mínima para Este Nivel",
@@ -1028,6 +1029,7 @@
 "DND5E.HitPointsMin": "Puntos de Golpe Mínimos",
 "DND5E.HitPointsOverride": "Anulación de los Puntos de Golpe Máximos",
 "DND5E.HitPointsTemp": "Puntos de Golpe Temporales",
+"DND5E.HitPointsTempShort": "PG Temporales",
 "DND5E.HitPointsTempMax": "Puntos de Golpe Temporales Máximos",
 "DND5E.HitPointsTempMaxShort": "PG Temp Máx",
 "DND5E.HP": "PG",
@@ -2117,6 +2119,13 @@
 "SETTINGS.5eAutoCollapseCardN": "Contraer Tarjetas de Elementos en el Chat",
 "SETTINGS.5eAutoSpellTemplateL": "Cuando se lance un conjuro, de manera predeterminada creará automáticamente cualquier plantilla de medición correspondiente (requiere el rol de 'De confianza' o superior)",
 "SETTINGS.5eAutoSpellTemplateN": "Siempre Colocar Plantilla de Conjuro",
+"SETTINGS.5eAttackRollVisibility": {
+  "Name": "Visibilidad de los Resultados del Ataque",
+  "Hint": "Controla la visualización de los resultados de las tiradas de ataque en tarjetas de chat para los jugadores.",
+  "All": "Mostrar resultados & CA del objetivoShow results & target ACs",
+  "HideAC": "Mostrar sólo resultados",
+  "None": "Ocultar todo"
+},
 "SETTINGS.5eChallengeVisibility": {
     "Name": "Visibilidad de las Tiradas",
     "Hint": "Controlar qué tiradas de CD son visibles para los jugadores y si se destacan las tiradas de éxito/fracaso.",

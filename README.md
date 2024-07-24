@@ -2,9 +2,9 @@
 
 Traducción al español del sistema de Dungeons & Dragons 5E (SRD).
 
-Actualizando para DnD5e 3.3.0 y Foundry 11.315 (Verificado 12)
+Actualizando para DnD5e 3.3.1 y Foundry 11.315 (Verificado 12)
 
-**Requisitos**
+**Requisitos Mínimos**
 - Babele 2.5.5
 
 **Agradecimientos**

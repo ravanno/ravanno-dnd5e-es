@@ -1,5 +1,22 @@
 {
-	"label": "Monstruos (D&D5e)",
+	"label": "Monstruos (SRD)",
+    "folders": {
+        "Aberration": "Aberración",
+        "Beast": "Bestia",
+		"Celestial": "Celestial",
+		"Construct": "Autómata",
+		"Dragon": "Dragón",
+		"Elemental": "Elemental",
+		"Fey": "Feérico",
+		"Fiend": "Infernal",
+		"Giant": "Gigante",
+		"Humanoid": "Humanoide",
+		"Monstrosity": "Monstruosidad",
+		"Ooze": "Cieno",
+		"Plant": "Planta",
+		"Summons": "Invocación",
+		"Undead": "Muerto viviente"
+    },
 	"entries": {
 		"Aboleth": {
 			"name": "Aboleth",

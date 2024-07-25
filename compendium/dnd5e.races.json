@@ -1,5 +1,23 @@
 {
 	"label": "Atributos raciales (SRD)",
+    "folders": {
+        "Dragonborn": "Dracónido",
+			"Dragonborn Features": "Rasgos de Dracónido",
+        "Dwarf": "Enano",
+			"Dwarf Features": "Rasgos de Enano",
+		"Elf": "Elfo",
+			"Elf Features": "Rasgos de Elfo",
+		"Gnome": "Gnomo",
+			"Gnome Features": "Rasgos de Gnomo",
+		"Halfling": "Mediano",
+			"Halfling Features": "Rasgos de Mediano",
+		"Human": "Humano",
+			"Human Features": "Rasgos de Humano",
+		"Orc": "Orco",
+			"Orc Features": "Rasgos de Orco",
+		"Tiefling": "Tiefling",
+			"Tiefling Features": "Rasgos de Tiefling"
+    },
 	"entries": {
 		"Artificer's Lore": {
 			"name": "Saber del Artífice",

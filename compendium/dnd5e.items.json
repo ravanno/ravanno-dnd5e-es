@@ -1,5 +1,22 @@
 {
 	"label": "Equipo (SRD)",
+    "folders": {
+        "Ammunition": "Munición",
+        "Armor": "Armadura",
+		"Container": "Contenedor",
+		"Equipment": "Equipo",
+		"Equipment Packs": "Paquetes de Equipo",
+		"Food": "Comida",
+		"Loot": "Botín",
+		"Poison": "Veneno",
+		"Potion": "Poción",
+		"Rod": "Vara",
+		"Scroll": "Pergamino",
+		"Tool": "Herramienta",
+		"Trinket": "Baratija",
+		"Wand": "Varita",
+		"Weapon": "Arma"
+    },
 	"entries": {
 		"Abacus": {
 			"name": "Ábaco",

@@ -254,6 +254,10 @@
 			"name": "Hacha de mano berserker",
 			"description": "<p><em>(Requiere sintonización)</em></p><p>Recibes un bonificador de +1 a las tiradas de ataque y de daño que hagas con esta arma. Además, mientras estés sintonizado con ella, tus puntos de golpe máximos se incrementan en 1 por cada nivel que poseas.</p><p><strong>Maldición</strong>. Esta hacha está maldita y al sintonizarte con ella te afectará la maldición. Mientras estés maldito, no aceptarás alejarte del hacha y la mantendrás siempre a tu alcance. También tendrás desventaja en tiradas de ataque con otras armas, a menos que no haya ningún enemigo que puedas ver u oír a 60 pies o menos de distancia.</p><p>Cuando una criatura hostil te dañe, si tienes el hacha en tu haber, deberás tener éxito en una tirada de salvación de Sabiduría CD 15 o sucumbirás a una furia berserker. Mientras estés bajo los efectos de esta furia, deberás utilizar tu acción cada asalto para atacar con el hacha a la criatura más cercana. Si puedes realizar ataques adicionales como parte de tu acción de Atacar, lo harás, prosiguiendo con la siguiente criatura después de derrotar a tu objetivo actual.</p><p>Si tienes varios objetivos posibles, atacarás a uno al azar. Seguirás en este estado hasta que comience tu turno y no haya criaturas que puedas ver u oír a 60 pies o menos de ti.</p>"
 		},
+		"Bit and Bridle": {
+			"name": "Bit and Bridle",
+			"description": "<p>A component of a horse's tack that is worn on its head and connected to the reins. It consists of several adjustable leather straps, connecting metal rings, and a mouthpiece called the 'bit' or 'mullen', made of rope, bone, horn, or other hard substance such as bronze, steel, nickel, or wood.</p>"
+		},
 		"Blanket": {
 			"name": "Manta",
 			"description": "<p>Una sábana o manta para mantenerte caliente por la noche.</p>"
@@ -385,6 +389,10 @@
 		"Bullseye Lantern": {
 			"name": "Linterna ojo de buey",
 			"description": "<p>Esta linterna emite luz brillante en un cono de 60 pies y luz tenue 60 pies más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta, 0,45 l) de aceite.</p>"
+		},
+		"Burglar's Pack": {
+			"name": "Paquete de ladrón",
+			"description": "<p>Una mochila puede contener un pie cúbico o 30 libras de equipo. También puedes atar objetos, como un petate o un rollo de cuerda, al exterior de una mochila.</p>"
 		},
 		"Calligrapher's Supplies": {
 			"name": "Suministros de calígrafo",
@@ -718,6 +726,10 @@
 			"name": "Grilletes dimensionales",
 			"description": "<p><em>Objeto maravilloso</em></p><p>Puedes usar una acción para poner estos grilletes a una criatura incapacitada. Se ajustan a criaturas de tamaños Pequeño a Grande. Además de servir como unas esposas normales, los grilletes impiden a la criatura esposada utilizar cualquier tipo de movimiento extradimensional, incluyendo teletransportación o viaje a otro plano de existencia. Esto no impide que la criatura atraviese un portal interdimensional.</p><p>Tú y cualquier criatura que designes al usar los grilletes puede emplear una acción para quitarlos. Una vez cada 30 días, la criatura esposada puede realizar una prueba de Fuerza (Atletismo) con CD 30. Si tiene éxito, se liberará, destruyendo los grilletes.</p>"
 		},
+		"Diplomat's Pack": {
+			"name": "Paquete de diplomático",
+			"description": "<p>Un cofre puede contener 12 pies cúbicos o 300 libras de equipo.</p>"
+		},
 		"Disguise Kit": {
 			"name": "Útiles para disfrazarse",
 			"description": "<p>Esta bolsa con productos de maquillaje, tinte para el pelo y pequeños accesorios te ayuda a disfrazarte y cambiar así tu apariencia. La competencia con estos útiles te permite añadir tu bonificador por competencia a las pruebas de característica para crear un disfraz que engañe a la vista.</p>"
@@ -753,6 +765,10 @@
 		"Dulcimer": {
 			"name": "Dulcémele",
 			"description": "<p>Un dulcémele para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de habilidad que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+		},
+		"Dungeoneer's Pack": {
+			"name": "Paquete de explorador de mazmorras",
+			"description": "<p>Una mochila puede contener un pie cúbico o 30 libras de equipo. También puedes atar objetos, como un petate o un rollo de cuerda, al exterior de una mochila.</p>"
 		},
 		"Dust of Disappearance": {
 			"name": "Polvo de desaparición",
@@ -806,9 +822,21 @@
 			"name": "Emblema",
 			"description": "<p>Un símbolo grabado o cuidadosamente incrustado en un escudo o algún otro dispositivo que representa una deidad a través de la cual un verdadero creyente puede invocar su poder y al hacerlo difundir la fe.</p><p><strong>Canalizador mágico.</strong> Un clérigo o paladín puede usar un símbolo sagrado como foco de lanzamiento. Para usar el símbolo de esta manera, el lanzador debe sostenerlo en la mano, usarlo visiblemente o llevarlo en el escudo.</p>"
 		},
+		"Entertainer's Pack": {
+			"name": "Paquete de artista",
+			"description": "<p>Una mochila puede contener un pie cúbico o 30 libras de equipo. También puedes atar objetos, como un petate o un rollo de cuerda, al exterior de una mochila.</p>"
+		},
 		"Eversmoking Bottle": {
 			"name": "Botella siemprehumeante",
 			"description": "<p><em>Objeto maravilloso</em></p><p>El humo se filtra a través del tapón de plomo de esta botella de latón, que pesa 1 libra. Cuando usas una acción para quitar el tapón, una nube de denso humo sale de la botella, cubriendo un radio de 60 pies. Se extiende más allá de las esquinas y el área se considera muy oscura. Cada minuto que la botella permanezca abierta y dentro de la nube, este radio se incrementará en 10 pies, hasta que alcance su radio máximo de 120 pies.</p><p>La nube permanece mientras la botella siga abierta. Cerrarla implica emplear una acción para pronunciar la palabra de activación. Una vez la botella está cerrada, la nube se disipará en 10 minutos. Un viento moderado (entre 11 y 20 millas por hora) dispersará el humo en 1 minuto, y uno fuerte (más de 20 millas por hora) lo disipará en 1 asalto.</p>"
+		},
+		"Exotic Saddle": {
+			"name": "Silla exótica",
+			"description": "<p>Un tipo de asiento que se ata a la espalda de la montura, diseñada para suportar al jinete y fijar parte del aparejo de la montura, como por ejemplo los estribos.<br /><br />Se necesita una silla exótica para montar en bestias acuáticas o voladoras.</p>"
+		},
+		"Explorer's Pack": {
+			"name": "Paquete de explorador",
+			"description": "<p>Una mochila puede contener un pie cúbico o 30 libras de equipo. También puedes atar objetos, como un petate o un rollo de cuerda, al exterior de una mochila.</p>"
 		},
 		"Eyes of Charming": {
 			"name": "Anteojos de encantamiento",
@@ -850,47 +878,47 @@
 			"name": "Alimento para animal",
 			"description": "<p>Alimento estándar adecuado para una montura u otro animal, que a menudo consiste en granos o heno.</p>"
 		},
-		"Figurine of Wondrous Power Bronze Griffon": {
+		"Figurine of Wondrous Power (Bronze Griffon)": {
 			"name": "Estatuilla de poder maravilloso (Grifo de bronce)",
 			"description": "<p><em>Objeto maravilloso</em></p><p>Una estatuilla de poder maravilloso es una pequeña escultura de una bestia que cabe en un bolsillo. Si usas una acción para pronunciar la palabra de activación y tiras la estatuilla a un punto del suelo situado a 60 pies o menos de ti, se convertirá en una criatura viva. Si el espacio en el que la criatura aparecería está ocupado por otras criaturas u objetos, o si no hay suficiente espacio para ella, seguirá siendo una estatuilla.</p><p>La criatura es amistosa hacia ti y tus compañeros. Entiende tus idiomas y obedece tus órdenes verbales. Si no le das ninguna, se defenderá de criaturas hostiles pero no realizará ninguna otra acción.</p><p>La criatura existe durante un tiempo concreto, que depende de cada estatuilla. Al final de la duración, volverá a su forma original. También retornará a esta forma si sus puntos de golpe descienden a 0 o si utilizas una acción para pronunciar la palabra de activación de nuevo mientras la tocas. Cuando vuelve a ser una estatua, su propiedad mágica no podrá volver a ser empleada hasta que pase una cierta cantidad de tiempo, que se especifica en la descripción de la estatuilla.</p><p><strong>Grifo de bronce.</strong> Una estatuilla de bronce de un grifo rampante. Puede convertirse en un @UUID[Compendium.dnd5e.monsters.Actor.h052EIIUmRwJum65]{Grifo} durante 6 horas. Una vez usada, no puede volver a transformase hasta que hayan pasado 5 días.</p>"
 		},
-		"Figurine of Wondrous Power Ebony Fly": {
+		"Figurine of Wondrous Power (Ebony Fly)": {
 			"name": "Estatuilla de poder maravilloso (Mosca de ébano)",
 			"description": "<p><em>Objeto maravilloso</em></p><p>Una estatuilla de poder maravilloso es una pequeña escultura de una bestia que cabe en un bolsillo. Si usas una acción para pronunciar la palabra de activación y tiras la estatuilla a un punto del suelo situado a 60 pies o menos de ti, se convertirá en una criatura viva. Si el espacio en el que la criatura aparecería está ocupado por otras criaturas u objetos, o si no hay suficiente espacio para ella, seguirá siendo una estatuilla.</p><p>La criatura es amistosa hacia ti y tus compañeros. Entiende tus idiomas y obedece tus órdenes verbales. Si no le das ninguna, se defenderá de criaturas hostiles pero no realizará ninguna otra acción.</p><p>La criatura existe durante un tiempo concreto, que depende de cada estatuilla. Al final de la duración, volverá a su forma original. También retornará a esta forma si sus puntos de golpe descienden a 0 o si utilizas una acción para pronunciar la palabra de activación de nuevo mientras la tocas. Cuando vuelve a ser una estatua, su propiedad mágica no podrá volver a ser empleada hasta que pase una cierta cantidad de tiempo, que se especifica en la descripción de la estatuilla.</p><p><strong>Mosca de ébano.</strong> Esta estatua de ébano está tallada con la forma de un tábano. Puede convertirse en una mosca gigante durante 12 horas y ser empleada como montura. Una vez utilizada, no puede volver a transformarse hasta que hayan pasado 2 días.</p><h3 id=\"giant-fly\"><strong>Mosca gigante</strong></h3><p><em>Bestia grande, sin alineamiento</em></p><p><strong>Clase de Armadura: </strong>11<br><strong>Puntos de golpe:</strong> 19 (3d10 + 3)<br><strong>Velocidad:</strong> 30 pies, volar 60 pies.</p><table><thead><tr><th align=\"center\">FUE</th><th align=\"center\">DES</th><th align=\"center\">CON</th><th align=\"center\">INT</th><th align=\"center\">SAB</th><th align=\"center\">CAR</th></tr></thead><tbody><tr><td align=\"center\">14 (+2)</td><td align=\"center\">13 (+1)</td><td align=\"center\">13 (+1)</td><td align=\"center\">2 (-4)</td><td align=\"center\">10 (+0)</td><td align=\"center\">3 (-4)</td></tr></tbody></table><p><strong>Sentidos:</strong> visión en la oscuridad 60 pies, Percepción pasiva 10<br><strong>Idiomas:</strong> --</p>"
 		},
-		"Figurine of Wondrous Power Golden Lions": {
+		"Figurine of Wondrous Power (Golden Lions)": {
 			"name": "Estatuilla de poder maravilloso (Leones dorados)",
 			"description": "<p><em>Objeto maravilloso</em></p><p>Una estatuilla de poder maravilloso es una pequeña escultura de una bestia que cabe en un bolsillo. Si usas una acción para pronunciar la palabra de activación y tiras la estatuilla a un punto del suelo situado a 60 pies o menos de ti, se convertirá en una criatura viva. Si el espacio en el que la criatura aparecería está ocupado por otras criaturas u objetos, o si no hay suficiente espacio para ella, seguirá siendo una estatuilla.</p><p>La criatura es amistosa hacia ti y tus compañeros. Entiende tus idiomas y obedece tus órdenes verbales. Si no le das ninguna, se defenderá de criaturas hostiles pero no realizará ninguna otra acción.</p><p>La criatura existe durante un tiempo concreto, que depende de cada estatuilla. Al final de la duración, volverá a su forma original. También retornará a esta forma si sus puntos de golpe descienden a 0 o si utilizas una acción para pronunciar la palabra de activación de nuevo mientras la tocas. Cuando vuelve a ser una estatua, su propiedad mágica no podrá volver a ser empleada hasta que pase una cierta cantidad de tiempo, que se especifica en la descripción de la estatuilla.</p><p><strong>Leones dorados.</strong> Estas estatuillas de oro de leones siempre se crean en parejas. Puedes usar una estatuilla o las dos simultáneamente. Cada una puede convertirse en un @UUID[Compendium.dnd5e.monsters.Actor.hjhERRzafCiFFVLA]{León} durante 1 hora. Una vez un león ha sido empleado, no puede volver a transformarse hasta que hayan pasado 7 días.</p>"
 		},
-		"Figurine of Wondrous Power Ivory Goat of Terror": {
+		"Figurine of Wondrous Power (Ivory Goat of Terror)": {
 			"name": "Estatuilla de poder maravilloso (Cabra de marfil del terror)",
 			"description": "<p><em>Objeto maravilloso</em></p><p>Una estatuilla de poder maravilloso es una pequeña escultura de una bestia que cabe en un bolsillo. Si usas una acción para pronunciar la palabra de activación y tiras la estatuilla a un punto del suelo situado a 60 pies o menos de ti, se convertirá en una criatura viva. Si el espacio en el que la criatura aparecería está ocupado por otras criaturas u objetos, o si no hay suficiente espacio para ella, seguirá siendo una estatuilla.</p><p>La criatura es amistosa hacia ti y tus compañeros. Entiende tus idiomas y obedece tus órdenes verbales. Si no le das ninguna, se defenderá de criaturas hostiles pero no realizará ninguna otra acción.</p><p>La criatura existe durante un tiempo concreto, que depende de cada estatuilla. Al final de la duración, volverá a su forma original. También retornará a esta forma si sus puntos de golpe descienden a 0 o si utilizas una acción para pronunciar la palabra de activación de nuevo mientras la tocas. Cuando vuelve a ser una estatua, su propiedad mágica no podrá volver a ser empleada hasta que pase una cierta cantidad de tiempo, que se especifica en la descripción de la estatuilla.</p><p><strong>Cabras de marfil.</strong> Estas estatuillas de marfil en forma de cabras siempre se crean en tríos. Cada una posee un aspecto único y funciona de forma distinta a las demás.</p><p>La Cabra del terror se convierte en una @UUID[Compendium.dnd5e.monsters.Actor.rjqk7ToMD8sGr3n4]{Cabra gigante} durante 3 horas. No puede atacar, pero puedes sacarle los cuernos y emplearlos como armas. Un cuerno se convierte en una lanza +1 y el otro en una espada larga +2. Para extraer un cuerno es necesaria una acción, y las armas desaparecen, volviendo los cuernos, cuando la cabra retorna a la forma de estatuilla.</p><p>Además, la cabra radia un aura de terror de 30 pies de radio mientras la cabalgues. Cualquier criatura hostil a ti que comience su turno en el área deberá tener éxito en una tirada de salvación de Sabiduría CD 15 o quedará asustada por la cabra durante 1 minuto o hasta que esta vuelva a forma de estatua. Un objetivo asustado puede repetir la tirada de salvación al final de cada uno de sus turnos, librándose del efecto si tiene éxito. Las criaturas que superen esta tirada de salvación con éxito serán inmunes al aura de la cabra durante 24 horas.</p><p>Una vez usada, no puede volver a transformarse hasta que hayan pasado 15 días.</p>"
 		},
-		"Figurine of Wondrous Power Ivory Goat of Travail": {
+		"Figurine of Wondrous Power (Ivory Goat of Travail)": {
 			"name": "Estatuilla de poder maravilloso (Cabra de marfil de trabajo)",
 			"description": "<p><em>Objeto maravilloso</em></p><p>Una estatuilla de poder maravilloso es una pequeña escultura de una bestia que cabe en un bolsillo. Si usas una acción para pronunciar la palabra de activación y tiras la estatuilla a un punto del suelo situado a 60 pies o menos de ti, se convertirá en una criatura viva. Si el espacio en el que la criatura aparecería está ocupado por otras criaturas u objetos, o si no hay suficiente espacio para ella, seguirá siendo una estatuilla.</p><p>La criatura es amistosa hacia ti y tus compañeros. Entiende tus idiomas y obedece tus órdenes verbales. Si no le das ninguna, se defenderá de criaturas hostiles pero no realizará ninguna otra acción.</p><p>La criatura existe durante un tiempo concreto, que depende de cada estatuilla. Al final de la duración, volverá a su forma original. También retornará a esta forma si sus puntos de golpe descienden a 0 o si utilizas una acción para pronunciar la palabra de activación de nuevo mientras la tocas. Cuando vuelve a ser una estatua, su propiedad mágica no podrá volver a ser empleada hasta que pase una cierta cantidad de tiempo, que se especifica en la descripción de la estatuilla.</p><p><strong>Cabras de marfil.</strong> Estas estatuillas de marfil en forma de cabras siempre se crean en tríos. Cada una posee un aspecto único y funciona de forma distinta a las demás.</p><p>La Cabra del terror se convierte en una @UUID[Compendium.dnd5e.monsters.Actor.rjqk7ToMD8sGr3n4]{Cabra gigante} durante 3 horas. Una vez utilizada, no puede volver a transformarse hasta que hayan pasado 30 días.</p>"
 		},
-		"Figurine of Wondrous Power Ivory Goat of Traveling": {
+		"Figurine of Wondrous Power (Ivory Goat of Traveling)": {
 			"name": "Estatuilla de poder maravilloso (Cabra de marfil de viaje)",
 			"description": "<p><em>Objeto maravilloso</em></p><p>Una estatuilla de poder maravilloso es una pequeña escultura de una bestia que cabe en un bolsillo. Si usas una acción para pronunciar la palabra de activación y tiras la estatuilla a un punto del suelo situado a 60 pies o menos de ti, se convertirá en una criatura viva. Si el espacio en el que la criatura aparecería está ocupado por otras criaturas u objetos, o si no hay suficiente espacio para ella, seguirá siendo una estatuilla.</p><p>La criatura es amistosa hacia ti y tus compañeros. Entiende tus idiomas y obedece tus órdenes verbales. Si no le das ninguna, se defenderá de criaturas hostiles pero no realizará ninguna otra acción.</p><p>La criatura existe durante un tiempo concreto, que depende de cada estatuilla. Al final de la duración, volverá a su forma original. También retornará a esta forma si sus puntos de golpe descienden a 0 o si utilizas una acción para pronunciar la palabra de activación de nuevo mientras la tocas. Cuando vuelve a ser una estatua, su propiedad mágica no podrá volver a ser empleada hasta que pase una cierta cantidad de tiempo, que se especifica en la descripción de la estatuilla.</p><p><strong>Cabras de marfil.</strong> Estas estatuillas de marfil en forma de cabras siempre se crean en tríos. Cada una posee un aspecto único y funciona de forma distinta a las demás.</p><p>La Cabra de viaje puede convertirse en una cabra Grande con el mismo perfil que un @UUID[Compendium.dnd5e.monsters.Actor.rz8UTUnFT87BsAFR]{Caballo de monta}. Tiene 24 cargas, y cada hora o porción de hora que pase en forma de bestia gasta 1 carga. Mientras posea cargas, puedes usarla tantas veces como quieras. Cuando se queda sin cargas, se convierte de nuevo en estatua. No puede ser usada de nuevo hasta que pasen 7 días, momento en el cual recupera todas sus cargas.</p>"
 		},
-		"Figurine of Wondrous Power Marble Elephant": {
+		"Figurine of Wondrous Power (Marble Elephant)": {
 			"name": "Estatuilla de poder maravilloso (Elefante de mármol)",
 			"description": "<p><em>Objeto maravilloso</em></p><p>Una estatuilla de poder maravilloso es una pequeña escultura de una bestia que cabe en un bolsillo. Si usas una acción para pronunciar la palabra de activación y tiras la estatuilla a un punto del suelo situado a 60 pies o menos de ti, se convertirá en una criatura viva. Si el espacio en el que la criatura aparecería está ocupado por otras criaturas u objetos, o si no hay suficiente espacio para ella, seguirá siendo una estatuilla.</p><p>La criatura es amistosa hacia ti y tus compañeros. Entiende tus idiomas y obedece tus órdenes verbales. Si no le das ninguna, se defenderá de criaturas hostiles pero no realizará ninguna otra acción.</p><p>La criatura existe durante un tiempo concreto, que depende de cada estatuilla. Al final de la duración, volverá a su forma original. También retornará a esta forma si sus puntos de golpe descienden a 0 o si utilizas una acción para pronunciar la palabra de activación de nuevo mientras la tocas. Cuando vuelve a ser una estatua, su propiedad mágica no podrá volver a ser empleada hasta que pase una cierta cantidad de tiempo, que se especifica en la descripción de la estatuilla.</p><p><strong>Elefante de mármol.</strong> Esta estatuilla de mármol mide unas 4 pulgadas de alto y largo. Puede convertirse en un @UUID[Compendium.dnd5e.monsters.Actor.jLPhaBnMtAbB5dp1]{Elefante} durante 24 horas. Una vez utilizada, no puede volver a transformarse hasta que hayan pasado 7 días.</p>"
 		},
-		"Figurine of Wondrous Power Obsidian Steed": {
+		"Figurine of Wondrous Power (Obsidian Steed)": {
 			"name": "Estatuilla de poder maravilloso (Corcel de obsidiana)",
 			"description": "<p><em>Objeto maravilloso</em></p><p>Una estatuilla de poder maravilloso es una pequeña escultura de una bestia que cabe en un bolsillo. Si usas una acción para pronunciar la palabra de activación y tiras la estatuilla a un punto del suelo situado a 60 pies o menos de ti, se convertirá en una criatura viva. Si el espacio en el que la criatura aparecería está ocupado por otras criaturas u objetos, o si no hay suficiente espacio para ella, seguirá siendo una estatuilla.</p><p>La criatura es amistosa hacia ti y tus compañeros. Entiende tus idiomas y obedece tus órdenes verbales. Si no le das ninguna, se defenderá de criaturas hostiles pero no realizará ninguna otra acción.</p><p>La criatura existe durante un tiempo concreto, que depende de cada estatuilla. Al final de la duración, volverá a su forma original. También retornará a esta forma si sus puntos de golpe descienden a 0 o si utilizas una acción para pronunciar la palabra de activación de nuevo mientras la tocas. Cuando vuelve a ser una estatua, su propiedad mágica no podrá volver a ser empleada hasta que pase una cierta cantidad de tiempo, que se especifica en la descripción de la estatuilla.</p><p><strong>Corcel de obsidiana.</strong> Este caballo de obsidiana pulida puede convertirse en una @UUID[Compendium.dnd5e.monsters.Actor.5SgVGhQBswgWRwsF]{Pesadilla} durante 24 horas. Solo luchará para defenderse. Una vez usado, no puede volver a transformarse hasta que hayan pasado 5 días.</p><p>Si tu alineamiento es bueno, la pesadilla tiene un 10% de probabilidades cada vez que es utilizada de ignorar tus órdenes, incluyendo volver a convertirse en estatua. Si la montas mientras está rechazando tus órdenes, tú y la pesadilla seréis trans portados instantáneamente a un lugar aleatorio del plano de Hades, donde se volverá a transformar en estatua.</p>"
 		},
-		"Figurine of Wondrous Power Onyx Dog": {
+		"Figurine of Wondrous Power (Onyx Dog)": {
 			"name": "Estatuilla de poder maravilloso (Perro de ónice)",
 			"description": "<p><em>Objeto maravilloso</em></p><p>Una estatuilla de poder maravilloso es una pequeña escultura de una bestia que cabe en un bolsillo. Si usas una acción para pronunciar la palabra de activación y tiras la estatuilla a un punto del suelo situado a 60 pies o menos de ti, se convertirá en una criatura viva. Si el espacio en el que la criatura aparecería está ocupado por otras criaturas u objetos, o si no hay suficiente espacio para ella, seguirá siendo una estatuilla.</p><p>La criatura es amistosa hacia ti y tus compañeros. Entiende tus idiomas y obedece tus órdenes verbales. Si no le das ninguna, se defenderá de criaturas hostiles pero no realizará ninguna otra acción.</p><p>La criatura existe durante un tiempo concreto, que depende de cada estatuilla. Al final de la duración, volverá a su forma original. También retornará a esta forma si sus puntos de golpe descienden a 0 o si utilizas una acción para pronunciar la palabra de activación de nuevo mientras la tocas. Cuando vuelve a ser una estatua, su propiedad mágica no podrá volver a ser empleada hasta que pase una cierta cantidad de tiempo, que se especifica en la descripción de la estatuilla.</p><p><strong>Perro de ónice.</strong> Esta estatuilla de ónice de un perro puede convertirse en un @UUID[Compendium.dnd5e.monsters.Actor.YTpL2c3NO4sOn2UA]{Mastín} durante 6 horas. Tiene una Inteligencia de 8 y puede hablar común. También posee visión en la oscuridad a 60 pies y es capaz de ver criaturas y objetos invisibles dentro de ese alcance. Una vez utilizada, no puede volver a transformarse hasta que hayan pasado 7 días.</p>"
 		},
-		"Figurine of Wondrous Power Serpentine Owl": {
+		"Figurine of Wondrous Power (Serpentine Owl)": {
 			"name": "Estatuilla de poder maravilloso (Búho de serpentina)",
 			"description": "<p><em>Objeto maravilloso</em></p><p>Una estatuilla de poder maravilloso es una pequeña escultura de una bestia que cabe en un bolsillo. Si usas una acción para pronunciar la palabra de activación y tiras la estatuilla a un punto del suelo situado a 60 pies o menos de ti, se convertirá en una criatura viva. Si el espacio en el que la criatura aparecería está ocupado por otras criaturas u objetos, o si no hay suficiente espacio para ella, seguirá siendo una estatuilla.</p><p>La criatura es amistosa hacia ti y tus compañeros. Entiende tus idiomas y obedece tus órdenes verbales. Si no le das ninguna, se defenderá de criaturas hostiles pero no realizará ninguna otra acción.</p><p>La criatura existe durante un tiempo concreto, que depende de cada estatuilla. Al final de la duración, volverá a su forma original. También retornará a esta forma si sus puntos de golpe descienden a 0 o si utilizas una acción para pronunciar la palabra de activación de nuevo mientras la tocas. Cuando vuelve a ser una estatua, su propiedad mágica no podrá volver a ser empleada hasta que pase una cierta cantidad de tiempo, que se especifica en la descripción de la estatuilla.</p><p><strong>Búho de serpentina.</strong> Esta estatuilla de serpentina de un búho puede convertirse en un @UUID[Compendium.dnd5e.monsters.Actor.TWe8OKEc59XXINGh]{Búho gigante} durante 8 horas. Una vez usada, no puede volver a transformarse hasta que hayan pasado 2 días. El búho es capaz de comunicarse telepáticamente contigo a cualquier distancia, siempre que estéis en el mismo plano de existencia.</p>"
 		},
-		"Figurine of Wondrous Power Silver Raven": {
+		"Figurine of Wondrous Power (Silver Raven)": {
 			"name": "Estatuilla de poder maravilloso (Cuervo de plata)",
 			"description": "<p><em>Objeto maravilloso</em></p><p>Una estatuilla de poder maravilloso es una pequeña escultura de una bestia que cabe en un bolsillo. Si usas una acción para pronunciar la palabra de activación y tiras la estatuilla a un punto del suelo situado a 60 pies o menos de ti, se convertirá en una criatura viva. Si el espacio en el que la criatura aparecería está ocupado por otras criaturas u objetos, o si no hay suficiente espacio para ella, seguirá siendo una estatuilla.</p><p>La criatura es amistosa hacia ti y tus compañeros. Entiende tus idiomas y obedece tus órdenes verbales. Si no le das ninguna, se defenderá de criaturas hostiles pero no realizará ninguna otra acción.</p><p>La criatura existe durante un tiempo concreto, que depende de cada estatuilla. Al final de la duración, volverá a su forma original. También retornará a esta forma si sus puntos de golpe descienden a 0 o si utilizas una acción para pronunciar la palabra de activación de nuevo mientras la tocas. Cuando vuelve a ser una estatua, su propiedad mágica no podrá volver a ser empleada hasta que pase una cierta cantidad de tiempo, que se especifica en la descripción de la estatuilla.</p><p><strong>Cuervo de plata.</strong> Esta estatuilla de plata de un cuervo puede convertirse en un @UUID[Compendium.dnd5e.monsters.Actor.LPdX5YLlwci0NDZx]{Cuervo} durante 12 horas. Una vez empleada, no puede volver a transformarse hasta que hayan pasado 2 días. En forma de cuervote permite lanzar sobre ella el conjuro @UUID[Compendium.dnd5e.spells.Item.X8w9EzYLGc4vQ1H2]{Mensajero animal} a voluntad.</p>"
 		},
@@ -1663,8 +1691,8 @@
 			"description": "<p><em>Objeto maravilloso</em></p><p>Este libro contiene consejos de coordinación y equilibrio, y sus palabras están cargadas de magia. Si inviertes 48 horas durante un periodo de, como mucho, 6 días en estudiar el contenido del libro y poner en práctica sus indicaciones, tu puntuación de Destreza aumentará en 2, así como tu máximo para esa puntuación. Después, el manual perderá su magia, recuperándola tras un siglo.</p>"
 		},
 		"Map Case": {
-			"name": "Map Case",
-			"description": "<p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>"
+			"name": "Estuche para mapas",
+			"description": "<p>Esta caja de cuero cilíndrica puede contener hasta diez hojas de papel o cinco hojas de pergamino.</p>"
 		},
 		"Map or Scroll Case": {
 			"name": "Estuche para mapa o pergamino",
@@ -1707,8 +1735,8 @@
 			"description": "<p>Esta cajita de latón contiene una taza y unos cubiertos básicos. La caja se sujeta con abrazaderas, y un lado puede usarse como sartén y el otro como plato o cuenco poco profundo.</p>"
 		},
 		"Military Saddle": {
-			"name": "Military Saddle",
-			"description": "<p>A type of seat that is fastened to a mount's back, designed to support the rider and affix part of the mount's tack such as stirrups.<br /><br />A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted.</p>"
+			"name": "Silla militar",
+			"description": "<p>Un tipo de asiento que se ata a la espalda de la montura, diseñada para suportar al jinete y fijar parte del aparejo de la montura, como por ejemplo los estribos.<br /><br />Las sillas de montar militares afianzan bien al jinete, por lo que te permitirán combatir sin caerte.</p>"
 		},
 		"Miner's Pick": {
 			"name": "Pico de minero",
@@ -1847,8 +1875,8 @@
 			"description": "<p><em>Objeto maravilloso, (requiere sintonización)</em></p><p>En otra era, en el mundo de Krynn, los elfos y los humanos libraban una terrible guerra contra los dragones malvados. Cuando el mundo ya parecía estar condenado, los magos de las Torres de la Alta Hechicería se unieron y utilizaron su mejor magia, forjando cinco Orbes de los Dragones (u Orbes Dragón) para ayudarles a derrotar a los dragones. Se llevó cada orbe a una de las cinco torres, donde fueron empleados para conducir el cauce de la guerra hacia la victoria. Los magos usaron los orbes para atraer dragones, a los que mataron con magia poderosa.</p><p>Al caer las Torres de la Alta Hechicería en eras posteriores, los orbes fueron destruidos o desaparecieron en la leyenda. Se cree que solo tres de ellos han sobrevivido. Su magia ha sido distorsionada y pervertida a lo largo de los siglos, por lo que aunque su propósito principal de llamar a los dragones todavía funciona, también permiten tener algo de control sobre ellos.</p><p>Cada orbe contiene la esencia de un dragón malvado, una presencia que se molestará ante cualquier intento de extraer poder mágico de ella. Aquellas criaturas con personalidad débil podrían acabar siendo esclavas del orbe.</p><p>Un orbe es un globo de cristal grabado de unas 10 pulgadas de diámetro. Cuando se usa, se expande hasta alcanzar unas 20 pulgadas de diámetro y una niebla se arremolina en su interior.</p><p>Siempre que estés sintonizado con un orbe, puedes utilizar una acción para mirar en las profundidades del objeto y pronunciar su palabra de activación. Después, debes realizar una prueba de Carisma CD 15. Si tienes éxito, controlarás el orbe mientras sigas sintonizado con él. Si fracasas, quedarás hechizado por el objeto mientras te mantengas sintonizado con él.</p><p>Mientras permanezcas hechizado por el orbe, no podrás acabar voluntariamente la sintonización y el orbe lanzará @UUID[Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4]{Sugestión} sobre ti a voluntad (tirada de salvación CD 18), exhortándote para que trabajes para hacer realidad sus malvados fines. La esencia del dragón confinada en el orbe podría querer muchas cosas: la aniquilación de un pueblo específico, ser liberada del orbe, crear sufrimiento en el mundo, extender el culto a Takhisis (el nombre de Tiamat en Krynn) o cualquier otro deseo que el DM decida.</p><h3 id=\"random-properties\"><strong>Propiedades aleatorias.</strong> Un Orbe de los Dragones tiene las siguientes propiedades aleatorias: (ver GdDM pg. 226): </h3><ul><li>2 propiedades beneficiosas menores.</li><li>1 propiedad perjudicial menor.</li><li>1 propiedad perjudicial mayor.</li></ul><h3 id=\"spells\"><strong>Conjuros.</strong> El orbe tiene 7 cargas y recupera 1d4 + 3 cargas empleadas cada día, al amanecer. Si controlas el orbe, puedes usar una acción y gastar 1 o más cargas para lanzar uno de los siguientes conjuros (tirada de salvación CD 18) desde él:</h3><ul><li>@UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{Curar heridas} (versión de nivel 5, 3 cargas)</li><li>@UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{Escudriñar} (3 cargas)</li><li>@UUID[Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb]{Guarda contra la muerte} (2 cargas)</li><li>@UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{Luz del día} (1 carga)</li><li>También puedes emplear una acción para lanzar el conjuro @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{Detectar magia} desde el orbe sin utilizar ninguna carga.</li></ul><p><strong>Llamar a los dragones.</strong> Mientras controles el orbe, puedes usar una acción para hacer que el artefacto lance una llamada telepática que se extiende en todas direcciones hasta una distancia de 40 millas. Los dragones malvados dentro del alcance se ven obligados a acudir hasta el orbe tan pronto como sea posible y por el camino más directo. Las deidades dragón, como Tiamat, no se ven afectadas por esta llamada. Los dragones atraídos hacia el orbe pueden ser hostiles hacia ti por haber forzado su voluntad. Una vez hayas usado esta propiedad, no puede ser empleada de nuevo durante 1 hora.</p><p><strong>Destruir un Orbe.</strong> Un Orbe de los Dragones parece frágil, pero es invulnerable a la mayoría del daño, incluyendo los ataques, también los de aliento, de los dragones. Sin embargo, el conjuro @UUID[Compendium.dnd5e.spells.Item.HBHbOGKNVVprSlwn]{Desintegrar} o un buen golpe con un arma mágica +3 es suficiente para destruirlo.</p>"
 		},
 		"Pack Saddle": {
-			"name": "Pack Saddle",
-			"description": "<p>A type of seat that is fastened to a mount's back, designed to support the rider and affix part of the mount's tack such as stirrups. This type of saddle is suitable for pack mounts.</p>"
+			"name": "Silla de tiro",
+			"description": "<p>Un tipo de asiento que se ata a la espalda de la montura, diseñada para suportar al jinete y fijar parte del aparejo de la montura, como por ejemplo los estribos. Este tipo de silla es adecuada para bestias de tiro.</p>"
 		},
 		"Padded Armor": {
 			"name": "Armadura acolchada",
@@ -2135,8 +2163,8 @@
 			"description": "<p>Este cilindro, una ayuda para los fieles, puede girar en un huso de metal, madera, hueso, piedra, cuero o algodón grueso mientras el usuario sigue el mantra o el cántico grabado o inscrito en él.</p>"
 		},
 		"Priest's Pack": {
-			"name": "Priest's Pack",
-			"description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
+			"name": "Paquete de sacerdote",
+			"description": "<p>Una mochila puede contener un pie cúbico o 30 libras de equipo. También puedes atar objetos, como un petate o un rollo de cuerda, al exterior de una mochila.</p>"
 		},
 		"Quarterstaff": {
 			"name": "Bastón",
@@ -2195,8 +2223,8 @@
 			"description": "<p><em>Objeto maravilloso</em></p><p>Esta jarra de cristal, de 3 pulgadas de diámetro, contiene 1d4 + 1 dosis de una pasta densa que huele ligeramente a aloe. La jarra y sus contenidos pesan 1/2 libra.</p><p>Puedes usar una acción para tragar o aplicar a la piel una dosis del ungüento. La criatura beneficiada recuperará 2d8 + 2 puntos de golpe, dejará de estar envenenada y será curada de cualquier enfermedad.</p><p><em>**Nota de Foundry: las 5 cargas reflejan el número máximo de dosis posibles. Del mismo modo, el precio orientativo de 600 po se calcula a 120 po por carga. Ajusta ambos según sea necesario.</em></p>"
 		},
 		"Riding Saddle": {
-			"name": "Riding Saddle",
-			"description": "<p>A type of seat that is fastened to a mount's back, designed to support the rider and affix part of the mount's tack such as stirrups. This type of saddle is suitable for riding mounts.</p>"
+			"name": "Silla de montar",
+			"description": "<p>Un tipo de asiento que se ata a la espalda de la montura, diseñada para suportar al jinete y fijar parte del aparejo de la montura, como por ejemplo los estribos. Este tipo de sila es adecuada para montar a caballo.</p>"
 		},
 		"Ring Mail": {
 			"name": "Cota guarnecida",
@@ -2415,8 +2443,8 @@
 			"description": "<p>Un saco puede contener hasta 1 pie cúbico o 30 libras de equipo.</p>"
 		},
 		"Saddlebags": {
-			"name": "Saddlebags",
-			"description": "<p>A set of containers that typically come as a pair, connected by a leather strap and affixed to the saddle of a mount.</p>"
+			"name": "Alforjas",
+			"description": "<p>Un conjunto de contenedores que típicamente viene en pares, conectados por una correa de cuero, fijada a la silla de una montura.</p>"
 		},
 		"Scale Mail": {
 			"name": "Cota de escamas",
@@ -2443,8 +2471,8 @@
 			"description": "<p><em>Objeto maravilloso, (requiere sintonización)</em></p><p>Si sostienes este medallón con forma de escarabajo en tu mano durante 1 asalto aparece una inscripción en su superficie, revelando su naturaleza mágica. Proporciona dos beneficios mientras lo lleves contigo:</p><ul><li>Tienes ventaja en las tiradas de salvación contra conjuros.</li><li>El escarabajo posee 12 cargas. Si fallas una tirada de salvación contra un conjuro nigromántico o efecto dañino de una criatura muerta viviente, puedes usar tu reacción para gastar 1 carga y convertir la tirada fallida en una tirada con éxito. El escarabajo se convierte en polvo y queda destruido cuando se utiliza su última carga.</li></ul>"
 		},
 		"Scholar's Pack": {
-			"name": "Scholar's Pack",
-			"description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
+			"name": "Paquete de erudito",
+			"description": "<p>Una mochila puede contener un pie cúbico o 30 libras de equipo. También puedes atar objetos, como un petate o un rollo de cuerda, al exterior de una mochila.</p>"
 		},
 		"Scimitar": {
 			"name": "Cimitarra",
@@ -2479,7 +2507,7 @@
 			"description": "<p><em>(Requiere sintonización)</em></p><p>Los puntos de golpe perdidos por el daño de esta arma solo pueden ser recuperados mediante un descanso corto o largo, no mediante regeneración, magia o de cualquier otro modo.</p><p>Una vez por turno, cuando golpeas a una criatura con un ataque usando esta arma mágica, puedes herirla. Al principio de cada uno de los turnos de la criatura herida, esta recibe 1d4 de daño necrótico por cada vez que la hayas herido, tras lo cual puede realizar una tirada de salvación de Constitución CD 15. Tener éxito en esta tirada terminará los efectos de todas estas heridas sobre la criatura. De forma alternativa, la criatura herida o una criatura que se encuentre a 5 pies o menos de ella puede emplear una acción para realizar una prueba de Sabiduría (Medicina) CD 15, acabando con el efecto de estas heridas si la supera.</p>"
 		},
 		"Scroll Case": {
-			"name": "Scroll Case",
+			"name": "Estuche para pergaminos",
 			"description": "<p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>"
 		},
 		"Sealing Wax": {
@@ -2811,7 +2839,7 @@
 			"description": "<p><em>Objeto maravilloso, (requiere sintonización)</em></p><p>Cuando tienes esta ágata pulida en tu poder, obtienes un +1 a las pruebas de característica y tiradas de salvación.</p>"
 		},
 		"String, 10 ft.": {
-			"name": "String, 10 ft.",
+			"name": "Cuerda, 10 pies",
 			"description": ""
 		},
 		"Studded Leather Armor": {

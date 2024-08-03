@@ -30,7 +30,7 @@
 			"material":"hoja de ruibarbo pulverizada y el estómago de una víbora"
 		},
 		"Acid Splash": {
-			"name": "Salpicadura de ácido",
+			"name": "Salpicadura ácida",
 			"description": "<p>Lanzas una burbuja de ácido. Elige una criatura que puedas ver dentro del alcance o dos criaturas dentro del alcance separadas 5 pies o menos la una de la otra. Cada objetivo deberá tener éxito en una tirada de salvación de Destreza o sufrirá [[/r 1d6]] de daño ácido.</p><p>El daño de este hechizo aumenta en [[/r 1d6]] cuando alcanzas el nivel 5 ([[/r 2d6]]), el nivel 11 ([[/r 3d6]]) y el nivel 17 ([[/r 4d6]]).</p>"
 		},
 		"Aid": {
@@ -90,7 +90,7 @@
 			"material":"un pedazo de piel de murciélago"
 		},
 		"Arcane Hand": {
-			"name": "Mano de mago",
+			"name": "Mano arcana",
 			"description": "<p>Creas una mano grande de fuerza translúcida y brillante en un espacio desocupado que puedes ver dentro del alcance. La mano dura la duración del hechizo y se mueve a tus órdenes, imitando los movimientos de tu propia mano.</p><p>La mano es un objeto que tiene CA 20 y puntos de golpe iguales a tu máximo de puntos de golpe. Si cae a 0 Puntos de Golpe, el hechizo termina. Tiene una Fuerza de 26 (+8) y una Destreza de 10 (+0). La mano no llena su espacio.</p><p>Cuando lanzas el hechizo y como acción adicional en tus turnos posteriores, puedes mover la mano hasta 60 pies y luego causar uno de los siguientes efectos con ella..</p><p><strong>Puño Cerrado</strong>. La mano golpea a una criatura u objeto a 5 pies de ella. Haz un ataque de hechizo cuerpo a cuerpo para la mano usando las estadísticas de tu juego. Con un golpe, el objetivo sufre 4d8 de daño de fuerza.</p><p><strong>Mano poderosa</strong>. La mano intenta empujar a una criatura a 5 pies de ella en la dirección que elijas. Haz una prueba con la Fuerza de la mano impugnada por la prueba de Fuerza (Atletismo) del objetivo. Si el objetivo es Mediano o más pequeño, tienes ventaja en el cheque. Si tienes éxito, la mano empuja al objetivo hasta 5 pies más una cantidad de pies igual a cinco veces tu modificador de habilidad de lanzamiento de hechizos. La mano se mueve con el objetivo para permanecer a menos de 5 pies de él.</p><p><strong>Mano de agarre</strong>. La mano intenta agarrar a una criatura Enorme o más pequeña a menos de 5 pies de ella. Usas la puntuación de Fuerza de la mano para resolver el agarre. Si el objetivo es Mediano o más pequeño, tienes ventaja en el cheque. Mientras la mano está agarrando al objetivo, puedes usar una acción adicional para que la mano lo aplaste. Cuando lo haces, el objetivo sufre un daño contundente igual a 2d6 + tu modificador de habilidad de Lanzamiento de hechizos.</p><p><strong>Mano interpuesta</strong>. La mano se interpone entre tú y una criatura que elijas hasta que le des una orden diferente. La mano se mueve para permanecer entre usted y el objetivo, brindándole media cobertura contra el objetivo. El objetivo no puede moverse por el espacio de la mano si su puntuación de Fuerza es inferior o igual a la puntuación de Fuerza de la mano. Si su puntuación de Fuerza es más alta que la puntuación de Fuerza de la mano, el objetivo puede moverse hacia usted a través del espacio de la mano, pero ese espacio es un terreno difícil para el objetivo.</p><p><strong>En niveles más altos.</strong > Cuando lanzas este conjuro usando un espacio de conjuro de nivel 6 o superior, el daño de la opción de puño cerrado aumenta en 2d8 y el daño de la mano que agarra aumenta en 2d6 por cada nivel de espacio por encima del 5.</p>",
 			"material":"una cáscara de huevo y un guante de piel de serpiente"
 		},
@@ -105,7 +105,7 @@
 			"material":"una espada de platino en miniatura con empuñadura y pomo de cobre y zinc, valorada en 250 po"
 		},
 		"Arcanist's Magic Aura": {
-			"name": "Aura magica del arcano",
+			"name": "Aura mágica de arcanista",
 			"description": "<p>Colocas una ilusión en una criatura o un objeto que tocas para que los hechizos de adivinación revelen información falsa al respecto. El objetivo puede ser una criatura voluntaria o un objeto que otra criatura no lleva ni viste.</p><p>Cuando lanzas el hechizo, elige uno o ambos de los siguientes Efectos. El efecto dura la Duración. Si lanzas este hechizo sobre la misma criatura u objeto todos los días durante 30 días, ejerciendo el mismo efecto cada vez, la ilusión dura hasta que se disipa.</p><p><strong>Aura falsa</strong>. Cambias la forma en que aparece el objetivo en Hechizos y Efectos mágicos, como Detectar Magia, que detecta auras mágicas. Puede hacer que un objeto no mágico parezca mágico, un objeto mágico parezca no mágico o cambiar el aura mágica del objeto para que parezca pertenecer a una escuela de magia específica que elija. Cuando usas este efecto en un objeto, puedes hacer que la magia falsa sea evidente para cualquier criatura que maneje el objeto.</p><p><strong>Máscara</strong>. Cambias la forma en que aparece el objetivo en Hechizos y Efectos mágicos que detectan tipos de criaturas, como el Sentido Divino de un paladín o la activación de un hechizo de símbolo. Eliges un tipo de criatura y otros Hechizos y Efectos mágicos tratan al objetivo como si fuera una criatura de ese tipo o de ese Alineamiento.</p>",
 			"material":"un pequeño cuadrado de seda"
 		},
@@ -363,7 +363,7 @@
 			"description": "<p>Una esfera brillante ilumina una zona de 60 pies de radio alrededor de un punto dentro del alcance. La esfera emite luz brillante y proporciona luz tenue a otros 60 pies de distancia.</p><p>Si el punto elegido es un objeto que tu sujetas o no lleve o vista nadie, la luz se extenderá desde el objeto y se desplazará con él. Cubrir completamente la fuente de luz con un objeto opaco, como una cazuela o un casco, la bloquea.</p><p>Si cualquier parte del área de este conjuro se superpone con el área de oscuridad creada por un conjuro de nivel 3 o menos, el conjuro que creó esa oscuridad es disipado.</p>"
 		},
 		"Death Ward": {
-			"name": "Custodia contra la muerte",
+			"name": "Guarda contra la muerte",
 			"description": "<p>Tocas a una criatura para proporcionarle cierta protección contra la muerte.</p><p>La primera vez que fuera a llegar a 0 puntos de golpe como resultado de recibir daño, en vez de eso se queda con 1 punto de golpe y el conjuro termina.</p><p>Si el conjuro todavía está activo cuando el objetivo fuera a ser objeto de un efecto que lo matara inmediatamente sin hacerle daño, el efecto queda negado y este conjuro termina.</p>"
 		},
 		"Delayed Blast Fireball": {
@@ -912,7 +912,7 @@
 			"description": "<p>Señalas con el dedo a una criatura dentro del alcance y susurras un mensaje. El objetivo (y solo él) escucha el mensaje y puede contestar en un susurro que solo tú puedes oír.</p><p>Puedes lanzar este conjuro a través de objetos sólidos si estás familiarizado con el objetivo y sabes que se encuentra tras el obstáculo. Aunque no tiene que seguir una línea recta y puede viajar libremente torciendo esquinas o atravesando aberturas, este conjuro se ve bloqueado por el silencio mágico, 1 pie de piedra, 1 pulgada de cualquier metal común, una lámina fina de plomo o 3 pies de madera o tierra.</p>"
 		},
 		"Meteor Swarm": {
-			"name": "Tromba de meteoritos",
+			"name": "Tormenta de meteoritos",
 			"description": "<p>Abrasadores orbes de fuego caen en picado al suelo en cuatro puntos distintos que puedas ver dentro del alcance. Todas las criaturas en una esfera de 40 pies centrada en cada uno de esos puntos deben hacer una tirada de salvación de Destreza. La esfera se extiende más allá de las esquinas. Sufrirán [[/r 20d6]] de daño contundente y [[/r 20d6]] de daño de fuego si fallan la tirada o la mitad del daño si la superan. Una criatura en el área de más de uno de los estallidos solo se ve afectada una vez.</p><p>El conjuro daña los objetos que se encuentren en el área, haciendo arder los que sean inflamables y que no lleve o vista alguien.</p>"
 		},
 		"Mind Blank": {
@@ -1044,7 +1044,7 @@
 			"description": "<p>Hasta el final de la duración del conjuro, una criatura voluntaria que toques queda protegida contra ciertos tipos de criaturas: aberraciones, celestiales, elementales, feéricos, infernales y muertos vivientes.</p><p>Esta protección proporciona varios beneficios. Las criaturas de los tipos indicados tienen desventaja en tiradas de ataque contra el objetivo. Este tampoco podrá ser hechizado, asustado o poseído por ellas. Si el objetivo ya estaba hechizado, asustado o poseído por una criatura de este tipo, tendrá ventaja en cualquier tirada de salvación subsiguiente contra estos efectos.</p>"
 		},
 		"Protection from Poison": {
-			"name": "Protección contra el veneno",
+			"name": "Protección contra veneno",
 			"description": "<p>Tocas a una criatura. Si está envenenada, neutralizas el veneno. Si está afectada por varios venenos distintos, neutralizas uno que sepas que está activo o uno al azar.</p><p>Hasta el final de la duración del conjuro, el objetivo tiene ventaja en tiradas de salvación para evitar ser envenenado y resistencia al daño de veneno.</p>"
 		},
 		"Purify Food and Drink": {
@@ -1148,7 +1148,7 @@
 			"description": "<p>Aparece una barrera invisible de fuerza que te protege. Hasta el principio de tu siguiente turno, tienes un bonificador de +5 a tu CA, que también afecta al ataque que ha activado el conjuro y, además, no recibes ningún daño del conjuro @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Proyectil Magico}.</p>"
 		},
 		"Shield of Faith": {
-			"name": "Escudo de la fe",
+			"name": "Escudo de fe",
 			"description": "<p>Un campo titilante envuelve a una criatura de tu elección dentrodel alcance, otorgándole un bonificador de +2 a la CA hasta el final de la duración del conjuro.</p>"
 		},
 		"Shillelagh": {

@@ -459,7 +459,7 @@
     }
   },
   "Tabs": {
-    "Feat.other": "Rasgos",
+    "Feat.other": "Dotes",
     "Item.other": "Objetos",
     "Monster.other": "Monstruos"
   },
@@ -943,7 +943,7 @@
 "DND5E.FeaturesClass": "Rasgos de {class}",
 "DND5E.FeaturesOther": "Otros Rasgos",
 "DND5E.FeaturesRace": "Rasgos Raciales",
-"DND5E.Feats": "Rasgos",
+"DND5E.Feats": "Dotes",
 "DND5E.FeetAbbr": "ft.",
 "DND5E.Filter": "Filtro",
 "DND5E.FilterClear": "Limpiar Filtros",
@@ -2151,8 +2151,8 @@
     "Normal": "Normal (máx capacidad de transporte)",
     "Variant": "Variante (sobrecargado & muy sobrecargado)"
 },
-"SETTINGS.5eFeatsL": "Permite a los jugadores elegit un rasgo en lugar de una mejora de puntuación durante la mejora de clase.",
-"SETTINGS.5eFeatsN": "Permitir Rasgos",
+"SETTINGS.5eFeatsL": "Permite a los jugadores elegir una dote en lugar de una mejora de puntuación de característica durante la mejora de clase.",
+"SETTINGS.5eFeatsN": "Permitir Dotes",
 "SETTINGS.5eHonorL": "Habilita el uso de la puntuación de característica opcional basada en Honor. Requiere que se recargue el mundo.",
 "SETTINGS.5eHonorN": "Puntuación de Característica de Honor",
 "SETTINGS.5eInitTBL": "Añade la puntuación de Destreza para resolver los empates de Iniciativa.",

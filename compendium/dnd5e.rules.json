@@ -141,7 +141,7 @@
                 "nUPv6C66Ur64BIUH": {
                     "id": "nUPv6C66Ur64BIUH",
                     "name": "Fuerza",
-                    "text": "<p>La Fuerza indica la condición física, el entrenamiento atlético y la cantidad de fuerza bruta que se puede ejercer.</p><h3>Strength Checks</h3><p>@Embed[.Tu30XV5UKGAdgz4Z inline]</p><h3>Attacks Rolls and Damage</h3><p>@Embed[.9DPXJOLEsspMYK0D inline]</p><h3>Lifting and Carrying</h3><p>@Embed[.Kuj7Lkfn8ZckcNGH inline]</p><h3>Variant: Encumbrance</h3><p>@Embed[.JwqYf9qb6gJAWZKs inline]</p>"
+                    "text": "<p>La Fuerza indica la condición física, el entrenamiento atlético y la cantidad de fuerza bruta que se puede ejercer.</p><h3>Pruebas de Fuerza</h3><p>@Embed[.Tu30XV5UKGAdgz4Z inline]</p><h3>Tiradas de ataque y daño</h3><p>@Embed[.9DPXJOLEsspMYK0D inline]</p><h3>Levantar y cargar</h3><p>@Embed[.Kuj7Lkfn8ZckcNGH inline]</p><h3>Variante: carga</h3><p>@Embed[.JwqYf9qb6gJAWZKs inline]</p>"
                 },
                 "Tu30XV5UKGAdgz4Z": {
                     "id": "Tu30XV5UKGAdgz4Z",
@@ -184,7 +184,7 @@
                 },
                 "JwqYf9qb6gJAWZKs": {
                     "id": "JwqYf9qb6gJAWZKs",
-                    "name": "Variante: estorbo",
+                    "name": "Variante: carga",
                     "text": "<p>Las reglas para levantar y cargar peso están hechas a propósito para que sean sencillas. Esta es una variante por si deseas reglas más detalladas para determinar cómo afecta a cualquier personaje el peso del equipo. Si usas esta variante, ignora la columna Fuerza de la tabla “Armaduras”.</p><p>@Embed[.Ur7xWFlpVK5X8ueP inline]</p><p>@Embed[.RhVgQfF29CyStS22 inline]</p>"
                 },
                 "Ur7xWFlpVK5X8ueP": {
@@ -200,7 +200,7 @@
                 "ER8CKDUWLsFXuARJ": {
                     "id": "ER8CKDUWLsFXuARJ",
                     "name": "Destreza",
-                    "text": "<p>La Destreza indica la agilidad, los reflejos y el equilibrio.</p><h3>Pruebas de Destreza</h3><p>@Embed[.310T6po5xJuu8FoZ inline]</p><h3>Tiradas de ataque y daño</h3><p>@Embed[.Rk5nUGsGWHkSzPub inline]</p><h3>Clase de Armadura</h3><p>@Embed[.YSFOauOValBylNc7 inline]</p><h3>Iniciativa</h3><p>@Embed[.4AXnTyno7dLBB6Ct inline]</p><div class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/equipment/back/cloak-hooded-blue.webp\" class=\"round\" /></figure><article><h4>Hiding</h4><p>@Embed[.plHuoNdS0j3umPNS inline]</p></article></div>"
+                    "text": "<p>La Destreza indica la agilidad, los reflejos y el equilibrio.</p><h3>Pruebas de Destreza</h3><p>@Embed[.310T6po5xJuu8FoZ inline]</p><h3>Tiradas de ataque y daño</h3><p>@Embed[.Rk5nUGsGWHkSzPub inline]</p><h3>Clase de Armadura</h3><p>@Embed[.YSFOauOValBylNc7 inline]</p><h3>Iniciativa</h3><p>@Embed[.4AXnTyno7dLBB6Ct inline]</p><div class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/equipment/back/cloak-hooded-blue.webp\" class=\"round\" /></figure><article><h4>Esconderse</h4><p>@Embed[.plHuoNdS0j3umPNS inline]</p></article></div>"
                 },
                 "310T6po5xJuu8FoZ": {
                     "id": "310T6po5xJuu8FoZ",

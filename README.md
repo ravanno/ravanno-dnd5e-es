@@ -4,6 +4,13 @@ Traducción al español del sistema de Dungeons & Dragons 5E (SRD).
 
 Actualizando para DnD5e 3.3.1 y Foundry 11.315 (Verificado 12)
 
+**Versión 3.3.1.7**
+- Añadidas traducciones para los elementos de "Tablas (SRD)".
+- Correcciones menores en los textos de los elementos que componen "Reglamento (SRD)".
+
+**Versión 3.3.1.6**
+- Correcciones menores.
+
 **SRD 1.0**
 - Revisadas las referencias internas de los compendios SRD para ajustarlos a la version 3.3.1 del sistema.
 - Revisados los contenidos de los compendios SRD en español tomando como referencia la versión SRD ES 5.1 oficial de Wizards.

@@ -3,127 +3,454 @@
 	"entries": {
 		"Armor of Resistance": {
 			"name": "Armadura de Resistencia",
-			"description": ""
+			"description": "Tienes resistencia a un tipo de daño mientras lleves esta armadura. Tu GM elige el tipo o lo determina al azar de entre las opciones que hay a continuación.",
+			"results": {
+                "1-1": "Ácido",
+				"2-2": "Frío",
+				"3-3": "Fuego",
+				"4-4": "Fuerza",
+				"5-5": "Necrótico",
+				"6-6": "Psíquico",
+				"7-7": "Radiante",
+				"8-8": "Relámpago",
+				"9-9": "Trueno",
+				"10-10": "Veneno"
+            }
+
 		},
 		"Bag of Beans": {
 			"name": "Bolsa de Judías",
-			"description": ""
+			"description": "Si sacas una judía de la bolsa, la plantas en tierra o arena y la riegas, la judía producirá un efecto 1 minuto después en el suelo donde la hayas plantado. Tu GM puede elegir el efecto de la siguiente tabla, determinarlo al azar o crear uno nuevo.",
+			"results": {
+                "1-1": "Brotan 5d4 hongos venenosos. Si una criatura come un hongo, tira un dado. Si el resultado es impar, la criatura deberá superar una tirada de salvación de Constitución con CD 15 o recibirá 5d6 de daño de veneno y quedará envenenada durante 1 hora. Si el resultado es par, la criatura obtendrá 5d6 puntos de golpe temporales que durarán 1 hora.",
+				"2-10": "Un géiser emerge del suelo y expulsa a borbotones agua, cerveza, zumo de bayas, té, vinagre, vino o aceite (a elección de tu GM). El chorro tiene una altura de 9 m y dura 1d12 asaltos.",
+				"11-20": "Un ent brota del suelo. Hay un 50 % de probabilidad de que sea caótico malvado y ataque.",
+				"21-30": "Surge una estatua de piedra animada e inmóvil con tu apariencia que te amenaza verbalmente. Si la abandonas y otros se acercan, la estatua te describirá como el más vil de los villanos y mandará a los recién llegados a buscarte y atacarte. Si estás en el mismo plano de existencia que la estatua, sabrá donde estás. La estatua se volverá inanimada al cabo de 24 horas.",
+				"31-40": "Surge una hoguera de llamas azules que arderá durante 24 horas (o hasta que la apaguen).",
+				"41-50": "1d6 + 6 chillones brotan del suelo.",
+				"51-60": "1d4 + 8 sapos de color rosa intenso salen del suelo. Si alguien toca uno de los sapos, este se transforma en un monstruo Grande o más pequeño a elección de tu GM. El monstruo permanece durante 1 minuto y luego desaparece en una nube de humo rosa intenso.",
+				"61-70": "Un bulette hambriento sale de la tierra y ataca.",
+				"71-80": "Crece un árbol frutal. Tiene 1d10 + 20 piezas de fruta, de las cuales 1d8 tienen los efectos de pociones determinadas al azar y otra de ellas funciona como un veneno ingerido a elección de tu GM. El árbol se desvanece tras 1 hora. La fruta recogida permanece y conserva la magia durante 30 días.",
+				"81-90": "Aparece un nido con 1d4 + 3 huevos. Cualquier criatura que se coma uno de estos huevos deberá realizar una tirada de salvación de Constitución con CD 20. Si la supera, aumentará su puntuación de característica más baja en 1 de forma permanente (se elegirá al azar la puntuación si hay varias puntuaciones que empatan como la más baja). Si la falla, la criatura recibirá 10d6 de daño de fuerza debido a una explosión mágica interna.",
+				"91-99": "Una pirámide con una base cuadrada de 18 m de lado emerge del suelo. En el interior hay un sarcófago que contiene a un señor de las momias. La pirámide se considera la guarida del señor de las momias y su sarcófago alberga un tesoro a elección de tu GM.",
+				"100-100": "Brota un tallo de judías gigante que crece hasta la altura que decida tu GM, que también elige adónde conduce la parte superior. Por ejemplo, podría dar a un hermoso mirador, al castillo de un gigante de las nubes o a otro plano de existencia."
+            }
 		},
 		"Bonds (Acolyte)": {
 			"name": "Vínculos (Acólito)",
-			"description": ""
+			"description": "",
+			"results": {
+                "1-1": "Moriría por recuperar una antigua reliquia de mi fe, que se extravió hace mucho.",
+				"2-2": "Algún día me vengaré de la corrupta jerarquía del templo, que me tildó de hereje.",
+				"3-3": "Le debo la vida al sacerdote que me acogió cuando murieron mis padres.",
+				"4-4": "Todo lo que hago es por la gente humilde.",
+				"5-5": "Haría lo que fuera por proteger el tempo en el que serví.",
+				"6-6": "Pienso proteger un texto sagrado que mis enemigos consideran herético y quieren destruir."
+            }
 		},
 		"Candle of Invocation": {
 			"name": "Vela de Invocación",
-			"description": ""
+			"description": "Esta delgada candela está dedicada a una deidad y comparte su alineamiento. El alineamiento de la vela se puede percibir con el conjuro detectar el bien y el mal. Tu GM elige el dios y el alineamiento asociado o determina el alineamiento al azar.",
+			"results": {
+                "1-2": "Caótico malvado",
+				"3-4": "Caótico neutral",
+				"5-7": "Caótico bueno",
+				"8-9": "Neutral malvado",
+				"10-11": "Neutral",
+				"12-13": "Neutral bueno",
+				"14-15": "Legal malvado",
+				"16-17": "Legal neutral",
+				"18-20": "Legal bueno"
+            }
 		},
 		"Carpet of Flying": {
 			"name": "Alfombra Voladora",
-			"description": ""
+			"description": "Existen cuatro tamaños de alfombra voladora. TU GM elige el tamaño o lo determina al azar.",
+			"results": {
+                "1-20": "3 x 5 pies (200 lb.) - 80 pies",
+				"21-55": "4 x 6 pies (400 lb.) - 60 pies",
+				"56-80": "5 x 7 pies (600 lb.) - 40 pies",
+				"81-100": "6 x 9 pies (800 lb.) - 20 pies"
+            }
 		},
 		"Confusion": {
 			"name": "Confusión",
-			"description": ""
+			"description": "Un objetivo afectado no podrá llevar a cabo reacciones y deberá tirar 1d10 al principio de cada uno de sus turnos para determinar su comportamiento en ese turno.",
+			"results": {
+                "1-1": "La criatura emplea todo su movimiento para moverse en una dirección aleatoria. Para determinar la dirección, tira 1d8 y asigna una dirección a cada cara del dado. La criatura no realizará ninguna acción este turno.",
+				"2-6": "La criatura no se mueve ni realiza ninguna acción este turno.",
+				"7-8": "La criatura usa su acción para realizar un ataque cuerpo a cuerpo contra otra criatura al azar que esté a su alcance. Si no hay otra ninguna criatura a su alcance, no hará nada durante este turno.",
+				"9-10": "La criatura puede actuar y moverse con normalidad."
+            }
 		},
 		"Efreeti Bottle": {
 			"name": "Botella de Ifrit",
-			"description": ""
+			"description": "La primera vez que se abra la botella, tu GM tirará para determina lo que ocurre.",
+			"results": {
+                "1-10": "El ifrit te ataca. Tras luchar durante 5 asaltos, el ifrit desaparecerá y la botella perderá su magia.",
+				"11-90": "El ifrit te sirve durante 1 hora y hace lo que le ordenes. A continuación, regresará a la botella y un nuevo tapón le impedirá salir. El tapón no se puede quitar durante 24 horas. Las dos siguientes veces que se abra la botella, ocurrirá el mismo efecto. Si la botella se abre una cuarta vez, el ifrit se escapará y desaparecerá, y la botella perderá su magia.",
+				"91-100": "El ifrit puede lanzar el conjuro deseo tres veces para ti. Desaparecerá cuando conceda el último deseo o después de 1 hora y la botella perderá su magia."
+            }
 		},
 		"Feather Token": {
 			"name": "Ficha de Pluma",
-			"description": "Este diminuto objeto parece una pluma. Existen diferentes tipos de fichas de pluma, cada uno con un efecto diferente de un solo uso."
+			"description": "Este diminuto objeto parece una pluma. Existen diferentes tipos de fichas de pluma, cada uno con un efecto diferente de un solo uso. Tu GM elige el tipo de ficha o lo determina al azar.",
+			"results": {
+                "1-15": "Abanico",
+				"16-35": "Ancla",
+				"36-60": "Árbol",
+				"61-75": "Bote cisne",
+				"76-85": "Látigo",
+				"86-100": "Pájaro"
+            }
 		},
 		"Flaws (Acolyte)": {
 			"name": "Defectos (Acólito)",
-			"description": ""
+			"description": "",
+			"results": {
+                "1-1": "Soy exigente con los demás, pero todavía más conmigo mismo.",
+				"2-2": "Confío demasiado en los miembros poderosos de la jerarquía de mi templo.",
+				"3-3": "A veces mi piedad me lleva a confiar ciegamente en quienes profesan mi misma fe.",
+				"4-4": "Soy de pensamiento inflexible.",
+				"5-5": "Sospecho de los desconocidos y espero lo peor de ellos.",
+				"6-6": "En cuanto elijo un objetivo, me obsesiono tanto con él que ignoro los demás aspectos de mi vida."
+            }
 		},
 		"Grey Bag of Tricks": {
 			"name": "Bolsa de Trucos Gris",
-			"description": ""
+			"description": "Puedes usar una acción para sacar el objeto peludo de la bolsa y lanzarlo a 6 m o menos de distancia. Cuando aterrice, se transformará en la criatura que determines al tirar 1d8 y consultar la tabla que corresponda al color de la bolsa.",
+			"results": {
+                "1-1": "Comadreja",
+				"2-2": "Rata gigante",
+				"3-3": "Tejón",
+				"4-4": "Jabalí",
+				"5-5": "Pantera",
+				"6-6": "Tejón gigante",
+				"7-7": "Lobo terrible",
+				"8-8": "Alce gigante"
+            }
 		},
 		"Horn of Valhalla": {
 			"name": "Cuerno del Valhalla",
-			"description": ""
+			"description": "Se conoce la existencia de cuatro tipos de cuerno del Valhalla, cada uno hecho de un metal distinto. El tipo de cuerno determina cuántos berserkers responden a su llamada, así como el requisito para utilizarlo. Tu GM elige el tipo de cuerno o lo determina al azar.",
+			"results": {
+                "1-40": "Plata (Berserkers 2d4+2). Requisitos: Ninguno.",
+				"41-75": "Oropel (Berserkers 3d4+3). Requisitos: Competencia con todas las armas sencillas.",
+				"76-90": "Bronce (Berserkers 4d4+4). Requisitos: Competencia con todas las armaduras medias.",
+				"91-100": "Hierro (Berserkers 5d4+5). Requisitos: Competencia con todas las armas marciales."
+            }
 		},
 		"Ideals (Acolyte)": {
 			"name": "Ideales (Acólito)",
-			"description": ""
+			"description": "",
+			"results": {
+                "1-1": "Tradición. Las tradiciones ancestrales de adoración y sacrifico deben preservarse y respetarse (legal).",
+				"2-2": "Caridad. Siempre trato de ayudar a quienes lo necesitan, sin importar lo que pueda costarme (bueno).",
+				"3-3": "Cambio. Debemos impulsar los cambios que los dioses intentan traer al mundo incesantemente (caótico).",
+				"4-4": "Poder. Confío en que algún día alcanzaré la cima de la jerarquía religiosa de mi fe (legal).",
+				"5-5": "Fe. Confío en que mi dios guiará mis actos. Tengo fe en que, si me esfuerzo, las cosas me irán bien (legal).",
+				"6-6": "Aspiración. Intento mostrarme digno del favor de mi dios al actuar según sus enseñanzas (cualquiera)."
+            }
 		},
 		"Indefinite Madness": {
 			"name": "Locura Indefinida",
-			"description": "El personaje sufre de locura indefinida."
+			"description": "Un personaje víctima de locura indefinida sufrirá un nuevo defecto de la tabla “Locura indefinida” que durará hasta que se cure.",
+			"results": {
+                "1-15": "“Estar borracho me mantiene cuerdo”.",
+				"16-25": "“Me quedo todo lo que encuentro”.",
+				"26-30": "“Intento parecerme más a alguien que conozco y copio su forma de vestir, sus gestos y su nombre”.",
+				"31-35": "“Debo retorcer la verdad, exagerar o mentir directamente para resultarle interesante a otra gente”.",
+				"36-45": "“Lo único que me interesa es conseguir mi objetivo e ignoraré todo lo demás para lograrlo”.",
+				"46-50": "“Me resulta difícil preocuparme por lo que sucede a mi alrededor”.",
+				"51-55": "“No me gusta la forma en la que la gente me juzga todo el tiempo”.",
+				"56-70": "“Soy la persona más lista, sabia, fuerte, rápida y hermosa que conozco”.",
+				"71-80": "“No tengo duda de que me persiguen unos enemigos poderosos y sus agentes están allá donde voy. Me observan todo el tiempo, lo sé”.",
+				"81-85": "“Solo hay una persona en quien puedo confiar. Y solo yo puedo ver a este amigo especial”.",
+				"86-95": "“No me puedo tomar nada en serio. Cuanto más grave es la situación, más divertida me parece”.",
+				"96-100": "“He descubierto que realmente me gusta matar gente”."
+            }
 		},
 		"Iron Flask": {
 			"name": "Frasco de Hierro",
-			"description": ""
+			"description": "Un frasco recién descubierto podría contener una criatura elegida por tu GM o determinada al azar.",
+			"results": {
+                "1-50": "Vacío",
+				"51-54": "Demonio (tipo 1)",
+				"55-58": "Demonio (tipo 2)",
+				"59-62": "Demonio (tipo 3)",
+				"63-64": "Demonio (tipo 4)",
+				"65-65": "Demonio (tipo 5)",
+				"66-66": "Demonio (tipo 6)",
+				"67-67": "Deva",
+				"68-69": "Diablo (mayor)",
+				"70-73": "Diablo (menor)",
+				"74-75": "Djinn",
+				"76-77": "Ifrit",
+				"78-83": "Elemental (cualquiera)",
+				"84-86": "Acechador invisible",
+				"87-90": "Saga de la noche",
+				"91-91": "Planetar",
+				"92-95": "Salamandra",
+				"96-96": "Solar",
+				"97-99": "Súcubo/íncubo",
+				"100-100": "Xorn"
+            }
 		},
 		"Long-Term Madness": {
 			"name": "Locura a Largo Plazo",
-			"description": "El personaej sufre de locura a largo plazo durante [[1d10*10]] horas."
+			"description": "Un personaje afectado por una locura a largo plazo estará sujeto a un efecto de la tabla “Locura a largo plazo” durante 1d10 x 10 horas.",
+			"results": {
+                "1-10": "El personaje se siente obligado a repetir la misma actividad una y otra vez, como lavarse las manos, tocar cosas, rezar o contar monedas.",
+				"11-20": "El personaje experimenta unas alucinaciones vívidas y tiene desventaja en las pruebas de característica.",
+				"21-30": "El personaje sufre una paranoia extrema y tiene desventaja en las pruebas de Carisma y Sabiduría.",
+				"31-40": "El personaje se siente intensamente asqueado de algo (generalmente, la fuente de su locura), como si le afectara el efecto de antipatía del conjuro antipatía/simpatía.",
+				"41-45": "El personaje experimenta un intenso delirio. Elige una poción y el personaje imaginará que está bajo sus efectos.",
+				"46-55": "El personaje cree firmemente que algo es su “amuleto de la suerte” (que puede ser una persona o un objeto) y tiene desventaja en las tiradas de ataque, las pruebas de característica y las tiradas de salvación si está a más de 9 m de su amuleto.",
+				"56-65": "El personaje queda cegado (25 %) o ensordecido (75 %).",
+				"66-75": "El personaje sufre temblores o tics incontrola-bles que le suponen sufrir desventaja en las tiradas de ataque, las pruebas de característica y las tiradas de salvación que impliquen la Fuerza o la Destreza.",
+				"76-85": "El personaje sufre amnesia parcial. Sabe quién es y conserva los atributos raciales y los rasgos de clase, pero no reconoce a otras personas ni recuerda nada de lo que le sucediera antes de verse afectado por la locura.",
+				"86-90": "Siempre que el personaje sufra daño, deberá superar una tirada de salvación de Sabiduría con CD 15 o quedará afectado como si hubiera fallado una tirada de salvación contra el conjuro confusión. El efecto de la confusión dura 1 minuto.",
+				"91-95": "El personaje pierde la capacidad de hablar.",
+				"96-100": "El personaje cae inconsciente y no se le puede despertar ni zarandeándolo ni causándole daño."
+            }
 		},
 		"Manual of Golems": {
 			"name": "Manual de Gólems",
-			"description": ""
+			"description": "Este tomo contiene la información y los ensalmos necesarios para crear un tipo concreto de gólem. Tu GM elige el tipo o lo determina al azar.",
+			"results": {
+                "1-5": "Arcilla",
+				"6-17": "Carne",
+				"18-18": "Hierro",
+				"19-20": "Piedra"
+            }
 		},
 		"Necklace of Prayer Beads": {
 			"name": "Collar de Plegarias",
-			"description": ""
+			"description": "Existen seis tipos de cuentas mágicas. Tu GM decide el tipo de cada cuenta del collar o lo determina al azar.",
+			"results": {
+                "1-6": "Bendita / <em>Bendición</em>",
+				"7-12": "Curativa / <em>Curar heridas</em> (nivel 2) o <em>restablecimiento menor</em>",
+				"13-16": "Favorecedora / <em>Restablecimiento mayor</em>",
+				"17-18": "Castigadora / <em>Castigo marcador</em>",
+				"19-19": "Invocadora / <em>Aliado planar</em>",
+				"20-20": "Viajante / <em>Viajar con el viento</em>"
+            }
 		},
 		"Personality Traits (Acolyte)": {
 			"name": "Rasgos de Personalidad (Acólito)",
-			"description": ""
+			"description": "",
+			"results": {
+                "1-1": "Idolatro a cierto héroe de mi fe, por lo que siempre pongo sus hazañas como ejemplo.",
+				"2-2": "Soy capaz de lograr la concordia entre los enemigos más acérrimos, empatizando con ellos en mi búsqueda constante de la paz.",
+				"3-3": "Veo presagios en cada suceso o acción. Los dioses intentan hablarnos, tan solo debemos escuchar.",
+				"4-4": "Nada puede apagar mi actitud optimista.",
+				"5-5": "Cito texto sagrados y proverbios, a veces erróneamente, en prácticamente cada situación.",
+				"6-6": "Soy tolerante (o intolerante) a otras fes y respeto (o condeno) su adoración a otros dioses.",
+				"7-7": "He disfrutado la comida, bebida y lujos de la alta sociedad típicos de la élite de mi templo. La vida sin comodidades me irrita.",
+				"8-8": "Llevo tanto tiempo en el templo que tengo muy poca experiencia práctica tratando con quienes no pertenecen a él."
+            }
 		},
 		"Potion of Resistance": {
 			"name": "Poción de Resistencia",
-			"description": ""
+			"description": "Cuando bebas esta poción, obtendrás resistencia a un tipo de daño durante 1 hora. Tu GM elige el tipo o lo determina al azar de entre las opciones que hay a continuación.",
+			"results": {
+                "1-1": "Ácido",
+				"2-2": "Frío",
+				"3-3": "Fuego",
+				"4-4": "Fuerza",
+				"5-5": "Necrótico",
+				"6-6": "Psíquico",
+				"7-7": "Radiante",
+				"8-8": "Relámpago",
+				"9-9": "Trueno",
+				"10-10": "Veneno"
+            }
 		},
 		"Reincarnate": {
 			"name": "Reencarnar",
-			"description": ""
+			"description": "La magia crea un nuevo cuerpo para que la criatura lo habite, lo que probablemente haga que cambie su raza. Tu GM tirará 1d100 y consultará la siguiente tabla para determinar la forma que adopta la criatura cuando recupera la vida, o puede elegir una forma que desee.",
+			"results": {
+                "1-4": "Dracónido",
+				"5-13": "Enano de las colinas",
+				"14-21": "Enano de las montañas",
+				"22-25": "Elfo oscuro",
+				"26-34": "Elfo, alto",
+				"35-42": "Elfo de los bosques",
+				"43-46": "Gnomo de los bosques",
+				"47-52": "Gnomo de las rocas",
+				"53-56": "Semielfo",
+				"57-60": "Semiorco",
+				"61-68": "Mediano piesligeros",
+				"69-76": "Mediano fornido",
+				"77-96": "Humano",
+				"97-100": "Tiefling"
+            }
 		},
 		"Ring of Resistance": {
 			"name": "Anillo de Resistencia",
-			"description": ""
+			"description": "Mientras lleves puesto este anillo, tendrás resistencia a un tipo de daño. La gema incrustada en el anillo, que tu GM elige o determina al azar, indica el tipo de daño.",
+			"results": {
+                "1-1": "Ácido / Perla",
+				"2-2": "Frío / Turmalina",
+				"3-3": "Fuego / Granate",
+				"4-4": "Fuerza / Zafiro",
+				"5-5": "Necrótico / Azabache",
+				"6-6": "Psíquico / Jade",
+				"7-7": "Radiante / Topacio",
+				"8-8": "Relámpago / Citrino",
+				"9-9": "Trueno / Espinela",
+				"10-10": "Veneno / Amatista"
+            }
 		},
 		"Robe of Useful Items": {
 			"name": "Túnica de Objetos Útiles",
-			"description": ""
+			"description": "La túnica tiene dos de cada uno de los siguientes parches:<ul><li>Daga.</li><li>Linterna de ojo de buey (llena y encendida).</li><li>Espejo de acero.</li><li>Vara de 3 m.</li><li>Cuerda de cáñamo (15 m, enrollada).</li><li>Saco.</li></ul>Además, la túnica tiene otros 4d4 parches. Tu GM elige los parches o los determina al azar.",
+			"results": {
+                "1-8": "Bolsa con 100 po",
+				"9-15": "Cofre de plata (1 pie de largo, 6 pulgadas de ancho y fondo) con un valor de 500 po",
+				"16-22": "Puerta de hierro (hasta 10 pies de ancho y 10 pies de alto, atrancada por el lado que elijas), que puedes colocar en una abertura que esté a tu alcance. Se adecuará al tamaño de la abertura y se instalará y afianzará ella sola",
+				"23-30": "10 gemas con un valor de 100 po cada una",
+				"31-44": "Escalera de madera (24 pies de largo)",
+				"45-51": "Un caballo de monta con alforjas",
+				"52-59": "Pozo (un cubo de 10 pies de lado), que puedes colocar en el suelo a 10 pies o menos de ti",
+				"60-68": "4 pociones de curación",
+				"69-75": "Bote de remo (12 pies de largo)",
+				"76-83": "Pergamino con un conjuro de nivel 1 a 3",
+				"84-90": "2 mastines",
+				"91-96": "Ventana (2 por 4 pies, con una profundidad de hasta 2 pies), que puedes colocar en una superficie vertical que esté a tu alcance",
+				"97-100": "Ariete portátil"
+            }
 		},
 		"Rust Bag of Tricks": {
 			"name": "Bolsa de Trucos Rojiza",
-			"description": ""
+			"description": "Puedes usar una acción para sacar el objeto peludo de la bolsa y lanzarlo a 6 m o menos de distancia. Cuando aterrice, se transformará en la criatura que determines al tirar 1d8 y consultar la tabla que corresponda al color de la bolsa.",
+			"results": {
+                "1-1": "Rata",
+				"2-2": "Búho",
+				"3-3": "Mastín",
+				"4-4": "Cabra",
+				"5-5": "Cabra gigante",
+				"6-6": "Jabalí gigante",
+				"7-7": "León",
+				"8-8": "Oso pardo"
+            }
 		},
 		"Sentient Magic Items Alignment": {
 			"name": "Alineamiento de Objetos Mágicos Conscientes",
-			"description": ""
+			"description": "Un objeto mágico consciente posee un alineamiento. Su creador o su naturaleza podrían determinar de cuál se trata. Si no, puedes escoger un alineamiento o tirar en la siguiente tabla.",
+			"results": {
+                "1-15": "Legal bueno",
+				"16-35": "Neutral bueno",
+				"36-50": "Caótico bueno",
+				"51-63": "Legal neutral",
+				"64-73": "Neutral",
+				"74-85": "Caótico neutral",
+				"86-89": "Legal malvado",
+				"90-96": "Neutral malvado",
+				"97-100": "Caótico malvado"
+            }
 		},
 		"Sentient Magic Items Communication": {
 			"name": "Comunicación de Objetos Mágicos Conscientes",
-			"description": ""
+			"description": "Un objeto consciente posee cierta capacidad de comunicación, ya sea compartiendo sus emociones, emitiendo sus pensamientos telepáticamente o hablando en voz alta. Puedes escoger cómo se comunica o tirar en la siguiente tabla.",
+			"results": {
+                "1-60": "El objeto se comunica transmitiendo emociones a la criatura que lo lleva o empuña.",
+				"61-90": "El objeto puede hablar, leer y entender uno o varios idiomas.",
+				"91-100": "El objeto puede hablar, leer y entender uno o varios idiomas. Además, puede comunicarse telepáticamente con cualquier personaje que lo lleve o empuñe."
+            }
 		},
 		"Sentient Magic Items Purpose": {
 			"name": "Proposito de Objetos Mágicos Conscientes",
-			"description": ""
+			"description": "Puedes darle a un objeto consciente un objetivo que trate de perseguir, quizá por encima de todo lo demás. Mientras el empleo del objeto por parte de su usuario concuerde con dicho propósito, el objeto cooperará. Si deja de concordar, podría haber un conflicto entre el usuario y el objeto, e incluso el objeto podría impedir el uso de sus propiedades activadas. Puedes escoger su propósito especial o tirar en la siguiente tabla.",
+			"results": {
+                "1-1": "<em>Alineado.</em> El objeto quiere derrotar o destruir a aquellos de alineamiento diametralmente opuesto (Un objeto de este tipo nunca es neutral).",
+				"2-2": "<em>Perdición.</em> El objeto quiere derrotar o destruir a criaturas de un tipo determinado, como cambiaformas, infernales, trolls o magos.",
+				"3-3": "<em>Protector.</em> El objeto quiere defender a una raza o tipo de criatura en particular, como elfos o druidas.",
+				"4-4": "<em>Cruzado.</em> El objeto quiere derrotar, debilitar o destruir a los siervos de una deidad concreta.",
+				"5-5": "<em>Templario.</em> El objeto quiere defender a los siervos e intereses de una deidad concreta.",
+				"6-6": "<em>Destructor.</em> El objeto ansía la destrucción e incita a su usuario a luchar de forma arbitraria.",
+				"7-7": "<em>Buscador de gloria.</em> El objeto busca el reconocimiento como el mejor objeto mágico del mundo, por lo que querrá que su usuario alcance la fama y la notoriedad.",
+				"8-8": "<em>Buscador de conocimiento.</em> El objeto anhela conocimientos o está decidido a resolver un misterio, desvelar un secreto o descifrar una enigmática profecía.",
+				"9-9": "<em>Buscador del destino.</em> El objeto está convencido de que tanto él como su usuario desempeñarán una función clave en futuros acontecimientos.",
+				"10-10": "<em>Buscador del creador.</em> El objeto busca a su creador y quiere saber por qué lo creó."
+            }
 		},
 		"Sentient Magic Items Senses": {
 			"name": "Sentidos de Objetos Mágicos Conscientes",
-			"description": ""
+			"description": "La consciencia implica percepción del entorno. Un objeto consciente puede apreciar lo que le rodea hasta cierta distancia. Puedes escoger sus sentidos o tirar en la siguiente tabla.",
+			"results": {
+                "1-1": "Oído y vista normal hasta 30 pies",
+				"2-2": "Oído y vista normal hasta 60 pies",
+				"3-3": "Oído y vista normal hasta 120 pies",
+				"4-4": "Oído y visión en la oscuridad hasta 120 pies"
+            }
 		},
 		"Short-Term Madness": {
 			"name": "Locura a Corto Plazo",
-			"description": "El personaje sufre de locura a corto plazo durante [[1d10]] minutos."
+			"description": "Un personaje afectado por una locura a corto plazo estará sujeto a un efecto de la tabla “Locura a corto plazo” durante 1d10 minutos.",
+			"results": {
+                "1-20": "El personaje se encierra en su mente y queda paralizado. El efecto termina si recibe cualquier daño.",
+				"21-30": "El personaje queda incapacitado y pasa toda la duración del efecto gritando, riendo o llorando.",
+				"31-40": "El personaje queda asustado y debe usar su acción y su movimiento cada asalto para huir de la fuente de su miedo.",
+				"41-50": "El personaje comienza a balbucear y es incapaz de hablar de modo normal y de lanzar conjuros.",
+				"51-60": "El personaje debe usar su acción en cada asalto para atacar a la criatura más cercana.",
+				"61-70": "El personaje experimenta unas alucinaciones vívidas y tiene desventaja en las pruebas de característica.",
+				"71-75": "El personaje hace todo lo que le diga cualquier otra persona, siempre que no sea algo evidentemente autodestructivo.",
+				"76-80": "El personaje experimenta un ansia incontrolable por ingerir algo raro, como tierra, limo o vísceras.",
+				"81-90": "El personaje queda aturdido.",
+				"91-100": "El personaje cae inconsciente."
+            }
 		},
 		"Sphere of Annihilation": {
 			"name": "Esfera de Aniquilación",
-			"description": ""
+			"description": "Si la esfera entra en contacto con un portal interplanar, como el que crea un conjuro portal, o un espacio extradimensional, como el que contiene un agujero portátil, tu GM determinará al azar lo que ocurrirá usando la siguiente tabla.",
+			"results": {
+                "1-50": "La esfera se destruye.",
+				"51-85": "La esfera atraviesa el portal o entra en el espacio extradimensional.",
+				"86-100": "Una grieta en el espacio envía a todas las criaturas y objetos que se encuentren a 54 m o menos de la esfera, incluida la esfera, a un plano de existencia aleatorio."
+            }
 		},
 		"Tan Bag of Tricks": {
 			"name": "Bolsa de Trucos Marrón",
-			"description": ""
+			"description": "Puedes usar una acción para sacar el objeto peludo de la bolsa y lanzarlo a 6 m o menos de distancia. Cuando aterrice, se transformará en la criatura que determines al tirar 1d8 y consultar la tabla que corresponda al color de la bolsa.",
+			"results": {
+                "1-1": "Chacal",
+				"2-2": "Simio",
+				"3-3": "Babuino",
+				"4-4": "Pico de hacha",
+				"5-5": "Oso negro",
+				"6-6": "Comadreja gigante",
+				"7-7": "Hiena gigante",
+				"8-8": "Tigre"
+            }
 		},
 		"Wand of Wonder": {
 			"name": "Varita de las Maravillas",
-			"description": ""
+			"description": "Si un efecto tiene varios objetivos posibles, tu GM determinará al azar cuáles se verán afectados.",
+			"results": {
+                "1-5": "Lanzas ralentizar.",
+				"6-10": "Lanzas fuego feérico.",
+				"11-15": "Crees que algo asombroso acaba de ocurrir, por lo que te quedas aturdido hasta el principio de tu siguiente turno.",
+				"16-20": "Lanzas ráfaga de viento.",
+				"21-25": "Lanzas detectar pensamientos sobre el objetivo que elijas. Si no has hecho objetivo a una criatura, en vez de eso, recibirás 1d6 de daño psíquico.",
+				"26-30": "Lanzas nube apestosa.",
+				"31-33": "Una lluvia intensa cae en un radio de 60 pies centrado en el objetivo. La zona se vuelve ligeramente oscura. La lluvia cae hasta el principio de tu siguiente turno.",
+				"34-36": "Un animal aparece en el espacio sin ocupar más cercano al objetivo. El animal no se encuentra bajo tu control y actúa con normalidad. Tira 1d100 para determinar qué animal aparece. Si el resultado es 01-25, aparecerá un rinoceronte; si es 26-50, aparecerá un elefante, y con 51-100, aparecerá una rata.",
+				"37-46": "Lanzas relámpago.",
+				"47-49": "Una nube de 600 mariposas de gran tamaño cubre un radio de 30 pies centrado en el objetivo. La zona se vuelve muy oscura. Las mariposas permanecen durante 10 minutos.",
+				"50-53": "Aumentas el tamaño del objetivo como si hubieras lanzado agrandar/reducir. Si el objetivo no puede verse afectado por ese conjuro o si no has hecho objetivo a una criatura, tú te convertirás en el objetivo.",
+				"54-58": "Lanzas oscuridad.",
+				"59-62": "La hierba crece en el suelo en un radio de 60 pies centrado en el objetivo. Si ya había hierba allí, crecerá hasta diez veces su tamaño normal y tendrá ese tamaño durante 1 minuto.",
+				"63-65": "Un objeto a elección de tu GM desaparece en el Plano Etéreo. El objeto no puede medir más de 10 pies en ninguna dimensión, debe encontrarse a 120 pies o menos del objetivo y nadie puede vestirlo o llevarlo.",
+				"66-69": "Encoges como si hubieras lanzado agrandar/reducir sobre ti.",
+				"70-79": "Lanzas bola de fuego.",
+				"80-84": "Lanzas invisibilidad sobre ti.",
+				"85-87": "Crecen hojas en el objetivo. Si eliges un punto en el espacio como objetivo, las hojas brotan de la criatura más cercana a ese punto. Salvo que se arranquen, las hojas se volverán marrones y caerán tras 24 horas.",
+				"88-90": "Una ráfaga de 1d4 x 10 gemas, cada una con un valor de 1 po, sale disparada de la punta de la varita en una línea de 30 pies de largo y 5 de ancho. Cada gema hace 1 de daño contundente y el total de daño de las gemas se divide a partes iguales entre todas las criaturas situadas en la línea.",
+				"91-95": "Una explosión de luz resplandeciente y colorida se extiende desde ti en un radio de 30 pies. Todas las criaturas que puedan ver en el área y tú deberéis superar una tirada de salvación de Constitución con CD 15 o quedaréis cegados durante 1 minuto. Una criatura puede repetir la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto.",
+				"96-97": "La piel del objetivo se vuelve azul brillante durante 1d10 días. Si has elegido un punto en el espacio como objetivo, la criatura más cercana a ese punto será quien sufra el efecto.",
+				"98-100": "Si tu objetivo es una criatura, deberá hacer una tirada de salvación de Constitución con CD 15. Si no has hecho objetivo a una criatura, tú te convertirás en el objetivo y deberás hacer la tirada de salvación. Si la falla por 5 o más, el objetivo quedará petrificado instantáneamente. Si la falla con otro resultado, el objetivo quedará apresado y comenzará a convertirse en piedra. Mientras el objetivo esté apresado de esta forma, deberá repetir la tirada de salvación al final de su siguiente turno; quedará petrificado si la falla o se librará del efecto si la supera. La petrificación dura hasta que el objetivo sea liberado mediante un conjuro restablecimiento mayor u otro efecto mágico similar."
+            }
 		}
 	}
 }

@@ -1,6 +1,9 @@
 {
 "DOCUMENT.DND5E": {
-  "Activity": "Activity"
+  "Activity": "Activity",
+  "Warning": {
+    "SelectType": "{name} type must be selected for creation."
+  }
 },
 
 "TYPES.Actor.character": "Player Character",
@@ -499,6 +502,10 @@
       }
     }
   },
+  "Attack": {
+    "mwak": "Melee Attack",
+    "rwak": "Ranged Attack"
+  },
   "Classification": {
     "Spell": "Spell",
     "Unarmed": "Unarmed",
@@ -518,6 +525,10 @@
   },
   "Warning": {
     "NoQuantity": "Attempting to attack with a weapon with a quantity of zero."
+  },
+  "Weapon": {
+    "Melee": "Melee Weapon",
+    "Ranged": "Ranged Weapon"
   }
 },
 
@@ -1865,6 +1876,7 @@
 "DND5E.LanguagesAuran": "Auran",
 "DND5E.LanguagesCelestial": "Celestial",
 "DND5E.LanguagesCommon": "Common",
+"DND5E.LanguagesCommonSign": "Common Sign Language",
 "DND5E.LanguagesDeepSpeech": "Deep Speech",
 "DND5E.LanguagesDraconic": "Draconic",
 "DND5E.LanguagesDruidic": "Druidic",

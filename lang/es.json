@@ -1,6 +1,9 @@
 {
 "DOCUMENT.DND5E": {
-  "Activity": "Actividad"
+  "Activity": "Actividad",
+  "Warning": {
+    "SelectType": "El tipo {name} debe seleccionarse para la creación."
+  }
 },
 
 "TYPES.Actor.character": "Personaje Jugador",
@@ -499,6 +502,10 @@
       }
     }
   },
+  "Attack": {
+    "mwak": "Ataque Cuerpo a Cuerpo",
+    "rwak": "Ataque a Distancia"
+  },
   "Classification": {
     "Spell": "Conjuro",
     "Unarmed": "Sin armas",
@@ -518,6 +525,10 @@
   },
   "Warning": {
     "NoQuantity": "Se está realizando una ataque con un arma con una cantidad de cero."
+  },
+  "Weapon": {
+    "Melee": "Arma Cuerpo a Cuerpo",
+    "Ranged": "Arma a Distancia"
   }
 },
 
@@ -1865,6 +1876,7 @@
 "DND5E.LanguagesAuran": "Aurano",
 "DND5E.LanguagesCelestial": "Celestial",
 "DND5E.LanguagesCommon": "Común",
+"DND5E.LanguagesCommonSign": "Lenguage de Signos Común",
 "DND5E.LanguagesDeepSpeech": "Habla de las Profundidades",
 "DND5E.LanguagesDraconic": "Dracónico",
 "DND5E.LanguagesDruidic": "Druídico",

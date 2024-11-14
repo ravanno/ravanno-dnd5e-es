@@ -2,13 +2,16 @@
 
 Traducción al español del sistema de Dungeons & Dragons 5E (SRD).
 
-Actualizando para DnD5e 4.0.0 y Foundry 11.315 (Verificado 12)
+Actualizando para DnD5e 4.1.0 y Foundry 11.315 (Verificado 12)
 
+**Versión 4.1.0**
+- Actualizadas traducciones a la versión 4.1.0 [Pendiente de revisión completa].
+- 
 **Versión 4.0.2**
-- Actualizadas traducciones a la versión 4.0.2 [Pendiente de revisión completa].
+- Actualizadas traducciones a la versión 4.0.2.
 
 **Versión 4.0.0**
-- Actualizadas traducciones a la versión 4.0.0 [Pendiente de revisión completa].
+- Actualizadas traducciones a la versión 4.0.0.
   
 **Versión 3.3.1.7**
 - Añadidas traducciones para los elementos de "Tablas (SRD)".

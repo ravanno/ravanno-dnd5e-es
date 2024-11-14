@@ -28,6 +28,8 @@
 "TYPES.Item.consumablePl": "Consumibles",
 "TYPES.Item.equipment": "Equipo",
 "TYPES.Item.equipmentPl": "Equipo",
+"TYPES.Item.facility": "Edificio",
+"TYPES.Item.facilityPl": "Edificios",
 "TYPES.Item.feat": "Rasgo",
 "TYPES.Item.featurePl": "Rasgos",
 "TYPES.Item.loot": "Botín",
@@ -54,6 +56,24 @@
 "DND5E.AbbreviationLevel": "Niv.",
 "DND5E.AbbreviationLbs": "lbs.",
 "DND5E.AbbreviationSR": "DC",
+
+"DND5E.ABILITY": {
+  "Configure": {
+    "Title": "Configurar {ability}"
+  },
+  "SECTIONS": {
+    "Bonuses": {
+      "Label": "Bonificaciones de {ability}",
+      "Hint": "Estas bonificaciones se aplican a la tiradas y salvaciones que se hacen con {ability}."
+    },
+    "Global": {
+      "Label": "Bonificaciones Globales",
+      "Hint": "Estas bonificaciones se aplican a las tiradas y salvaciones de cualquier habilidad."
+    },
+    "Score": "Puntuación de {ability}"
+  }
+},
+
 "DND5E.Ability": "Característica",
 "DND5E.Abilities": "Características",
 "DND5E.AbilityStr": "Fuerza",
@@ -73,23 +93,14 @@
 "DND5E.AbilitySan": "Cordura",
 "DND5E.AbilitySanAbbr": "cor",
 "DND5E.AbilityScore": "Puntuación de Característica",
+"DND5E.AbilityScoreShort": "Puntuación",
 "DND5E.AbilityScorePl": "Puntuaciones de Característica",
 "DND5E.AbilityScoreL": "Puntuación de {ability}",
 "DND5E.AbilityScoreMax": "Máxima Puntuación de Característica",
+"DND5E.AbilityScoreMaxShort": "Máximo",
 "DND5E.AbilityModifier": "Modificador de Característica",
 "DND5E.AbilityPromptText": "¿Qué tipo de prueba de {ability}?",
 "DND5E.AbilityPromptTitle": "Prueba de Característica de {ability}",
-"DND5E.AbilityUseHint": "Determina cómo te gustaría usar el {type} {name}.",
-"DND5E.AbilityUseUnavailableHint": "¡No quedan usos para este elemento!",
-"DND5E.AbilityUseChargedHint": "¡Este {type} está cargado y listo para usar!",
-"DND5E.AbilityUseRechargeHint": "¡Este {type} está agotado y debe recargarse!",
-"DND5E.AbilityUseNormalHint": "Este {type} tiene {value} de {max} usos por {per} restante.",
-"DND5E.AbilityUseConsumableChargeHint": "Usar este {type} consumirá 1 carga de {value} restante.",
-"DND5E.AbilityUseConsumableQuantityHint": "Usar este {type} consumirá 1 cantidad de {quantity} restante.",
-"DND5E.AbilityUseConsumableDestroyHint": "Usar este {type} consumirá su última carga y se destruirá.",
-"DND5E.AbilityUseConsumableDestroyResourceHint": "Usar este {type} consumirá la última carga de {name} y lo destruirá.",
-"DND5E.AbilityUseConsume": "¿Consumir carga disponible?",
-"DND5E.AbilityUseConsumeAction": "Consumir Carga",
 "DND5E.AbilityUseChargesLabel": "{value} Cargas",
 "DND5E.AbilityUseConsumableLabel": "{max} por {per}",
 "DND5E.AbilityUseCast": "Lanzar Conjuro",
@@ -249,7 +260,7 @@
     "FreeCasting": "Lanzamiento Gratuito de Conjuros"
   },
   "Subclass": {
-    "Title": "Subclasea",
+    "Title": "Subclase",
     "Hint": "Especifica a qué nivel de esta clase se recibe su subclase.",
     "FlowHint": "Elige una subclase en la pestaña de Características después de completar la subida de nivel."
   }
@@ -444,6 +455,7 @@
 "DND5E.ArmorHeavyProficiency": "Pesada",
 "DND5E.ArmorLightProficiency": "Ligera",
 "DND5E.ArmorMediumProficiency": "Media",
+"DND5E.ArmorValue": "Valor de Armadura",
 "DND5E.AC": "CA",
 
 "DND5E.ATTACK": {
@@ -557,6 +569,57 @@
 "DND5E.Background": "Trasfondo",
 "DND5E.BackgroundAdd": "Añadir Trasfondo",
 "DND5E.BackgroundName": "Nombre del Trasfondo",
+
+"DND5E.Bastion": {
+  "Action": {
+    "BastionTurn": "Turno Avanzado del Bastión"
+  },
+  "Attack": {
+    "Automatic": "Resolver Automáticamente",
+    "Formula": "Fórmula de Ataque",
+    "NoActorWarning": "Ningún personaje se ha seleccionado como objetivo del ataque. Selecciona una ficha o abre su hoja de personaje.",
+    "Resolve": "Resolver Ataque",
+    "Result": {
+      "Damaged": "{link} dañado en el ataque.",
+      "Deaths": {
+        "one": "¡<strong>{deaths}</strong> defensor fue derrotado en un ataque a su bastión!",
+        "other": "¡<strong>{deaths}</strong> defensores fueron derrotados en un ataque a su bastión!"
+      },
+      "NoDeaths": "¡Rechazaron un ataque a su bastión sin sufrir bajas!",
+      "Undefended": "¡Bastión sin defensas atacado!"
+    },
+    "Title": "Ataque del Bastión"
+  },
+  "Button": {
+    "Label": "Mostrar Botón de Turno del Bastión",
+    "Hint": "Muestra un botón para los turnos avanzados del bastión en la interfaz principal del juego."
+  },
+  "Configuration": {
+    "Name": "Bastiones",
+    "Label": "Configurar Bastiones",
+    "Hint": "Varias opciones de configuración del sistema de Bastión como se presenta en el DMG 2024."
+  },
+  "Confirm": "¿Avanzar un turno de bastión?",
+  "Duration": {
+    "Label": "Duración del Turno de Bastión (días)"
+  },
+  "Enabled": {
+    "Label": "Activar la Funcionalidad de Bastión",
+    "Hint": "Cuando se activa, los personajes jugadores pueden acceder a una nueva pestaña de Bastión en sus hojas de personaje cuando llegan a nivel 5, lo que les permitirá construir instalaciones y darles órdenes."
+  },
+  "Gold": {
+    "Claim": "Reclamar Ingresos",
+    "Claimed": "reclamado",
+    "Unclaimed": "sin reclamar"
+  },
+  "Label": "Bastión",
+  "Summary": {
+    "Gold": "{value} ({claimed})",
+    "NoOrders": "No se han dado órdenes a instalaciones especiales este turno.",
+    "Order": "{link} completada la orden <strong>{order}</strong>."
+  }
+},
+
 "DND5E.Biography": "Biografía",
 "DND5E.BiographyPublic": "Biografía Pública",
 "DND5E.BiopgrahyPublicEdit": "Editar Biografía Pública",
@@ -586,6 +649,55 @@
 "DND5E.Bonuses": "Bonificaciones Globales",
 "DND5E.BonusesHint": "Define las bonificaciones globales como fórmulas que se añadirán a ciertas tiradas. Por ejemplo: 1d4 + 2",
 "DND5E.BonusesInstructions": "Configura las bonificaciones que se añadirán al dado respectivo",
+
+"DND5E.CAST": {
+  "Title": "Lanzar Conjuros",
+  "FIELDS": {
+    "spell": {
+      "label": "Detalles del Lanzamiento",
+      "challenge": {
+        "attack": {
+          "label": "Bonificación de Ataque",
+          "hint": "Valor fijo de la bonificación del golpe en lugar de la bonificación de ataque normal del conjuro."
+        },
+        "save": {
+          "label": "Salvación CD",
+          "hint": "Valor fijo de la CD para utilizar en lugar del valor normal de CD de la salvación del conjuro."
+        },
+        "override": {
+          "label": "Sobreescribir Valores",
+          "hint": "Sobreescribir los valores normales del conjuro para la bonificación de ataque y CD cuando se lanza."
+        }
+      },
+      "level": {
+        "label": "Nivel de Lanzamiento",
+        "hint": "Nivel básico para lanzar el conjuro, si es diferente de nivel de conjuro."
+      },
+      "properties": {
+        "label": "Propiedades Ignoradas",
+        "hint": "Componentes y etiquetas de conjuro a ignorar en el lanzamiento."
+      },
+      "spellbook": {
+        "label": "Mostrar en el Libro de Conjuros",
+        "hint": "Mostrar el conjuro en la pestaña de Conjuros de la hoja de personaje."
+      },
+      "uuid": {
+        "label": "Conjuro para Lanzar"
+      }
+    }
+  },
+  "SECTIONS": {
+    "Spell": "Conjuro",
+    "Spellbook": "Conjuros Adicionales"
+  },
+  "Action": {
+    "RemoveSpell": "Eliminar Conjuro"
+  },
+  "Enchantment": {
+    "Name": "Cambios de Conjuro"
+  }
+},
+
 "DND5E.Casting": "Lanzamiento de conjuros",
 "DND5E.Conditions": "Estados",
 "DND5E.Controls": {
@@ -1018,7 +1130,8 @@
     "MissingItem": "El elemento configurado para ser consimido por la actividad {activity} de {item} no pudo ser encontrado.",
     "MissingSpellSlot": "No hay huecos de conjuro de nivel {level} disponibles.",
     "None": "No hay {type} para gastar, se necesitan {cost}.",
-    "NotEnough": "No hay suficiente {type} para gastar, se necesitan {cost} y sólo hay {available} disponibles."
+    "NotEnough": "No hay suficiente {type} para gastar, se necesitan {cost} y sólo hay {available} disponibles.",
+    "WillDestroy": "Consumir {item} gastará su último uso y será destruido."
   }
 },
 
@@ -1089,6 +1202,9 @@
       "Label": "Convertir",
       "Action": "Convertir Todas las Monedas",
       "Hint": "Convertir todas las monedas a la denominación más alta posible para reducir la cantidad de moneda diferente que lleva el personaje. Usar con cuidado, esta acción no se puede deshacer."
+    },
+    "Error": {
+      "InsufficientFunds": "Fallo al deducir {amount}{denomination} de {name}. Fondos insuficientes."
     },
     "Transfer": {
       "Label": "Transferir",
@@ -1448,16 +1564,40 @@
 },
 
 "DND5E.Environment": "Entorno",
+
+"DND5E.EQUIPMENT": {
+  "Type": {
+    "Clothing": {
+      "Label": "Ropa"
+    },
+    "Ring": {
+      "Label": "Anillo"
+    },
+    "Rod": {
+      "Label": "Vara"
+    },
+    "Trinket": {
+      "Label": "Bagatela"
+    },
+    "Vehicle": {
+      "Label": "Equipo del Vehículo"
+    },
+    "Wand": {
+      "Label": "Varita"
+    },
+    "Wondrous": {
+      "Label": "Objeto Maravilloso"
+    }
+  }
+},
+
 "DND5E.EquipmentBonus": "Bonificación Mágica",
-"DND5E.EquipmentClothing": "Ropa",
 "DND5E.EquipmentHeavy": "Armadura Pesada",
 "DND5E.EquipmentLight": "Armadura Ligera",
 "DND5E.EquipmentMedium": "Armadura Media",
 "DND5E.EquipmentNatural": "Armadura Natural",
 "DND5E.EquipmentShield": "Escudo",
 "DND5E.EquipmentShieldProficiency": "Escudos",
-"DND5E.EquipmentTrinket": "Bagatela",
-"DND5E.EquipmentVehicle": "Equipo del Vehículo",
 "DND5E.Equipped": "Equipado",
 "DND5E.Exhaustion": "Cansancio",
 "DND5E.ExhaustionLevel": "Cansancio Nivel {n}",
@@ -1474,6 +1614,261 @@
 "DND5E.ExperiencePointsMin": "XP Mínima para Este Nivel",
 "DND5E.ExperiencePointsValue": "Valor XP",
 "DND5E.Expertise": "Pericia",
+
+"DND5E.FACILITY": {
+  "Action": {
+    "DeleteDefender": "Eliminar Defensor",
+    "DeleteOccupant": "Eliminar Habitante",
+    "RemoveCraft": "Quitar Trabajo"
+  },
+  "AvailableFacility": {
+    "basic": {
+      "build": "Construir Edificio",
+      "free": "Liberar Edificio"
+    },
+    "special": {
+      "free": "Añadir Edificio"
+    }
+  },
+  "Build": {
+    "Unbuilt": "Derribar"
+  },
+  "Costs": {
+    "Automatic": "Deducir Automáticamente",
+    "Days": "{days} días",
+    "Label": "Costes",
+    "Manual": "Marcar como Pagado",
+    "Paid": "pagado",
+    "Unpaid": "sin pagar"
+  },
+  "Craft": {
+    "BaseItem": {
+      "Label": "Comprar Elemento Base",
+      "Hint": "Si se marca, el elemento base será comprado a precio completo en lugar de fabricado."
+    },
+    "Hint": "Los elemenentos que este edificio está fabricando o recolectando en este momento, si los hay."
+  },
+  "Description": "Descripción",
+  "FIELDS": {
+    "building": {
+      "built": {
+        "label": "Construcción",
+        "hint": "Los edificios básicos se deben construir antes de poder ser utilizados."
+      }
+    },
+    "defenders": {
+      "max": {
+        "label": "Defensores"
+      }
+    },
+    "disabled": {
+      "hint": "Los edificios desactivados no pueden recibir órdenes y se reparan al principio del siguiente turno.",
+      "label": "Disactivadas"
+    },
+    "enlargeable": {
+      "hint": "Ciertos edificios especiales pueden aumentar sus categorías de tamaño por un coste.",
+      "label": "Puede Ser Ampliado"
+    },
+    "free": {
+      "hint": "Los edificios gratuitos no cuentan para el límite de edificios especiales.",
+      "label": "Edificio Gratuito"
+    },
+    "hirelings": {
+      "max": {
+        "label": "Asalariados"
+      }
+    },
+    "level": {
+      "label": "Requisitos de Nivel"
+    },
+    "order": {
+      "label": "Orden"
+    },
+    "progress": {
+      "max": {
+        "label": "Total"
+      },
+      "order": {
+        "label": "Ejecutándose"
+      },
+      "value": {
+        "label": "Actual"
+      }
+    },
+    "size": {
+      "label": "Tamaño"
+    },
+    "trade": {
+      "creatures": {
+        "max": {
+          "label": "Capacidad de Criatura"
+        }
+      },
+      "profit": {
+        "label": "Factor de Beneficio"
+      },
+      "stock": {
+        "stocked": {
+          "hint": "Apropiado para edificios que no almacenan un número variable de bienes, pero que en su lugar se consideran abastecidos o vacíos.",
+          "label": "Abastecido"
+        },
+        "value": {
+          "label": "Valor"
+        },
+        "max": {
+          "label": "Máx"
+        }
+      }
+    },
+    "type": {
+      "subtype": {
+        "label": "Tipo"
+      },
+      "value": {
+        "label": "Categoría"
+      }
+    }
+  },
+  "Goods": "Bienes",
+  "NoDefenders": "El bastión no está defendido.",
+  "Occupants": "Ocupantes",
+  "Order": {
+    "Execute": "Ejecutar Orden",
+    "Issue": "Orden Emitida: {order}"
+  },
+  "Orders": {
+    "Label": "Órdenes",
+    "build": {
+      "inf": "Construir",
+      "present": "Construyendo"
+    },
+    "change": {
+      "inf": "Cambiar",
+      "present": "Cambiando"
+    },
+    "craft": {
+      "inf": "Fabricar",
+      "present": "Fabricando"
+    },
+    "empower": {
+      "inf": "Potenciar",
+      "present": "Potenciando"
+    },
+    "enlarge": {
+      "inf": "Ampliar",
+      "present": "Ampliando"
+    },
+    "harvest": {
+      "inf": "Cosechar",
+      "present": "Cosechando"
+    },
+    "maintain": {
+      "inf": "Mantener",
+      "present": "Manteniendo"
+    },
+    "recruit": {
+      "inf": "Reclutar",
+      "present": "Reclutando"
+    },
+    "repair": {
+      "inf": "Reparar",
+      "present": "Reparando"
+    },
+    "research": {
+      "inf": "Investigar",
+      "present": "Investigando"
+    },
+    "trade": {
+      "inf": "Comerciar",
+      "present": "Comerciando"
+    }
+  },
+  "Progress": "Progreso",
+  "Properties": "Propiedades",
+  "Sizes": {
+    "cramped": "Estrecho",
+    "roomy": "Espacioso",
+    "vast": "Vasto"
+  },
+  "Squares": "{squares} cuadrados",
+  "Trade": {
+    "Buy": {
+      "Supplement": "Comprar"
+    },
+    "Creatures": {
+      "Buy": "Deja caer los animales que deseas comprar en los huecos de arriba, y actualiza el coste apropiadamente abajo."
+    },
+    "Price": {
+      "Label": "Precio Base",
+      "Hint": "Selecciona las existencias para vender, e introduce el precio base abajo."
+    },
+    "Sell": {
+      "Label": "Vender Existencias",
+      "Supplement": "Vender"
+    },
+    "Stock": {
+      "Buy": "Comprando",
+      "Sell": "Vendiendo"
+    },
+    "Stocked": {
+      "Label": "Abastecer por Completo",
+      "Hint": "Introduce el coste necesario para abastecer completamente el edificio de abajo."
+    }
+  },
+  "Types": {
+    "Basic": {
+      "Label": {
+        "one": "Edificio Básico",
+        "other": "Edificios Básicos"
+      },
+      "Bedroom": "Habitación",
+      "DiningRoom": "comedor",
+      "Parlor": "Salón",
+      "Courtyard": "Patio",
+      "Kitchen": "Cocina",
+      "Storage": "Depósito"
+    },
+    "Special": {
+      "Label": {
+        "one": "Edificio Especial",
+        "other": "Edificios Especiales"
+      },
+      "ArcaneStudy": "Estudio Arcano",
+      "Armory": "Armería",
+      "Barrack": "Cuartel",
+      "Garden": "Jardín",
+      "Library": "Biblioteca",
+      "Sanctuary": "Santuario",
+      "Smithy": "Herrero",
+      "Storehouse": "Almacén",
+      "Workshop": "Taller",
+      "GamingHall": "Sala de Juegos",
+      "Greenhouse": "Invernadero",
+      "Laboratory": "Laboratorio",
+      "Sacristy": "Sacristía",
+      "Scriptorium": "Scriptorium",
+      "Stable": "Establo",
+      "TeleportationCircle": "Círculo de Teleportación",
+      "Theater": "Teatro",
+      "TrainingArea": "Zona de Entrenamiento",
+      "TrophyRoom": "Sala de Trofeos",
+      "Archive": "Archivo",
+      "MeditationChamber": "Cámara de Meditación",
+      "Menagerie": "Casa de Fieras",
+      "Observatory": "Observatorio",
+      "Pub": "Pub",
+      "Reliquary": "Relicario",
+      "Demiplane": "Demiplano",
+      "Guildhall": "Ayuntamiento",
+      "Sanctum": "Sanctum",
+      "WarRoom": "Sala de Guerra"
+    }
+  },
+  "Use": {
+    "Description": "Emitida la orden <strong>{order}</strong> a su {link} {facilityType}."
+  }
+},
+
 "DND5E.Favorite": "Favorito",
 "DND5E.FavoriteDrop": "Drop Favorito",
 "DND5E.FavoriteRemove": "Quitar Favorito",
@@ -1531,6 +1926,19 @@
 "DND5E.Loot.Treasure": "Tesoro",
 "DND5E.Flaws": "Defectos",
 "DND5E.FormulaCannotContainDiceError": "La fórmula {name} no puede contener expresiones de dados.",
+
+"DND5E.FORWARD": {
+  "Title": "Avance",
+  "FIELDS": {
+    "activity": {
+      "label": "Actividad Activada"
+    }
+  },
+  "Warning": {
+    "NoActivity": "La actividad enlazada debe ser configurada antes de que la actividad de Avance pueda ser utilizada."
+  }
+},
+
 "DND5E.EffectCreate": "Crear Efecto",
 "DND5E.EffectToggle": "Alternar Efecto",
 "DND5E.EffectEdit": "Editar Efecto",
@@ -1624,6 +2032,7 @@
 "DND5E.FormulaMalformedError": "Hay un problema preparando la fórmula para {property} con {name}.",
 "DND5E.FormulaMissingReferenceWarn": "La fórmula para {property} con {name} tiene referenciasa datos que no existen: {references}",
 "DND5E.Gender": "Género",
+"DND5E.GlobalBonus": "Global Bonus",
 "DND5E.GrantedAbilities": "Capacidades Otorgadas",
 "DND5E.GroupInventory": "Inventario",
 "DND5E.GroupHP": "Puntos de Golpe Añadidos",
@@ -1716,15 +2125,26 @@
 "DND5E.HitPointsMax": "Puntos de Golpe Máximos",
 "DND5E.HitPointsMin": "Puntos de Golpe Mínimos",
 "DND5E.HitPointsOverride": "Anulación de los Puntos de Golpe Máximos",
+"DND5E.HitPointsOverrideHint": "Override automatically calculated hit points, ignoring any HP from classes, bonuses, and ability modifier.",
 "DND5E.HitPointsTemp": "Puntos de Golpe Temporales",
 "DND5E.HitPointsTempShort": "PG Temporales",
 "DND5E.HitPointsTempMax": "Puntos de Golpe Temporales Máximos",
+"DND5E.HitPointsTempMaxHint": "Temporary change to the maximum HP.",
 "DND5E.HitPointsTempMaxShort": "PG Temp Máx",
 "DND5E.HP": "PG",
 "DND5E.HealthConditions": "Estados de Salud",
 "DND5E.HPFormula": "Fórmula de Salud",
 "DND5E.HPFormulaError": "La fórmula de puntos de golpe no se pudo evaluar.",
 "DND5E.HPFormulaRollMessage": "Fórmula de Tirada de Puntos de Golpe",
+
+"DND5E.HITDICE": {
+  "Action": {
+    "Decrease": "Decrease",
+    "Increase": "Increase"
+  },
+  "Config": "Adjust Hit Dice"
+},
+
 "DND5E.HitDie": "Dado de Golpe",
 "DND5E.HitDice": "Dados de Golpe",
 "DND5E.HitDiceAutoSpend": {
@@ -1795,6 +2215,7 @@
 "DND5E.ItemEquipmentStealthDisav": "Impone Desventaja en Sigilo",
 "DND5E.ItemEquipmentType": "Tipo de Equipo",
 "DND5E.ItemEquipmentUsage": "Uso del Equipo",
+"DND5E.ItemFacilityDetails": "Detalles del Edificio",
 "DND5E.ItemFeatureDetails": "Detalles del Rasgo",
 "DND5E.ItemFeatureProperties": "Propiedades del Rasgo",
 "DND5E.ItemFeatureSubtype": "Tipo de {category}",
@@ -1939,7 +2360,9 @@
 "DND5E.LongRestEpic": "Descanso Largo (1 hora)",
 "DND5E.LongRestOvernight": "Descanso Largo (Nuevo Día)",
 "DND5E.LongRestHint": "¿Realizar un descanso largo? Tras un descanso largo recuperarás puntos de golpe, la mitad de su total de Dados de Golpe, recursos de clase, cargas de objetos limitadas y espacios de conjuro.",
+"DND5E.LongRestHintLegacy": "¿Realizar un descanso largo? En un descanso largo recuperarás puntos de golpe, la mitad de tus dados de golpe, recursos de clase, cargas de objetos limitadas y espacios de conjuro.",
 "DND5E.LongRestHintGroup": "¿Realizar un descanso largo? Tras un descanso largo los miembros del grupo recuperarán puntos de golpe, la mitad de su total de dados de golpe, recursos de clase, cargas de objetos limitadas y espacios de conjuro.",
+"DND5E.LongRestHintGroupLegacy": "¿Realizar un descanso largo? En un descanso largo los miembros del grupo recuperarán puntos de golpe, la mitad de su total de dados de golpe, recursos de clase, cargas de objetos limitadas y espacios de conjuro.",
 "DND5E.LongRestRecovery": "Se Recupera tras un Descanso Largo",
 "DND5E.LongRestResult": "{name} realiza un descanso largo y recupera {health} Punto(s) de Golpe y {dice} Dado(s) de Golpe.",
 "DND5E.LongRestResultHitDice": "{name} realiza un descanso largo y recupera {dice} Dados de Golpe.",
@@ -2037,6 +2460,7 @@
 "DND5E.ProficiencyConfigurationHint": "Configurar competencia y bonus.",
 "DND5E.ProficiencyConfigureTitle": "Configurar {label}",
 "DND5E.ProficiencyLevel": "Nivel de Competencia",
+"DND5E.ProficiencyOther": "Otro",
 "DND5E.Proficient": "Competente",
 "DND5E.Properties": "Propiedades",
 "DND5E.PropertyBase": "Base",
@@ -2106,6 +2530,16 @@
 "DND5E.RestS": "Des. C.",
 "DND5E.Ritual": "Ritual",
 "DND5E.RitualAbbr": "R",
+
+"DND5E.ROLL": {
+  "Range": {
+    "Label": "Rango de Tirada",
+    "Maximum": "Tirada Máxima",
+    "Minimum": "Tirada Mínima"
+  },
+  "Section": "Tiradas de {label}"
+},
+
 "DND5E.Roll": "Tirada",
 "DND5E.RollConfiguration": {
   "Title": "Configurar Tirada",
@@ -2276,6 +2710,21 @@
 "DND5E.SizeSmallAbbr": "Peq",
 "DND5E.SizeTiny": "Diminuto",
 "DND5E.SizeTinyAbbr": "Dim",
+
+"DND5E.SKILL": {
+  "SECTIONS": {
+    "Details": "Detalles de {label}",
+    "Bonuses": {
+      "Label": "Bonificaciones de {label}",
+      "Hint": "Estas bonificaciones se aplican a las puntuaciones pasivas y las pruebas hechas con {label}."
+    },
+    "Global": {
+      "Label": "Bonificaciones Globales",
+      "Hint": "Estas bonificaciones se aplican a las pruebas hechas con cualquier habilidad."
+    }
+  }
+},
+
 "DND5E.Skill": "Habilidad",
 "DND5E.Skills": "Habilidades",
 "DND5E.SkillAcr": "Acrobacias",
@@ -2526,6 +2975,10 @@
       "hint": "La criatura invocada se cambiará a este tipo. Si se elige más de un tipo, el jugador podrá seleccionar entre ellos a la hora de hacer la invocación."
     },
     "match": {
+      "ability": {
+        "label": "Igualar Habilidad",
+        "hint": "Habilidad específica a utilizar cuando se igualan ataques y CDs de salvación."
+      },
       "attacks": {
         "label": "Igualar Ataques",
         "hint": "Modificar los valores de golpe de los ataques de la criatura invocada para igualar los del invocador."
@@ -2780,6 +3233,21 @@
     "Title": "Anillo Dinámico"
 },
 "DND5E.ToggleDescription": "Activar Descripción",
+
+"DND5E.TOOL": {
+  "SECTIONS": {
+    "Details": "Detalles de {label}",
+    "Bonuses": {
+      "Label": "Bonificaciones de {label}",
+      "Hint": "Estas bonificaiones aplican a las pruebas hechas con {label}."
+    },
+    "Global": {
+      "Label": "Bonificaciones Globales",
+      "Hint": "Estas bonificaciones aplican a pruebas hechas con cualquier herramienta."
+    }
+  }
+},
+
 "DND5E.ToolArtisans": "Herramientas de Artesano",
 "DND5E.ToolBonuses": "Bonificaciones de Herramientas",
 "DND5E.ToolCheck": "Prueba de Herramienta",
@@ -2811,6 +3279,8 @@
 "DND5E.TraitConfigChooseWrapper": "Elegir {choices}",
 "DND5E.TraitDIPlural.one": "Inmunidad al Daño",
 "DND5E.TraitDIPlural.other": "Inmunidades al Daño",
+"DND5E.TraitDMPlural.one": "Modificación de Daño",
+"DND5E.TraitDMPlural.other": "Modificaciones de Daño",
 "DND5E.TraitDRPlural.one": "Resistencia al Daño",
 "DND5E.TraitDRPlural.other": "Resistencias al Daño",
 "DND5E.TraitDVPlural.one": "Vulnerable al Daño",
@@ -3024,7 +3494,6 @@
 "DND5E.WeaponMartialProficiency": "Armas Marciales",
 "DND5E.WeaponMartialR": "A Distancia Marcial",
 "DND5E.WeaponNatural": "Natural",
-"DND5E.WeaponOtherProficiency": "Otro",
 "DND5E.WeaponSiege": "Arma de asedio",
 "DND5E.WeaponSimpleM": "Cuerpo a C. sencilla",
 "DND5E.WeaponSimpleProficiency": "Armas sencillas",

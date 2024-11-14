@@ -2011,6 +2011,7 @@
 "DND5E.FlagsInitiativeAdvHint": "Proporcionado por los rasgos u objetos mágicos.",
 "DND5E.FlagsAlert": "Dote Alerta",
 "DND5E.FlagsAlertHint": "Da +5 a la Iniciativa.",
+"DND5E.FlagsAlertHintLegacy": "Da +5 a la Iniciativa.",
 "DND5E.FlagsJOAT": "Aprendiz de Mucho",
 "DND5E.FlagsJOATHint": "Añade la mitad de tu bonficador por competencia a las Pruebas de Característica en las que no seas ya Competente..",
 "DND5E.FlagsObservant": "Hazaña Observadora",

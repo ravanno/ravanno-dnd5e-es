@@ -195,6 +195,9 @@
     "Effect": "Efecto",
     "Identity": "Identidad",
     "Time": "Tiempo"
+  },
+  "Warning": {
+    "UsageNotAllowed": "Utilizar esta actividad actualmente no es posible."
   }
 },
 
@@ -1822,7 +1825,7 @@
         "other": "Edificios Básicos"
       },
       "Bedroom": "Habitación",
-      "DiningRoom": "comedor",
+      "DiningRoom": "Comedor",
       "Parlor": "Salón",
       "Courtyard": "Patio",
       "Kitchen": "Cocina",
@@ -1903,7 +1906,8 @@
       "Origin": "Origen del Rasgo"
     },
     "Monster": "Rasgo de Monstruo",
-    "Species": "Rasgo de Raza",
+    "Species": "Rasgo de Especie",
+    "SpeciesLegacy": "Rasgo de Raza",
     "SupernaturalGift": {
       "Label": "Regalo Sobrenatural",
       "Blessing": "Bendición",

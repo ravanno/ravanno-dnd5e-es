@@ -164,6 +164,7 @@
   "Category": {
     "Combat": "Combate",
     "Monster": "Monstruo",
+    "Rest": "Descanso",
     "Standard": "Estándar",
     "Time": "Tiempo",
     "Vehicle": "Vehículo"
@@ -178,6 +179,12 @@
         "other": "{number} acciones legendarias"
       }
     },
+    "LongRest": {
+      "Label": "Fin de un Descanso Largo"
+    },
+    "ShortRest": {
+      "Label": "Fin de un Descanso Corto"
+    },
     "TurnEnd": {
       "Label": "Fin de Turno"
     },
@@ -188,6 +195,15 @@
   "Warning": {
     "NoActions": "No hay {type} disponible, pero activar esto requiere al menos {required}.",
     "NotEnoughActions": "No hay suficiente {type} para activar, se necesita {required} pero sólo hay disponible {available}."
+  }
+},
+
+"DND5E.ACTIVEEFFECT": {
+  "FIELDS": {
+    "statuses": {
+      "label": "Condiciones de Estado",
+      "hint": "Mientras se está afectado por este Efecto Activo, el objetivo será tratado como si tuviera estas condiciones de estado adicionales."
+    }
   }
 },
 
@@ -241,8 +257,9 @@
 
 "DND5E.ADVANCEMENT": {
   "AbilityScoreImprovement": {
-    "Title": "Mejora de Puntuación de Característica",
-    "Hint": "Permite al jugador aumentar los puntos de una o más características o elegir un rasgo opcional.",
+    "Action": {
+      "Select": "Seleccionar Rasgo"
+    },
     "CapDisplay": {
       "one": "Máx {points} punto por puntuación",
       "other": "Máx {points} puntos por puntuación"
@@ -274,6 +291,7 @@
         "increase": "Incrementar Puntos"
       }
     },
+    "Hint": "Permite al jugador aumentar los puntos de una o más características o elegir un rasgo opcional.",
     "Journal": {
       "DescriptionLegacy": "<p>Cuando alcanzas el nivel {firstLevelOrdinal}, y después a nivel {otherLevelsOrdinal}, puedes incrementar la puntuación de una característica de tu elección en 2, o puedes incrementar las puntuaciones de dos características de tu elección en 1. Como de costumbre, no puedes subir la puntuación de una característica por encima de {maxAbilityScore} usando esta opción.</p><p>Utilizando la regla opcional de rasgos, en lugar de realizar esta acción puedes elegir escoger un rasgo nuevo en su lugar.</p>",
       "DescriptionModern": "<p>Obtienes el rasgo de Mejora de Puntuación de Característica u otro rasgo de tu elección al que puedas optar. Ganas este rasgo de nuevo en los niveles {otherLevels} de {class}.</p>",
@@ -284,10 +302,18 @@
       "one": "{points} Punto Restante",
       "other": "{points} Puntos Restantes"
     },
+    "Title": "Mejora de Puntuación de Característica",
     "Warning": {
       "Level": "Debes ser al menos nivel {level} para coger este rasgo.",
       "Type": "Sólo pueden seleccionarse características con el tipo \"rasgo\"."
     }
+  },
+  "Action": {
+    "Create": "Crear Progresión",
+    "Delete": "Borrar Progresión",
+    "Duplicate": "Duplicar Progresión",
+    "Edit": "Editar Progresión",
+    "View": "Ver Progresión"
   },
   "Config": {
     "AnyLevel": "Cualquiera",
@@ -416,6 +442,9 @@
     }
   },
   "ScaleValue": {
+    "Action": {
+      "CopyFormula": "Copiar Fórmula"
+    },
     "Details": "Detalles del Valor de Escala",
     "FIELDS": {
       "distance": {
@@ -518,8 +547,11 @@
     "FreeCasting": "Lanzamiento Gratuito de Conjuros"
   },
   "Subclass": {
-    "Title": "Subclase",
+    "Action": {
+      "Select": "Seleccionar Subclase"
+    },
     "Hint": "Especifica a qué nivel de esta clase se recibe su subclase.",
+    "Title": "Subclase",
     "Warning": {
       "InvalidType": "Sólo pueden seleccionarse subclases."
     }
@@ -599,10 +631,6 @@
 "DND5E.AdvancementConfigureDropAreaHint": "Dejar caer Objetos aquí para añadirlos al conjunto del que un jugador puede elegir.",
 "DND5E.AdvancementConfiguredComplete": "Totalmente Configurado",
 "DND5E.AdvancementConfiguredIncomplete": "No Configurado",
-"DND5E.AdvancementControlCreate": "Crear Progreso",
-"DND5E.AdvancementControlDelete": "Eliminar Progreso",
-"DND5E.AdvancementControlDuplicate": "Duplicar Progreso",
-"DND5E.AdvancementControlEdit": "Editar Progreso",
 "DND5E.AdvancementCustomIcon": "Icono Personalizado",
 "DND5E.AdvancementCustomTitle": "Título Personalizado",
 "DND5E.AdvancementDeleteConfirmationLabel": "Eliminar cambios al progreso",
@@ -854,30 +882,75 @@
 "DND5E.BiopgrahyPublicEdit": "Editar Biografía Pública",
 "DND5E.Bonds": "Vínculos",
 "DND5E.Bonus": "Bonificación",
-"DND5E.BonusAbility": "Bonificaciones Globales de Habilidad",
-"DND5E.BonusAbilityCheck": "Bonificación global a las Pruebas de característica",
-"DND5E.BonusAbilitySave": "Bonificación global a las Tiradas de salvación",
-"DND5E.BonusAbilitySaveTitle": "Tiradas de Salvación globales",
-"DND5E.BonusAbilitySkill": "Bonificación global a las Pruebas de habilidad",
 "DND5E.BonusAction": "Acción Adicional",
 "DND5E.BonusActionAbbr": "AA",
 "DND5E.BonusAttack": "Ataque Adicional",
 "DND5E.BonusDamage": "Daño Adicional",
-"DND5E.BonusMSAttack": "Bonificación al Ataque con conjuro cuerpo a cuerpo",
-"DND5E.BonusMSDamage": "Bonificación al Daño con conjuro cuerpo a cuerpo",
-"DND5E.BonusMWAttack": "Bonificación al Ataque con arma cuerpo a cuerpo",
-"DND5E.BonusMWDamage": "Bonificación al Daño con arma cuerpo a cuerpo",
-"DND5E.BonusRSAttack": "Bonificación al Ataque con conjuro a distancia",
-"DND5E.BonusRSDamage": "Bonificación al Daño con conjuro a distancia",
-"DND5E.BonusRWAttack": "Bonificación al Ataque con arma a distancia",
-"DND5E.BonusRWDamage": "Bonificación al Daño con arma a distancia",
-"DND5E.BonusSaveForm": "Actualizar Bonificación",
-"DND5E.BonusSpell": "Bonificaciones Globales de Conjuro",
-"DND5E.BonusSpellDC": "Bonificación global a la CD de conjuros",
-"DND5E.BonusTitle": "Configurar Bonificación de Personaje",
-"DND5E.Bonuses": "Bonificaciones Globales",
-"DND5E.BonusesHint": "Define las bonificaciones globales como fórmulas que se añadirán a ciertas tiradas. Por ejemplo: 1d4 + 2",
-"DND5E.BonusesInstructions": "Configura las bonificaciones que se añadirán al dado respectivo",
+"DND5E.BonusSaveForm": "Actualizar Bonificaciones",
+"DND5E.BonusTitle": "Configurar Bonificaciones del Actor",
+
+"DND5E.BONUSES": {
+  "FIELDS": {
+    "bonuses": {
+      "label": "Bonificaciones Globales",
+      "hint": "Bonficaciones globales definidas como formulas que se añaden a ciertas tiradas.",
+      "abilities": {
+        "label": "Bonificaciones Globales de Característica",
+        "check": {
+          "label": "Bonificación global a las Pruebas de característica"
+        },
+        "save": {
+          "label": "Bonificación global a las Tiradas de Salvación"
+        },
+        "skill": {
+          "label": "Bonificación global a las Pruebas de habilidad"
+        }
+      },
+      "msak": {
+        "label": "Bonificaciones de Conjuro Cuerpo a Cuerpo",
+        "attack": {
+          "label": "Bonificación al Ataque con conjuro cuerpo a cuerpo"
+        },
+        "damage": {
+          "label": "Bonificación al Daño con conjuro cuerpo a cuerpo"
+        }
+      },
+      "mwak": {
+        "label": "Bonificaciones de Arma Cuerpo a Cuerpo",
+        "attack": {
+          "label": "Bonificación al Ataque con arma cuerpo a cuerpo"
+        },
+        "damage": {
+          "label": "Bonificación al Daño con arma cuerpo a cuerpo"
+        }
+      },
+      "rsak": {
+        "label": "Bonificaciones de Conjuro a Distancia",
+        "attack": {
+          "label": "Bonificación al Ataque con conjuro a distancia"
+        },
+        "damage": {
+          "label": "Bonificación al Daño con conjuro a distancia"
+        }
+      },
+      "rwak": {
+        "label": "Bonficaciones de Arma a Distancia",
+        "attack": {
+          "label": "Bonificación al Ataque con arma a distancia"
+        },
+        "damage": {
+          "label": "Bonificación al Daño con arma a distancia"
+        }
+      },
+      "spell": {
+        "label": "Bonificaciones Globales de Conjuro",
+        "dc": {
+          "label": "Bonificación Global a la CD de Conjuros"
+        }
+      }
+    }
+  }
+},
 
 "DND5E.CAST": {
   "Title": "Lanzar Conjuros",
@@ -1071,6 +1144,21 @@
 "DND5E.ClassOriginal": "Clase Original",
 "DND5E.ClassSaves": "Tiradas de Salvación",
 "DND5E.Confirm": "Confirmar",
+
+"DND5E.COMBAT": {
+  "Group": {
+    "ActiveCount": "{current} de {combatants}",
+    "Title": "Grupo {name}"
+  }
+},
+
+"DND5E.COMBATANT": {
+  "Counted": {
+    "one": "{number} combatiente",
+    "other": "{number} combatientes"
+  }
+},
+
 "DND5E.CompendiumBrowser": {
   "Title": "Navegador de Compendios",
   "Action": {
@@ -1156,6 +1244,12 @@
 "DND5E.ConCharmed": "Hechizado",
 "DND5E.ConDeafened": "Ensordecido",
 "DND5E.ConDiseased": "Enfermo",
+"DND5E.CONDITIONS": {
+  "RiderConditions": {
+    "label": "Condiciones de Estado Separadas",
+    "hint": "Cuando se aplica este Efecto Activo, estas condiciones de estado adiconales se aplicarán por separado."
+  }
+},
 "DND5E.ConExhaustion": "Cansancio",
 "DND5E.ConFrightened": "Asustado",
 "DND5E.ConGrappled": "Agarrado",
@@ -1578,8 +1672,10 @@
   },
   "Scaling": {
     "Half": "Cada Otro Nivel",
+    "HalfCantrip": "Half Cantrip Scaling",
     "None": "Sin Escala",
-    "Whole": "Cada Nivel"
+    "Whole": "Cada Nivel",
+    "WholeCantrip": "Cantrip Scaling"
   }
 },
 
@@ -1665,6 +1761,7 @@
 "DND5E.Disadvantage": "Desventaja",
 "DND5E.Discord": "Discord",
 "DND5E.Disclaimer": "Descargo de responsabilidad",
+"DND5E.DisplayCard": "Mostrar en el Chat",
 "DND5E.DistAny": "Cualquiera",
 "DND5E.DistFt": "Pies",
 "DND5E.DistFtAbbr": "ft",
@@ -2387,7 +2484,19 @@
 },
 "DND5E.Habitat": {
   "Categories": {
-    "Any": "Cualquiera"
+    "Any": "Cualquiera",
+    "Arctic": "Ártico",
+    "Coastal": "Costa",
+    "Desert": "Desierto",
+    "Forest": "Bosque",
+    "Grassland": "Pradera",
+    "Hill": "Colina",
+    "Mountain": "Montaña",
+    "Planar": "Planicie",
+    "Swamp": "Pantano",
+    "Underdark": "Infraoscuridad",
+    "Underwater": "Submarino",
+    "Urban": "Urbano"
   },
   "Configuration": {
     "Custom": "Personalizado",
@@ -2685,7 +2794,10 @@
 "DND5E.Languages": "Idiomas",
 
 "DND5E.LegendaryAction": {
+  "Description": "Usos de Acciones Legendarias: {uses}.",
+  "DescriptionLegacy": "The {name} can take {usesNamed}, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The {name} regains spent legendary actions at the start of its turn.",
   "Label": "Acción Legendaria",
+  "LairUses": "{normal} ({lair} en guarida)",
   "Max": "Máximo de Acciones Legendarias",
   "Ordinal": {
     "one": "{n}a. Acción Legendaria",
@@ -2763,16 +2875,20 @@
 
 "DND5E.NPC": {
   "Label": "PNJ",
+  "FIELDS": {
+    "traits": {
+      "important": {
+        "hint": "PNJs Importantes hace seguimiento de las tiradas de salvaciópn, dados de golpe y lealtad (si se activa). Cualquier PNJ con niveles de clase se considera importante sin tener en cuenta esta configuración.",
+        "label": "PNJ Importante"
+      }
+    }
+  },
   "SECTIONS": {
     "Actions": "Acciones",
     "BonusActions": "Acciones Extra",
     "LegendaryActions": "Acciones Legendarias",
     "Reactions": "Reacciones",
     "Traits": "Rasgos"
-  },
-  "Important": {
-    "Hint": "PNJs Importantes hace seguimiento de las tiradas de salvaciópn, dados de golpe y lealtad (si se activa). Cualquier PNJ con niveles de clase se considera importante sin tener en cuenta esta configuración.",
-    "Label": "PNJ Importante"
   }
 },
 
@@ -4495,6 +4611,8 @@
   }
 },
 
+"KEYBINDINGS.DND5E.DragCopy": "Forzar Copiar cuando se Arrastra un Documento",
+"KEYBINDINGS.DND5E.DragMove": "Forzar Mover cuando se Arrastra un Documento",
 "KEYBINDINGS.DND5E.SkipDialogNormal": "Saltar Diálogo",
 "KEYBINDINGS.DND5E.SkipDialogAdvantage": "Saltar Diálogo (tirar con Ventaja/Crítico)",
 "KEYBINDINGS.DND5E.SkipDialogDisadvantage": "Saltar Diálogo (tirar con Desventaja)",
@@ -4514,53 +4632,12 @@
 "SETTINGS.5eAutoCollapseCardN": "Contraer Tarjetas de Elementos en el Chat",
 "SETTINGS.5eAutoSpellTemplateL": "Cuando se lance un conjuro, de manera predeterminada creará automáticamente cualquier plantilla de medición correspondiente (requiere el rol de 'De confianza' o superior)",
 "SETTINGS.5eAutoSpellTemplateN": "Siempre Colocar Plantilla de Conjuro",
-"SETTINGS.5eCriticalMaxDiceN": "Maximizar los Dados de Daño Crítico",
-"SETTINGS.5eCriticalMaxDiceL": "Hacer que los golpes críticos sean más mortales al maximizar los valores de base de los dados de daño.",
-"SETTINGS.5eCriticalModifiersN": "Modificadores al Multiplicador de Daño Crítico",
-"SETTINGS.5eCriticalModifiersL": "Hacer que los golpes críticos sean más mortales multiplicando los modificadores que no son dados añadidos a los dados lanzados.",
-"SETTINGS.5eCurWtL": "Las monedas que llevan los personajes afectan al límite de peso según las reglas del MdJ pág. 143.",
-"SETTINGS.5eCurWtN": "Aplicar el Peso de las Monedas",
-"SETTINGS.5eDiagEuclidean": "Euclidiana (7.07 ft. Diagonal)",
-"SETTINGS.5eDiagL": "Seleccione la regla a usar para el movimiento diagonal en este sistema.",
-"SETTINGS.5eDiagN": "Regla para el Movimiento Diagonal",
-"SETTINGS.5eDiagPHB": "MdJ: Misma distancia (5/5/5)",
-"SETTINGS.5eDiagDMG": "GdDM: Alterno (5/10/5)",
-"SETTINGS.5eEncumbrance": {
-  "Hint": "Activar el seguimiento automático de la carga y de la aplicación de efectos de estado para los personajes que lleven demasiada carga.",
-  "Name": "Seguimiento de la Carga",
-  "None": "Ninguno",
-  "Normal": "Normal (máx capacidad de transporte)",
-  "Variant": "Variante (sobrecargado & muy sobrecargado)"
-},
-"SETTINGS.5eFeatsL": "Permite a los jugadores elegir una dote en lugar de una mejora de puntuación de característica durante la mejora de clase.",
-"SETTINGS.5eFeatsN": "Permitir Dotes",
-"SETTINGS.5eHonorL": "Habilita el uso de la puntuación de característica opcional basada en Honor. Requiere que se recargue el mundo.",
-"SETTINGS.5eHonorN": "Puntuación de Característica de Honor",
-"SETTINGS.5eInitTBL": "Añade la puntuación de Destreza para resolver los empates de Iniciativa.",
-"SETTINGS.5eInitTBN": "Desempate de Iniciativa",
 "SETTINGS.5eNoAdvancementsN": "Desactivar automatización al subir de nivel",
 "SETTINGS.5eNoAdvancementsL": "No solicitar elecciones de subida de nivel o de creación de personajes.",
 "SETTINGS.5eNoConcentrationN": "Deshabilitar seguimiento de concentración",
 "SETTINGS.5eNoConcentrationL": "Desactiva el seguimiento automático de la concentración del sistema.",
-"SETTINGS.5eProfBonus": "MdJ: Bonificación (+2, +3, +4, +5, +6)",
-"SETTINGS.5eProfDice": "GdDM: Dado (1d4, 1d6, 1d8, 1d10, 1d12)",
-"SETTINGS.5eProfL": "Configura el modificador de competencia para usar un valor fijo un una tirada de dado. Es necesario recargar el mundo para que este cambio tenga efecto.",
-"SETTINGS.5eProfN": "Variante de Competencia",
-"SETTINGS.5eReset": "Restablecer",
-"SETTINGS.5eRestL": "Determina qué variante de descanso se debe usar para las partidas con este sistema.",
-"SETTINGS.5eRestN": "Variante de Descanso",
-"SETTINGS.5eRestPHB": "Manual del Jugador (DL: 8 horas, DC: 1 hora)",
-"SETTINGS.5eRestGritty": "Realismo Descarnado (DL: 7 días, DC: 8 horas)",
-"SETTINGS.5eRestEpic": "Heroismo Épico (DL: 1 hora, DC: 1 min)",
 "SETTINGS.5eGridAlignedSquareTemplatesL": "Cuando se crean plantillas cuadradas como resultado de lanzar un conjuro o utilizar un objeto, se fijarán y alinearán con la cuadrícula y no podrán rotarse.",
 "SETTINGS.5eGridAlignedSquareTemplatesN": "Plantillas Cuadradas Alineadas a la Cuadrícula",
-"SETTINGS.5eSanityL": "Habilitar el uso opcional de la puntuación de característica basada en la Cordura. Requiere que se recargue el mundo.",
-"SETTINGS.5eSanityN": "Puntuación de Característica de Cordura",
-"SETTINGS.5eUndoChanges": "Deshacer Cambios",
-"SETTINGS.5eTokenRings": {
-    "Name": "Desactivar los Anillos de Token Dinámicos",
-    "Hint": "Desactivar las animaciones de los anillos de token puede mejorar el rendimiento."
-},
 "SETTINGS.DND5E": {
   "ALLOWSUMMONING": {
     "Name": "Permitir Invocar",
@@ -4580,24 +4657,38 @@
     "Older": "Contraer Bloques Antiguos",
     "Never": "Expandir Todo"
   },
+  "COMBAT": {
+    "Hint": "Varias opciones de configuración que afectan al combate.",
+    "Label": "Configurar Combate",
+    "Name": "Combate",
+    "DexTiebreaker": {
+      "Name": "Desempate de Destreza",
+      "Hint": "Añadir la puntuación de Destreza sin modificar para romper empates en la Iniciativa."
+    },
+    "InitiativeScore": {
+      "Name": "Puntuación de Iniciativa",
+      "Hint": "Utilizar la puntuación de iniciativa de la criatura (10 + bonificación) en lugar de tirar para la iniciativa.",
+      "All": "Utilizar Puntuación para Todos",
+      "None": "Siempre Tirar por Iniciativa",
+      "NPCs": "Utilizar Puntuación para los PNJ del DM"
+    }
+  },
+  "CRITICAL": {
+    "Name": "Daño Crítico",
+    "MaxDice": {
+      "Name": "Maximizar Dados",
+      "Hint": "Hacer que los golpes críticos sean más letales maximizando los valores de los dados de daño base."
+    },
+    "MultiplyModifiers": {
+      "Name": "Multiplicar Modificadores",
+      "Hint": "Hacer que los golpes críticos sean más letales multiplicando modificadores no dados en adición a los dados tirados."
+    }
+  },
   "DEFAULTSKILLS": {
     "Name": "Habilidades Por Defecto",
     "Hint": "Las habilidades por defecto qeu aparecen en las hojas de PNJ sin importar el nivel de competencia."
   },
-  "INITIATIVESCORE": {
-    "Name": "Puntuación de Iniciativa",
-    "Hint": "Utilizar la puntuación de iniciativa de la criatura (10 + bonificación) en lugar de tirar la iniciativa.",
-    "All": "Utilizar Puntuación para Todos",
-    "None": "Siempre Tirar por iniciativa",
-    "NPCs": "Utilizar Puntuación para los PNJ del DM"
-  },
-  "LEVELING": {
-    "Name": "Modo de Subir de Nivel",
-    "Hint": "Determina cómo los jugadores ganan niveles.",
-    "NoXP": "Avance de Nivel sin XP",
-    "XP": "Puntos de Experiencia",
-    "XPBoons": "Puntos de Experiencia con Beneficios Épicos"
-  },
+  "General": "General",
   "LOYALTY": {
     "Hint": "Activar el seguimiento opcional de Lealtad.",
     "Name": "Puntuación de Lealtad"
@@ -4616,6 +4707,23 @@
       "Hint": "Reemplaza todas la referencias de libras por kilos y actualiza los cálculos de límites de peso para tuilizar unidades métricas de peso."
     }
   },
+  "NPCS": {
+    "Name": "PNJs",
+    "AutoRecharge": {
+      "Name": "Recargar Habilidades",
+      "Hint": "Tirar para recargar las habilidades de los PNJs automáticamente al inicio del turno del PNJ.",
+      "No": "No recargar automáticamente",
+      "Silent": "Recargar sin crear una tarjeta de chat",
+      "Yes": "Recargar y mostrar una tarjeta de chat"
+    },
+    "AutoRollNPCHP": {
+      "Name": "Puntos de Golpe",
+      "Hint": "Configurar si se tira para los PNJs para obtener los Puntos de Golpe siempre que se crea un nuevo token.",
+      "No": "No tirar",
+      "Silent": "Tirar sin crear una tarjeta de chat",
+      "Yes": "Tirar y crear una tarjeta de chat"
+    }
+  },
   "THEME": {
     "Name": "Tema",
     "Hint": "Tema visual que se aplicará a la UI y a todas las hojas por defecto. Se determinará automáticamente según tu navegador o sistema operativo."
@@ -4625,6 +4733,54 @@
     "Hint": "Cambiar los juegos de reglas entre las del 2024 y las del 2014.",
     "Legacy": "Reglas Legacy (2014)",
     "Modern": "Reglas Modernas (2024)"
+  },
+  "VARIANT": {
+    "Hint": "Habilitar y configurar las variaciones de reglas ofrecidas por el sistema.",
+    "Label": "Configurar Variantes de Reglas",
+    "Name": "Variantes de Reglas",
+    "AllowFeats": {
+      "Hint": "Permitir a los jugadores elegir un rasgo en lugar de tomar una mejora de puntuación de habilidad durante el ascenso de clase cuando se usan las reglas Legacy.",
+      "Name": "Permitir Rasgos"
+    },
+    "CurrencyWeight": {
+      "Hint": "El peso de la moneda afecta a la carga del personaje.",
+      "Name": "Seguimiento del Peso de la Moneda"
+    },
+    "Encumbrance": {
+      "Hint": "Habilitar el seguimiento automático de la carga y la aplicación de efectos de estado para los personajes que llevan demasiado peso.",
+      "Name": "Seguimiento de la Carga",
+      "None": "Ninguno",
+      "Normal": "Normal (máxima capacidad de carga)",
+      "Variant": "Variante (cargado y muy cargado)"
+    },
+    "HonorScore": {
+      "Hint": "Habilitar el uso de la puntuación de habilidad opcional Honor.",
+      "Name": "Puntuación de Honor"
+    },
+    "LevelingMode": {
+      "Hint": "Determina cómo los jugadores ganan nuevos niveles.",
+      "Name": "Modo de Ascenso de Nivel",
+      "NoXP": "Ascenso de Nivel sin Experiencia",
+      "XP": "Puntos de Experiencia",
+      "XPBoons": "Puntos de Experiencia con Épicos"
+    },
+    "ProficiencyModifier": {
+      "Bonus": "PHB: Bonificación (+2, +3, +4, +5, +6)",
+      "Dice": "DMG: Dados (1d4, 1d6, 1d8, 1d10, 1d12)",
+      "Hint": "Configurar el modificador de competencia para utilizar un bono fijo o un tiro de dados.",
+      "Name": "Variante de Competencia"
+    },
+    "Rest": {
+      "Epic": "Heroismo Épico (DL: 1 hora, DC: 1 min)",
+      "Gritty": "Realismo Desgarrador (DL: 7 días, DC: 8 horas)",
+      "Hint": "Configurar qué variante de descanso se debe utilizar para los juegos dentro de este sistema.",
+      "Name": "Variante de Descanso",
+      "Normal": "Manual del Jugador (DL: 8 horas, DC: 1 hora)"
+    },
+    "SanityScore": {
+      "Hint": "Habilitar el uso de la puntuación de habilidad opcional Locura.",
+      "Name": "Puntuación de Locura"
+    }
   },
   "VISIBILITY": {
     "Hint": "Varias opciones de configuración que afectan a los que pueden ver los jugadores sobre cierta información que el DM podría querer mantener oculta.",

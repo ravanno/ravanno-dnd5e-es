@@ -4615,7 +4615,7 @@
 "KEYBINDINGS.DND5E.DragMove": "Forzar Mover cuando se Arrastra un Documento",
 "KEYBINDINGS.DND5E.SkipDialogNormal": "Saltar Diálogo",
 "KEYBINDINGS.DND5E.SkipDialogAdvantage": "Saltar Diálogo (tirar con Ventaja/Crítico)",
-"KEYBINDINGS.DND5E.SkipDialogDisadvantage": "Saltar Diálogo (tirar con Desventaja)",
+"KEYBINDINGS.DND5E.SkipDialogDisadvantage": "Saltar Diálogo (tirar con Desventaja/No Crítico)",
 
 "MACRO.5eMissingTargetWarn": "El actor que controlas '{actor}' no tiene un {type} con el nombre '{name}'.",
 "MACRO.5eMultipleTargetsWarn": "El actor que controlas '{actor}' tiene más de un {type} con el nombre '{name}'. Se elegirá la primera coincidencia.",

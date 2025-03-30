@@ -6,7 +6,7 @@ Actualizando para DnD5e 4.3.8 y Foundry 11.315 (Verificado 12)
 
 **Versión 4.3.8**
 - Actualizadas traducciones a la versión 4.3.8
-- 
+  
 **Versión 4.3.6**
 - Actualizadas traducciones a la versión 4.3.6
   

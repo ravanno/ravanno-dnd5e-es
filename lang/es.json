@@ -1672,10 +1672,10 @@
   },
   "Scaling": {
     "Half": "Cada Otro Nivel",
-    "HalfCantrip": "Half Cantrip Scaling",
+    "HalfCantrip": "Medio Escalado de Truco",
     "None": "Sin Escala",
     "Whole": "Cada Nivel",
-    "WholeCantrip": "Cantrip Scaling"
+    "WholeCantrip": "Escalado de Truco"
   }
 },
 
@@ -1856,6 +1856,31 @@
             "label": "Elementos Adicionales",
             "hint": "Se añadirán estos elementos adicionales al encantamiento cuando éste se aplique y se quitarán cuando de elimine el encatamiento."
           }
+        }
+      },
+      "level": {
+        "label": "Límite de Nivel",
+        "hint": "Rango de níveles neceasrios para usar este encantamiento.",
+        "max": {
+          "label": "Nivel Máximo"
+        },
+        "min": {
+          "label": "Nivel Mínimo"
+        }
+      },
+      "riders": {
+        "label": "Adjunto",
+        "activity": {
+          "label": "Actividades Adicionales",
+          "hint": "Estas actividades adicionales se añadirán al elemento encantado cuando se aplique, y se eliminarán cuando se disipe el encantamiento."
+        },
+        "effect": {
+          "label": "Efectos Adicionales",
+          "hint": "Estas efectos adicionales se añadirán al elemento encantado cuando se aplique, y se eliminarán cuando se disipe el encantamiento."
+        },
+        "item": {
+          "label": "Elementos Adicionales",
+          "hint": "Estos elementos adicionales se añadirán a la criatura cuando uno de sus objetos sea encantado, y se eliminarán cuando se disipe el encantamiento."
         }
       }
     },
@@ -2795,7 +2820,7 @@
 
 "DND5E.LegendaryAction": {
   "Description": "Usos de Acciones Legendarias: {uses}.",
-  "DescriptionLegacy": "The {name} can take {usesNamed}, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The {name} regains spent legendary actions at the start of its turn.",
+  "DescriptionLegacy": "{name} puede tomar {usesNamed}, a elegir de las opciones de abajo. Sólo se puede usar una opción de acción legendaria a la vez y sólo al final del turno de otra criatura. {name} recupera las acciones legendarias gastadas al comienzo de su turno.",
   "Label": "Acción Legendaria",
   "LairUses": "{normal} ({lair} en guarida)",
   "Max": "Máximo de Acciones Legendarias",
@@ -3558,7 +3583,14 @@
       }
     },
     "profiles": {
-      "label": "Perfiles de Invocaciones",
+    "count": {
+      "label": "Cuenta"
+    },
+    "cr": {
+      "label": "Valor de Desafío",
+      "abbr": "VD",
+      "hint": "VD máximo de la criatura invocada."
+    },
       "FIELDS": {
         "count": {
           "label": "Cuenta"
@@ -3589,6 +3621,28 @@
         "uuid": {
           "label": "Criatura Enlazada"
         }
+      },
+      "label": "Perfiles de las Invocaciones",
+      "level": {
+        "label": "Límite de Nivel",
+        "hint": "Rango de niveles necesarios para usar este perfil.",
+        "max": {
+          "label": "Nivel Máximo"
+        },
+        "min": {
+          "label": "Nivel Mínimo"
+        }
+      },
+      "name": {
+        "label": "Nombre a Mostrar",
+        "hint": "Nombre del perfil mostrado en el diálogo de uso."
+      },
+      "types": {
+        "label": "Tipos de Criatura",
+        "hint": "Lista de los tipos de criatura desde la que se puede seleccionar la criatura invocada."
+      },
+      "uuid": {
+        "label": "Criatura Enlazada"
       }
     },
     "summon": {

@@ -170,17 +170,55 @@
     "Vehicle": "Vehículo"
   },
   "Type": {
+    "Action": {
+      "Header": "Acciones",
+      "Label": "Acción"
+    },
+    "BonusAction": {
+      "Header": "Acciones de Bonificación",
+      "Label": "Acción de Bonificación"
+    },
+    "Crew": {
+      "Header": "Acciones de Tripulación",
+      "Label": "Acción de Tripulación"
+    },
+    "Day": {
+      "Header": "Días",
+      "Label": "Día"
+    },
     "Encounter": {
       "Label": "Inicio del Encuentro"
+    },
+    "Hour": {
+      "Header": "Horas",
+      "Label": "Hora"
+    },
+    "Lair": {
+      "Header": "Acciones de Guarida",
+      "Label": "Acción de Guarida"
     },
     "Legendary": {
       "Counted": {
         "one": "{number} acción legendaria",
         "other": "{number} acciones legendarias"
-      }
+      },
+      "Header": "Acciones Legendarias",
+      "Label": "Acción Legendaria"
     },
     "LongRest": {
       "Label": "Fin de un Descanso Largo"
+    },
+    "Minute": {
+      "Header": "Minutos",
+      "Label": "Minuto"
+    },
+    "Mythic": {
+      "Header": "Acciones Míticas",
+      "Label": "Acción Mítica"
+    },
+    "Reaction": {
+      "Header": "Reacciones",
+      "Label": "Reacción"
     },
     "ShortRest": {
       "Label": "Fin de un Descanso Corto"
@@ -441,6 +479,14 @@
       "ModifyChoices": "Modificar Opciones"
     }
   },
+  "Migration": {
+    "Action": {
+      "Confirm": "Aplicar Migraciones"
+    },
+    "Hint": "Seleccionar cuáles se los siguiente avances se añadirán a {name}.",
+    "Selection": "Selección de Avance",
+    "Title": "Migrar Avance"
+  },
   "ScaleValue": {
     "Action": {
       "CopyFormula": "Copiar Fórmula"
@@ -644,9 +690,6 @@
 "DND5E.AdvancementLevelNoneHeader": "Sin Nivel",
 "DND5E.AdvancementLevelDownConfirmationMessage": "Bajar el nivel de esta clase también anulará todas las elecciones de progresión realizadas para ella. Estos cambios se eliminarán de tu personaje siempre y cuando la casilla de verificación de abajo esté marcada.",
 "DND5E.AdvancementLevelDownConfirmationTitle": "Confirmar Bajada de Nivel",
-"DND5E.AdvancementMigrationConfirm": "Aplicar Migraciones",
-"DND5E.AdvancementMigrationHint": "Seleccionar cuál de los siguientes progresos se añadirá a {name}.",
-"DND5E.AdvancementMigrationTitle": "Migrar Progreso",
 "DND5E.AdvancementModifyChoices": "Modificar Opciones",
 "DND5E.AdvancementSaveButton": "Guardar Progresión",
 "DND5E.AdvancementSelectionCreateButton": "Crear Progresión",
@@ -874,6 +917,11 @@
     "Gold": "{value} ({claimed})",
     "NoOrders": "No se han dado órdenes a instalaciones especiales este turno.",
     "Order": "{link} completada la orden <strong>{order}</strong>."
+  },
+  "Trade": {
+    "Cancel": "Cancelar Intercambio Pendiente",
+    "Invalid": "Eliminar un intercambio pendiente invalidará tu orden comercial.",
+    "Pending": "Comercio pendiente"
   }
 },
 
@@ -1830,37 +1878,10 @@
 "DND5E.ENCHANT": {
   "Title": "Encantamiento",
   "FIELDS": {
-    "effects": {
-      "FIELDS": {
-        "level": {
-          "label": "Límite de Nivel",
-          "hint": "Rango de niveles permitidos para usar este encantamiento.",
-          "max": {
-            "label": "Nivel Máximo"
-          },
-          "min": {
-            "label": "Nivel Mínimo"
-          }
-        },
-        "riders": {
-          "label": "Adjunto",
-          "activity": {
-            "label": "Actividades Adicionales",
-            "hint": "Se añadirán estas actividades adicionales al encantamiento cuando éste se aplique y se quitarán cuando de elimine el encatamiento."
-          },
-          "effect": {
-            "label": "Efectos Adicionales",
-            "hint": "Se añadirán estos efectos adicionales al encantamiento cuando éste se aplique y se quitarán cuando de elimine el encatamiento."
-          },
-          "item": {
-            "label": "Elementos Adicionales",
-            "hint": "Se añadirán estos elementos adicionales al encantamiento cuando éste se aplique y se quitarán cuando de elimine el encatamiento."
-          }
-        }
-      },
+    "effects.element": {
       "level": {
         "label": "Límite de Nivel",
-        "hint": "Rango de níveles neceasrios para usar este encantamiento.",
+        "hint": "Rango de niveles permitidos para usar este encantamiento.",
         "max": {
           "label": "Nivel Máximo"
         },
@@ -1872,15 +1893,15 @@
         "label": "Adjunto",
         "activity": {
           "label": "Actividades Adicionales",
-          "hint": "Estas actividades adicionales se añadirán al elemento encantado cuando se aplique, y se eliminarán cuando se disipe el encantamiento."
+          "hint": "Se añadirán estas actividades adicionales al encantamiento cuando éste se aplique y se quitarán cuando de elimine el encatamiento."
         },
         "effect": {
           "label": "Efectos Adicionales",
-          "hint": "Estas efectos adicionales se añadirán al elemento encantado cuando se aplique, y se eliminarán cuando se disipe el encantamiento."
+          "hint": "Se añadirán estos efectos adicionales al encantamiento cuando éste se aplique y se quitarán cuando de elimine el encatamiento."
         },
         "item": {
           "label": "Elementos Adicionales",
-          "hint": "Estos elementos adicionales se añadirán a la criatura cuando uno de sus objetos sea encantado, y se eliminarán cuando se disipe el encantamiento."
+          "hint": "Se añadirán estos elementos adicionales al encantamiento cuando éste se aplique y se quitarán cuando de elimine el encatamiento."
         }
       }
     },
@@ -2404,13 +2425,6 @@
 "DND5E.EffectUnavailable": "Efectos No Disponibles",
 "DND5E.EffectUnavailableInfo": "El elemento fuente debe estar equipado o sintonizado para activar estos",
 "DND5E.Encumbrance": "Carga",
-"DND5E.ItemRarityCommon": "común",
-"DND5E.ItemRarityMundane": "mundano",
-"DND5E.ItemRarityUncommon": "poco común",
-"DND5E.ItemRarityRare": "raro",
-"DND5E.ItemRarityVeryRare": "muy raro",
-"DND5E.ItemRarityLegendary": "legendario",
-"DND5E.ItemRarityArtifact": "artefacto",
 "DND5E.Eyes": "Ojos",
 "DND5E.Faith": "Creencia",
 "DND5E.FeatureActive": "Habilidades Activas",
@@ -2699,70 +2713,95 @@
 "DND5E.ItemLootType": "Tipo de Botín",
 "DND5E.ItemName": "Nombre del Elemento",
 "DND5E.ItemNew": "Nuevo {type}",
-"DND5E.Item": {
+"DND5E.ItemRarityCommon": "común",
+"DND5E.ItemRarityMundane": "mundano",
+"DND5E.ItemRarityUncommon": "poco común",
+"DND5E.ItemRarityRare": "raro",
+"DND5E.ItemRarityVeryRare": "muy raro",
+"DND5E.ItemRarityLegendary": "legendario",
+"DND5E.ItemRarityArtifact": "artefacto",
+"DND5E.ItemRechargeCheck": "{name} prueba de recarga - {result}",
+"DND5E.ItemRechargeFailure": "¡fallo!",
+"DND5E.ItemRechargeSuccess": "¡éxito!",
+"DND5E.ItemRecoveryRoll": "{name} recupera {count} cargas",
+"DND5E.ItemLossRoll": "{name} pierde {count} cargas",
+"DND5E.ItemRecoveryRollMax": "{name} recupera todas las cargas",
+"DND5E.ItemRecoveryFormulaWarning": "No se pueden recuperar los usos de {name}. Fórmula de recuperación no válida '{formula}' ({uuid}).",
+"DND5E.ItemRequiredStr": "Fuerza Necesaria",
+"DND5E.Items": "Elementos",
+"DND5E.ItemSiegeProperties": "Propiedades del Asedio",
+"DND5E.ItemSpeciesDetails": "Detalles de la Especie",
+"DND5E.ItemSpeciesDetailsLegacy": "Detalles de la Raza",
+"DND5E.ItemSubclassDetails": "Detalles de la Subclase",
+"DND5E.ItemToolBase": "Herramienta Base",
+"DND5E.ItemToolBonus": "Bonificación de Herramienta",
+"DND5E.ItemToolDetails": "Detalles de Herramienta",
+"DND5E.ItemToolProficiency": "Competencia de Herramienta",
+"DND5E.ItemToolProperties": "Propiedades de Herramienta",
+"DND5E.ItemToolStatus": "Estado de Herramienta",
+"DND5E.ItemToolType": "Tipo de Herramienta",
+"DND5E.ItemToolUsage": "Uso de Herramienta",
+"DND5E.ItemVehicleProperties": "Propiedades del Vehículo",
+"DND5E.ItemView": "Ver Elemento",
+"DND5E.ItemWeaponAttack": "Ataque del Arma",
+"DND5E.ItemWeaponBase": "Arma Base",
+"DND5E.ItemWeaponDetails": "Detalles del Arma",
+"DND5E.ItemWeaponProperties": "Propiedades del Arma",
+"DND5E.ItemWeaponStatus": "Estado del Arma",
+"DND5E.ItemWeaponType": "Tipo del Arma",
+"DND5E.ItemWeaponUsage": "Uso del Arma",
+
+"DND5E.ITEM": {
   "Category": {
     "Label": "Categoría",
     "Physical": "Física"
   },
-    "Property": {
-      "Adamantine": "Adamantino",
-      "Ammunition": "Munición",
-      "Concentration": "Concentración",
-      "Finesse": "Sutil",
-      "Firearm": "Arma de fuego",
-      "Focus": "Foco",
-      "Heavy": "Pesada",
-      "Light": "Ligera",
-      "Loading": "Recarga",
-      "Material": "Material",
-      "Magical": "Mágico",
-      "Reach": "Gran alcance",
-      "Reload": "Recargable",
-      "Returning": "Regresa",
-      "Ritual": "Ritual",
-      "Silvered": "Arma de Plata",
-      "Somatic": "Somático",
-      "Special": "Especial",
-      "StealthDisadvantage": "Desventaja al Sigilo",
-      "Thrown": "Arrojadiza",
-      "Trait": "Rasgo Pasivo",
-      "TwoHanded": "A dos manos",
-      "Versatile": "Versátil",
-      "Verbal": "Verbal",
-      "WeightlessContents": "Contenidos sin Peso"
-    }
+  "Property": {
+    "Adamantine": "Adamantino",
+    "Ammunition": "Munición",
+    "Concentration": "Concentración",
+    "Finesse": "Sutil",
+    "Firearm": "Arma de fuego",
+    "Focus": "Foco",
+    "Heavy": "Pesada",
+    "Light": "Ligera",
+    "Loading": "Recarga",
+    "Material": "Material",
+    "Magical": "Mágico",
+    "Reach": "Gran alcance",
+    "Reload": "Recargable",
+    "Returning": "Regresa",
+    "Ritual": "Ritual",
+    "Silvered": "Arma de Plata",
+    "Somatic": "Somático",
+    "Special": "Especial",
+    "StealthDisadvantage": "Desventaja al Sigilo",
+    "Thrown": "Arrojadiza",
+    "Trait": "Rasgo Pasivo",
+    "TwoHanded": "A dos manos",
+    "Versatile": "Versátil",
+    "Verbal": "Verbal",
+    "WeightlessContents": "Contenidos sin Peso"
+  },
+  "SECTIONS": {
+    "Activities": "Activities",
+    "Advancement": "Advancement",
+    "Contents": "Contents",
+    "Description": "Description",
+    "Details": "Details",
+    "Effects": "Effects"
+  }
 },
-"DND5E.ItemRechargeCheck": "Prueba de recarga de {name}",
-"DND5E.ItemRechargeFailure": "¡fracaso!",
-"DND5E.ItemRechargeSuccess": "¡éxito!",
-"DND5E.ItemRecoveryRoll": "{name} recupera {count} cargas",
-"DND5E.ItemLossRoll": "{name} pierde {count} cargas",
-"DND5E.ItemRecoveryRollMax": "{name} recupera todas la cargas",
-"DND5E.ItemRecoveryFormulaWarning": "No se pueden recuperar las cargas para {name}. Fórmula de recuperación no válida '{formula}'.",
-"DND5E.ItemRequiredStr": "Fuerza Necesaria",
-"DND5E.Items": "Elementos",
-"DND5E.ItemSiegeProperties": "Propiedades de Asedio",
-"DND5E.ItemSpeciesDetails": "Detalles de la Especie",
-"DND5E.ItemSpeciesDetailsLegacy": "Detalles de Raza",
-"DND5E.ItemSubclassDetails": "Detalles de la Subclase",
-"DND5E.ItemToolBase": "Herramienta Básica",
-"DND5E.ItemToolBonus": "Bonificación con Herramienta",
-"DND5E.ItemToolDetails": "Detalles de la Herramienta",
-"DND5E.ItemToolProficiency": "Competencia con Herramienta",
-"DND5E.ItemToolProperties": "Propiedades de la Herramienta",
-"DND5E.ItemToolStatus": "Estado de la Herramienta",
-"DND5E.ItemToolType": "Tipo de Herramienta",
-"DND5E.ItemToolUsage": "Uso de la Herramienta",
-"DND5E.ItemVehicleProperties": "Propiedades del Vehículo",
-"DND5E.ItemView": "Ver Elemento",
-"DND5E.ItemWeaponAttack": "Ataque del Arma",
-"DND5E.ItemWeaponBase": "Arma Básica",
-"DND5E.ItemWeaponDetails": "Detalles del Arma",
-"DND5E.ItemWeaponProperties": "Propiedades del Arma",
-"DND5E.ItemWeaponStatus": "Estado del Arma",
-"DND5E.ItemWeaponType": "Tipo de Arma",
-"DND5E.ItemWeaponUsage": "Uso del Arma",
+
 "DND5E.JackOfAllTrades": "Aprendiz de Mucho",
+
+"DND5E.JOURNALENTRY": {
+  "Navigation": {
+    "Next": "Siguiente",
+    "Previous": "Anterior",
+    "Up": "Arriba"
+  }
+},
 
 "DND5E.LAIR": {
   "Label": "Guarida",
@@ -2944,43 +2983,6 @@
 "DND5E.PassivePerception": "Percepción Pasiva",
 "DND5E.Period": "Periodo",
 "DND5E.PersonalityTraits": "Rasgos de Personalidad",
-"DND5E.Polymorph": "Polimorfar",
-"DND5E.PolymorphAcceptSettings": "Ajustes Personalizados",
-"DND5E.PolymorphAddTemp": "Añadir los PG del objetivo como PG temporales",
-"DND5E.PolymorphCustomTransformation": "Transformación Personalizada",
-"DND5E.PolymorphEffectTransformation": "Efectos de la Transformación",
-"DND5E.PolymorphKeepAE": "Mantener todos los efectos (anula las otras opciones).",
-"DND5E.PolymorphKeepBackgroundAE": "¿Mantener los efectos que surgen por tu trasfondo?",
-"DND5E.PolymorphKeepBio": "Mantener biografía",
-"DND5E.PolymorphKeepClass": "Mantener bonifiación por competencia (deja los elementos de clase en la hoja)",
-"DND5E.PolymorphKeepClassAE": "¿Manter efectos que surgen de tu clase o subclase?",
-"DND5E.PolymorphKeepEquipmentAE": "¿Mantener los efectos que surgen de tu equipo?",
-"DND5E.PolymorphKeepFeats": "Mantener rasgos",
-"DND5E.PolymorphKeepFeatureAE": "¿Mantener los efectos que surgen de tus rasgos?",
-"DND5E.PolymorphKeepHP": "Mantener PG & DG",
-"DND5E.PolymorphKeepItems": "Mantener equipo",
-"DND5E.PolymorphKeepMental": "Mantener puntuaciones de características mentales (Int, Sab, Car)",
-"DND5E.PolymorphKeepOriginAE": "Mantener los efectos que surgen de este actor (p.e. efectos que no dependen rasgos, objetos, conjuros)",
-"DND5E.PolymorphKeepOtherOriginAE": "¿Mantener los efectos que se originan de un actor diferente?",
-"DND5E.PolymorphKeepPhysical": "Mantener puntuaciones de características físicas (Fue, Des, Con)",
-"DND5E.PolymorphKeepSaves": "Mantener competencias de tiradas de salvación",
-"DND5E.PolymorphKeepSelf": "Mantenerse igual (sólo cambiar la imagen y el tamaño, p.e. para conjuros como Disfrazarse)",
-"DND5E.PolymorphKeepSkills": "Mantener competencias de habilidades",
-"DND5E.PolymorphKeepSpellAE": "¿Mantener los efectos surgidos de tus conjuros?",
-"DND5E.PolymorphKeepSpells": "Mantener conjuros",
-"DND5E.PolymorphKeepType": "Mantener tipo de criatura",
-"DND5E.PolymorphKeepVision": "Mantener visión (personaje y token)",
-"DND5E.PolymorphMergeSaves": "Mezclar competencias de tiradas de salvación (usar más alta)",
-"DND5E.PolymorphMergeSkills": "Mantener competencias de habilidades (usar más alta)",
-"DND5E.PolymorphPromptTitle": "Transformar Personaje",
-"DND5E.PolymorphRestoreTransformation": "Restaurar Transformación",
-"DND5E.PolymorphRevertNoOriginalActorWarn": "No se encontró un actor original con la referencia '{reference}'",
-"DND5E.PolymorphRevertWarn": "No tienes permiso para revertir el estado de polimorfismo de este personaje.",
-"DND5E.PolymorphSelf": "Sólo Apariencia",
-"DND5E.PolymorphTmpClass": "Clase Temporal",
-"DND5E.PolymorphTokens": "¿Transformar todos los tokens vinculados?",
-"DND5E.PolymorphWarn": "¡No tienes permiso para polimorfar a este personaje!",
-"DND5E.PolymorphWildShape": "Forma Salvaje",
 "DND5E.Portrait": "Retrato",
 "DND5E.Prepared": "Preparado",
 "DND5E.Prerequisites": {
@@ -3068,6 +3070,7 @@
 "DND5E.RechargeShort": "Recargar después de un Descanso Corto o Largo",
 "DND5E.Recovery": "Recuperación",
 "DND5E.RecoveryFormula": "Fórmula de Recuperación",
+"DND5E.Remaining": "Restantes",
 "DND5E.RequiredMaterials": "Materiales Requeridos",
 "DND5E.Requirements": "Requisitos",
 "DND5E.Resistances": "Resistencias",
@@ -3583,15 +3586,7 @@
       }
     },
     "profiles": {
-    "count": {
-      "label": "Cuenta"
-    },
-    "cr": {
-      "label": "Valor de Desafío",
-      "abbr": "VD",
-      "hint": "VD máximo de la criatura invocada."
-    },
-      "FIELDS": {
+      "element": {
         "count": {
           "label": "Cuenta"
         },
@@ -3623,27 +3618,6 @@
         }
       },
       "label": "Perfiles de las Invocaciones",
-      "level": {
-        "label": "Límite de Nivel",
-        "hint": "Rango de niveles necesarios para usar este perfil.",
-        "max": {
-          "label": "Nivel Máximo"
-        },
-        "min": {
-          "label": "Nivel Mínimo"
-        }
-      },
-      "name": {
-        "label": "Nombre a Mostrar",
-        "hint": "Nombre del perfil mostrado en el diálogo de uso."
-      },
-      "types": {
-        "label": "Tipos de Criatura",
-        "hint": "Lista de los tipos de criatura desde la que se puede seleccionar la criatura invocada."
-      },
-      "uuid": {
-        "label": "Criatura Enlazada"
-      }
     },
     "summon": {
       "label": "Detalles de la Invocación",
@@ -3694,7 +3668,6 @@
   },
   "Warning": {
     "CreateActor": "Debes tener el permiso 'Crear Nuevos Actores' para poder invocar directamente dese un compendio.",
-    "CRV11": "La invocación basada en el valor de desafío de la criatura sólo funciona en Foundry V12 o superior.",
     "NoActor": "No se puede encontrar un actor con el UUID '{uuid}' para invocar.",
     "NoOwnership": "Debes ser el propietario de '{actor}' para poder invocarlo.",
     "NoProfile": "No se puede encontrar el perfil de invocación {profileId} en '{item}'.",
@@ -4057,6 +4030,217 @@
 "DND5E.TraitWeaponProf": "Comp. con Armas",
 "DND5E.Traits": "Rasgos",
 "DND5E.TraitsChosen": "Rasgos Elegidos",
+
+"DND5E.TRANSFORM": {
+  "Action": {
+    "Restore": "Restaurar Transformación",
+    "Transform": "Transformar"
+  },
+  "Dialog": {
+    "Title": "Configurar Transformación"
+  },
+  "FIELDS": {
+    "profiles": {
+      "element": {
+        "cr": {
+          "label": "Valor de Desafío",
+          "abbr": "VD",
+          "hint": "VD máximo de la criatura origen."
+        },
+        "level": {
+          "label": "Límite de Nivel",
+          "hint": "Rango de niveles necesario para usar este perfil.",
+          "max": {
+            "label": "Nivel Máximo"
+          },
+          "min": {
+            "label": "Nivel Mínimo"
+          }
+        },
+        "movement": {
+          "hint": "Tipos de movimmiento que no están permitidos en las criaturas origen.",
+          "label": "Tipos de Movimiento Restringidos"
+        },
+        "name": {
+          "hint": "Nombre del perfil que se mostrará en el diálogo de uso.",
+          "label": "Nombre a Mostrar"
+        },
+        "sizes": {
+          "hint": "Lista de los tamaños de criatura de los que se puede seleccionar la criatura origen.",
+          "label": "Tamaños de Criatura"
+        },
+        "types": {
+          "hint": "Lista de los tipos de criatura de las que se puede seleccionar la criatura origen.",
+          "label": "Tipos de Criatura"
+        }
+      },
+      "label": "Perfiles de Transformación"
+    },
+    "transform": {
+      "label": "Detalles de la Transformación",
+      "customize": {
+        "label": "Personalizar",
+        "hint": "Utilizar la configuración de transformación personalizada antes que los parámetros predeterminados que ofrece el valor preestablecido seleccionado."
+      },
+      "identifier": {
+        "label": "Identificador de Clase",
+        "hint": "Identificador usado para determinar si usar el nivel de personaje o un nivel de clase específico para los límites de nivel de perfil."
+      },
+      "mode": {
+        "label": "Modo",
+        "hint": "Fija cómo se seleccionan las criaturas origen de la transformación.",
+        "Appearance": "Sólo Apariencia",
+        "Default": "Navegador de Compendios",
+        "Direct": "Enlace Directo"
+      },
+      "preset": {
+        "label": "Preestablecido",
+      }
+    }
+  },
+  "Preset": {
+    "Appearance": {
+      "Label": "Sólo Apariencia"
+    },
+    "Default": "Por defecto",
+    "Label": "Preestablecido",
+    "Polymorph": {
+      "Label": "Polimorfismo"
+    },
+    "WildShape": {
+      "Label": "Forma Salvaje"
+    }
+  },
+  "Profile": {
+    "Action": {
+      "Create": "Crear Perfil",
+      "Delete": "Borrar Perfil"
+    },
+    "ChallengeRatingLabel": "Nivel de Desafío de {cr} o menos",
+    "Empty": "Clic en el botón <i class=\"fas fa-plus\"></i> de arriba para crear un perfil.",
+    "Label": "Perfil de Transformación"
+  },
+  "SECTIONS": {
+    "Profiles": "Perfiles",
+    "Settings": "Configuración",
+    "Transformation": "Transformación"
+  },
+  "Setting": {
+    "Effects": {
+      "All": {
+        "Hint": "Mantener todos los efectos, ignorando cualquier tipo de configuración de los mismos.",
+        "Label": "Todos los Efectos"
+      },
+      "Background": {
+        "Label": "Efectos de Trasfondo"
+      },
+      "Class": {
+        "Label": "Efectos de Clase"
+      },
+      "Equipment": {
+        "Label": "Efectos de Equipo"
+      },
+      "Feature": {
+        "Label": "Efectos de Rasgo"
+      },
+      "Origin": {
+        "Hint": "Mantener cualquier efecto creado directamente en este actor origen.",
+        "Label": "Este Actor"
+      },
+      "OtherOrigin": {
+        "Hint": "Mantener cualquier efecto impuesto por un actor externo.",
+        "Label": "Otros Actores"
+      },
+      "Spell": {
+        "Label": "Efectos de Conjuro"
+      }
+    },
+    "FIELDS": {
+      "effects": {
+        "label": "Efectos Activos"
+      },
+      "keep": {
+        "hint": "Estos detalles se mantendrán desde el actor origen.",
+        "label": "Mantener"
+      },
+      "merge": {
+        "hint": "Mezclar estas competencias, manteniendo cualquiera que tenga el mayor valor modificador.",
+        "label": "Mezclar"
+      },
+      "other": {
+        "label": "Otras Opciones"
+      },
+      "tempFormula": {
+        "hint": "Fórmula para los PG temporales que se añadirán con la transformación.",
+        "label": "Fórmula Temporal"
+      },
+      "transformTokens": {
+        "label": "Tokens de Transformación"
+      }
+    },
+    "Keep": {
+      "Biography": {
+        "Label": "Biografía"
+      },
+      "CreatureType": {
+        "Label": "Tipo de Criatura"
+      },
+      "Equipment": {
+        "Label": "Equipo"
+      },
+      "Features": {
+        "Label": "Rasgos"
+      },
+      "Health": {
+        "Label": "Puntos de Golpe & Dados de Golpe"
+      },
+      "Mental": {
+        "Hint": "Mantener puntuaciones de inteligencia, sabiduría y carisma.",
+        "Label": "Características Mentales"
+      },
+      "Physical": {
+        "Hint": "Mantener puntuaciones de fuerza, destreza y constitución.",
+        "Label": "Características Físicas"
+      },
+      "Proficiency": {
+        "Label": "Bonificación de Competencia"
+      },
+      "Saves": {
+        "Label": "Guardar Competencias"
+      },
+      "Self": {
+        "Hint": "Sólo cambiar arte del retrato y del token, otra configuración será ignorada.",
+        "Label": "Propio"
+      },
+      "Skills": {
+        "Label": "Competencias de Habilidad"
+      },
+      "Spells": {
+        "Label": "Conjuros"
+      },
+      "Vision": {
+        "Label": "Visión"
+      }
+    },
+    "Merge": {
+      "Saves": {
+        "Label": "Guardar Compentencias"
+      },
+      "Skills": {
+        "Label": "Competencias de Habilidad"
+      }
+    }
+  },
+  "TemporaryClass": "Clase Temporal",
+  "Title": "Transformación",
+  "Warning": {
+    "NoOwnership": "No tienes permisos para transformar este actor.",
+    "NoPermission": "Los permisos de transformación no se han asignado a los jugadores.",
+    "OriginalActor": "No se ha encontrado un actor con el ID '{reference}'.",
+    "SourceActor": "No hay actor para ser transformado."
+  }
+},
+
 "DND5E.Treasure": {
   "Categories": {
     "Any": "Cualquiera",
@@ -4680,8 +4864,6 @@
 "MIGRATION.5eComplete": "¡Migración del sistema DnD5E a la versión {version} completada!",
 "MIGRATION.5eVersionTooOldWarning": "Los datos de tu sistema DnD5e son de una versión de Foundry demasiado antigua y no se pueden migrar de forma fiable a la última versión. Se intentará la migración, pero pueden producirse errores.",
 
-"SETTINGS.5eAllowPolymorphingL": "Permite a los jugadores polimorfar a sus propios personajes.",
-"SETTINGS.5eAllowPolymorphingN": "Permitir Polimorfar",
 "SETTINGS.5eAutoCollapseCardL": "Contrae automáticamente la tarjeta de descripción del elemento en el registro de chat",
 "SETTINGS.5eAutoCollapseCardN": "Contraer Tarjetas de Elementos en el Chat",
 "SETTINGS.5eAutoSpellTemplateL": "Cuando se lance un conjuro, de manera predeterminada creará automáticamente cualquier plantilla de medición correspondiente (requiere el rol de 'De confianza' o superior)",
@@ -4693,10 +4875,6 @@
 "SETTINGS.5eGridAlignedSquareTemplatesL": "Cuando se crean plantillas cuadradas como resultado de lanzar un conjuro o utilizar un objeto, se fijarán y alinearán con la cuadrícula y no podrán rotarse.",
 "SETTINGS.5eGridAlignedSquareTemplatesN": "Plantillas Cuadradas Alineadas a la Cuadrícula",
 "SETTINGS.DND5E": {
-  "ALLOWSUMMONING": {
-    "Name": "Permitir Invocar",
-    "Hint": "Permite a los jugadores usar habilidades de invocación para convocar actores. Los jugadores también deben tener el permiso de Crear Token para que funcione."
-  },
   "BLOODIED": {
     "Name": "Estado Ensangrentado",
     "Hint": "Configurar si el estado ensangrentado se sigue automáticamente y su visibilidad.",
@@ -4781,6 +4959,16 @@
   "THEME": {
     "Name": "Tema",
     "Hint": "Tema visual que se aplicará a la UI y a todas las hojas por defecto. Se determinará automáticamente según tu navegador o sistema operativo."
+  },
+  "PERMISSIONS": {
+    "AllowSummoning": {
+      "Hint": "Permitir a los jugadores utilizar habilidades de invocación, para invocar actores. Los jugadores también deben tener permisos para Crear Token para que esto funcione.",
+      "Name": "Permitir Invocar"
+    },
+    "AllowTransformation": {
+      "Hint": "Permitir a los jugadores transformar sus propios actores. Los jugadores también deben tener permisos para Crear Actor para que esto funcione.",
+      "Name": "Permitir Transformación"
+    }
   },
   "RULESVERSION": {
     "Name": "Versión de las Reglas",
@@ -4870,6 +5058,8 @@
   }
 },
 
-"SOURCE.BOOK.SRD": "Documento de Referencia del Sistema (SRD) 5.1",
+"SOURCE.BOOK.FreeRules": "Free Rules",
+"SOURCE.BOOK.SRD51": "Documento de Referencia del Sistema (SRD) 5.1",
+"SOURCE.BOOK.SRD52": "Documento de Referencia del Sistema (SRD) 5.2",
 "SIDEBAR.SortModePriority": "Ordenar por prioridad"
 }

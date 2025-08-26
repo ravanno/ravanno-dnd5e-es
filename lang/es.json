@@ -1757,7 +1757,7 @@
             },
             "formula": {
               "label": "Fórmula de Escala",
-              "hint": "Fórmula arbitraria de escala qeu será multiplicada por cada paso de escala y se añadirá a la fórmula original."
+              "hint": "Fórmula arbitraria de escala que será multiplicada por cada paso de escala y se añadirá a la fórmula original."
             }
           },
           "types": {

@@ -4,8 +4,9 @@ Traducción al español del sistema de Dungeons & Dragons 5E (SRD).
 
 Actualizando para DnD5e 5.1.8 y Foundry 11.315 (Verificado 13)
 
-**Versión 5.1.8.1**
+**Versión 5.1.9.1**
 - Corrección de textos recomendada por MrProditio [https://github.com/MrProditio] (¡Muchas gracias!)
+- Actualizadas traducciones a la versión 5.1.9
 - Pendiente: Actualizar compendios a versión 24
 
 **Versión 5.1.8**

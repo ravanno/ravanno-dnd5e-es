@@ -39,8 +39,8 @@
 "TYPES.Item.equipmentPl": "Equipo",
 "TYPES.Item.facility": "Edificio",
 "TYPES.Item.facilityPl": "Edificios",
-"TYPES.Item.feat": "Rasgo",
-"TYPES.Item.featurePl": "Rasgos",
+"TYPES.Item.feat": "Dote",
+"TYPES.Item.featurePl": "Dotes",
 "TYPES.Item.loot": "Botín",
 "TYPES.Item.lootPl": "Botines",
 "TYPES.Item.race": "Raza",
@@ -2438,11 +2438,11 @@
       "SuperiorHuntersDefense": "Defensa de Cazador Experto"
     },
     "Feat": {
-      "Label": "Rasgo",
-      "EpicBoon": "Beneficio Épico del Rasgo",
-      "FightingStyle": "Rasgo de Estilo de Lucha",
-      "General": "Rasgo General",
-      "Origin": "Origen del Rasgo"
+      "Label": "Dote",
+      "EpicBoon": "Dote de Don Épico",
+      "FightingStyle": "Dote de Estilo de Combate",
+      "General": "Dote General",
+      "Origin": "Dote de Origen"
     },
     "Monster": "Rasgo de Monstruo",
     "Species": "Rasgo de Especie",
@@ -5307,11 +5307,11 @@
       "Name": "Permitir Descansos Individuales"
     },
     "AllowSummoning": {
-      "Hint": "Permitir a los jugadores utilizar habilidades de invocación, para invocar actores. Los jugadores también deben tener permisos para Crear Token para que esto funcione.",
+      "Hint": "Permitir a los jugadores utilizar habilidades de invocación, para invocar actores. Los jugadores también deben tener permisos para Crear Token.",
       "Name": "Permitir Invocar"
     },
     "AllowTransformation": {
-      "Hint": "Permitir a los jugadores transformar sus propios actores. Los jugadores también deben tener permisos para Crear Actor para que esto funcione.",
+      "Hint": "Permitir a los jugadores transformar sus propios actores. Los jugadores también deben tener permisos para Crear Actor & Token para que esto funcione.",
       "Name": "Permitir Transformación"
     }
   },

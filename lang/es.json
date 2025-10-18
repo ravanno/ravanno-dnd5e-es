@@ -863,7 +863,7 @@
     "Weapon": "Arma"
   },
   "Formatted": {
-    "2014": "Atacque {type} {classification}",
+    "2014": "Ataque {type} {classification}",
     "2024": "Tirada de Ataque {type}"
   },
   "Mode": {
@@ -5000,13 +5000,13 @@
 "EDITOR.DND5E.Inline": {
   "ApplyStatus": "Aplicar Estado a los Tokens Seleccionados",
   "AttackExtended": "<em>{type}</em>: {parts}",
-  "AttackLong": "{formula} para impactar",
+  "AttackLong": "{formula} a impactar",
   "AttackShort": "{formula}",
   "AwardEach": "{award} cada",
   "CheckShort": "{check}",
   "CheckLong": "prueba de {check}",
   "CheckUsing": "{check} utilizando {tool}",
-  "DamageExtended": "<em>Impacto:</em> {damage} de daño",
+  "DamageExtended": "<em>Impacto:</em> de daño {damage}",
   "DamageDouble": "{first} más {second}",
   "DamageShort": "{formula} {type}",
   "DamageLong": "{average} ({formula}) {type}",

@@ -24,7 +24,8 @@
 "TYPES.ChatMessage": {
   "request": "Mensaje de Solicitud",
   "rest": "Mensaje de Descanso",
-  "turn": "Mensaje de Turno de Combate"
+  "turn": "Mensaje de Turno de Combate",
+  "usage": "Mensaje de Uso"
 },
 
 "TYPES.Item.background": "Trasfondo",
@@ -59,6 +60,13 @@
 "TYPES.RegionBehavior": {
   "dnd5e.difficultTerrain": "Terreno Difícil",
   "dnd5e.rotateArea": "Rotar Área"
+},
+
+"TYPES.HINTS": {
+  "RegionBehavior": {
+    "dnd5e.difficultTerrain": "Marca una región como terreno difícil y establece su tipo y a quién afecta.",
+    "dnd5e.rotateArea": "Rota tokens, losetas, muros y otros objetos alrededor de un punto de pivote central."
+  }
 },
 
 "DND5E.title": "Sistema de Juego DnD5e",
@@ -371,6 +379,7 @@
       "other": "Máx {points} puntos por puntuación"
     },
     "Details": "Detalles de la Mejora",
+    "EffectTargetHint": "Esta puntuación está siendo modificada por un Efecto Activo. Su valor final será {value}.",
     "Feat": {
       "ASIName": "Rasgo Asociado de la Mejora de Puntuación de Característica",
       "Hint": "Arrastra aquí un rasgo en lugar de aplicar una mejora de puntuación de característica."
@@ -441,14 +450,35 @@
     "BackgroundProficiencies": "Competencias del Trasfondo",
     "ChooseLanguages": "Escoger Idiomas"
   },
+  "Deletion": {
+    "Delete": {
+      "Message": "Eliminar este elemento también eliminará todas las elecciones de progreso realizadas para él. Estos cambios se eliminarán de tu personaje mientras la casilla de verificación a continuación esté marcada.",
+      "Title": "Confirmar Eliminación"
+    },
+    "LevelDown": {
+      "Message": "Reducir el nivel de esta clase también eliminará todas las elecciones de progreso realizadas para ella. Estos cambios se eliminarán de tu personaje mientras la casilla de verificación a continuación esté marcada.",
+      "Title": "Reducir Nivel"
+    },
+    "Label": "Eliminar Cambios",
+    "Options": "Opciones"
+  },
   "HitPoints": {
     "Action": {
-      "Roll": "Tirar {die}"
+      "RollClass": "Tirar Puntos de Golpe de {class}",
+      "RollDie": "Tirar {die}"
     },
     "Average": "Promedio",
+    "Breakdown": {
+      "Average": "Prom.",
+      "Bonus": "Bonificación",
+      "Final": "Final",
+      "Max": "Máximo",
+      "Previous": "Ant.",
+      "Roll": "Tirada"
+    },
     "Hint": "Hacer seguimiento de los puntos de golpe del jugador para cada nivel de la clase.",
     "MaxAtFirstLevel": "Máximo a Nivel 1: <strong>{max}</strong>",
-    "Roll": "Tirar Puntos de Golpe de {class}",
+    "Options": "Opciones",
     "Starting": "Puntos de Golpe a Nivel 1",
     "TakeAverage": "Tomar Promedio",
     "Title": "Puntos de Golpe",
@@ -510,6 +540,7 @@
       }
     },
     "Hint": "Mostrar al jugador una selección de elementos (equipo, rasgos o conjuros) donde puede elegir para su personaje a nivel 1 o superiores.",
+    "Options": "Opciones",
     "Replacement": {
       "None": "Sin Reemplazo",
       "Title": "reemplazar"
@@ -646,6 +677,9 @@
     }
   },
   "Size": {
+    "Action": {
+      "SelectSize": "Seleccionar Tamaño"
+    },
     "DefaultHint": {
       "Multiple": "Elige tu tamañao de entre {sizes}.",
       "Single": "Tu tamaño es {size}."
@@ -700,7 +734,9 @@
   "Trait": {
     "Action": {
       "AddChoice": "Añadir Opción",
-      "RemoveChoice": "Eliminar Opción"
+      "RemoveChoice": "Eliminar Opción",
+      "RemoveTrait": "Eliminar Rasgo",
+      "SelectTrait": "Seleccionar Rasgo"
     },
     "ChoicesRemaining": "Seleccionar {count} más {type}",
     "Details": "Detales de Rasgo",
@@ -774,9 +810,6 @@
 "DND5E.AdvancementConfiguredIncomplete": "No Configurado",
 "DND5E.AdvancementCustomIcon": "Icono Personalizado",
 "DND5E.AdvancementCustomTitle": "Título Personalizado",
-"DND5E.AdvancementDeleteConfirmationLabel": "Eliminar cambios al progreso",
-"DND5E.AdvancementDeleteConfirmationMessage": "Al eliminar este objeto también se eliminarán todas las decisiones de progreso tomadas para ella. Estos cambios se eliminarán de tu personaje siempre y cuando la casilla de verificación de abajo esté marcada.",
-"DND5E.AdvancementDeleteConfirmationTitle": "Confirmar Eliminación",
 "DND5E.AdvancementFlowDropAreaHint": "Deja un Objeto aquí para elegirlo.",
 "DND5E.AdvancementHint": "Pista",
 "DND5E.AdvancementItemTypeInvalidWarning": "Elementos del tipo {type} no pueden ser añadidos para este tipo de progresión.",
@@ -815,6 +848,15 @@
 "DND5E.AttunementOverride": "Anular sintonización",
 "DND5E.Attuned": "Sintonizado",
 "DND5E.AreaOfEffect": {
+  "Description": {
+    "Height": "alto",
+    "Length": "largo",
+    "Radius": "radio",
+    "SizeSimple": "{number}-{unit}",
+    "SizeType": "{number}-{unit}-{type}",
+    "Thickness": "grosor",
+    "Width": "ancho"
+  },
   "Label": "Área de Efecto",
   "Size": {
     "Label": "Tamaño",
@@ -1986,6 +2028,7 @@
 "DND5E.Current": "Actual",
 
 "DND5E.DAMAGE": {
+  "All": "Todo el Daño",
   "FIELDS": {
     "damage": {
       "label": "Daño",
@@ -2059,6 +2102,12 @@
       "Delete": "Borrar Parte de Daño"
     }
   },
+  "PhysicalBypass": {
+    "Description": "{damageTypes} de ataques que no son {bypassTypes}",
+    "DescriptionShort": "Anulado por fuentes de tipo {type}",
+    "Hint": "Estas propiedades de arma evitarán la resistencia al daño por daño físico.",
+    "Label": "Anulaciones Físicas"
+  },
   "Scaling": {
     "Half": "Cada Otro Nivel",
     "HalfCantrip": "Medio Escalado de Truco",
@@ -2066,16 +2115,30 @@
     "Whole": "Cada Nivel",
     "WholeCantrip": "Escalado de Truco"
   },
-  "Title": "Daño"
+  "Title": "Daño",
+  "Type": {
+    "Acid": "Ácido",
+    "Bludgeoning": "Contundente",
+    "Cold": "Frío",
+    "Fire": "Fuego",
+    "Force": "Fuerza",
+    "Lightning": "Relámpago",
+    "Necrotic": "Necrótico",
+    "Piercing": "Perforante",
+    "Poison": "Veneno",
+    "Psychic": "Psíquico",
+    "Radiant": "Radiante",
+    "Slashing": "Cortante",
+    "Thunder": "Trueno"
+  }
 },
 
 "DND5E.DamImm": "Inmunidad a Daño",
 "DND5E.DamMod": "Modificador de Daño",
 "DND5E.DamRes": "Resistencia a Daño",
 "DND5E.DamVuln": "Vulnerabilidad a Daño",
+
 "DND5E.Damage": "Daño",
-"DND5E.DamageAcid": "Ácido",
-"DND5E.DamageAll": "Todo el Daño",
 "DND5E.DamageApplication": {
   "Change": {
     "Modification": "Modificación de {type}",
@@ -2087,32 +2150,16 @@
   "Downgrading": "Degradar {source} a Resistencia",
   "Ignoring": "Ignorar {source}"
 },
-"DND5E.DamageBludgeoning": "Contundente",
-"DND5E.DamageCold": "Frío",
-"DND5E.DamageFire": "Fuego",
-"DND5E.DamageForce": "Fuerza",
-"DND5E.DamageLightning": "Relámpago",
 "DND5E.DamageModification": {
   "Label": "Modificación de Daño",
   "Hint": "Förmulas para puntuaciones que serán añadidas al tipo de daño aplicado a este actor. Los valores negativos reducen el daño sufrido.",
   "BypassHint": "Estas propiedades de arma evitarán la modificación del daño por daño físico."
 },
-"DND5E.DamageNecrotic": "Necrótico",
-"DND5E.DamagePiercing": "Perforante",
-"DND5E.DamagePhysical": "Físico No Mágico",
-"DND5E.DamagePhysicalBypass": "Bypasses Físicos",
-"DND5E.DamagePhysicalBypassHint": "Estas propiedades de arma evitarán la resistencia al daño por daño físico.",
-"DND5E.DamagePhysicalBypasses": "{damageTypes} de ataques que no son {bypassTypes}",
-"DND5E.DamagePhysicalBypassesShort": "Anulado por fuentes de tipo {type}",
-"DND5E.DamagePoison": "Veneno",
-"DND5E.DamagePsychic": "Psíquico",
-"DND5E.DamageRadiant": "Radiante",
 "DND5E.DamageRoll": "Tirada de Daño",
-"DND5E.DamageSlashing": "Cortante",
 "DND5E.DamageThreshold": "Umbral de Daño",
-"DND5E.DamageThunder": "Trueno",
 "DND5E.DamageType": "Tipo de Daño",
 "DND5E.DamageTypes": "Tipos de Daño",
+
 "DND5E.Dawn": "Amanecer",
 "DND5E.Day": "Día",
 "DND5E.DeathSave": "Salvación Contra Muerte",
@@ -2869,7 +2916,15 @@
 "DND5E.Formula": "Fórmula",
 "DND5E.FormulaMalformedError": "Hay un problema preparando la fórmula para {property} con {name}.",
 "DND5E.FormulaMissingReferenceWarn": "La fórmula para {property} con {name} tiene referenciasa datos que no existen: {references}",
-"DND5E.Gear": "Equipo",
+
+"DND5E.Gear": {
+  "Action": {
+    "Add": "Añadir al Equipo",
+    "Remove": "Eliminar del Equipo"
+  },
+  "Label": "Equipo"
+},
+
 "DND5E.Gender": "Género",
 "DND5E.GlobalBonus": "Bonificación Global",
 "DND5E.GrantedAbilities": "Capacidades Otorgadas",
@@ -3006,13 +3061,20 @@
       }
     }
   },
+  "HealingButton": "Curar",
+  "HealingRoll": "Tirada de Curación",
   "Hint": "Curar una criatura",
-  "Title": "Curar"
+  "Title": "Curar",
+  "Type": {
+    "Healing": "Puntos de Golpe",
+    "HealingShort": "Curación",
+    "Maximum": "Puntos de Golpe Máximos",
+    "MaximumShort": "PG Máx",
+    "Temporary": "Puntos de Golpe Temporales",
+    "TemporaryShort": "PG Temp"
+  }
 },
 
-"DND5E.Healing": "Curación",
-"DND5E.HealingRoll": "Tirada de Curación",
-"DND5E.HealingTemp": "Curación (Temporal)",
 "DND5E.Height": "Altura",
 
 "DND5E.HITPOINTS": {
@@ -3180,6 +3242,7 @@
     "Finesse": "Sutil",
     "Firearm": "Arma de fuego",
     "Focus": "Foco",
+    "Gear": "Equipo",
     "Heavy": "Pesada",
     "Light": "Ligera",
     "Loading": "Recarga",
@@ -3214,9 +3277,13 @@
 "DND5E.JackOfAllTrades": "Aprendiz de Mucho",
 
 "DND5E.JOURNALENTRY": {
+  "Action": {
+    "ConfigureNavigation": "Configurar Navegación"
+  },
   "Navigation": {
     "Next": "Siguiente",
     "Previous": "Anterior",
+    "Title": "Navegación",
     "Up": "Arriba"
   }
 },
@@ -3450,7 +3517,7 @@
     "InvalidLevel": "debes ser al menos nivel {level}",
     "Message": "{actor} {requirements} para poder coger este {type}.",
     "MissingItem": "debes haber cogido antes {items}",
-    "NotRepeatable": "no debes haber cogido esto antes"
+    "NotRepeatable": "no debes haber cogido {name} antes"
   }
 },
 "DND5E.Price": "Precio",
@@ -3761,11 +3828,13 @@
     }
   },
   "Hover": "Flotar",
+  "HoverSpeed": "{speed} (flotar)",
   "Speed": "Velocidad de Combate",
   "Type": {
     "Burrow": "Excavar",
     "Climb": "Trepar",
     "Fly": "Volar",
+    "Jump": "Saltar",
     "Speed": "Velocidad",
     "Swim": "Nadar",
     "Walk": "Caminar"
@@ -3853,22 +3922,23 @@
 "DND5E.Shape": "Forma",
 
 "DND5E.SheetClass": {
-  "Character": "Hoja de Personaje 5e por defecto",
-  "ClassSummary": "Hoja Resumen de Clase 5e por defecto",
-  "Container": "Hoja de Contenedor de 5e por defecto",
-  "DifficultTerrain": "Hoja de Terreno Difícil de 5e por defecto",
-  "Encounter": "Hoja de Encuentro de 5e por defecto",
-  "Group": "Hoja de Grupo 5e por defectot",
-  "Item": "Hoja de Objeto 5e por defecto",
-  "JournalEntry": "Hoja de Entrada de Diario 5e por defecto",
-  "JournalEntryLegacy": "Hoja de Entrada de Diario 5e por defecto Legacy",
-  "MapLocation": "Hoja de Localización en el Mapa 5e por defecto",
-  "NPC": "Hoja de PNJ 5e por defecto",
-  "RotateArea": "Hoja de Rotación de Área de 5e por defecto",
-  "Rule": "Hoja de Regla 5e por defecto",
-  "SpellList": "Hoja de Lista de Conjuros 5e por defecto",
-  "Token": "Hoja de Token 5e por defecto",
-  "Vehicle": "Hoja de Vehículo 5e por defecto"
+  "Character": "Hoja de Personaje D&D 5e",
+  "ClassSummary": "Hoja Resumen de Clase D&D",
+  "Container": "Hoja de Contenedor de D&D 5e",
+  "DifficultTerrain": "Hoja de Terreno Difícil de D&D 5e",
+  "Encounter": "Hoja de Encuentro de D&D 5e",
+  "Group": "Hoja de Grupo D&D 5e",
+  "Item": "Hoja de Objeto D&D 5e",
+  "JournalEntry": "Hoja de Entrada de Diario D&D 5e",
+  "JournalEntryLegacy": "Hoja de Entrada de Diario D&D 5e Legacy",
+  "MapLocation": "Hoja de Localización en el Mapa D&D 5e",
+  "NPC": "Hoja de PNJ D&D 5e",
+  "RollTable": "Hoja de Tabla de Tiradas D&D 5e",
+  "RotateArea": "Hoja de Rotación de Área de D&D 5e",
+  "Rule": "Hoja de Regla D&D 5e",
+  "SpellList": "Hoja de Lista de Conjuros D&D 5e",
+  "Token": "Hoja de Token D&D 5e",
+  "Vehicle": "Hoja de Vehículo D&D 5e"
 },
 
 "DND5E.SheetModeEdit": "Editar",
@@ -3994,6 +4064,10 @@
   }
 },
 
+"DND5E.SourceItem": {
+  "Label": "Elemento de Fuente",
+  "LockedHint": "La fuente de este elemento se determina automáticamente por el elemento que lo otorga y no se puede cambiar."
+},
 "DND5E.Special": "Especial",
 "DND5E.SpecialHint": "Valores especiales separdos por puntos y comas.",
 "DND5E.SpecialTraits": "Rasgos Especiales",
@@ -4006,7 +4080,22 @@
   "Name": "Nombre de la Especie"
 },
 "DND5E.Speed": "Velocidad",
-"DND5E.SpeedSpecial": "Mov. Especial",
+"DND5E.SpeedSpecial": "Movimiento Especial",
+
+"DND5E.SPELL": {
+  "Embed": {
+    "CastingTimeTrigger": "{castingTime}, que realizas {trigger}",
+    "Tag": {
+      "Cantrip": "Truco de {school}",
+      "CantripLegacy": "truco de {school}",
+      "Classes": "{levelSchool} ({classes})",
+      "Leveled": "Nivel {level} de {school}",
+      "LeveledLegacy": "{school} de nivel {levelOrdinal}",
+      "Ritual": "{levelSchool} (ritual)"
+    }
+  }
+},
+
 "DND5E.SpellAbility": "Aptitud Mágica",
 "DND5E.SpellAbilitySet": "Configurar como Habilidad Principal para Lanzamiento de Conjuros",
 "DND5E.SpellAdd": "Añadir Conjuro",
@@ -4078,6 +4167,7 @@
 "DND5E.SpellcastingClass": "Lazamiento de Conjuros {class}",
 "DND5E.SpellComponent": "Componente del Conjuro",
 "DND5E.SpellComponents": "Componentes del Conjuro",
+"DND5E.SpellComponentsMaterial": "{components} ({materials})",
 "DND5E.SpellCreate": "Crear Conjuro",
 "DND5E.SpellDC": "CD de Conjuro",
 "DND5E.SpellDetails": "Detalles del Conjuro",
@@ -4119,9 +4209,8 @@
 "DND5E.SpellPreparation": {
   "Label": "Preparación del Conjuro",
   "Formula": "Fórmula de Preparación",
-  "Mode": "Forma de Preparar el Conjuro"
+ "Method": "Método de Lanzamiento de Conjuros"
 },
-"DND5E.SpellSourceClass": "Clase Origen",
 "DND5E.SpellPrepared": "Preparado",
 "DND5E.SpellProgArt": "Artificiero",
 "DND5E.SpellProgAvailable": "Espacios disponibles",
@@ -4303,6 +4392,10 @@
         "label": "Aviso de Invocación",
         "hint": "¿Se debe pedir al jugador que coloque la invocación? Los jugadores todavía podrán invocar desde el chat si está desactivado."
       }
+    },
+    "tempHP": {
+      "label": "PG Temp",
+      "hint": "Otorga a la criatura invocada puntos de vida temporales, reemplazando cualquier punto de vida temporal existente."
     }
   },
   "Action": {
@@ -4405,6 +4498,10 @@
           "label": "Tamaño del Área",
           "hint": "Tamaño del área de efecto en su eje primario."
         },
+        "stationary": {
+          "label": "Estacionario",
+          "hint": "La emanación no se puede mover una vez colocada."
+        },
         "type": {
           "label": "Tipo de Área",
           "hint": "Tipo del área de efecto marcada como objetivo."
@@ -4426,6 +4523,7 @@
       "Label": "Aliado",
       "Counted": {
         "any": "cualquier aliado",
+        "each": "cada aliado",
         "every": "todos los aliados",
         "one": "{number} aliado",
         "other": "{number} aliados"
@@ -4438,20 +4536,25 @@
       "Label": "Círculo",
       "Counted": {
         "one": "{number} círculo",
-        "other": "{number} círculos"
+        "other": "{number} círculos",
+        "oneSized": "Círculo {sizes}",
+        "otherSized": "{number} Círculos {sizes}"
       }
     },
     "Cone": {
       "Label": "Cono",
       "Counted": {
         "one": "{number} cono",
-        "other": "{number} conos"
+        "other": "{number} conos",
+        "oneSized": "Cono {sizes}",
+        "otherSized": "{number} Conos {sizes}"
       }
     },
     "Creature": {
       "Label": "Criatura",
       "Counted": {
         "any": "cualquier criatura",
+        "each": "cada criatura",
         "every": "todas las criaturas",
         "one": "{number} criatura",
         "other": "{number} criaturas"
@@ -4461,6 +4564,7 @@
       "Label": "Criatura u Objeto",
       "Counted": {
         "any": "cualquier criatura u objeto",
+        "each": "cada criatura u objeto",
         "every": "todas las criaturas u objetos",
         "one": "{number} criatura u objeto",
         "other": "{number} criaturas u objetos"
@@ -4470,27 +4574,34 @@
       "Label": "Cubo",
       "Counted": {
         "one": "{number} cubo",
-        "other": "{number} cubos"
+        "other": "{number} cubos",
+        "oneSized": "Cubo {sizes}",
+        "otherSized": "{number} Cubos {sizes}"
       }
     },
     "Cylinder": {
       "Label": "Cilindro",
       "Counted": {
         "one": "{number} cilindro",
-        "other": "{number} cilindros"
+        "other": "{number} cilindros",
+        "oneSized": "Cilindro {sizes}",
+        "otherSized": "{number} Cilindros {sizes}"
       }
     },
     "Emanation": {
       "Label": "Emanación",
       "Counted": {
         "one": "{number} emanación",
-        "other": "{number} emanaciones"
+        "other": "{number} emanaciones",
+        "oneSized": "Emanación {sizes}",
+        "otherSized": "{number} Emanaciones {sizes}"
       }
     },
     "Enemy": {
       "Label": "Enemigo",
       "Counted": {
         "any": "cualquier enemigo",
+        "each": "cada enemigo",
         "every": "todos los enemigos",
         "one": "{number} enemigo",
         "other": "{number} enemigos"
@@ -4500,13 +4611,16 @@
       "Label": "Línea",
       "Counted": {
         "one": "{number} línea",
-        "other": "{number} líneas"
+        "other": "{number} líneas",
+        "oneSized": "Línea {sizes}",
+        "otherSized": "{number} Líneas {sizes}"
       }
     },
     "Object": {
       "Label": "Objecto",
       "Counted": {
         "any": "cualquier objeto",
+        "each": "cada objeto",
         "every": "todos los objetos",
         "one": "{number} objeto",
         "other": "{number} objetos"
@@ -4516,39 +4630,57 @@
       "Label": "Radio",
       "Counted": {
         "one": "{number} radio",
-        "other": "{number} radios"
+        "other": "{number} radios",
+        "oneSized": "Radio {sizes}",
+        "otherSized": "{number} Radios {sizes}"
       }
     },
     "Self": {
       "Label": "Uno mismo"
     },
-    "Sphere": {
-      "Label": "Esfera",
-      "Counted": {
-        "one": "{number} esfera",
-        "other": "{number} esferas"
-      }
-    },
     "Space": {
       "Label": "Espacio",
       "Counted": {
         "any": "cualquier espacio",
+        "each": "cada espacio",
         "every": "todos los espacios",
-        "one": "{number} espacio",
-        "other": "{number} espacios"
+        "one": "{number} Espacio",
+        "other": "{number} Espacios"
+      }
+    },
+    "Sphere": {
+      "Label": "Esfera",
+      "Counted": {
+        "one": "{number} esfera",
+        "other": "{number} esferas",
+        "oneSized": "Esfera {sizes}",
+        "otherSized": "{number} Esferas {sizes}"
+      }
+    },
+    "Special": {
+      "Label": "{special}",
+      "Counted": {
+        "any": "cualquier {special}",
+        "each": "cada {special}",
+        "every": "todos los {special}",
+        "one": "{number} {special}",
+        "other": "{number} {special}"
       }
     },
     "Square": {
       "Label": "Cuadrado",
       "Counted": {
         "one": "{number} cuadrado",
-        "other": "{number} cuadrados"
+        "other": "{number} cuadrados",
+        "oneSized": "Cuadrado {sizes}",
+        "otherSized": "{number} Cuadrados {sizes}"
       }
     },
     "Target": {
       "Label": "Objetivo",
       "Counted": {
         "any": "cualquier objetivo",
+        "each": "cada objetivo",
         "every": "todos los objetivos",
         "one": "{number} objetivo",
         "other": "{number} objetivos"
@@ -4558,13 +4690,16 @@
       "Label": "Muro",
       "Counted": {
         "one": "{number} muro",
-        "other": "{number} muros"
+        "other": "{number} muros",
+        "oneSized": "Muro {sizes}",
+        "otherSized": "{number} Muros {sizes}"
       }
     },
     "WillingCreature": {
       "Label": "Criatura Consciente",
       "Counted": {
         "any": "cualquier criatura consciente",
+        "each": "cada criatura consciente",
         "every": "todas las criaturas conscientes",
         "one": "{number} criatura consciente",
         "other": "{number} criaturas conscientes"
@@ -4976,21 +5111,25 @@
 "DND5E.UNITS": {
   "DISTANCE": {
     "Foot": {
+      "Abbreviation": "ft",
       "Label": "Pies",
-      "Abbreviation": "ft"
+      "Template": "pie"
     },
     "Kilometer": {
+      "Abbreviation": "km",
       "Label": "Kilómetros",
-      "Abbreviation": "km"
+      "Template": "kilómetro"
     },
     "Label": "Unidades de Distancia",
     "Meter": {
+      "Abbreviation": "m",
       "Label": "Metros",
-      "Abbreviation": "m"
+      "Template": "metro"
     },
     "Mile": {
+      "Abbreviation": "mi",
       "Label": "Millas",
-      "Abbreviation": "mi"
+      "Template": "milla"
     }
   },
   "TIME": {
@@ -5495,7 +5634,7 @@
   "DamageExtended": "<em>Impacto:</em> de daño {damage}",
   "DamageDouble": "{first} más {second}",
   "DamageShort": "{formula} {type}",
-  "DamageLong": "{average} ({formula}) {type}",
+  "DamageLong": "{average} <span class=\"formula-group\">({formula})</span> {type}",
   "DC": "CD {dc} {check}",
   "DCPassiveShort": "CD {dc} {check} pasiva",
   "DCPassiveLong": "puntuacion pasiva de {check} {dc} o mayor",

@@ -1,81 +1,80 @@
 {
-"COMMON": {
-  "AreYouSure": "¿Estás seguro?",
-  "Cancel": "Cancelar",
-  "Confirm": "Confirmar",
-  "Default": "Predeterminado",
-  "Delete": "Eliminar",
-  "No": "No",
-  "None": "Ninguno",
-  "Unknown": "Desconocido",
-  "Yes": "Sí"
-},
-
-"DOCUMENT.DND5E": {
-  "Activity": "Actividad",
-  "Advancement": "Progresión",
+"DOCUMENT.Activity": "Actividad",
+"DOCUMENT.Advancement": "Progresión",
+  "DOCUMENT.DND5E": {
   "Warning": {
     "SelectType": "El tipo {name} debe seleccionarse para la creación."
   }
 },
 
-"TYPES.Actor.character": "Personaje Jugador",
-"TYPES.Actor.characterPl": "Personajes Jugadores",
-"TYPES.Actor.encounter": "Encuentro",
-"TYPES.Actor.encounterPl": "Encuentros",
-"TYPES.Actor.group": "Grupo",
-"TYPES.Actor.groupPl": "Grupos",
-"TYPES.Actor.npc": "Personaje No Jugador",
-"TYPES.Actor.npcPl": "Personajes No Jugadores",
-"TYPES.Actor.vehicle": "Vehículo",
-"TYPES.Actor.vehiclePl": "Vehículos",
+"TYPES.Actor": {
+  "character": "Personaje Jugador",
+  "characterPl": "Personajes Jugadores",
+  "encounter": "Encuentro",
+  "encounterPl": "Encuentros",
+  "group": "Grupo",
+  "groupPl": "Grupos",
+  "npc": "Personaje No Jugador",
+  "npcPl": "Personajes No Jugadores",
+  "vehicle": "Vehículo",
+  "vehiclePl": "Vehículos"
+},
 
-"TYPES.ActiveEffect.enchantment": "Encantamiento",
-"TYPES.ActiveEffect.enchantmentPl": "Encantamientos",
+"TYPES.ActiveEffect": {
+  "enchantment": "Encantamiento",
+  "enchantmentPl": "Encantamientos"
+},
 
 "TYPES.ChatMessage": {
+  "item": "Mensaje de Elemento",
+  "prompt": "Mensaje de Aviso",
   "request": "Mensaje de Solicitud",
   "rest": "Mensaje de Descanso",
+  "timePassed": "Mensaje de Tiempo Transcurrido",
   "turn": "Mensaje de Turno de Combate",
   "usage": "Mensaje de Uso"
 },
 
-"TYPES.Item.background": "Trasfondo",
-"TYPES.Item.backgroundPl": "Trasfondos",
-"TYPES.Item.container": "Contenedor",
-"TYPES.Item.containerPl": "Contenedores",
-"TYPES.Item.class": "Clase",
-"TYPES.Item.classPl": "Clases",
-"TYPES.Item.consumable": "Consumible",
-"TYPES.Item.consumablePl": "Consumibles",
-"TYPES.Item.equipment": "Equipo",
-"TYPES.Item.equipmentPl": "Equipo",
-"TYPES.Item.facility": "Edificio",
-"TYPES.Item.facilityPl": "Edificios",
-"TYPES.Item.feat": "Dote",
-"TYPES.Item.featurePl": "Dotes",
-"TYPES.Item.loot": "Botín",
-"TYPES.Item.lootPl": "Botines",
-"TYPES.Item.race": "Raza",
-"TYPES.Item.racePl": "Razas",
-"TYPES.Item.raceLegacy": "Raza",
-"TYPES.Item.raceLegacyPl": "Razas",
-"TYPES.Item.spell": "Conjuro",
-"TYPES.Item.spellPl": "Conjuros",
-"TYPES.Item.subclass": "Subclase",
-"TYPES.Item.subclassPl": "Subclases",
-"TYPES.Item.tool": "Herramienta",
-"TYPES.Item.toolPl": "Herramientas",
-"TYPES.Item.weapon": "Arma",
-"TYPES.Item.weaponPl": "Armas",
+"TYPES.Item": {
+  "background": "Trasfondo",
+  "backgroundPl": "Trasfondos",
+  "container": "Contenedor",
+  "containerPl": "Contenedores",
+  "class": "Clase",
+  "classPl": "Clases",
+  "consumable": "Consumible",
+  "consumablePl": "Consumibles",
+  "equipment": "Equipo",
+  "equipmentPl": "Equipo",
+  "facility": "Edificio",
+  "facilityPl": "Edificios",
+  "feat": "Dote",
+  "featurePl": "Dotes",
+  "loot": "Botín",
+  "lootPl": "Botines",
+  "race": "Raza",
+  "racePl": "Razas",
+  "raceLegacy": "Raza",
+  "raceLegacyPl": "Razas",
+  "spell": "Conjuro",
+  "spellPl": "Conjuros",
+  "subclass": "Subclase",
+  "subclassPl": "Subclases",
+  "tool": "Herramienta",
+  "toolPl": "Herramientas",
+  "weapon": "Arma",
+  "weaponPl": "Armas"
+},
 
 "TYPES.RegionBehavior": {
+  "dnd5e.applyActiveEffect": "Aplicar Efecto Activo (5e)",
   "dnd5e.difficultTerrain": "Terreno Difícil",
   "dnd5e.rotateArea": "Rotar Área"
 },
 
 "TYPES.HINTS": {
   "RegionBehavior": {
+    "dnd5e.applyActiveEffect": "Aplica efectos activos a los tokens mientras están dentro de la región y cumplen ciertos criterios.",
     "dnd5e.difficultTerrain": "Marca una región como terreno difícil y establece su tipo y a quién afecta.",
     "dnd5e.rotateArea": "Rota tokens, losetas, muros y otros objetos alrededor de un punto de pivote central."
   }
@@ -93,9 +92,63 @@
 
 "DND5E.ABILITY": {
   "Configure": {
+    "AttackLabel": "Ataque de {ability}",
     "CheckLabel": "Tirada de {ability}",
     "SaveLabel": "Salvación de {ability}",
     "Title": "Configurar {ability}"
+  },
+  "FIELDS": {
+    "abilities": {
+      "element": {
+        "attack": {
+          "roll": {
+            "bonus": { "label": "Bonificación de Ataque" },
+            "max": { "label": "Tirada de Ataque Máxima" },
+            "min": { "label": "Tirada de Ataque Mínima" },
+            "mode": { "label": "Modo de Ventaja de Ataque" }
+          }
+        },
+        "check": {
+          "roll": {
+            "bonus": { "label": "Bonificación de Prueba" },
+            "max": { "label": "Tirada de Prueba Máxima" },
+            "min": { "label": "Tirada de Prueba Mínima" },
+            "mode": { "label": "Modo de Ventaja de Prueba" }
+          }
+        },
+        "save": {
+          "roll": {
+            "bonus": { "label": "Bonificación de Salvación" },
+            "max": { "label": "Tirada de Salvación Máxima" },
+            "min": { "label": "Tirada de Salvación Mínima" },
+            "mode": { "label": "Modo de Ventaja de Salvación" }
+          }
+        }
+      }
+    }
+  },
+  "Formatter": {
+    "Attack": {
+      "AdvantageMode": "Modo de Ventaja de Ataque de {name}",
+      "Bonus": "Bonificación de Ataque de {name}",
+      "Maximum": "Tirada de Ataque Máxima de {name}",
+      "Minimum": "Tirada de Ataque Mínima de {name}"
+    },
+    "Check": {
+      "AdvantageMode": "Modo de Ventaja de Prueba de {name}",
+      "Bonus": "Bonificación de Prueba de {name}",
+      "Maximum": "Tirada de Prueba Máxima de {name}",
+      "Minimum": "Tirada de Prueba Mínima de {name}"
+    },
+    "Maximum": "Máximo de {name}",
+    "Save": {
+      "AdvantageMode": "Modo de Ventaja de Salvación de {name}",
+      "Bonus": "Bonificación de Salvación de {name}",
+      "Maximum": "Tirada de Salvación Máxima de {name}",
+      "Minimum": "Tirada de Salvación Mínima de {name}",
+      "Proficiency": "Competencia en Salvación de {name}"
+    },
+    "Score": "Puntuación de {name}"
   },
   "SECTIONS": {
     "Bonuses": {
@@ -150,7 +203,6 @@
 "DND5E.AbilityCheckConfigure": "Pruebas de característica de {ability}",
 "DND5E.AbilityCheckConfigurationHint": "Configurar las bonificaciones en pruebas.",
 "DND5E.AbilityConfigurationHint": "Configura las bonificaciones y competencia en tiradas de salvación, y bonificaciones en las pruebas de características.",
-"DND5E.AbilityCheckBonus": "Bonificación en pruebas",
 "DND5E.AbilityCheckGlobalBonusHint": "Este bono se aplica a todas las pruebas de característica realizadas por este actor.",
 "DND5E.Action": "Acción",
 "DND5E.ActionAbbr": "A",
@@ -274,16 +326,6 @@
   }
 },
 
-"DND5E.ACTIVEEFFECT": {
-  "AttributeKeyTooltip": "Para una lista de las teclas comunes, echa un vistazo <a href=\"{url}\">al wiki</a>.",
-  "FIELDS": {
-    "statuses": {
-      "label": "Condiciones de Estado",
-      "hint": "Mientras se está afectado por este Efecto Activo, el objetivo será tratado como si tuviera estas condiciones de estado adicionales."
-    }
-  }
-},
-
 "DND5E.ACTIVITY": {
   "Action": {
     "Create": "Crear Actividad",
@@ -295,11 +337,29 @@
     "other": "Actividades"
   },
   "FIELDS": {
+    "behaviors": {
+      "element": {
+        "level": {
+          "label": "Límite de Nivel",
+          "hint": "Rango de niveles necesario para aplicar este comportamiento.",
+          "max": {
+            "label": "Nivel Máximo"
+          },
+          "min": {
+            "label": "Nivel Mínimo"
+          }
+        },
+        "name": {
+          "label": "Nombre"
+        }
+      },
+      "label": "Comportamientos de Área de Efecto"
+    },
     "description": {
       "label": "Descripción",
       "chatFlavor": {
         "label": "Mensaje Chat",
-        "hint": "Texo adicional que se muestra en el mensaje de activación del chat."
+        "hint": "Texto adicional que se muestra en el mensaje de activación del chat."
       }
     },
     "effects": {
@@ -374,11 +434,9 @@
   }
 },
 
-"DND5E.ActiveEffectOverrideWarning": "Este valor está siendo modificado por un Efecto Activo y no puede ser editado. Desactiva el efecto para editarlo.",
 "DND5E.Add": "Añadir",
 "DND5E.AdditionalControls": "Controles Adicionales",
 "DND5E.AdditionalSettings": "configuración Adicional",
-"DND5E.AddEmbeddedItemPromptHint": "¿Quieres añadir estos objetos a tu hoja de personaje?",
 "DND5E.Advanced": "Avanzado",
 
 "DND5E.ADVANCEMENT": {
@@ -398,16 +456,16 @@
     },
     "FIELDS": {
       "cap": {
-        "label": "Límite de Puntos",
-        "hint": "Número máximo de puntos que un jugador puede asignar a una única puntuación."
+        "hint": "Número máximo de puntos que un jugador puede asignar a una única puntuación.",
+        "label": "Límite de Puntos"
       },
       "fixed": {
         "hint": "Las habilidades que se mejoran con una cantidad fija no se pueden mejorar manualmente durante el proceso.",
         "label": "Mejora Fija"
       },
       "locked": {
-        "label": "Bloqueado",
         "hint": "La habilidad no se puede mejorar.",
+        "label": "Bloqueado",
         "locked": "La habilidad no se puede mejorar.",
         "unlocked": "La habilidad se puede mejorar."
       },
@@ -450,11 +508,17 @@
     "Delete": "Borrar Progresión",
     "Duplicate": "Duplicar Progresión",
     "Edit": "Editar Progresión",
+    "ModifyChoices": "Modificar Elecciones",
     "View": "Ver Progresión"
   },
   "Config": {
     "AnyLevel": "Cualquiera",
-    "Details": "Detalles de la Progresión"
+    "Details": "Detalles de la Progresión",
+    "Status": {
+      "Complete": "Completamente Configurado",
+      "Incomplete": "No Configurado"
+    },
+    "Title": "Configurar Progresión de {item}"
   },
   "Defaults": {
     "BackgroundFeat": "Rasgo del Trasfondo",
@@ -473,6 +537,26 @@
     },
     "Label": "Eliminar Cambios",
     "Options": "Opciones"
+  },
+  "FIELDS": {
+    "classRestriction": {
+      "label": "Restricción de Clase",
+      "none": "Todas las Clases",
+      "primary": "Sólo Clase Original",
+      "secondary": "Sólo Multiclase"
+    },
+    "hint": {
+      "label": "Sugerencia"
+    },
+    "img": {
+      "label": "Icono Personalizado"
+    },
+    "level": {
+      "label": "Nivel"
+    },
+    "name": {
+      "label": "Título Personalizado"
+    }
   },
   "HitPoints": {
     "Action": {
@@ -531,6 +615,7 @@
       "restriction": {
         "level": {
           "Available": "Cualquier Nivel Disponible",
+          "AvailableNoCantrips": "Cualquier Nivel Disponible (Excluyendo Trucos)",
           "hint": "Sólo permitir elecciones de conjuros de este nivel.",
           "label": "Nivel de Conjuro"
         },
@@ -538,12 +623,19 @@
           "hint": "Sólo permitir conjuros de estas listas.",
           "label": "Listas de Conjuro"
         },
+        "school": {
+          "hint": "Sólo permitir conjuros de estas escuelas.",
+          "label": "Escuelas de Conjuro"
+        },
         "subtype": {
           "label": "Subtipo"
         },
         "type": {
           "label": "Tipo"
         }
+      },
+      "sorting": {
+        "label": "Modo de Ordenación"
       },
       "type": {
         "Any": "Cualquiera",
@@ -564,7 +656,8 @@
       "NoOriginal": "La opción anteriormente seleccionada no se puede reemplazar.",
       "SpellLevelAvailable": "Sólo se pueden elegir conjuros de nivel {level} o inferior para este progreso.",
       "SpellLevelSpecific": "Sólo se pueden elegir conjuros de nivel {level} para este progreso.",
-      "SpellList": "Sólo los conjuros de las listas de conjuro {lists} se pueden seleccionar para este progreso."
+      "SpellList": "Sólo los conjuros de las listas de conjuro {lists} se pueden seleccionar para este progreso.",
+      "SpellSchool": "Sólo los conjuros de la escuela {schools} se pueden seleccionar para este progreso."
     }
   },
   "ItemGrant": {
@@ -577,6 +670,9 @@
       "optional": {
         "label": "Opcional",
         "hint": "Si todo el progreso está marcado como opcional, los jugadores puede elegir entre cualquiera de los siguientes elementos, de lo contrario, se conceden todos los elementos nos opcionales."
+      },
+      "sorting": {
+        "label": "Modo de Ordenación"
       }
     },
     "Hint": "Conceder al personaje elementos (tales como equipo, rasgos o conjuros) cuando llegan a cierto nivel.",
@@ -584,8 +680,15 @@
     "Warning": {
       "Container": "Los contenidos del contenedor no se añadirán con el contenedor.",
       "Duplicate": "Ese elemento ya existe en este progreso.",
-      "Recursive": "No puedes conceder un objeto en su propio progreso."
+      "Recursive": "No puedes conceder un objeto en su propio progreso.",
+      "Type": "Los elementos {type} no se pueden añadir con este tipo de progreso."
     }
+  },
+  "Label": "Progreso",
+  "Level": {
+    "Any": "Cualquier Nivel",
+    "None": "Sin Nivel",
+    "Specific": "Nivel {level}"
   },
   "Manager": {
     "Action": {
@@ -621,6 +724,33 @@
     "Hint": "Seleccionar cuáles se los siguiente avances se añadirán a {name}.",
     "Selection": "Selección de Avance",
     "Title": "Migrar Avance"
+  },
+  "ModifyItem": {
+    "Action": {
+      "AddChange": "Añadir Cambio",
+      "DeleteChange": "Eliminar Cambio"
+    },
+    "DropHint": "Suelta un Encantamiento aquí",
+    "Empty": {
+      "WithDropdown": "No hay cambios. Usa el botón <i class=\"fa-solid fa-plus\"></i> de arriba para crear uno, o selecciona un efecto existente del menú desplegable.",
+      "WithoutDropdown": "No hay cambios. Usa el botón <i class=\"fa-solid fa-plus\"></i> de arriba para crear uno."
+    },
+    "FIELDS": {
+      "changes": {
+        "element": {
+          "enchantment": {
+            "label": "Encantamiento Aplicado"
+          },
+          "identifiers": {
+            "hint": "Identificadores para los objetos que serán modificados por este encantamiento. Los identificadores pueden tener prefijo usando el tipo de objeto (por ejemplo, \"spell:mage-hand\").",
+            "label": "Objetos Modificados"
+          }
+        },
+        "label": "Cambios en Objetos"
+      }
+    },
+    "Hint": "Modifica los objetos existentes usando un encantamiento.",
+    "Title": "Modificar Objetos"
   },
   "ScaleValue": {
     "Action": {
@@ -685,7 +815,22 @@
         "Hint": "Utiliza esto si no estás seguro del tipo de valor de escala, o si el tipo no importa.",
         "Identifier": "Este valor de escala para el nivel actual se podrá usar en una fórmula mediante:<br><copyable-text>@scale.{class}.{identifier}</copyable-text>",
         "Label": "Cualquiera"
+      },
+      "Usage": {
+        "FIELDS": {
+          "period": {
+            "label": "Periodo"
+          },
+          "value": {
+            "label": "Usos"
+          }
+        },
+        "Hint": "Utiliza esto para representar los usos de un objeto durante un cierto periodo.",
+        "Label": "Usos"
       }
+    },
+    "Warning": {
+      "DuplicateIdentifier": "Múltiples valores de escala comparten el identificador {identifier}."
     }
   },
   "Size": {
@@ -805,38 +950,26 @@
   }
 },
 
-"DND5E.AdvancementChoices": "opciones",
-"DND5E.AdvancementClassRestriction": "Restricciones de Clase",
-"DND5E.AdvancementClassRestrictionNone": "Todas las Clases",
-"DND5E.AdvancementClassRestrictionPrimary": "Sólo Clase Original",
-"DND5E.AdvancementClassRestrictionSecondary": "Sólo Multiclase",
-"DND5E.AdvancementConfigurationActionDisable": "Desactivar Configuración",
-"DND5E.AdvancementConfigurationActionEnable": "Activar Configuración",
-"DND5E.AdvancementConfigurationModeDisabled": "Configuración Desactivada",
-"DND5E.AdvancementConfigurationModeEnabled": "Configuración Activada",
-"DND5E.AdvancementConfigureTitle": "Configurar Progresión {item}",
-"DND5E.AdvancementConfigureAllowDrops": "Permitir Dejar Caer Elementos",
-"DND5E.AdvancementConfigureAllowDropsHint": "¿Deberían los jugadores poder dejar sus propias elecciones en este progreso?",
-"DND5E.AdvancementConfigureDropAreaHint": "Dejar caer Objetos aquí para añadirlos al conjunto del que un jugador puede elegir.",
-"DND5E.AdvancementConfiguredComplete": "Totalmente Configurado",
-"DND5E.AdvancementConfiguredIncomplete": "No Configurado",
-"DND5E.AdvancementCustomIcon": "Icono Personalizado",
-"DND5E.AdvancementCustomTitle": "Título Personalizado",
-"DND5E.AdvancementFlowDropAreaHint": "Deja un Objeto aquí para elegirlo.",
-"DND5E.AdvancementHint": "Pista",
-"DND5E.AdvancementItemTypeInvalidWarning": "Elementos del tipo {type} no pueden ser añadidos para este tipo de progresión.",
-"DND5E.AdvancementLevelHeader": "Nivel {level}",
-"DND5E.AdvancementLevelAnyHeader": "Cualquier Nivel",
-"DND5E.AdvancementLevelNoneHeader": "Sin Nivel",
-"DND5E.AdvancementLevelDownConfirmationMessage": "Bajar el nivel de esta clase también anulará todas las elecciones de progresión realizadas para ella. Estos cambios se eliminarán de tu personaje siempre y cuando la casilla de verificación de abajo esté marcada.",
-"DND5E.AdvancementLevelDownConfirmationTitle": "Confirmar Bajada de Nivel",
-"DND5E.AdvancementModifyChoices": "Modificar Opciones",
-"DND5E.AdvancementSaveButton": "Guardar Progresión",
-"DND5E.AdvancementSelectionCreateButton": "Crear Progresión",
-"DND5E.AdvancementSelectionTitle": "Seleccionar Tipo de Progresión",
-"DND5E.AdvancementTitle": "Progresión",
 "DND5E.Advantage": "Ventaja",
 "DND5E.AdvantageMode": "Modo Ventaja",
+
+"DND5E.ADVENTURE": {
+  "Finished": {
+    "one": "Se terminó de preparar {adventure}.",
+    "other": "Se terminó de preparar {number} aventuras."
+  },
+  "ImportAction": {
+    "ActivateScene": "Activar Escena Inicial",
+    "CustomizeWorld": "Personalizar Detalles del Mundo",
+    "DisplayJournal": "Mostrar Diario de Inicio"
+  },
+  "Options": "Opciones de Aventura",
+  "Warning": {
+    "JournalMissing": "No se pudo encontrar la entrada del diario `{id}` para mostrar en {adventure}.",
+    "SceneMissing": "No se pudo encontrar la escena `{id}` para activar en {adventure}."
+  }
+},
+
 "DND5E.Age": "Edad",
 "DND5E.Alignment": "Alineamiento",
 "DND5E.AlignmentCE": "Caótico Malvado",
@@ -851,6 +984,7 @@
 "DND5E.Amount": "Cantidad",
 "DND5E.Appearance": "Apariencia",
 "DND5E.Apply": "Aplicar",
+"DND5E.AttributeScores": "Puntuaciones de Atributos",
 "DND5E.Attunement": "Sintonización",
 "DND5E.AttunementMax": "Objetos Sintonizados Máximos",
 "DND5E.AttunementNone": "No se requiere sintonización",
@@ -880,22 +1014,103 @@
   }
 },
 "DND5E.Armor": "Armadura",
+
+"DND5E.ARMORCLASS": {
+  "Action": {
+    "Configure": "Configurar Armadura",
+    "CreateFormula": "Crear Fórmula Personalizada",
+    "DeleteFormula": "Eliminar Fórmula Personalizada"
+  },
+  "Calculation": {
+    "Armored": "Armadura Equipada",
+    "Custom": "Personalizado",
+    "Draconic": "Resiliencia Dracónica",
+    "Label": "álculo",
+    "Mage": "Armadura de Mago",
+    "Natural": "Armadura Natural",
+    "Unarmored": "Sin Armadura",
+    "UnarmoredBarbarian": "Defensa sin Armadura (Bárbaro)",
+    "UnarmoredBard": "Defensa sin Armadura (Bardo)",
+    "UnarmoredMonk": "Defensa sin Armadura (Monje)"
+  },
+  "Condition": {
+    "Positive": "Debe tener {type}",
+    "Negative": "No debe tener {type}"
+  },
+  "Configuration": "Configuración",
+  "CurrentFormula": "Fórmula Actual",
+  "CustomFormulas": {
+    "Empty": "No hay fórmulas personalizadas. Usa el botón <i class=\"fas fa-plus\"></i> arriba para crear una."
+  },
+  "FIELDS": {
+    "attributes": {
+      "ac": {
+        "armor": {
+          "label": "Valor de Armadura Equipada"
+        },
+        "base": {
+          "label": "Clase de Armadura Base"
+        },
+        "bonus": {
+          "label": "Bono de CA"
+        },
+        "calc": {
+          "label": "Método de Cálculo de CA"
+        },
+        "calcs": {
+          "hint": "Estas fórmulas se usarán al calcular la clase de armadura.",
+          "label": "Fórmulas Seleccionadas"
+        },
+        "cover": {
+          "label": "CA por Cobertura"
+        },
+        "flat": {
+          "hint": "Número que se puede usar en la clase de armadura usando @attributes.ac.flat en la fórmula.",
+          "label": "Valor Plano"
+        },
+        "formula": {
+          "label": "Fórmula de CA Extra"
+        },
+        "formulas": {
+          "element": {
+            "armored": {
+              "excluded": "No Armado",
+              "label": "Armado",
+              "required": "Se Requiere Armadura"
+            },
+            "formula": {
+              "label": "órmula"
+            },
+            "label": {
+              "label": "Etiqueta"
+            },
+            "shielded": {
+              "excluded": "Sin Escudo",
+              "label": "Con Escudo",
+              "required": "Se Requiere Escudo"
+            }
+          },
+          "label": "Fórmulas de CA"
+        },
+        "label": "Clase de Armadura",
+        "min": {
+          "label": "Clase de Armadura Mínima"
+        },
+        "override": {
+          "hint": "Valor que se usará en lugar de la clase de armadura calculada, ignorando cobertura, escudo y cualquier otro bono.",
+          "label": "Sobrescribir"
+        },
+        "shield": {
+          "label": "Valor de Escudo Equipado"
+        }
+      }
+    }
+  },
+  "Flat": "Plano",
+  "Formula": "Fórmula"
+},
+
 "DND5E.ArmorClass": "Clase de Armadura",
-"DND5E.ArmorClassEquipment": "Armadura Equipada",
-"DND5E.ArmorClassFlat": "Fijo",
-"DND5E.ArmorClassUnarmored": "Sin armadura",
-"DND5E.ArmorClassNatural": "Armadura Natural",
-"DND5E.ArmorClassMage": "Armadura de Mago",
-"DND5E.ArmorClassMotionless": "Clase de Armadura Inmóvil",
-"DND5E.ArmorClassDraconic": "Resistencia Dracónica",
-"DND5E.ArmorClassUnarmoredMonk": "Defensa sin armadura (Monje)",
-"DND5E.ArmorClassUnarmoredBarbarian": "Defensa sin armadura (Bárbaro)",
-"DND5E.ArmorClassUnarmoredBard": "Defensa sin armadura (Bardo)",
-"DND5E.ArmorClassCustom": "Fórmula Personalizada",
-"DND5E.ArmorConfig": "Configurar Armadura",
-"DND5E.ArmorConfigHint": "Rellene la casilla para sobreescribir la clase de armadura.",
-"DND5E.ArmorClassCalculation": "Cálculo",
-"DND5E.ArmorClassFormula": "Fórmula",
 "DND5E.ArmorHeavyProficiency": "Pesada",
 "DND5E.ArmorLightProficiency": "Ligera",
 "DND5E.ArmorMediumProficiency": "Media",
@@ -915,6 +1130,9 @@
   "FIELDS": {
     "attack": {
       "label": "Detalles del Ataque",
+      "abilities": {
+        "label": "Opciones de Habilidad"
+      },
       "ability": {
         "label": "Habilidad de Ataque",
         "hint": "Habilidad usada para ralizar el ataque y determinar el daño. Disponible utilizando @mod en las fórmulas."
@@ -1019,10 +1237,17 @@
 "DND5E.Background": "Trasfondo",
 "DND5E.BackgroundAdd": "Añadir Trasfondo",
 "DND5E.BackgroundName": "Nombre del Trasfondo",
+"DND5E.BaseItem": "Elemento Base",
+
+"DND5E.BASE": {
+  "Image": "Imagen",
+  "Name": "Nombre"
+},
 
 "DND5E.Bastion": {
   "Action": {
-    "BastionTurn": "Turno Avanzado del Bastión"
+    "BastionTurn": "Turno Avanzado del Bastión",
+    "Maintain": "Mantener Bastión"
   },
   "Attack": {
     "Automatic": "Resolver Automáticamente",
@@ -1040,22 +1265,31 @@
     },
     "Title": "Ataque del Bastión"
   },
-  "Button": {
-    "Label": "Mostrar Botón de Turno del Bastión",
-    "Hint": "Muestra un botón para los turnos avanzados del bastión en la interfaz principal del juego."
-  },
   "Configuration": {
     "Name": "Bastiones",
     "Label": "Configurar Bastiones",
     "Hint": "Varias opciones de configuración del sistema de Bastión como se presenta en el DMG 2024."
   },
-  "Confirm": "¿Avanzar un turno de bastión?",
-  "Duration": {
-    "Label": "Duración del Turno de Bastión (días)"
+  "Confirm": {
+    "Advance": "Esto avanzará el progreso de todas las órdenes de las instalaciones del bastión en {duration}, emitirá la orden de mantenimiento a todas las instalaciones inactivas y reparará cualquier instalación deshabilitada, ¿desea continuar?",
+    "Maintain": "Esto emitirá la orden de mantenimiento a todas las instalaciones inactivas del bastión y reparará cualquier instalación deshabilitada, ¿desea continuar?"
   },
-  "Enabled": {
-    "Label": "Activar la Funcionalidad de Bastión",
-    "Hint": "Cuando se activa, los personajes jugadores pueden acceder a una nueva pestaña de Bastión en sus hojas de personaje cuando llegan a nivel 5, lo que les permitirá construir instalaciones y darles órdenes."
+  "FIELDS": {
+    "button": {
+      "hint": "Mostrar un botón para avanzar los turnos del bastión en la interfaz principal del juego.",
+      "label": "Mostrar Botón de Turno del Bastión"
+    },
+    "duration": {
+      "label": "Duración del Turno de Bastión (días)"
+    },
+    "enabled": {
+      "hint": "Cuando se activa, los personajes jugadores podrán acceder a una nueva pestaña de Bastión en sus hojas de personaje al alcanzar el nivel 5, y podrán construir instalaciones y darles órdenes.",
+      "label": "Activar la Funcionalidad de Bastión"
+    },
+    "reminder": {
+      "hint": "Mostrar un recordatorio en el chat cuando debería ocurrir el próximo turno del bastión según el avance del tiempo.",
+      "label": "Recordatorio Automático de Turno"
+    }
   },
   "Gold": {
     "Claim": "Reclamar Ingresos",
@@ -1063,6 +1297,11 @@
     "Unclaimed": "sin reclamar"
   },
   "Label": "Bastión",
+  "Reminder": {
+    "Elapsed": "Ha pasado {time} desde el último turno del bastión.",
+    "Triggered": "Ha ocurrido un turno del bastión.",
+    "Unknown": "Ha pasado algún tiempo desde el último turno del bastión."
+  },
   "Summary": {
     "Gold": "{value} ({claimed})",
     "NoOrders": "No se han dado órdenes a instalaciones especiales este turno.",
@@ -1073,6 +1312,16 @@
     "Invalid": "Eliminar un intercambio pendiente invalidará tu orden comercial.",
     "Pending": "Comercio pendiente"
   }
+},
+
+"DND5E.BEHAVIOR": {
+  "Action": {
+    "Create": "Crear Comportamiento",
+    "Delete": "Eliminar Comportamiento"
+  },
+  "Empty": "No hay comportamientos asociados. Usa el botón <i class=\"fas fa-plus\"></i> arriba para crear uno.",
+  "Hint": "Estos comportamientos se aplicarán a cualquier área de efecto colocada por esta actividad.",
+  "Label": "Comportamiento"
 },
 
 "DND5E.Biography": "Biografía",
@@ -1092,54 +1341,6 @@
     "bonuses": {
       "label": "Bonificaciones Globales",
       "hint": "Bonficaciones globales definidas como formulas que se añaden a ciertas tiradas.",
-      "abilities": {
-        "label": "Bonificaciones Globales de Característica",
-        "check": {
-          "label": "Bonificación global a las Pruebas de característica"
-        },
-        "save": {
-          "label": "Bonificación global a las Tiradas de Salvación"
-        },
-        "skill": {
-          "label": "Bonificación global a las Pruebas de habilidad"
-        }
-      },
-      "msak": {
-        "label": "Bonificaciones de Conjuro Cuerpo a Cuerpo",
-        "attack": {
-          "label": "Bonificación al Ataque con conjuro cuerpo a cuerpo"
-        },
-        "damage": {
-          "label": "Bonificación al Daño con conjuro cuerpo a cuerpo"
-        }
-      },
-      "mwak": {
-        "label": "Bonificaciones de Arma Cuerpo a Cuerpo",
-        "attack": {
-          "label": "Bonificación al Ataque con arma cuerpo a cuerpo"
-        },
-        "damage": {
-          "label": "Bonificación al Daño con arma cuerpo a cuerpo"
-        }
-      },
-      "rsak": {
-        "label": "Bonificaciones de Conjuro a Distancia",
-        "attack": {
-          "label": "Bonificación al Ataque con conjuro a distancia"
-        },
-        "damage": {
-          "label": "Bonificación al Daño con conjuro a distancia"
-        }
-      },
-      "rwak": {
-        "label": "Bonficaciones de Arma a Distancia",
-        "attack": {
-          "label": "Bonificación al Ataque con arma a distancia"
-        },
-        "damage": {
-          "label": "Bonificación al Daño con arma a distancia"
-        }
-      },
       "spell": {
         "label": "Bonificaciones Globales de Conjuro",
         "dc": {
@@ -1179,6 +1380,13 @@
     "enabled": {
       "hint": "Permite que la UI del calendario sea vista y personalizada por todos los usuarios.",
       "label": "Activado"
+    },
+    "dailyRecovery": {
+      "calendar": "Recuperación según el calendario (paso del tiempo)",
+      "default": "Por defecto (vinculado a la configuración de calendario activado)",
+      "hint": "Controla si los usos limitados con recuperación diaria, al amanecer y al anochecer se recuperan según el calendario mundial o a través del diálogo de descanso.",
+      "label": "Modo de Recuperación Diaria",
+      "manual": "Recuperación Manual (a través del diálogo de descanso)"
     },
     "formatters": {
       "date": {
@@ -1369,11 +1577,23 @@
       "Autumn": "Otoño",
       "Winter": "Invierno"
     }
+  },
+  "TimePassage": {
+    "Midnight": "Ha comenzado un nuevo día.",
+    "Sunrise": "El sol ha salido.",
+    "Sunset": "El sol se ha puesto.",
+    "SunsetSunrise": "El sol se ha puesto y ha llegado el amanecer de un nuevo día.",
+    "TimePassed": {
+      "one": "Ha pasado {number}.",
+      "other": "Han pasado {number}."
+    },
+    "Title": "Paso del Tiempo"
   }
 },
 
 "DND5E.CAST": {
   "Action": {
+    "DropSpell": "Suelta un conjuro aquí",
     "RemoveSpell": "Eliminar Conjuro"
   },
   "Enchantment": {
@@ -1458,6 +1678,10 @@
     "properties": {
       "label": "Propiedades del Contenedor"
     }
+  },
+  "UnidentifiedContentsWarning": {
+    "Title": "Contenedor No Identificado",
+    "Message": "Este contenedor no está identificado. Cualquier cosa que agregues a él estará oculta hasta que se identifique. ¿Continuar?"
   }
 },
 
@@ -1473,6 +1697,24 @@
 },
 "DND5E.Challenge": "Dificultad",
 "DND5E.ChallengeRating": "Valor de Dificultad",
+
+"DND5E.CHARACTER": {
+  "FIELDS": {
+    "traits": {
+      "weaponProf": {
+        "mastery": {
+          "bonus": {
+            "label": "Bonificación de Maestrías de Armas"
+          },
+          "value": {
+            "label": "Maestrías de Armas"
+          }
+        }
+      }
+    }
+  }
+},
+
 "DND5E.Charged": "Cargado",
 "DND5E.Charges": "Cargas",
 "DND5E.ChatContextDamage": "Aplicar Como Daño",
@@ -1485,7 +1727,19 @@
 "DND5E.ChatFlavor": "Mensaje adicional en el chat",
 
 "DND5E.CHATMESSAGE": {
+  "Action": {
+    "SelectAll": "Seleccionar Todos los Resultados",
+    "SelectFailure": "Seleccionar Fallos",
+    "SelectSuccess": "Seleccionar Éxitos"
+  },
   "Activities": "Actividades",
+  "Button": {
+    "rollAttack": "Ataque",
+    "rollCheck": "Prueba de Habilidad",
+    "rollDamage": "Daño",
+    "rollFormula": "Tirada",
+    "rollSave": "Tirada de Salvación"
+  },
   "Deltas": {
     "Created": "Objeto Creado",
     "Deleted": "Objeto Borrado",
@@ -1493,10 +1747,25 @@
   },
   "REQUEST": {
     "Action": {
-      "Handle": "Gestionar Petición"
+      "Handle": "Gestionar Petición",
+      "Post": "Enviar Petición"
     },
+    "AnyOwner": "Cualquier Propietario",
     "Complete": "Petición Cumplida",
-    "PartyMembers": "Miembros del Grupo"
+    "PartyMembers": "Miembros del Grupo",
+    "Title": "Petición"
+  },
+  "Row": {
+    "Actions": "Acciones del Objeto",
+    "Items": "Objetos",
+    "Properties": "Propiedades del Objeto",
+    "Roll": "Tirada de Dados",
+    "rollCheck": "Pruebas de Habilidad",
+    "rollSave": "Tiradas de Salvación",
+    "Targets": "Objetivos"
+  },
+  "Targets": {
+    "Count": "{number}× {name}"
   },
   "TURN": {
     "NoCombatant": "¡El combatiente ya no existe!"
@@ -1515,6 +1784,10 @@
         "label": "Habilidades o Herramientas Asociadas",
         "hint": "Las pruebas de característica utilizan las bonificaciones de competencia junto con las de estas habilidades y herramientas."
       },
+      "bonus": {
+        "label": "Bonificación de Prueba",
+        "hint": "Bonificación añadida a todas las pruebas realizadas utilizando esta actividad."
+      },
       "dc": {
         "label": "Clase de Dificultad",
         "calculation": {
@@ -1525,6 +1798,10 @@
           "label": "Fórmula de la CD",
           "hint": "Fórmula personalizada o valor fijo para definir la prueba de CD."
         }
+      },
+      "visible": {
+        "label": "Visible para Todos",
+        "hint": "Mostrar el botón de tirada en el chat para todos los jugadores."
       }
     }
   },
@@ -1532,8 +1809,6 @@
   "ThisTool": "Esta Herramienta",
   "Title": "Tiradas"
 },
-
-"DND5E.CheckBonus": "Bonificación de Prueba",
 
 "DND5E.CLASS": {
   "Multiclass": {
@@ -1680,16 +1955,9 @@
 "DND5E.ConCharmed": "Hechizado",
 "DND5E.ConDeafened": "Ensordecido",
 "DND5E.ConDiseased": "Enfermo",
-"DND5E.CONDITIONS": {
-  "RiderConditions": {
-    "label": "Condiciones de Estado Separadas",
-    "hint": "Cuando se aplica este Efecto Activo, estas condiciones de estado adiconales se aplicarán por separado."
-  }
-},
 "DND5E.ConExhaustion": "Cansancio",
 "DND5E.ConFrightened": "Asustado",
 "DND5E.ConGrappled": "Agarrado",
-"DND5E.ConImm": "Inmunidad a estados",
 "DND5E.ConIncapacitated": "Incapacitado",
 "DND5E.ConInvisible": "Invisible",
 "DND5E.ConParalyzed": "Paralizado",
@@ -1699,23 +1967,49 @@
 "DND5E.ConRestrained": "Apresado",
 "DND5E.ConStunned": "Aturdido",
 "DND5E.ConUnconscious": "Inconsciente",
+
 "DND5E.Concentration": "Concentración",
-"DND5E.ConcentrationAbbr": "C",
-"DND5E.ConcentrationBreak": "Romper Concentración",
-"DND5E.ConcentrationBreakWarning": "Romper la concentación en un efecto que está activo en otras criaturas requiere la presencia de un DM activo.",
-"DND5E.ConcentrationBonus": "Bonificación de Concentración",
-"DND5E.ConcentrationDuration": "Concentración, hasta {duration}",
-"DND5E.ConcentratingOn": "Estás manteniendo la concentración en los efectos de {type} '{name}'.",
-"DND5E.ConcentratingEndChoice": "Estás concentrándote en efectos con más de un origen. Elige qué efecto finalizar.",
-"DND5E.ConcentratingMissingItem": "El efecto en el que se está concentrado y que se va a reemplazar no existe.",
-"DND5E.ConcentratingLimited": "No puedes empezar a concentrarte en un efecto adicional.",
-"DND5E.ConcentrationLimit": "Límite de Concentración",
-"DND5E.ConcentratingEnd": "Terminar Concentración",
-"DND5E.ConcentratingItemless": "Concentración Sin Un Origen",
-"DND5E.ConcentratingWarnLimit": "¡No puedes mantener la concentración en más efectos!",
-"DND5E.ConcentratingWarnLimitOptional": "Puedes terminar la concentración en uno de tus efectos para utilizar este objeto.",
-"DND5E.ConcentratingWarnLimitZero": "¡No puedes mantener la concentración en ningún efecto!",
-"DND5E.ConcentrationConfigurationHint": "Configurar los modificadores y bonificaciones de concentración que se aplican a esta criatura.",
+"DND5E.CONCENTRATION": {
+  "Abbreviation": "C",
+  "Action": {
+    "Break": "Romper Concentración",
+    "End": "Terminar Concentración"
+  },
+  "Description": "Estás manteniendo la concentración en los efectos de '{name}' {type}.",
+  "Duration": {
+    "Scalar": "Concentración, hasta {duration}",
+    "Special": "Concentración, {durationLc}"
+  },
+  "EndChoice": "Estás concentrándote en efectos con más de un origen. Elige qué efecto finalizar.",
+  "FIELDS": {
+    "attributes": {
+      "concentration": {
+        "label": "Concentración",
+        "limit": { "label": "Límite de Concentración" },
+        "roll": {
+          "ability": { "label": "Habilidad de Concentración" },
+          "bonus": { "label": "Bonificación de Concentración" },
+          "max": { "label": "Tirada Máxima de Concentración" },
+          "min": { "label": "Tirada Mínima de Concentración" },
+          "mode": { "label": "Modo de Ventaja de Concentración" }
+        }
+      }
+    }
+  },
+  "Limit": {
+    "Hard": "¡No puedes mantener la concentración en más efectos!",
+    "Optional": "Puedes terminar la concentración en uno de tus efectos para utilizar este objeto.",
+    "Reached": "No puedes empezar a concentrarte en un efecto adicional.",
+    "Zero": "¡No puedes mantener la concentración en ningún efecto!"
+  },
+  "Lost": "Concentración Perdida",
+  "NoSource": "Concentración Sin Un Origen",
+  "Warning": {
+    "BreakWithoutGM": "Romper la concentración en un efecto que está activo en otras criaturas requiere la presencia de un DM activo.",
+    "MissingItem": "El efecto en el que se está concentrado y que se va a reemplazar no existe."
+  }
+},
+
 "DND5E.ConsumeTitle": "Consumo de Recurso",
 "DND5E.ConsumeAmount": "Cantidad de Consumo",
 "DND5E.ConsumeHint": {
@@ -1742,7 +2036,43 @@
 "DND5E.CONSUMABLE": {
   "FIELDS": {
     "damage": {
-      "label": "Daño de la Munición",
+      "base": {
+        "bonus": {
+          "label": "Bonificación de Daño Base"
+        },
+        "custom": {
+          "enabled": {
+            "label": "Usar Fórmula de Daño Base Personalizada"
+          },
+          "formula": {
+            "label": "Fórmula de Daño Base Personalizada"
+          }
+        },
+        "denomination": {
+          "label": "Denominación de Daño Base"
+        },
+        "number": {
+          "label": "Cantidad de Dados de Daño Base"
+        },
+        "scaling": {
+          "formula": {
+            "label": "Fórmula de Escalado de Daño Base"
+          },
+          "mode": {
+            "label": "Modo de Escalado de Daño Base"
+          },
+          "number": {
+            "label": "Valor de Escalado de Daño Base"
+          }
+        },
+        "types": {
+          "label": "Tipos de Daño Base"
+        }
+      },
+      "bonus": {
+        "label": "Bonificación de Daño"
+      },
+      "label": "Daño de Munición",
       "replace": {
         "label": "Reemplazar Daño de Arma",
         "hint": "Cambia el daño base del arma por este daño en lugar de aumentarlo."
@@ -1868,6 +2198,7 @@
     "Delete": "Borrar Objetivo de Consumo",
     "RefundResource": "Recuperar Recurso"
   },
+  "Empty": "No hay consumo asociado. Usa el botón <i class=\"fas fa-plus\"></i> de arriba para añadir objetivos de consumo.",
   "Scaling": {
     "Amount": "Cantidad",
     "Automatic": "Automático",
@@ -2077,6 +2408,10 @@
             "label": "Denominación del Dado",
             "hint": "Denominación de los dados a tirar."
           },
+          "modifiers": {
+            "label": "Modificadores",
+            "hint": "Modificadores de tirada añadidos al dado base."
+          },
           "number": {
             "label": "Número del dado",
             "hint": "Número de dados a tirar."
@@ -2107,6 +2442,8 @@
       }
     }
   },
+  "Empty": "No hay daño configurado. Usa el botón <i class=\"fas fa-plus\"></i> de arriba para añadir partes de daño.",
+  "EmptyExceptBase": "Usa el botón <i class=\"fas fa-plus\"></i> de arriba para añadir partes de daño adicionales.",
   "Hint": "Dañar a una criatura sin tirada de ataque ni salvación.",
   "Part": {
     "Action": {
@@ -2145,13 +2482,9 @@
   }
 },
 
-"DND5E.DamImm": "Inmunidad a Daño",
-"DND5E.DamMod": "Modificador de Daño",
-"DND5E.DamRes": "Resistencia a Daño",
-"DND5E.DamVuln": "Vulnerabilidad a Daño",
-
 "DND5E.Damage": "Daño",
 "DND5E.DamageApplication": {
+  "Back": "Volver al panel anterior",
   "Change": {
     "Modification": "Modificación de {type}",
     "Immunity": "Inmunidad a {type}",
@@ -2160,12 +2493,24 @@
     "Vulnerability": "Vulnerable a {type}"
   },
   "Downgrading": "Degradar {source} a Resistencia",
-  "Ignoring": "Ignorar {source}"
+  "Ignoring": "Ignorar {source}",
+  "Multiplier": "Multiplicador de Daño",
+  "Section": {
+    "Changes": "Aplicado a este objetivo",
+    "Multiplier": "Multiplicador",
+    "Targets": "Objetivos en este grupo"
+  },
+  "State": {
+    "active": "Aplicado",
+    "downgrade": "Degradado",
+    "ignore": "Ignorado"
+  }
 },
 "DND5E.DamageModification": {
   "Label": "Modificación de Daño",
   "Hint": "Förmulas para puntuaciones que serán añadidas al tipo de daño aplicado a este actor. Los valores negativos reducen el daño sufrido.",
-  "BypassHint": "Estas propiedades de arma evitarán la modificación del daño por daño físico."
+  "BypassHint": "Estas propiedades de arma evitarán la modificación del daño por daño físico.",
+  "Formatter": "Modificación de Daño de {name}"
 },
 "DND5E.DamageRoll": "Tirada de Daño",
 "DND5E.DamageThreshold": "Umbral de Daño",
@@ -2175,18 +2520,14 @@
 "DND5E.Dawn": "Amanecer",
 "DND5E.Day": "Día",
 "DND5E.DeathSave": "Salvación Contra Muerte",
-"DND5E.DeathSaveBonus": "Bonificación Salvación Contra Muerte",
 "DND5E.DeathSaveConfigure": "Configurar Salvaciones Contra Muerte",
-"DND5E.DeathSaveCriticalSuccess": "¡{name} consiguió un crítico en la tirada de salvación contra muerte y ha recuperado 1 punto de golpe!",
 "DND5E.DeathSaveHide": "Ocultar Salvaciones Contra Muerte",
 "DND5E.DeathSaveShow": "Mostrar Salvaciones Contra Muerte",
-"DND5E.DeathSaveSuccess": "¡{name} ha sobrevivido con 3 tiradas de salvación contra muerte exitosas!",
 "DND5E.DeathSaveSuccessLabel": "Éxito en Salvación Contra Muerte",
 "DND5E.DeathSaveSuccessLabelN.one": "1er. éxito en salvación contra muerte",
 "DND5E.DeathSaveSuccessLabelN.two": "2o. éxito en salvación contra muerte",
 "DND5E.DeathSaveSuccessLabelN.few": "3er. éxito en salvación contra muerte",
 "DND5E.DeathSaveSuccesses": "Éxitos",
-"DND5E.DeathSaveFailure": "¡{name} ha muerto con 3 tiradas de salvación contra muerte fallidas!",
 "DND5E.DeathSaveFailureLabel": "Fallo en Salvación Contra Muerte",
 "DND5E.DeathSaveFailureLabelN.one": "1er. fallo en salvación contra muerte",
 "DND5E.DeathSaveFailureLabelN.two": "2o. fallo en salvación contra muerte",
@@ -2195,6 +2536,27 @@
 "DND5E.DeathSaveRoll": "Hacer Tirada de Salvación Contra Muerte",
 "DND5E.DeathSavingThrow": "Tirada de Salvación Contra Muerte",
 "DND5E.DeathSaveUnnecessary": "No necesitas hacer tiradas de salvación contra muerte porque tienes un número positivo de puntos de golpe o ya has alcanzado 3 éxitos o fracasos.",
+
+"DND5E.DEATH": {
+  "FIELDS": {
+    "attributes": {
+      "death": {
+        "roll": {
+          "bonus": { "label": "Bonificación de Salvación Contra Muerte" },
+          "max": { "label": "Tirada Máxima de Salvación Contra Muerte" },
+          "min": { "label": "Tirada Mínima de Salvación Contra Muerte" },
+          "mode": { "label": "Modo de Ventaja en Salvación Contra Muerte" }
+        }
+      }
+    }
+  },
+  "Outcome": {
+    "death": "¡{name} ha muerto con 3 fallos en las salvaciones contra muerte!",
+    "revive": "¡{name} consiguió un crítico en la tirada de salvación contra muerte y ha recuperado 1 punto de golpe!",
+    "stable": "¡{name} ha sobrevivido con 3 éxitos en las salvaciones contra muerte y ahora está estable!"
+  }
+},
+
 "DND5E.Default": "Por defecto",
 "DND5E.DefaultSpecific": "Por defecto ({default})",
 "DND5E.DefaultAbilityCheck": "Prueba de Característica por defecto",
@@ -2234,6 +2596,10 @@
         "label": "Concentración",
         "hint": "La criatura debe mantener la concentración mientras esté activo."
       },
+      "expiry": {
+        "label": "Evento de Expiración",
+        "hint": "Evento que desencadena el fin del uso."
+      },
       "override": {
         "label": "Saltar Duración",
         "hint": "Utilizar estos valore para la duración en lugar del elemento cuando se use esta actividad."
@@ -2261,25 +2627,181 @@
 "DND5E.DurationUnits": "Unidades de Duración",
 "DND5E.DurationValue": "Valor de la Duración",
 "DND5E.Dusk": "Anochecer",
+
 "DND5E.Effect": "Efecto",
-"DND5E.Effects": "Efectos",
 "DND5E.EFFECT": {
   "Action": {
-    "Create": "Crear Efecto",
-    "Delete": "Borrar Efecto",
-    "Dissociate": "Desasociar Effecto"
+    "AddChange": "Añadir Cambio",
+    "Apply": "Aplicar",
+    "CreateEffect": "Crear Efecto",
+    "DeleteEffect": "Eliminar Efecto",
+    "DeleteChange": "Eliminar Cambio",
+    "DisableEffect": "Desactivar Efecto",
+    "DissociateEffect": "Desasociar Efecto",
+    "EditChange": "Editar Cambio",
+    "EditEffect": "Editar Efecto",
+    "EnableEffect": "Activar Efecto",
+    "PanToToken": "Centrar en el Token",
+    "RemoveStatus": {
+      "all": "Todas las Fuentes",
+      "label": "Fuente"
+    },
+    "Search": "Buscar efectos"
   },
-  "Empty": "Sin efectos asociados. Utiliza el botón <i class=\"fas fa-plus\"></i> de arriba para crear uno, o selecciona uno existente del desplegable.",
+  "AdditionalChanges": "Cambios Adicionales",
+  "Application": {
+    "Action": {
+      "ApplyTokens": "Aplicar a los tokens seleccionados"
+    },
+    "Header": "Efectos",
+    "Warning": {
+      "Ownership": "Los efectos no se pueden aplicar a los tokens de los que no eres propietario."
+    }
+  },
+  "AttributeKeyTooltip": "Para una lista de claves comunes y sus valores aceptados, consulta <a href=\"{url}\">la wiki</a>.",
+  "BASE": {
+    "FIELDS": {
+      "changes": {
+        "element": {
+          "conditions": {
+            "hint": "Condición que debe cumplirse para que este cambio se aplique.",
+            "label": "Condiciones del Cambio"
+          },
+          "key": {
+            "label": "Clave del Atributo"
+          },
+          "phase": {
+            "hint": "El punto en la preparación de datos, u otro evento, en el que se debe aplicar un cambio.",
+            "label": "Fase"
+          },
+          "priority": {
+            "label": "Prioridad"
+          },
+          "replacement": {
+            "label": "Reemplazo",
+            "hint": "Configura si las propiedades de los datos de la tirada en el Valor se reemplazan antes de la aplicación, y usando los datos de quién."
+          },
+          "type": {
+            "label": "Tipo"
+          },
+          "value": {
+            "label": "Valor"
+          }
+        }
+      },
+      "conditions": {
+        "hint": "Condiciones que controlan cuándo se aplicará el efecto.",
+        "label": "Condiciones del Efecto"
+      },
+      "magical": {
+        "hint": "Este efecto proviene de una fuente mágica y debe desactivarse cuando la magia no esté disponible.",
+        "label": "Mágico"
+      }
+    }
+  },
+  "Category": {
+    "Temporary": "Efectos Temporales",
+    "Passive": "Efectos Pasivos",
+    "Inactive": "Efectos Inactivos",
+    "Unavailable": "Efectos No Disponibles"
+  },
+  "Change": {
+    "Configuration": "Configuración del Cambio",
+    "Group": {
+      "Custom": "Personalizado",
+      "Rules": "Reglas",
+      "Standard": "Estándar"
+    },
+    "Label": "Cambio",
+    "Title": "Cambio de {effect} #{number}",
+    "Type": {
+      "Advantage": {
+        "Label": "Modo de Ventaja"
+      },
+      "Bonus": {
+        "Label": "Bonificación"
+      },
+      "Maximum": {
+        "Label": "Máximo de la Tirada"
+      },
+      "Minimum": {
+        "Label": "Mínimo de la Tirada"
+      }
+    }
+  },
+  "DisabledTooltip": {
+    "Disabled": "Este efecto está actualmente seleccionado en una o más de las Actividades de su Objeto, y por lo tanto no puede ser suspendido.",
+    "Transfer": "Este efecto está actualmente seleccionado en una o más de las Actividades de su Objeto, y por lo tanto no puede aplicarse pasivamente al Actor del Objeto."
+  },
+  "DropHint": "Suelta un Efecto Activo aquí",
+  "Empty": "No hay efectos asociados. Usa el botón <i class=\"fas fa-plus\"></i> de arriba para crear uno, o selecciona un efecto existente del menú desplegable.",
+  "Expired": "Expirado",
+  "Expiry": {
+    "Abbreviation": {
+      "End": "Fin",
+      "Start": "Inicio"
+    },
+    "Group": {
+      "General": "General",
+      "Specific": "Específico"
+    },
+    "Type": {
+      "LongRest": "Fin del Descanso Largo",
+      "ShortRest": "Fin del Descanso Corto",
+      "SourceEnd": "Fin del Próximo Turno de la Fuente",
+      "SourceStart": "Inicio del Próximo Turno de la Fuente",
+      "TargetEnd": "Fin del Próximo Turno del Objetivo",
+      "TargetStart": "Inicio del Próximo Turno del Objetivo",
+      "YourEnd": "Fin de Tu Próximo Turno",
+      "YourStart": "Inicio de Tu Próximo Turno"
+    }
+  },
+  "FIELDS": {
+    "statuses": {
+      "label": "Condiciones de Estado",
+      "hint": "Mientras esté afectado por este Efecto Activo, el objetivo será tratado como si tuviera estas condiciones de estado adicionales."
+    }
+  },
   "Label": "Efectos Disponibles",
+  "New": "Nuevo Efecto",
+  "Replacement": {
+    "NoChange": "Sin Cambio",
+    "Origin": "Origen",
+    "Target": "Objetivo"
+  },
   "RIDER": {
-    "Activity": "Actividad de efecto adicional de encantamiento",
-    "Effect": "Efecto adicional de encantamiento"
+    "Activity": "Actividad de Encantamiento Adjunto",
+    "Effect": "Efecto de Encantamiento Adjunto",
+    "FIELDS": {
+      "rider": {
+        "statuses": {
+          "hint": "Cuando se aplica este Efecto Activo, estas condiciones de estado adicionales se aplicarán por separado.",
+          "label": "Condiciones de Estado Separadas"
+        }
+      }
+    }
+  },
+  "Status": {
+    "ChangeActive": "Cambiar a Activo",
+    "ChangeInactive": "Cambiar a Inactivo",
+    "DeleteDialog": {
+      "hint": "Está bajo los efectos de esta condición de más de una fuente. Elija qué efecto terminar.",
+      "title": "Eliminar Efecto"
+    },
+    "Inactive": "Inactivo",
+    "Passive": "Pasivo",
+    "Temporary": "Temporal",
+    "Unavailable": "No Disponible"
+  },
+  "Suppressed": {
+    "Hint": "El objeto fuente debe estar equipado o sintonizado para activar estos efectos"
+  },
+  "Tab": "Efectos",
+  "Warning": {
+    "RollCondition": "Las condiciones de efecto no pueden hacer referencia a las propiedades 'roll.'. Mueva esta condición a los cambios individuales para que se aplique el efecto.",
+    "StatusCondition": "Los efectos que otorgan estados no pueden depender de condiciones de estado. Mueva esta condición a los cambios individuales para que se aplique el efecto."
   }
 },
-"DND5E.EffectsApplyTokens": "Aplicar a los tokens seleccionados",
-"DND5E.EffectApplyWarningConcentration": "Aplicar un efecto que está siendo concentrado por otro personaje, requiere permisos de DM.",
-"DND5E.EffectApplyWarningOwnership": "Los efectos no puede aplicarse a tokens de los que no se es propietario.",
-"DND5E.EffectsSearch": "Buscar efectos",
 
 "DND5E.ENCHANT": {
   "FIELDS": {
@@ -2348,7 +2870,8 @@
   "Enchantment": {
     "Action": {
       "Create": "Crear Encantamiento",
-      "Delete": "Borrar Encantamiento"
+      "Delete": "Borrar Encantamiento",
+      "Dissociate": "Desasociar Encantamiento"
     },
     "Active": "{name} (active)",
     "Empty": "No hay encantamientos asociados. Utiliza el botón <i class=\"fas fa-plus\"></i> de arriba para crear uno o selecciona un encantamiento existente del desplegable."
@@ -2384,18 +2907,9 @@
     "Inactive": "Encantamientos Inactivos"
   },
   "FIELDS": {
-    "enchantment": {
-      "label": "Configuración del Encantamiento",
-      "items": {
-        "max": {
-          "label": "Límite del Objeto",
-          "hint": "Fórmula para el número máximo de encantamientos de este tipo que se pueden activar a la vez."
-        },
-        "period": {
-          "label": "Periodo de Reemplazo",
-          "hint": "Cuántas veces los encantamientos de este tipo pueden ser vinculados de nuevo a objetos diferentes."
-        }
-      }
+    "magical": {
+      "hint": "Este encantamiento es mágico y debe desactivarse cuando la magia no esté disponible.",
+      "label": "Mágico"
     }
   },
   "Items": {
@@ -2407,6 +2921,11 @@
     "LongRest": "Descanso Largo",
     "Never": "Nunca",
     "ShortRest": "Descanso Corto"
+  },
+  "Transfer": {
+    "DisabledTooltip": "Este encantamiento está actualmente seleccionado en una o más de las actividades de encantamiento de su objeto, y por lo tanto no se puede aplicar directamente al objeto.",
+    "Hint": "Si está marcado, este encantamiento se aplicará directamente a su objeto principal.",
+    "Label": "Aplicar Encantamiento al Objeto"
   },
   "Warning": {
     "NotOnActor": "Los encantamientos sólo pueden añadirse a los objetos, no directamente a los actores.",
@@ -2428,6 +2947,44 @@
     "Description": "Descripción",
     "Loot": "Botín",
     "Members": "Miembros"
+  }
+},
+
+"DND5E.Encumbrance": "Encumbrance",
+"DND5E.ENCUMBRANCE": {
+  "FIELDS": {
+    "attributes": {
+      "encumbrance": {
+        "bonuses": {
+          "encumbered": {
+            "label": "Bonificación al límite de carga"
+          },
+          "heavilyEncumbered": {
+            "label": "Bonificación al límite de carga pesada"
+          },
+          "maximum": {
+            "label": "Bonificación a la capacidad máxima de carga"
+          },
+          "overall": {
+            "label": "Bonificación a todos los límites de carga"
+          }
+        },
+        "multipliers": {
+          "encumbered": {
+            "label": "Multiplicador del límite de carga"
+          },
+          "heavilyEncumbered": {
+            "label": "Multiplicador del límite de carga pesada"
+          },
+          "maximum": {
+            "label": "Multiplicador de la capacidad máxima de carga"
+          },
+          "overall": {
+            "label": "Multiplicador para todos los límites de carga"
+          }
+        }
+      }
+    }
   }
 },
 
@@ -2489,6 +3046,7 @@
 },
 
 "DND5E.Expertise": "Pericia",
+"DND5E.Eyes": "Ojos",
 
 "DND5E.FACILITY": {
   "Action": {
@@ -2521,6 +3079,7 @@
       "Label": "Comprar Elemento Base",
       "Hint": "Si se marca, el elemento base será comprado a precio completo en lugar de fabricado."
     },
+    "DropHint": "Suelta un objeto aquí",
     "Hint": "Los elemenentos que este edificio está fabricando o recolectando en este momento, si los hay."
   },
   "Description": "Descripción",
@@ -2687,7 +3246,8 @@
     },
     "Stocked": {
       "Label": "Abastecer por Completo",
-      "Hint": "Introduce el coste necesario para abastecer completamente el edificio de abajo."
+      "Hint": "Introduce el coste necesario para abastecer completamente el edificio de abajo.",
+      "Supplement": "Abastecido por completo"
     }
   },
   "Types": {
@@ -2744,6 +3304,14 @@
   }
 },
 
+"DND5E.FALLING": {
+  "DamageFlavor": "Cayó {distance}",
+  "MovementAction": "Caer",
+  "Warning": {
+    "NoLandingSurface": "No se puede precipitar a {name}, no hay superficie debajo de ellos."
+  }
+},
+
 "DND5E.Favorite": "Favorito",
 "DND5E.FavoriteDrop": "Drop Favorito",
 "DND5E.FavoriteRemove": "Quitar Favorito",
@@ -2756,6 +3324,19 @@
       "label": "Cobertura",
       "hint": "Cobertura proporcionada a la tripulación por este rasgo del vehículo."
     },
+    "enchant": {
+      "label": "Configuración de Encantamiento",
+      "items": {
+        "max": {
+          "label": "Límite de Objetos",
+          "hint": "Fórmula para el número máximo de encantamientos de este tipo que pueden estar activos al mismo tiempo."
+        },
+        "period": {
+          "label": "Período de Reemplazo",
+          "hint": "Con qué frecuencia los encantamientos de este tipo pueden ser reasignados a diferentes objetos."
+        }
+      }
+    },    
     "properties": {
       "label": "Propiedades del Rasgo"
     },
@@ -2769,46 +3350,47 @@
 },
 
 "DND5E.Feature": {
-    "Background": "Rasgo de Trasfondo",
-    "Class": {
-      "Label": "Rasgo de Clase",
-      "ArcaneShot": "Disparo Arcano",
-      "ArtificerInfusion": "Infusión de Artificiero",
-      "ArtificerPlan": "Plan de Artificiero",
-      "ChannelDivinity": "Canalizar Divinidad",
-      "DefensiveTactic": "Tácticas Defensivas",
-      "EldritchInvocation": "Invocaciones Sobrenaturales",
-      "ElementalDiscipline": "Disciplinas Elementales",
-      "FightingStyle": "Estilo de Combate",
-      "HuntersPrey": "El Cazador y la Presa",
-      "Ki": "Ki",
-      "Maneuver": "Maniobra",
-      "Metamagic": "Opción Metamágica",
-      "Multiattack": "Ataque Múltiple",
-      "PactBoon": "Beneficio del Pacto",
-      "PsionicPower": "Poder Psiónico",
-      "Rune": "Runa",
-      "SuperiorHuntersDefense": "Defensa de Cazador Experto"
-    },
-    "Feat": {
-      "Label": "Dote",
-      "EpicBoon": "Dote de Don Épico",
-      "FightingStyle": "Dote de Estilo de Combate",
-      "General": "Dote General",
-      "Origin": "Dote de Origen"
-    },
-    "Monster": "Rasgo de Monstruo",
-    "Species": "Rasgo de Especie",
-    "SpeciesLegacy": "Rasgo de Raza",
-    "SupernaturalGift": {
-      "Label": "Regalo Sobrenatural",
-      "Blessing": "Bendición",
-      "Charm": "Encanto",
-      "EpicBoon": "Beneficio Épico"
-    },
-    "Vehicle": {
-      "Label": "Rasgos del Vehículo"
-    }
+  "Background": "Rasgo de Trasfondo",
+  "Class": {
+    "Label": "Rasgo de Clase",
+    "ArcaneShot": "Disparo Arcano",
+    "ArtificerInfusion": "Infusión de Artificiero",
+    "ArtificerPlan": "Plan de Artificiero",
+    "ChannelDivinity": "Canalizar Divinidad",
+    "DefensiveTactic": "Tácticas Defensivas",
+    "EldritchInvocation": "Invocaciones Sobrenaturales",
+    "ElementalDiscipline": "Disciplinas Elementales",
+    "FightingStyle": "Estilo de Combate",
+    "HuntersPrey": "El Cazador y la Presa",
+    "Ki": "Ki",
+    "Maneuver": "Maniobra",
+    "Metamagic": "Opción Metamágica",
+    "Multiattack": "Ataque Múltiple",
+    "PactBoon": "Beneficio del Pacto",
+    "PsionicPower": "Poder Psiónico",
+    "Rune": "Runa",
+    "SuperiorHuntersDefense": "Defensa de Cazador Experto"
+  },
+  "Feat": {
+    "Label": "Dote",
+    "EpicBoon": "Dote de Don Épico",
+    "FightingStyle": "Dote de Estilo de Combate",
+    "General": "Dote General",
+    "Origin": "Dote de Origen"
+  },
+  "Monster": "Rasgo de Monstruo",
+  "PietyTrait": "Rasgo de Devoción",
+  "Species": "Rasgo de Especie",
+  "SpeciesLegacy": "Rasgo de Raza",
+  "SupernaturalGift": {
+    "Label": "Regalo Sobrenatural",
+    "Blessing": "Bendición",
+    "Charm": "Encanto",
+    "EpicBoon": "Beneficio Épico"
+  },
+  "Vehicle": {
+    "Label": "Rasgos del Vehículo"
+  }
 },
 "DND5E.Focus": {
   "Label": "Foco para Lanzamiento de Conjuros",
@@ -2840,26 +3422,6 @@
   }
 },
 
-"DND5E.EffectCreate": "Crear Efecto",
-"DND5E.EffectToggle": "Alternar Efecto",
-"DND5E.EffectEdit": "Editar Efecto",
-"DND5E.EffectEnable": "Activar Efecto",
-"DND5E.EffectDelete": "Eliminar Efecto",
-"DND5E.EffectDisable": "Desactivar Efecto",
-"DND5E.EffectTemporary": "Efectos Temporales",
-"DND5E.EffectPassive": "Efectos Pasivos",
-"DND5E.EffectInactive": "Efectos Inactivos",
-"DND5E.EffectNew": "Nuevo Efecto",
-"DND5E.EffectType": {
-  "Inactive": "Inactivo",
-  "Passive": "Pasivo",
-  "Temporary": "Temporal",
-  "Unavailable": "No disponible"
-},
-"DND5E.EffectUnavailable": "Efectos No Disponibles",
-"DND5E.EffectUnavailableInfo": "El elemento fuente debe estar equipado o sintonizado para activar estos",
-"DND5E.Encumbrance": "Carga",
-"DND5E.Eyes": "Ojos",
 "DND5E.Faith": "Creencia",
 "DND5E.FeatureActive": "Habilidades Activas",
 "DND5E.FeatureAdd": "Crear Rasgo",
@@ -2881,12 +3443,30 @@
 "DND5E.FilterGroupOrigin": "Agrupar por Origen", 
 "DND5E.FilterGroupAction": "Agrupar por Acción",
 "DND5E.FilterNoSpells": "No se encontraron conjuros con estos filtros.",
+
+"DND5E.FILTER": {
+  "Action": {
+    "Edit": "Editar Filtros"
+  },
+  "Empty": "Sin Filtros",
+  "Invalid": "Filtro Inválido",
+  "Operator": {
+    "And": "y",
+    "Not": "no",
+    "Or": "o"
+  }
+},
+
 "DND5E.NoSpellLevels": "Este personaje no tiene niveles de lanzador, pero puedes agregar conjuros manualmente.",
 
 "DND5E.FLAGS": {
   "EnhancedDualWielding": {
     "Name": "Combate con Dos Armas Mejorado",
     "Hint": "Permitir acciones adicionales de bonificación con los ataques cuando se utiliza cualquier arma cuerpo a cuerpo sin la propiedad A dos manos."
+  },
+  "IgnoreArmorSpeedReduction": {
+    "Name": "Ignorar Reducción de Velocidad por Armadura",
+    "Hint": "Ignora la reducción de velocidad al usar armadura sin cumplir con el requisito de fuerza."
   }
 },
 
@@ -2901,8 +3481,8 @@
 "DND5E.FlagsElvenAccuracyHint": "Tira un d20 extra con ventaja para Des, Int, Sab, o Car.",
 "DND5E.FlagsHalflingLucky": "Suerte de Mediano",
 "DND5E.FlagsHalflingLuckyHint": "Vuelve a tirar pruebas de d20 cuando salga 1.",
-"DND5E.FlagsInitiativeAdv": "Ventaja en Iniciativa",
-"DND5E.FlagsInitiativeAdvHint": "Proporcionado por los rasgos u objetos mágicos.",
+"DND5E.FlagsHalflingNimbleness": "Agilidad de Mediano",
+"DND5E.FlagsHalflingNimblenessHint": "El movimiento a través de criaturas más grandes no está bloqueado.",
 "DND5E.FlagsAlert": "Dote Alerta",
 "DND5E.FlagsAlertHint": "Competente en las tiradas de Iniciativa.",
 "DND5E.FlagsAlertHintLegacy": "Da +5 a la Iniciativa.",
@@ -2916,6 +3496,7 @@
 "DND5E.FlagsReliableTalentHint": "Rasgo Talentos Fiables del Pícaro.",
 "DND5E.FlagsRemarkableAthlete": "Atleta Sobresaliente.",
 "DND5E.FlagsRemarkableAthleteHint": "Añade la mitad de tu bonficador por competencia (redondeando hacia abajo) a las Pruebas de Característica físicas y a la Iniciativa.",
+"DND5E.FlagsRemarkableAthleteHintLegacy": "Mitad de competencia (redondeando hacia arriba) a las Pruebas de Característica físicas y a la Iniciativa.",
 "DND5E.FlagsWeaponCritThreshold": "Límite del Golpe Crítico para Armas",
 "DND5E.FlagsWeaponCritThresholdHint": "Límite expandido para los golpes críticos por ataques con armas.",
 "DND5E.FlagsSpellCritThreshold": "Límite del Golpe Crítico por Conjuro",
@@ -3090,6 +3671,9 @@
 "DND5E.Height": "Altura",
 
 "DND5E.HITPOINTS": {
+  "Bloodied": {
+    "label": "Umbral de Sangrado"
+  },
   "Counted": {
     "one": "{number} punto de golpe",
     "other": "{number} puntos de golpe"
@@ -3147,15 +3731,31 @@
 "DND5E.Ideals": "Ideales",
 "DND5E.Identified": "Identificado",
 "DND5E.Identifier": "Identificador",
+"DND5E.IdentifierCustom": "Identificador Personalizado",
 "DND5E.IdentifierError": "El identificador sólo puede contener letras (a-z), números (0-9), guiones (-) y guiones bajos (_).",
 "DND5E.Identify": "Identificar",
 "DND5E.Immunities": "Inmunidades",
 "DND5E.Initiative": "Iniciativa",
 "DND5E.InitiativeAbbr": "Inic",
-"DND5E.InitiativeBonus": "Bonificación de Iniciativa",
 "DND5E.InitiativeRoll": "Tirada de Iniciativa",
 "DND5E.InitiativeConfig": "Configurar Iniciativa",
 "DND5E.InitiativeConfigHint": "Configurar los modificadores y bonificaciones a la iniciativa que se aplican a este Actor.",
+
+"DND5E.INITIATIVE": {
+  "FIELDS": {
+    "attributes": {
+      "init": {
+        "roll": {
+          "bonus": { "label": "Bonificación de Iniciativa" },
+          "max": { "label": "Tirada Máxima de Iniciativa" },
+          "min": { "label": "Tirada Mínima de Iniciativa" },
+          "mode": { "label": "Modo de Ventaja en Iniciativa" }
+        }
+      }
+    }
+  }
+},
+
 "DND5E.Inspiration": "Inspiración",
 "DND5E.Inventory": "Inventario",
 "DND5E.InventorySearch": "Buscar inventario",
@@ -3204,13 +3804,6 @@
 "DND5E.ItemLootType": "Tipo de Botín",
 "DND5E.ItemName": "Nombre del Elemento",
 "DND5E.ItemNew": "Nuevo {type}",
-"DND5E.ItemRarityCommon": "común",
-"DND5E.ItemRarityMundane": "mundano",
-"DND5E.ItemRarityUncommon": "poco común",
-"DND5E.ItemRarityRare": "raro",
-"DND5E.ItemRarityVeryRare": "muy raro",
-"DND5E.ItemRarityLegendary": "legendario",
-"DND5E.ItemRarityArtifact": "artefacto",
 "DND5E.ItemRechargeCheck": "{name} prueba de recarga - {result}",
 "DND5E.ItemRechargeFailure": "¡fallo!",
 "DND5E.ItemRechargeSuccess": "¡éxito!",
@@ -3272,17 +3865,28 @@
     "Thrown": "Arrojadiza",
     "Trait": "Rasgo Pasivo",
     "TwoHanded": "A dos manos",
+    "UnidentifiedContents": "Ocultar Contenidos No Identificados",
     "Versatile": "Versátil",
     "Verbal": "Verbal",
     "WeightlessContents": "Contenidos sin Peso"
   },
+  "Rarity": {
+    "Artifact": "Artefacto",
+    "Common": "Común",
+    "Legendary": "Legendario",
+    "Mundane": "Mundano",
+    "Rare": "Raro",
+    "Uncommon": "Poco Común",
+    "Varies": "Varía",
+    "VeryRare": "Muy Raro"
+  },
   "SECTIONS": {
-    "Activities": "Activities",
-    "Advancement": "Advancement",
-    "Contents": "Contents",
-    "Description": "Description",
-    "Details": "Details",
-    "Effects": "Effects"
+    "Activities": "Actividades",
+    "Advancement": "Avance",
+    "Contents": "Contenidos",
+    "Description": "Descripción",
+    "Details": "Detalles",
+    "Effects": "Efectos"
   }
 },
 
@@ -3421,14 +4025,6 @@
 "DND5E.Minimum": "Mínimo",
 "DND5E.Method": "Método",
 "DND5E.Modifier": "Modificador",
-"DND5E.ModuleArtConfigH": "Configurar qué arte proporcionado por el módulo debería usarse.",
-"DND5E.ModuleArtConfigL": "Configurar Arte",
-"DND5E.ModuleArtConfigN": "Arte proporcionado por el módulo",
-"DND5E.ModuleArtConfigPortraits": "Retratos",
-"DND5E.ModuleArtConfigTokens": "Tokens",
-"DND5E.ModuleArtPriorityDecrease": "Bajar Prioridad",
-"DND5E.ModuleArtPriorityHint": "Utiliza las flechas para ajustar la prioridad de los orígenes del arte. Cuando un único Actor tiene un arte que proviene de varias fuentes, se utilizará aquél que tenga la prioridad más alta.",
-"DND5E.ModuleArtPriorityIncrease": "Aumentar Prioridad",
 "DND5E.Multiple": "Múltiple",
 "DND5E.Multiplier": "Multiplicador",
 "DND5E.MythicActionLabel": "Acción Mítica",
@@ -3503,6 +4099,18 @@
 "DND5E.PassivePerception": "Percepción Pasiva",
 "DND5E.Period": "Periodo",
 "DND5E.PersonalityTraits": "Rasgos de Personalidad",
+
+"DND5E.PIETY": {
+  "Configure": "Configurar Devoción",
+  "Label": "Devoción",
+  "FIELDS": {
+    "value": {
+      "label": "Puntuación de Devoción",
+      "hint": "La puntuación de devoción actual de este personaje."
+    }
+  }
+},
+
 "DND5E.Portrait": "Retrato",
 "DND5E.Prepared": "Preparado",
 "DND5E.Preparation": "Preparación",
@@ -3511,19 +4119,28 @@
   "FIELDS": {
     "prerequisites": {
       "items": {
+        "display": "{items}",
         "hint": "Identificadores de los elementos que el personaje debe tener antes de seleccionar este objeto.",
         "label": "Elementos Necesarios"
       },
       "label": "Prerrequisitos",
       "level": {
+        "display": "Nivel {level}+",
+        "displayLegacy": "{levelOrdinal} nivel",
         "hint": "Nivel de personaje o clase necesario para seleccionar este rasgo al subir de nivel.",
         "label": "Nivel Necesario"
       },
       "repeatable": {
+        "display": "No tomado previamente",
         "hint": "Esta característica puede elegirse más de una vez.",
         "label": "Repetible"
       }
     }
+  },
+  "Status": {
+    "Invalid": "Validación de Prerrequisitos Fallida",
+    "Unknown": "Validación de Prerrequisitos Incompleta",
+    "Valid": "Validación de Prerrequisitos Exitosa"
   },
   "Warning": {
     "InvalidLevel": "debes ser al menos nivel {level}",
@@ -3604,6 +4221,26 @@
 "DND5E.RecoveryFormula": "Fórmula de Recuperación",
 
 "DND5E.REGIONBEHAVIORS": {
+  "APPLYACTIVEEFFECT": {
+    "FIELDS": {
+      "dispositions": {
+        "hint": "Si se establece, solo se aplicarán efectos a los Tokens con estas disposiciones.",
+        "label": "Disposiciones"
+      },
+      "effects": {
+        "hint": "Los efectos que se aplican a los Tokens dentro de la Región.",
+        "label": "Efectos"
+      },
+      "sizes": {
+        "hint": "Si se establece, solo se aplicarán efectos a los Tokens que tengan estos tamaños.",
+        "label": "Tamaños"
+      },
+      "types": {
+        "hint": "Si se establece, solo se aplicarán efectos a los Tokens que sean de estos tipos de criatura.",
+        "label": "Tipos"
+      }
+    }
+  },
   "DIFFICULTTERRAIN": {
     "FIELDS": {
       "ignoredDispositions": {
@@ -3723,6 +4360,11 @@
 
 "DND5E.REST": {
   "Configuration": "Configurar Descanso",
+  "Duration": {
+    "Hint": "Cantidad de tiempo que debe transcurrir durante el descanso.",
+    "Label": "Duración",
+    "UntilSunrise": "Descansar Hasta el Amanecer"
+  },
   "HitDice": {
     "AutoSpend": {
       "Hint": "Gasta automáticamente dados de golpe hasta que se agoten o la salud esté completa.",
@@ -3791,6 +4433,121 @@
 "DND5E.RitualAbbr": "R",
 
 "DND5E.ROLL": {
+  "Bonus": "Bonificación de Tirada",
+  "Description": {
+    "ability": "Tirada de Habilidad",
+    "attack": {
+      "classification": "Clasificación de Ataque",
+      "mode": "Modo de Ataque",
+      "type": "Tipo de Ataque"
+    },
+    "damage": {
+      "type": "Tipo de Daño"
+    },
+    "proficient": "Competente",
+    "skill": "Tirada de Habilidad",
+    "tool": "Tirada de Herramienta",
+    "type": "Tipo de Tirada"
+  },
+  "FIELDS": {
+    "rolls": {
+      "ability": {
+        "check": {
+          "bonus": { "label": "Bonificación Global de Tirada de Habilidad" },
+          "max": { "label": "Máxima Tirada Global de Habilidad" },
+          "min": { "label": "Mínima Tirada Global de Habilidad" },
+          "mode": { "label": "Modo de Ventaja de Tirada de Habilidad Global" },
+          "proficiency": { "label": "Competencia en Tirada de Habilidad Global" }
+        },
+        "label": "Modificación de Tirada de Habilidad",
+        "save": {
+          "bonus": { "label": "Bonificación Global de Tirada de Salvación" },
+          "max": { "label": "Máxima Tirada Global de Salvación" },
+          "min": { "label": "Mínima Tirada Global de Salvación" },
+          "mode": { "label": "Modo de Ventaja de Tirada de Salvación Global" },
+          "proficiency": { "label": "Competencia en Tirada de Salvación Global" }
+        },
+        "skill": {
+          "bonus": { "label": "Bonificación Global de Tirada de Habilidad" },
+          "max": { "label": "Máxima Tirada Global de Habilidad" },
+          "min": { "label": "Mínima Tirada Global de Habilidad" },
+          "mode": { "label": "Modo de Ventaja de Tirada de Habilidad Global" },
+          "proficiency": { "label": "Competencia en Tirada de Habilidad Global" }
+        },
+        "tool": {
+          "bonus": { "label": "Bonificación Global de Tirada de Herramienta" },
+          "max": { "label": "Máxima Tirada Global de Herramienta" },
+          "min": { "label": "Mínima Tirada Global de Herramienta" },
+          "mode": { "label": "Modo de Ventaja de Tirada de Herramienta Global" },
+          "proficiency": { "label": "Competencia en Tirada de Herramienta Global" }
+        }
+      },
+      "attack": {
+        "bonus": { "label": "Bonificación Global de Ataque" },
+        "label": "Modificación de Tirada de Ataque",
+        "max": { "label": "Máxima Tirada Global de Ataque" },
+        "min": { "label": "Mínima Tirada Global de Ataque" },
+        "mode": { "label": "Modo de Ventaja de Tirada de Ataque Global" },
+        "msak": {
+          "bonus": { "label": "Bonificación de Ataque de Hechizo Cuerpo a Cuerpo" },
+          "max": { "label": "Máxima Tirada de Ataque de Hechizo Cuerpo a Cuerpo" },
+          "min": { "label": "Mínima Tirada de Ataque de Hechizo Cuerpo a Cuerpo" },
+          "mode": { "label": "Modo de Ventaja de Ataque de Hechizo Cuerpo a Cuerpo" }
+        },
+        "mwak": {
+          "bonus": { "label": "Bonificación de Ataque de Arma Cuerpo a Cuerpo" },
+          "max": { "label": "Máxima Tirada de Ataque de Arma Cuerpo a Cuerpo" },
+          "min": { "label": "Mínima Tirada de Ataque de Arma Cuerpo a Cuerpo" },
+          "mode": { "label": "Modo de Ventaja de Ataque de Arma Cuerpo a Cuerpo" }
+        },
+        "rsak": {
+          "bonus": { "label": "Bonificación de Ataque de Hechizo a Distancia" },
+          "max": { "label": "Máxima Tirada de Ataque de Hechizo a Distancia" },
+          "min": { "label": "Mínima Tirada de Ataque de Hechizo a Distancia" },
+          "mode": { "label": "Modo de Ventaja de Ataque de Hechizo a Distancia" }
+        },
+        "rwak": {
+          "bonus": { "label": "Bonificación de Ataque de Arma a Distancia" },
+          "max": { "label": "Máxima Tirada de Ataque de Arma a Distancia" },
+          "min": { "label": "Mínima Tirada de Ataque de Arma a Distancia" },
+          "mode": { "label": "Modo de Ventaja de Ataque de Arma a Distancia" }
+        }
+      },
+      "damage": {
+        "label": "Modificación de Tirada de Daño",
+        "msak": {
+          "bonus": { "label": "Bonificación de Daño de Ataque de Hechizo Cuerpo a Cuerpo" }
+        },
+        "mwak": {
+          "bonus": { "label": "Bonificación de Daño de Ataque de Arma Cuerpo a Cuerpo" }
+        },
+        "rsak": {
+          "bonus": { "label": "Bonificación de Daño de Ataque de Hechizo a Distancia" }
+        },
+        "rwak": {
+          "bonus": { "label": "Bonificación de Daño de Ataque de Arma a Distancia" }
+        }
+      }
+    }
+  },
+  "Formatter": {
+    "AdvantageMode": "Modo de Ventaja de {name}",
+    "Bonus": "Bonificación de Tirada de {name}",
+    "Maximum": "Máxima Tirada de {name}",
+    "Minimum": "Mínima Tirada de {name}",
+    "ModifierAbility": "Habilidad Modificadora de {name}"
+  },
+  "Generic": {
+    "D20": {
+      "bonus": { "label": "Bonificación de Tirada" },
+      "max": { "label": "Máxima Tirada" },
+      "min": { "label": "Mínima Tirada" },
+      "mode": { "label": "Modo de Ventaja" }
+    },
+    "Damage": {
+      "bonus": { "label": "Bonificación de Daño" }
+    }
+  },
   "Range": {
     "Label": "Rango de Tirada",
     "Maximum": "Tirada Máxima",
@@ -3808,6 +4565,7 @@
 },
 "DND5E.RollExample": "p.ej. 1d4",
 "DND5E.RollMode": "Modo de Tirada",
+"DND5E.RollModifiers": "Modificadores",
 "DND5E.RollSituationalBonus": "¿Bonificación Por Situación?",
 "DND5E.Rule": {
     "Tooltip": "Tooltip",
@@ -3829,6 +4587,9 @@
     "ignoredDifficultTerrain": {
       "label": "Terreno Difícil Ignorado"
     },
+    "multiplier": {
+      "label": "Multiplicador de Movimiento"
+    },    
     "special": {
       "label": "Movimiento Especial"
     },
@@ -3883,8 +4644,15 @@
         "label": "Prueba de Característica",
         "hint": "Característica que se debe tirar para la salvación."
       },
+      "bonus": {
+        "label": "Bonificación en Tirada de Salvación",
+        "hint": "Bonificación añadida a todas las tiradas de salvación realizadas usando esta actividad."
+      },
       "dc": {
         "label": "Clase de Dificultad",
+        "bonus": {
+          "label": "Bonificación de CD"
+        },
         "calculation": {
           "label": "Cálculo CD",
           "hint": "Método o característica a usar para calcular la clase de dificultad."
@@ -3895,6 +4663,10 @@
         },
         "CustomFormula": "Fórmula Personalizada",
         "DefaultFormula": "8 + @mod + @prof"
+      },
+      "visible": {
+        "label": "Visible para Todos",
+        "hint": "Muestra el botón de tirada en el chat para todos los jugadores."
       }
     }
   },
@@ -3906,7 +4678,6 @@
   }
 },
 
-"DND5E.SaveBonus": "Bonificación en Tirada de Salvación",
 "DND5E.SaveGlobalBonusHint": "Este bono se aplica a todas las tiradas de salvación realizadas por este actor.",
 "DND5E.Scroll": {
   "CreateFrom": "Crear Pergamino desde {spell}",
@@ -3934,6 +4705,8 @@
 "DND5E.Shape": "Forma",
 
 "DND5E.SheetClass": {
+  "ActiveEffect": "Hoja de Efecto Activo de D&D 5e",
+  "AdventureImporter": "Importador de Aventuras de D&D 5e",  
   "Character": "Hoja de Personaje D&D 5e",
   "ClassSummary": "Hoja Resumen de Clase D&D",
   "Container": "Hoja de Contenedor de D&D 5e",
@@ -3988,6 +4761,23 @@
 "DND5E.SizeTinyAbbr": "Dim",
 
 "DND5E.SKILL": {
+  "FIELDS": {
+    "skills": {
+      "element": {
+        "roll": {
+          "bonus": { "label": "Bonificación en Prueba de Habilidad" },
+          "max": { "label": "Tirada Máxima de Prueba de Habilidad" },
+          "min": { "label": "Tirada Mínima de Prueba de Habilidad" },
+          "mode": { "label": "Modo de Ventaja en Prueba de Habilidad" }
+        }
+      }
+    }
+  },
+  "Formatter": {
+    "CheckBonus": "Bonificación en Prueba de {name}",
+    "PassiveBonus": "Bonificación Pasiva de {name}",
+    "Proficiency": "Competencia en {name}"
+  },
   "SECTIONS": {
     "Details": "Detalles de {label}",
     "Bonuses": {
@@ -4028,7 +4818,6 @@
 "DND5E.SkillConfigure": "Configurar Habilidad",
 "DND5E.SkillsConfig": "Configurar Habilidades",
 "DND5E.SkillBonuses": "Bonificaciones de Habilidad",
-"DND5E.SkillBonusCheck": "Bonificación en Pruebas",
 "DND5E.SkillBonusPassive": "Bonficación Pasiva",
 "DND5E.SkillConfigurationHint": "Configurar la competencia y las bonificaciones de las habilidades.",
 "DND5E.SkillGlobalBonusCheckHint": "Esta bonificación se aplica a todas las pruebas de habilidad realizados por este actor.",
@@ -4204,7 +4993,7 @@
 "DND5E.SpellLevel7": "Nivel 7",
 "DND5E.SpellLevel8": "Nivel 8",
 "DND5E.SpellLevel9": "Nivel 9",
-"DND5E.SpellLevelSlot": "{level} ({n} Espacios)",
+"DND5E.SpellLevelSpell": "{level} ({n} Espacios)",
 "DND5E.SpellLevelPact": "Espacio de Pacto [Nivel {level}] ({n} Espacios)",
 "DND5E.SpellMaterials": "Materiales de Conjuración",
 "DND5E.SpellMaterialsConsumed": "Consume Materiales",
@@ -4221,7 +5010,7 @@
 "DND5E.SpellPreparation": {
   "Label": "Preparación del Conjuro",
   "Formula": "Fórmula de Preparación",
- "Method": "Método de Lanzamiento de Conjuros"
+  "Method": "Método de Lanzamiento de Conjuros"
 },
 "DND5E.SpellPrepared": "Preparado",
 "DND5E.SpellProgArt": "Artificiero",
@@ -4254,6 +5043,11 @@
 "DND5E.SpellUsage": "Uso del Conjuro",
 "DND5E.Spellbook": "Libro de Conjuros",
 "DND5E.Spent": "Gastado",
+"DND5E.SplitStack": {
+  "Action": "Dividir",
+  "Title": "Dividir Pila"
+},
+
 "DND5E.StartingEquipment": {
   "Title": "Equipo Inicial",
   "Action": {
@@ -4293,6 +5087,7 @@
 "DND5E.SubclassDuplicateError": "Una subclase con el identificador {identifier} ya existe en este actor.",
 "DND5E.SubclassMismatchWarn": "La subclase {name} no coincide con ninguna clase con identificador '{class}'.",
 "DND5E.SubclassName": "Nombre de la Subclase",
+"DND5E.SubclassOf": "Subclase de {class}",
 "DND5E.Subtype": "Subtipo",
 "DND5E.Summary": "Resumen",
 
@@ -4331,6 +5126,14 @@
     "creatureTypes": {
       "label": "Tipos de Criatura",
       "hint": "La criatura invocada se cambiará a este tipo. Si se elige más de un tipo, el jugador podrá seleccionar entre ellos a la hora de hacer la invocación."
+    },
+    "flat": {
+      "attack": {
+        "label": "Ataque Plano para Golpear"
+      },
+      "save": {
+        "label": "CD de Salvación Plana"
+      }
     },
     "match": {
       "ability": {
@@ -4444,6 +5247,7 @@
   "Warning": {
     "NoOwnership": "Debes ser el propietario de '{actor}' para poder invocarlo.",
     "NoProfile": "No se puede encontrar el perfil de invocación {profileId} en '{item}'.",
+    "PlaceTokens": "Error al colocar las invocaciones en la escena.",
     "Wildcard": "Debes tener el permiso 'Utilizar Navegador de Archivos' para invocar criaturas con arte wildcard."
   }
 },
@@ -4453,6 +5257,48 @@
 },
 "DND5E.Supply": "Cantidad",
 "DND5E.Suppressed": "Reprimido",
+
+"DND5E.TABLEOFCONTENTS": {
+  "Action": {
+    "Configure": "Configurar Tabla de Contenidos"
+  },
+  "FIELDS": {
+    "order": {
+      "label": "Orden"
+    },
+    "position": {
+      "label": "Posición"
+    },
+    "showPages": {
+      "label": "Mostrar Páginas"
+    },
+    "title": {
+      "label": "Sobrescribir Título"
+    },
+    "type": {
+      "label": "Tipo"
+    }
+  },
+  "HiddenPages": "Páginas Ocultas",
+  "HideAllPages": "Ocultar Todas las Páginas",
+  "JournalEntry": "Entrada de Diario",
+  "NoFolder": "Sin Carpeta",
+  "Special": {
+    "After": "Después de {chapter}",
+    "End": "Fin de la Tabla de Contenidos"
+  },
+  "Title": "Tabla de Contenidos",
+  "Type": {
+    "Appendix": "Apéndice",
+    "Chapter": "Capítulo",
+    "Header": "Encabezado",
+    "Special": "Especial"
+  },
+  "Warning": {
+    "DuplicateHeader": "Solo se puede establecer una entrada con el tipo Encabezado.",
+    "DuplicatePosition": "Cada Capítulo y Apéndice debe tener un valor de posición único."
+  }
+},
 
 "DND5E.TARGET": {
   "Action": {
@@ -4647,6 +5493,15 @@
         "otherSized": "{number} Radios {sizes}"
       }
     },
+    "Ring": {
+      "Label": "Anillo",
+      "Counted": {
+        "one": "anillo",
+        "other": "anillos",
+        "oneSized": "{sizes} Anillo",
+        "otherSized": "{number} {sizes} Anillos"
+      }
+    },
     "Self": {
       "Label": "Uno mismo"
     },
@@ -4723,6 +5578,36 @@
   }
 },
 
+"DND5E.TELEPORT": {
+  "Action": {
+    "Teleport": "Teletransportar"
+  },
+  "FIELDS": {
+    "teleport": {
+      "label": "Distancia",
+      "hint": "Establece la distancia máxima de teletransporte.",
+      "override": {
+        "label": "Anular",
+        "hint": "Anula el alcance normal de la actividad y establece manualmente la distancia máxima de teletransporte."
+      },
+      "units": {
+        "label": "Unidad de Distancia"
+      },
+      "value": {
+        "label": "Distancia Máxima"
+      }
+    }
+  },
+  "Hint": "Teletransporta un token a un destino elegido.",
+  "SECTIONS": {
+    "Teleport": "Teletransportar"
+  },
+  "Title": "Teletransportar",
+  "Warning": {
+    "InvalidDistance": "El teletransporte no se puede usar en escenas sin unidades de movimiento compatibles."
+  }
+},
+
 "DND5E.Target": "Objetivo",
 "DND5E.TargetPl": "Objetivos",
 "DND5E.TargetType": "Tipo de Objetivo",
@@ -4751,15 +5636,50 @@
 "DND5E.TimeYear": "Años",
 "DND5E.TMP": "TMP",
 "DND5E.ToHit": "Para Golpear",
+
+"DND5E.TOKEN": {
+  "Attribute": {
+    "Label": "Token: {attribute}",
+    "LightBrightRadius": "Radio de Luz Brillante",
+    "LightDimRadius": "Radio de Luz Atenuada"
+  },
+  "LockScale": {
+    "Hint": "Evita que se aplique un ajuste de escala al Token si el tamaño del Actor es Pequeño.",
+    "Label": "Bloquear Escala"
+  },
+  "LockSize": {
+    "Hint": "Desbloquea para ingresar las dimensiones de este token manualmente y evita que se ajusten automáticamente según el tamaño de la criatura.",
+    "Label": "Bloquear Tamaño"
+  }
+},
+
 "DND5E.Tokens": {
   "NoneSelected": "No hay Tokens Seleccionados",
   "NoneTargeted": "No hoy Tokens Marcados como Objetivo",
+  "NoTargets": "No hay Objetivos",
   "Selected": "Seleccionado",
   "Targeted": "Marcado como Objetivo"
 },
+
 "DND5E.ToggleDescription": "Activar Descripción",
 
 "DND5E.TOOL": {
+  "FIELDS": {
+    "tools": {
+      "element": {
+        "roll": {
+          "bonus": { "label": "Bonificación de Prueba de Herramienta" },
+          "max": { "label": "Tirada Máxima de Prueba de Herramienta" },
+          "min": { "label": "Tirada Mínima de Prueba de Herramienta" },
+          "mode": { "label": "Modo de Ventaja de Prueba de Herramienta" }
+        }
+      }
+    }
+  },
+  "Formatter": {
+    "CheckBonus": "Bonificación de Prueba de {name}",
+    "Proficiency": "Competencia en {name}"
+  },
   "SECTIONS": {
     "Details": "Detalles de {label}",
     "Bonuses": {
@@ -4787,47 +5707,92 @@
 "DND5E.ToolPromptTitle": "Prueba de {tool}",
 "DND5E.ToolThieves": "Herramientas de Ladrón",
 "DND5E.ToolVehicle": "Vehículos",
-"DND5E.TraitAll": "Todo {category}",
-"DND5E.TraitArmorPlural.one": "Entrenamiento en Armadura",
-"DND5E.TraitArmorPlural.other": "Entrenamiento en Armadura",
-"DND5E.TraitArmorProf": "Competencias en Armadura",
-"DND5E.TraitArmorLegacyPlural.one": "Competencia en Armadura",
-"DND5E.TraitArmorLegacyPlural.other": "Competencias en Armadura",
-"DND5E.TraitArmorLegacyProf": "Competencias en Armadura",
-"DND5E.TraitCIPlural.one": "Inmunidad a Condición",
-"DND5E.TraitCIPlural.other": "Inmunidades a Condición",
-"DND5E.TraitConfig": "Configurar {trait}",
-"DND5E.TraitConfigChooseAnyCounted": "cualquier {count} {type}",
-"DND5E.TraitConfigChooseAnyUncounted": "cualquier {type}",
-"DND5E.TraitConfigChooseList": "{count} de {list}",
-"DND5E.TraitConfigChooseOther": "{count} otro {type}",
-"DND5E.TraitConfigChooseWrapper": "Elegir {choices}",
-"DND5E.TraitDIPlural.one": "Inmunidad al Daño",
-"DND5E.TraitDIPlural.other": "Inmunidades al Daño",
-"DND5E.TraitDMPlural.one": "Modificación de Daño",
-"DND5E.TraitDMPlural.other": "Modificaciones de Daño",
-"DND5E.TraitDRPlural.one": "Resistencia al Daño",
-"DND5E.TraitDRPlural.other": "Resistencias al Daño",
-"DND5E.TraitDVPlural.one": "Vulnerable al Daño",
-"DND5E.TraitDVPlural.other": "Vulnerables al Daño",
-"DND5E.TraitGenericPlural.one": "Rasgo",
-"DND5E.TraitGenericPlural.other": "Rasgos",
-"DND5E.TraitLanguagesPlural.one": "Idioma",
-"DND5E.TraitLanguagesPlural.other": "Idiomas",
-"DND5E.TraitSave": "Actualizar",
-"DND5E.TraitSavesPlural.one": "Competencia en Tirada de Salvación",
-"DND5E.TraitSavesPlural.other": "Competencias en Tirada de Salvación",
-"DND5E.TraitSelectorSpecial": "Especial (separar con punto y coma)",
-"DND5E.TraitSkillsPlural.one": "Competencia en Habilidad",
-"DND5E.TraitSkillsPlural.other": "Competencias en Habilidad",
-"DND5E.TraitToolPlural.one": "Competencia en Herramientas",
-"DND5E.TraitToolPlural.other": "Competencias en Herramientas",
-"DND5E.TraitToolProf": "Comp. con Herramientas",
-"DND5E.TraitWeaponPlural.one": "Competencia en Arma",
-"DND5E.TraitWeaponPlural.other": "Competencias en Arma",
-"DND5E.TraitWeaponProf": "Comp. con Armas",
+
+"DND5E.TRAIT": {
+  "Action": {
+    "Configure": "Configurar {trait}"
+  },
+  "All": "Todos {category}",
+  "Armor": {
+    "one": "Entrenamiento en Armadura",
+    "other": "Entrenamientos en Armadura",
+    "title": "Entrenamientos en Armadura"
+  },
+  "ArmorLegacy": {
+    "one": "Competencia en Armadura",
+    "other": "Competencias en Armadura",
+    "title": "Competencias en Armadura"
+  },
+  "Condition": {
+    "Immunity": {
+      "one": "Inmunidad a Condición",
+      "other": "Inmunidades a Condición",
+      "title": "Inmunidades a Condición"
+    }
+  },
+  "Choose": {
+    "AnyCounted": "cualquier {count} {type}",
+    "AnyUncounted": "cualquier {type}",
+    "List": "{count} de {list}",
+    "Other": "{count} otro {type}",
+    "Wrapper": "Elegir {choices}"
+  },
+  "Chosen": "Rasgos Elegidos",
+  "Damage": {
+    "Immunity": {
+      "one": "Inmunidad al Daño",
+      "other": "Inmunidades al Daño",
+      "title": "Inmunidades al Daño"
+    },
+    "Modification": {
+      "one": "Modificación de Daño",
+      "other": "Modificaciones de Daño",
+      "title": "Modificación de Daño"
+    },
+    "Resistance": {
+      "one": "Resistencia al Daño",
+      "other": "Resistencias al Daño",
+      "title": "Resistencias al Daño"
+    },
+    "Vulnerability": {
+      "one": "Vulnerabilidad al Daño",
+      "other": "Vulnerabilidades al Daño",
+      "title": "Vulnerabilidades al Daño"
+    }
+  },
+  "Generic": {
+    "one": "Rasgo",
+    "other": "Rasgos",
+    "title": "Rasgos"
+  },
+  "Language": {
+    "one": "Idioma",
+    "other": "Idiomas",
+    "title": "Idiomas"
+  },
+  "Save": {
+    "one": "Competencia en Tiradas de Salvación",
+    "other": "Competencias en Tiradas de Salvación",
+    "title": "Competencias en Tiradas de Salvación"
+  },
+  "Skill": {
+    "one": "Competencia en Habilidad",
+    "other": "Competencias en Habilidades",
+    "title": "Competencias en Habilidades"
+  },
+  "Tool": {
+    "one": "Competencia en Herramienta",
+    "other": "Competencias en Herramientas",
+    "title": "Competencias en Herramientas"
+  },
+  "Weapon": {
+    "one": "Competencia en Arma",
+    "other": "Competencias en Armas",
+    "title": "Competencias en Armas"
+  }
+},
+
 "DND5E.Traits": "Rasgos",
-"DND5E.TraitsChosen": "Rasgos Elegidos",
 
 "DND5E.TRANSFORM": {
   "Action": {
@@ -4883,6 +5848,10 @@
         "label": "Personalizar",
         "hint": "Utilizar la configuración de transformación personalizada antes que los parámetros predeterminados que ofrece el valor preestablecido seleccionado."
       },
+      "formless": {
+        "hint": "Permitir que la criatura elimine todas las formas y vuelva a un estado predeterminado.",
+        "label": "Sin Forma"
+      },
       "identifier": {
         "label": "Identificador de Clase",
         "hint": "Identificador usado para determinar si usar el nivel de personaje o un nivel de clase específico para los límites de nivel de perfil."
@@ -4891,7 +5860,8 @@
         "label": "Modo",
         "hint": "Fija cómo se seleccionan las criaturas origen de la transformación.",
         "CR": "Por Valor de Desafío",
-        "Direct": "Por Enlace Directo"
+        "Direct": "Por Enlace Directo",
+        "Form": "Seleccionar Forma"
       },
       "preset": {
         "label": "Preestablecido"
@@ -4899,6 +5869,7 @@
     }
   },
   "Hint": "Cambia un actor para que utilice las estadísticas de otro.",
+  "NoForm": "Sin Forma",
   "Preset": {
     "Appearance": {
       "Label": "Sólo Apariencia"
@@ -5063,7 +6034,7 @@
   }
 },
 
-"DND5E.Travel": {
+"DND5E.TRAVEL": {
   "FIELDS": {
     "pace": {
       "label": "Pasos"
@@ -5271,9 +6242,6 @@
   }
 },
 
-"DND5E.Unknown": "Desconocido",
-"DND5E.Unlimited": "Ilimitado",
-
 "DND5E.USAGE": {
   "SECTION": {
     "Consumption": "Consumo",
@@ -5332,6 +6300,7 @@
       "Delete": "Borrar Perfil de Recuperación"
     },
     "Combat": "Combate",
+    "Empty": "No se ha especificado recuperación. Usa el botón <i class=\"fas fa-plus\"></i> de arriba para agregar periodos de recuperación.",
     "Never": "Nunca",
     "Period": {
       "Dawn": {
@@ -5594,6 +6563,42 @@
       }
     },
     "damage": {
+      "base": {
+        "bonus": {
+          "label": "Bono de Daño Base"
+        },
+        "custom": {
+          "enabled": {
+            "label": "Usar Fórmula de Daño Base Personalizada"
+          },
+          "formula": {
+            "label": "Fórmula de Daño Base Personalizada"
+          }
+        },
+        "denomination": {
+          "label": "Denominación de Daño Base"
+        },
+        "number": {
+          "label": "Cantidad de Dados de Daño Base"
+        },
+        "scaling": {
+          "formula": {
+            "label": "Fórmula de Escalado de Daño Base"
+          },
+          "mode": {
+            "label": "Modo de Escalado de Daño Base"
+          },
+          "number": {
+            "label": "Valor de Escalado de Daño Base"
+          }
+        },
+        "types": {
+          "label": "Tipos de Daño Base"
+        }
+      },
+      "bonus": {
+        "label": "Bono de Daño"
+      },
       "hint": "Dados de daño pripios del arma. El modificador de característica y las partes de daño adicional se proporcionarán automáticamente al atacar."
     },
     "mastery": {
@@ -5626,6 +6631,41 @@
 "DND5E.WeaponSimpleProficiency": "Armas sencillas",
 "DND5E.WeaponSimpleR": "A distancia sencilla",
 "DND5E.Weight": "Peso",
+
+"DND5E.WELCOME": {
+  "Button": "Pantalla de Bienvenida",
+  "Message": {
+    "Bugs": "<p>¿Te has encontrado con algún error? Obtén ayuda de la comunidad en el <a href=\"{discord}\">Discord Oficial</a> o presenta un informe en el <a href=\"{issues}\">rastreador de problemas</a> del sistema.</p>",
+    "Changes": "<p>Consulta los <a href=\"{changes}\">cambios</a> en la versión más reciente.</p>",
+    "Content": "<p>Dirígete a la pestaña de <strong>Contenido Oficial</strong> donde puedes ver qué libros de D&D 5e están disponibles y habilitarlos en este mundo.</p>",
+    "Documentation": "<p>Explora la <a href=\"{wiki}\">Wiki de Documentación</a> para obtener información detallada sobre cómo usar el sistema.</p>",
+    "Introduction": "<p>Bienvenido al sistema de juego oficial para <strong>Dungeons & Dragons Quinta Edición</strong>.</p>",
+    "MoreContent": "<p>Encuentra más contenido de Dungeons & Dragons Quinta Edición en el <a href=\"{marketplace}\">Marketplace oficial de Foundry VTT</a>.</p>"
+  },
+  "Module": {
+    "Enabled": "Habilitado",
+    "NotInstalled": "No Instalado"
+  },
+  "Section": {
+    "adventures": "Aventuras",
+    "core": "Manuales Básicos",
+    "expanded": "Manuales Expandidos",
+    "more": "Más Contenido"
+  },
+  "Settings": {
+    "Label": "Configuración",
+    "Metric": {
+      "Hint": "Usar unidades métricas por defecto para distancias, pesos y volumen.",
+      "Label": "Usar Sistema Métrico"
+    }
+  },
+  "Tab": {
+    "main": "Bienvenida",
+    "modules": "Contenido Oficial"
+  },
+  "Title": "Bienvenido a D&D 5e"
+},
+
 "DND5E.WhisperedTo": "Susurrado a",
 "DND5E.Wiki": "Wiki",
 "DND5E.available": "disponible",
@@ -5643,10 +6683,11 @@
   "CheckShort": "{check}",
   "CheckLong": "prueba de {check}",
   "CheckUsing": "{check} utilizando {tool}",
-  "DamageExtended": "<em>Impacto:</em> de daño {damage}",
+
   "DamageDouble": "{first} más {second}",
-  "DamageShort": "{formula} {type}",
+  "DamageExtended": "<em>Impacto:</em> de daño {damage}",
   "DamageLong": "{average} <span class=\"formula-group\">({formula})</span> {type}",
+  "DamageShort": "{formula} {type}",
   "DC": "CD {dc} {check}",
   "DCPassiveShort": "CD {dc} {check} pasiva",
   "DCPassiveLong": "puntuacion pasiva de {check} {dc} o mayor",
@@ -5665,36 +6706,60 @@
     "NoItemOnActor": "{actor} no tiene un Objeto con el nombre {item}."
   }
 },
-  
-  "EFFECT.DND5E": {
-    "StatusBleeding": "Sangrando",
-    "StatusBloodied": "Ensangrentado",
-    "StatusBurning": "Ardiendo",
-    "StatusBurrowing": "Excavando",
-    "StatusConcentrating": "Concentrándose",
-    "StatusCursed": "Maldito",
-    "StatusDead": "Muerto",
-    "StatusDehydration": "Deshidratado",
-    "StatusDodging": "Esquivando",
-    "StatusEncumbered": "Sobrecargado",
-    "StatusEthereal": "Etéreo",
-    "StatusExceedingCarryingCapacity": "Superando la Capacidad de Carga",
-    "StatusFalling": "Cayendo",
-    "StatusFlying": "Volando",
-    "StatusHalfCover": "Media Cobertura",
-    "StatusHeavilyEncumbered": "Muy Sobrecargado",
-    "StatusHidden": "Oculto",
-    "StatusHovering": "Flotando",
-    "StatusMalnutrition": "Malnutrido",
-    "StatusMarked": "Marcado",
-    "StatusSilenced": "Silenciado",
-    "StatusSleeping": "Durmiendo",
-    "StatusStable": "Estable",
-    "StatusSuffocation": "Asfixiado",
-    "StatusSurprised": "Sorprendido",
-    "StatusThreeQuartersCover": "Cobertura Tres Cuartos",
-    "StatusTotalCover": "Cobertura Completa",
-    "StatusTransformed": "Transformado"
+
+"EDITOR.DND5E.Inserts": {
+  "Advice": "Consejo General",
+  "Attack": "Tirada de Ataque",
+  "Award": "Recompensa",
+  "Check": "Prueba de Habilidad",
+  "Damage": "Daño",
+  "EnrichersGroup": "Enriquecedores de D&D",
+  "FloatLeft": "Flotar a la Izquierda",
+  "FloatRight": "Flotar a la Derecha",
+  "Group": "Bloques de D&D",
+  "HabitatTreasure": "ábitat y Tesoro",
+  "Healing": "Curación",
+  "Item": "Objeto",
+  "Lookup": "Búsqueda",
+  "Narrative": "Narrativa",
+  "Notable": "Notable",
+  "Quest": "Misión",
+  "Quote": "Cita Destacada",
+  "Reference": "Referencia",
+  "Save": "Tirada de Salvación",
+  "Skill": "Prueba de Habilidad",
+  "VTTAdvice": "Consejo de VTT"
+},
+
+"EFFECT.DND5E": {
+  "StatusBleeding": "Sangrando",
+  "StatusBloodied": "Ensangrentado",
+  "StatusBurning": "Ardiendo",
+  "StatusBurrowing": "Excavando",
+  "StatusConcentrating": "Concentrándose",
+  "StatusCursed": "Maldito",
+  "StatusDead": "Muerto",
+  "StatusDehydration": "Deshidratado",
+  "StatusDodging": "Esquivando",
+  "StatusEncumbered": "Sobrecargado",
+  "StatusEthereal": "Etéreo",
+  "StatusExceedingCarryingCapacity": "Superando la Capacidad de Carga",
+  "StatusFalling": "Cayendo",
+  "StatusFlying": "Volando",
+  "StatusHalfCover": "Media Cobertura",
+  "StatusHeavilyEncumbered": "Muy Sobrecargado",
+  "StatusHidden": "Oculto",
+  "StatusHovering": "Flotando",
+  "StatusMalnutrition": "Malnutrido",
+  "StatusMarked": "Marcado",
+  "StatusSilenced": "Silenciado",
+  "StatusSleeping": "Durmiendo",
+  "StatusStable": "Estable",
+  "StatusSuffocation": "Asfixiado",
+  "StatusSurprised": "Sorprendido",
+  "StatusThreeQuartersCover": "Cobertura Tres Cuartos",
+  "StatusTotalCover": "Cobertura Completa",
+  "StatusTransformed": "Transformado"
 },
 
 "TYPES.JournalEntryPage.class": "Resumen de Clase",
@@ -5823,18 +6888,31 @@
 
 "KEYBINDINGS.DND5E.DragCopy": "Forzar Copiar cuando se Arrastra un Documento",
 "KEYBINDINGS.DND5E.DragMove": "Forzar Mover cuando se Arrastra un Documento",
-"KEYBINDINGS.DND5E.SkipDialogNormal": "Saltar Diálogo",
+"KEYBINDINGS.DND5E.OpenCompendiumBrowser": "Abrir Navegador de Compendios",
 "KEYBINDINGS.DND5E.SkipDialogAdvantage": "Saltar Diálogo (tirar con Ventaja/Crítico)",
 "KEYBINDINGS.DND5E.SkipDialogDisadvantage": "Saltar Diálogo (tirar con Desventaja/No Crítico)",
+"KEYBINDINGS.DND5E.SkipDialogNormal": "Saltar Diálogo (tirar Normalmente)",
+"KEYBINDINGS.DND5E.ToggleSheetMode": "Cambiar Modo de Hoja",
 
 "MACRO.5eMissingTargetWarn": "El actor que controlas '{actor}' no tiene un {type} con el nombre '{name}'.",
 "MACRO.5eMultipleTargetsWarn": "El actor que controlas '{actor}' tiene más de un {type} con el nombre '{name}'. Se elegirá la primera coincidencia.",
 "MACRO.5eNoActorSelected": "No se ha podido encontrar ningún actor seleccionado o asignado al cual dirigir la macro.",
 "MACRO.5eUnownedWarn": "Sólo se pueden crear botones de macro para los objetos propios",
 
-"MIGRATION.5eBegin": "Aplicando la migración del sistema DnD5E para la versión {version}. Por favor, sea paciente y no cierre el juego ni apague el servidor.",
-"MIGRATION.5eComplete": "¡Migración del sistema DnD5E a la versión {version} completada!",
-"MIGRATION.5eVersionTooOldWarning": "Los datos de tu sistema DnD5e son de una versión de Foundry demasiado antigua y no se pueden migrar de forma fiable a la última versión. Se intentará la migración, pero pueden producirse errores.",
+"MIGRATION.DND5E": {
+  "Compendium": {
+    "Failed": "La migración falló para el compendio {compendium}.",
+    "Migrate": "Migrando compendio {compendium} a la versión {version}.",
+    "Refresh": "Recargando compendio {compendium}."
+  },
+  "World": {
+    "Begin": "Aplicando la Migración del Sistema D&D 5e a la versión {version}. Por favor, sea paciente y no cierre su juego ni apague su servidor.",
+    "Complete": "¡Migración del Sistema D&D 5e a la versión {version} completada!"
+  },
+  "Warning": {
+    "VersionTooOld": "Los datos de su sistema D&D 5e provienen de una versión de Foundry demasiado antigua y no se pueden migrar de manera confiable a la última versión. Se intentará el proceso, pero pueden ocurrir errores."
+  }
+},
 
 "SETTINGS.5eAutoCollapseCardL": "Contrae automáticamente la tarjeta de descripción del elemento en el registro de chat",
 "SETTINGS.5eAutoCollapseCardN": "Contraer Tarjetas de Elementos en el Chat",
@@ -5844,16 +6922,32 @@
 "SETTINGS.5eNoAdvancementsL": "No solicitar elecciones de subida de nivel o de creación de personajes.",
 "SETTINGS.5eNoConcentrationN": "Deshabilitar seguimiento de concentración",
 "SETTINGS.5eNoConcentrationL": "Desactiva el seguimiento automático de la concentración del sistema.",
+"SETTINGS.5eNoExhaustionN": "Desactivar automatización de agotamiento",
+"SETTINGS.5eNoExhaustionL": "Desactiva la automatización de los efectos de agotamiento del sistema.",
 "SETTINGS.5eGridAlignedSquareTemplatesL": "Cuando se crean plantillas cuadradas como resultado de lanzar un conjuro o utilizar un objeto, se fijarán y alinearán con la cuadrícula y no podrán rotarse.",
 "SETTINGS.5eGridAlignedSquareTemplatesN": "Plantillas Cuadradas Alineadas a la Cuadrícula",
 "SETTINGS.DND5E": {
   "AUTOMATION": {
+    "Autosize": {
+      "Hint": "Ajusta automáticamente las dimensiones y la escala de un token según su categoría de tamaño.",
+      "Name": "Sincronizar Tamaño del Token"
+    },
+    "Falling": {
+      "Name": "Desactivar Automatización de Caída",
+      "Hint": "No rastrear el estado de caída de los tokens."
+    },
     "Movement": {
       "Name": "Desactivar Automatización del Movimiento",
       "Hint": "No aplicar las penalizaciones de movimiento de terreno difícil, o prevenir que las criaturas se muevan a través de otras de acuerdo a la versión de las reglas.",
       "Full": "Completo",
       "NoBlocking": "Parcial",
       "None": "Ninguno"
+    },
+    "SenseVision": {
+      "Name": "Sincronizar Sentidos con la Visión del Token",
+      "Hint": "Configura automáticamente el alcance de visión del token, el modo de visión y los modos de detección según los sentidos del actor.",
+      "Notice": "La visión y la detección se sincronizan a partir de los {senses} de este actor.",
+      "Senses": "sentidos"
     }
   },
   "BLOODIED": {
@@ -5862,6 +6956,15 @@
     "All": "Mostrar para Aliados & Enemigos",
     "Player": "Sólo Mostrar a los Aliados",
     "None": "Nunca Mostrar"
+  },
+  "CHATLOG": {
+    "Hint": "Especifica un tema para el registro de chat. Por defecto, heredará el tema de la aplicación.",
+    "Name": "Tema del Registro de Chat",
+    "Options": {
+      "blank": "Predeterminado",
+      "dark": "Oscuro",
+      "light": "Claro"
+    }
   },
   "COLLAPSETRAYS": {
     "Name": "Contraer Bloques en el Chat",
@@ -5879,13 +6982,32 @@
       "Name": "Desempate de Destreza",
       "Hint": "Añadir la puntuación de Destreza sin modificar para romper empates en la Iniciativa."
     },
+    "AutoApplyDowned": {
+      "Name": "Auto-Apply Downed",
+      "Hint": "Automatically mark a creature as Dead or Unconscious when it is reduced to 0 HP in combat. Unimportant NPCs are marked Dead. Important NPCs and PCs are marked Unconscious first, and Dead if they fail three death saving throws.",
+      "None": "Never",
+      "DeadOnly": "For NPCs (dead only)",
+      "NPCs": "For NPCs (dead and unconscious)",
+      "All": "Always"
+    },
     "InitiativeScore": {
       "Name": "Puntuación de Iniciativa",
       "Hint": "Utilizar la puntuación de iniciativa de la criatura (10 + bonificación) en lugar de tirar para la iniciativa.",
       "All": "Utilizar Puntuación para Todos",
       "None": "Siempre Tirar por Iniciativa",
       "NPCs": "Utilizar Puntuación para los PNJ del DM"
+    },
+    "InitiativeGroupCombatants": {
+      "Name": "Agrupar Combatientes",
+      "Hint": "Agrupa a los combatientes con la misma puntuación de iniciativa en el rastreador de encuentros."
+    },
+    "InitiativeGroupRoll": {
+      "Name": "Tirar Una Vez por Criatura",
+      "Hint": "Usar la misma tirada de iniciativa para criaturas idénticas."
     }
+  },
+  "CONDITIONS": {
+    "Name": "Condiciones"
   },
   "CRITICAL": {
     "Name": "Daño Crítico",
@@ -5901,6 +7023,16 @@
   "DEFAULTSKILLS": {
     "Name": "Habilidades Por Defecto",
     "Hint": "Las habilidades por defecto qeu aparecen en las hojas de PNJ sin importar el nivel de competencia."
+  },
+  "ENCOUNTERS": {
+    "Name": "Encuentros",
+    "EncounterPlacementBehavior": {
+      "Name": "Opciones de Colocación",
+      "Hint": "Configura si se deben agregar los miembros del encuentro al combate cuando se colocan en una escena.",
+      "CreateCombatants": "Agregar al Combate",
+      "None": "No Hacer Nada",
+      "RollInitiative": "Agregar al Combate y Tirar Iniciativa"
+    }
   },
   "General": "General",
   "LOYALTY": {
@@ -5938,11 +7070,19 @@
       "Yes": "Tirar y crear una tarjeta de chat"
     }
   },
-  "THEME": {
-    "Name": "Tema",
-    "Hint": "Tema visual que se aplicará a la UI y a todas las hojas por defecto. Se determinará automáticamente según tu navegador o sistema operativo."
+  "PIETY": {
+    "Hint": "Habilitar el seguimiento opcional de la Piedad para los personajes jugadores.",
+    "Name": "Puntuación de Piedad"
   },
   "PERMISSIONS": {
+    "AllowDamage": {
+      "Hint": "Permitir a los jugadores aplicar daño a los tokens que poseen.",
+      "Name": "Permitir Aplicación de Daño por los Jugadores"
+    },
+    "AllowEffects": {
+      "Hint": "Permitir a los jugadores usar la bandeja de aplicación de efectos cuando un actor que poseen es el objetivo de un efecto.",
+      "Name": "Permitir Aplicación de Efectos por los Jugadores"
+    },
     "AllowRests": {
       "Hint": "Permitir a los jugadores descansar directamente desde las hojas de sus personajes. Cuando se desactiva los jugadores sólo podrán descansar cuando el DM haga una petición desde el grupo.",
       "Name": "Permitir Descansos Individuales"
@@ -5961,6 +7101,10 @@
     "Hint": "Cambiar los juegos de reglas entre las del 2024 y las del 2014.",
     "Legacy": "Reglas Legacy (2014)",
     "Modern": "Reglas Modernas (2024)"
+  },
+  "SUMMARIZECHAT": {
+    "Hint": "Agregar ciertos resultados como resúmenes en lugar de tarjetas de chat completas.",
+    "Name": "Tarjetas de Chat Resumidas"
   },
   "VARIANT": {
     "Hint": "Habilitar y configurar las variaciones de reglas ofrecidas por el sistema.",
@@ -6035,16 +7179,7 @@
   }
 },
 
-"SHEETS.DND5E": {
-  "THEME": {
-    "Label": "Tema",
-    "Automatic": "Automático",
-    "Dark": "Modo Oscuro",
-    "Light": "Modo Claro"
-  }
-},
-
-"SOURCE.BOOK.FreeRules": "Free Rules",
+"SOURCE.BOOK.FreeRules": "Reglas Gratuitas",
 "SOURCE.BOOK.SRD51": "Documento de Referencia del Sistema (SRD) 5.1",
 "SOURCE.BOOK.SRD52": "Documento de Referencia del Sistema (SRD) 5.2",
 "SIDEBAR.SortModePriority": "Ordenar por prioridad"

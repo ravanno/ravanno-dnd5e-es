@@ -6683,7 +6683,7 @@
   "CheckShort": "{check}",
   "CheckLong": "prueba de {check}",
   "CheckUsing": "{check} utilizando {tool}",
-
+  "DamageAverage": "{average} <span class=\"formula-group\">({formula})</span> {type}",
   "DamageDouble": "{first} más {second}",
   "DamageExtended": "<em>Impacto:</em> de daño {damage}",
   "DamageLong": "{average} <span class=\"formula-group\">({formula})</span> {type}",

@@ -6683,7 +6683,7 @@
   "CheckShort": "{check}",
   "CheckLong": "{check} check",
   "CheckUsing": "{check} using {tool}",
-  
+  "DamageAverage": "{average} <span class=\"formula-group\">({formula})</span> {type}",
   "DamageDouble": "{first} plus {second}",
   "DamageExtended": "<em>Hit:</em> {damage}",
   "DamageLong": "{damage} damage",

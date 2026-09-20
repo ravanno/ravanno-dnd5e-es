@@ -2,7 +2,12 @@
 
 Traducción al español del sistema de Dungeons & Dragons 5E (SRD).
 
-Actualizando para DnD5e 6.0.1 y Foundry 11.315 (Verificado 14)
+Actualizando para DnD5e 6.0.3 y Foundry 11.315 (Verificado 14)
+
+**Versión 6.0.3**
+- Actualizadas traducciones a la versión 6.0.3
+- Verificado Foundry 14
+- Pendiente: Actualizar compendios a versión 24
 
 **Versión 6.0.1**
 - Actualizadas traducciones a la versión 6.0.1

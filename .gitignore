@@ -1,3 +1,27 @@
 
 /compendium-src
 compendium/dnd5e.rules copy.json
+
+compendium/dnd5e.actors24.json
+
+compendium/dnd5e.classes24.json
+
+compendium/dnd5e.content24.json
+
+compendium/dnd5e.equipment24.json
+
+compendium/dnd5e.feats24.json
+
+compendium/dnd5e.monsterfeatures24.json
+
+compendium/dnd5e.origins24.json
+
+compendium/dnd5e.spells.json
+
+compendium/dnd5e.spells24.json
+
+compendium/dnd5e.tables24.json
+
+compendium/mapping.json
+
+lang/es.ia.json

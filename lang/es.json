@@ -905,7 +905,7 @@
       "choices": {
         "hint": "Los siguientes rasgos se presentarán como opciones a elegir al jugador.",
         "label": "Opciones",
-        "FIELDS": {
+        "element": {
           "count": {
             "label": "Cuenta"
           },

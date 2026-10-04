@@ -4,6 +4,10 @@ Traducción al español del sistema de Dungeons & Dragons 5E (SRD).
 
 Actualizando para DnD5e 6.0.5 y Foundry 11.315 (Verificado 14)
 
+**Versión 6.0.5.1**
+- Corrección funciones "deprecated" para Babele 2.9.1
+- Arreglado un problema de compatibilidad que impedía mostrar correctamente traducido el índice del reglamento (para SRD Legacy).
+
 **Versión 6.0.5**
 - Actualizadas traducciones a la versión 6.0.5
 - Verificado Foundry 14

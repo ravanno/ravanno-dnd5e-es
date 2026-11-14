@@ -12,6 +12,8 @@
   "characterPl": "Personajes Jugadores",
   "encounter": "Encuentro",
   "encounterPl": "Encuentros",
+  "faction": "Facción",
+  "factionPl": "Facciones",
   "group": "Grupo",
   "groupPl": "Grupos",
   "npc": "Personaje No Jugador",
@@ -56,6 +58,8 @@
   "racePl": "Razas",
   "raceLegacy": "Raza",
   "raceLegacyPl": "Razas",
+  "renown": "Renombre",
+  "renownPl": "Renombres",
   "spell": "Conjuro",
   "spellPl": "Conjuros",
   "subclass": "Subclase",
@@ -67,6 +71,7 @@
 },
 
 "TYPES.RegionBehavior": {
+  "dnd5e.antimagic": "Antimagia",
   "dnd5e.applyActiveEffect": "Aplicar Efecto Activo (5e)",
   "dnd5e.difficultTerrain": "Terreno Difícil",
   "dnd5e.rotateArea": "Rotar Área"
@@ -74,6 +79,7 @@
 
 "TYPES.HINTS": {
   "RegionBehavior": {
+    "dnd5e.antimagic": "Evita que cualquier habilidad o objeto mágico sea usado dentro de la Región.",
     "dnd5e.applyActiveEffect": "Aplica efectos activos a los tokens mientras están dentro de la región y cumplen ciertos criterios.",
     "dnd5e.difficultTerrain": "Marca una región como terreno difícil y establece su tipo y a quién afecta.",
     "dnd5e.rotateArea": "Rota tokens, losetas, muros y otros objetos alrededor de un punto de pivote central."
@@ -427,9 +433,9 @@
 
 "DND5E.ACTOR": {
   "Warning": {
-    "CreateActor": "You must have 'Create New Actors' permission in order to summon directly from a compendium.",
+    "CreateActor": "Debes tener permiso para 'Crear Nuevos Actores' para invocar directamente desde un compendio.",
     "InvalidItem": "Los {itemType} no se pueden añadir a un {actorType}.",
-    "NoActor": "Actor cannot be found with UUID '{uuid}' to summon.",
+    "NoActor": "No se puede encontrar el actor con UUID '{uuid}' para invocar.",
     "Singleton": "Sólo puede añadirse un {itemType} a {actorType}."
   }
 },
@@ -661,6 +667,10 @@
     }
   },
   "ItemGrant": {
+    "DefaultTitle": {
+      "ClassFeatures": "Características de Clase",
+      "SubclassFeatures": "Características de Subclase"
+    },
     "Details": "Detalles de Concesión de Elementos",
     "DropHint": "Deja caer aquí elementos para añadirlo a la lista de concesiones asigandas a este progreso.",
     "FIELDS": {
@@ -1734,11 +1744,26 @@
   },
   "Activities": "Actividades",
   "Button": {
-    "rollAttack": "Ataque",
-    "rollCheck": "Prueba de Habilidad",
-    "rollDamage": "Daño",
-    "rollFormula": "Tirada",
-    "rollSave": "Tirada de Salvación"
+    "rollAttack": {
+      "Full": "Ataque",
+      "Short": "Ataque"
+    },
+    "rollCheck": {
+      "Full": "Prueba de Característica",
+      "Short": "Prueba"
+    },
+    "rollDamage": {
+      "Full": "Daño",
+      "Short": "Daño"
+    },
+    "rollFormula": {
+      "Full": "Tirada",
+      "Short": "Tirada"
+    },
+    "rollSave": {
+      "Full": "Tirada de Salvación",
+      "Short": "Salvación"
+    }
   },
   "Deltas": {
     "Created": "Objeto Creado",
@@ -1757,6 +1782,7 @@
   },
   "Row": {
     "Actions": "Acciones del Objeto",
+    "Additional": "Acciones Adicionales",
     "Items": "Objetos",
     "Properties": "Propiedades del Objeto",
     "Roll": "Tirada de Dados",
@@ -1972,7 +1998,10 @@
 "DND5E.CONCENTRATION": {
   "Abbreviation": "C",
   "Action": {
-    "Break": "Romper Concentración",
+    "Break": {
+      "Full": "Romper Concentración",
+      "Short": "Romper"
+    },
     "End": "Terminar Concentración"
   },
   "Description": "Estás manteniendo la concentración en los efectos de '{name}' {type}.",
@@ -2193,10 +2222,16 @@
     }
   },
   "Action": {
-    "ConsumeResource": "Consumir Recurso",
+    "ConsumeResource": {
+      "Full": "Consumir Recurso",
+      "Short": "Consumir"
+    },
     "Create": "Crear Objetivo de Consumo",
     "Delete": "Borrar Objetivo de Consumo",
-    "RefundResource": "Recuperar Recurso"
+    "RefundResource": {
+      "Full": "Recuperar Recurso",
+      "Short": "Recuperar"
+    }
   },
   "Empty": "No hay consumo asociado. Usa el botón <i class=\"fas fa-plus\"></i> de arriba para añadir objetivos de consumo.",
   "Scaling": {
@@ -2457,6 +2492,10 @@
     "Hint": "Estas propiedades de arma evitarán la resistencia al daño por daño físico.",
     "Label": "Anulaciones Físicas"
   },
+  "Resistance": {
+    "Falling": "Caída",
+    "UniqueCategory": "Tipos Únicos"
+  },
   "Scaling": {
     "Half": "Cada Otro Nivel",
     "HalfCantrip": "Medio Escalado de Truco",
@@ -2709,8 +2748,17 @@
     "Configuration": "Configuración del Cambio",
     "Group": {
       "Custom": "Personalizado",
+      "DamageApplicationOptions": "Opciones de Aplicación de Daño",
       "Rules": "Reglas",
       "Standard": "Estándar"
+    },
+    "Key": {
+      "Attack": "Tiradas de Ataque",
+      "Check": "Pruebas de Habilidad",
+      "D20": "Pruebas de D20",
+      "Damage": "Tiradas de Daño",
+      "Healing": "Tiradas de Curación",
+      "Save": "Tiradas de Salvación"
     },
     "Label": "Cambio",
     "Title": "Cambio de {effect} #{number}",
@@ -2720,6 +2768,18 @@
       },
       "Bonus": {
         "Label": "Bonificación"
+      },
+      "DowngradeImmunityResistance": {
+        "Label": "Reducir Inmunidad y Resistencia"
+      },
+      "IgnoreImmunity": {
+        "Label": "Ignorar Inmunidad"
+      },
+      "IgnoreResistance": {
+        "Label": "Ignorar Resistencia"
+      },
+      "IgnoreVulnerability": {
+        "Label": "Ignorar Vulnerabilidad"
       },
       "Maximum": {
         "Label": "Máximo de la Tirada"
@@ -2798,6 +2858,7 @@
   },
   "Tab": "Efectos",
   "Warning": {
+    "DependentsWithoutGM": "Eliminar {name} también elimina los elementos, actividades o efectos asociados y requiere un GM activo.",
     "RollCondition": "Las condiciones de efecto no pueden hacer referencia a las propiedades 'roll.'. Mueva esta condición a los cambios individuales para que se aplique el efecto.",
     "StatusCondition": "Los efectos que otorgan estados no pueden depender de condiciones de estado. Mueva esta condición a los cambios individuales para que se aplique el efecto."
   }
@@ -2910,6 +2971,21 @@
     "magical": {
       "hint": "Este encantamiento es mágico y debe desactivarse cuando la magia no esté disponible.",
       "label": "Mágico"
+    },
+    "rider": {
+      "activities": {
+        "hint": "Estas actividades adicionales se añadirán al objeto encantado cuando se aplique este encantamiento, y se eliminarán cuando se retire el encantamiento.",
+        "label": "Actividades Adicionales"
+      },
+      "effects": {
+        "hint": "Estos efectos adicionales se añadirán al objeto encantado cuando se aplique este encantamiento, y se eliminarán cuando se retire el encantamiento.",
+        "label": "Efectos Adicionales"
+      },
+      "items": {
+        "hint": "Estos objetos adicionales se añadirán a la criatura cuando uno de sus objetos sea encantado, y se eliminarán si el encantamiento se retira.",
+        "label": "Objetos Adicionales"
+      },
+      "label": "Adjunto"
     }
   },
   "Items": {
@@ -2921,6 +2997,9 @@
     "LongRest": "Descanso Largo",
     "Never": "Nunca",
     "ShortRest": "Descanso Corto"
+  },
+  "Rider": {
+    "Activity": "Actividad de Encantamiento Adjunto"
   },
   "Transfer": {
     "DisabledTooltip": "Este encantamiento está actualmente seleccionado en una o más de las actividades de encantamiento de su objeto, y por lo tanto no se puede aplicar directamente al objeto.",
@@ -3304,6 +3383,12 @@
   }
 },
 
+"DND5E.FACTION": {
+  "Action": {
+    "AddMember": "Añadir Miembro"
+  }
+},
+
 "DND5E.FALLING": {
   "DamageFlavor": "Cayó {distance}",
   "MovementAction": "Caer",
@@ -3380,8 +3465,11 @@
   },
   "Monster": "Rasgo de Monstruo",
   "PietyTrait": "Rasgo de Devoción",
-  "Species": "Rasgo de Especie",
-  "SpeciesLegacy": "Rasgo de Raza",
+  "Species": {
+    "Label": "Rasgo de Especie",
+    "LabelLegacy": "Rasgo de Raza",
+    "Lineage": "Linaje"
+  },
   "SupernaturalGift": {
     "Label": "Regalo Sobrenatural",
     "Blessing": "Bendición",
@@ -3440,6 +3528,7 @@
 "DND5E.Filter": "Filtro",
 "DND5E.FilterClear": "Limpiar Filtros",
 "DND5E.FilterGroupCategory": "Agrupar por Categoría",
+"DND5E.FilterGroupFaction": "Agrupar por Facción",
 "DND5E.FilterGroupOrigin": "Agrupar por Origen", 
 "DND5E.FilterGroupAction": "Agrupar por Acción",
 "DND5E.FilterNoSpells": "No se encontraron conjuros con estos filtros.",
@@ -3574,8 +3663,8 @@
     }
   },
   "Warning": {
-    "PhysicalItemOnly": "Sólo los elementos físicos están soportados.",
-    "PlaceMembers": "Error al colocar tokens en la escena."
+    "PlaceMembers": "Error al colocar tokens en la escena.",
+    "SupportedItemOnly": "Sólo los objetos físicos y de renombre están soportados."
   }
 },
 "DND5E.Habitat": {
@@ -3654,7 +3743,10 @@
       }
     }
   },
-  "HealingButton": "Curar",
+  "HealingButton": {
+    "Full": "Curación",
+    "Short": "Curar"
+  },
   "HealingRoll": "Tirada de Curación",
   "Hint": "Curar una criatura",
   "Title": "Curar",
@@ -3849,10 +3941,12 @@
     "Focus": "Foco",
     "Gear": "Equipo",
     "Heavy": "Pesada",
+    "Hydrating": "Hidratante",
     "Light": "Ligera",
     "Loading": "Recarga",
     "Material": "Material",
     "Magical": "Mágico",
+    "Nutritious": "Nutritivo",
     "Reach": "Gran alcance",
     "Reload": "Recargable",
     "Returning": "Regresa",
@@ -3924,6 +4018,10 @@
     "Standard": "Idiomas Estándar"
   },
   "Communication": {
+    "Formatter": {
+      "Units": "Unidades de {name}",
+      "Value": "Alcance de {name}"
+    },
     "Label": "Comunicación a Distancia",
     "Telepathy": "Telepatía"
   },
@@ -3977,7 +4075,10 @@
 
 "DND5E.LegendaryResistance": {
   "Action": {
-    "Resist": "Resistencia Legendaria"
+    "Resist": {
+      "Full": "Resistencia Legendaria",
+      "Short": "Resistir"
+    }
   },
   "Label": "Resistencia Legendaria",
   "LabelPl": "Resistencias Legendarias",
@@ -4346,6 +4447,28 @@
   }
 },
 
+"DND5E.RENOWN": {
+  "Action": {
+    "AddModifier": "Agregar Modificador de Renombre",
+    "DeleteModifier": "Eliminar Modificador de Renombre"
+  },
+  "Empty": "Aún no hay modificadores de renombre. Usa el botón <i class=\"fas fa-plus\"></i> arriba para agregar uno.",
+  "FIELDS": {
+    "modifiers": {
+      "element": {
+        "faction.label": "Facción",
+        "value": {
+          "label": "Valor",
+          "placeholder": "0"
+        }
+      },
+      "label": "Modificadores"
+    }
+  },
+  "Search": "Buscar renombre",
+  "Unknown": "Desconocido"
+},
+
 "DND5E.Remaining": "Restantes",
 "DND5E.RequiredMaterials": "Materiales Requeridos",
 "DND5E.Requirements": "Requisitos",
@@ -4712,6 +4835,7 @@
   "Container": "Hoja de Contenedor de D&D 5e",
   "DifficultTerrain": "Hoja de Terreno Difícil de D&D 5e",
   "Encounter": "Hoja de Encuentro de D&D 5e",
+  "Faction": "Hoja de Facción D&D 5e",
   "Group": "Hoja de Grupo D&D 5e",
   "Item": "Hoja de Objeto D&D 5e",
   "JournalEntry": "Hoja de Entrada de Diario D&D 5e",
@@ -5222,6 +5346,9 @@
     "Label": "Cambios en la Criatura",
     "Hint": "Cambios que se harán a la criatura invocada. Cualquier referencia @ utilizada en las siguientes fórmulas, toman como base las estadística del invocador. Las estadísticas de la criatura invocada pueden ser referenciadas usando @summon (p.e. @summon.attributes.hd.max para referenciar el contador de dados de golpe de la criatura)."
   },
+  "DamageChanges": {
+    "Label": "Cambios en el Daño"
+  },
   "Hint": "Invoca una nueva criatura en la escena.",
   "ItemChanges": {
     "Label": "Cambios en Objetos",
@@ -5302,7 +5429,10 @@
 
 "DND5E.TARGET": {
   "Action": {
-    "PlaceTemplate": "Colocar Plantilla de Medición"
+    "PlaceTemplate": {
+      "Full": "Colocar Plantilla de Medición",
+      "Short": "Área"
+    }
   },
   "Count": {
     "Any": "Cualquiera",
@@ -6732,6 +6862,7 @@
 },
 
 "EFFECT.DND5E": {
+  "StatusAntimagic": "Antimagia",
   "StatusBleeding": "Sangrando",
   "StatusBloodied": "Ensangrentado",
   "StatusBurning": "Ardiendo",
@@ -6983,12 +7114,12 @@
       "Hint": "Añadir la puntuación de Destreza sin modificar para romper empates en la Iniciativa."
     },
     "AutoApplyDowned": {
-      "Name": "Auto-Apply Downed",
-      "Hint": "Automatically mark a creature as Dead or Unconscious when it is reduced to 0 HP in combat. Unimportant NPCs are marked Dead. Important NPCs and PCs are marked Unconscious first, and Dead if they fail three death saving throws.",
-      "None": "Never",
-      "DeadOnly": "For NPCs (dead only)",
-      "NPCs": "For NPCs (dead and unconscious)",
-      "All": "Always"
+      "Name": "Aplicar Automáticamente Estado Ensangrentado",
+      "Hint": "Marcar automáticamente a una criatura como Muerta o Inconsciente cuando se reduce a 0 PV en combate. Los PNJ no importantes se marcan como Muertos. Los PNJ importantes y los PJ se marcan primero como Inconscientes y como Muertos si fallan tres tiradas de salvación contra la muerte.",
+      "None": "Nunca",
+      "DeadOnly": "Para PNJ (solo muertos)",
+      "NPCs": "Para PNJ (muertos e inconscientes)",
+      "All": "Siempre"
     },
     "InitiativeScore": {
       "Name": "Puntuación de Iniciativa",
@@ -7095,6 +7226,10 @@
       "Hint": "Permitir a los jugadores transformar sus propios actores. Los jugadores también deben tener permisos para Crear Actor & Token para que esto funcione.",
       "Name": "Permitir Transformación"
     }
+  },
+  "RENOWN": {
+    "Hint": "Habilitar el seguimiento opcional de la Fama para los personajes y grupos.",
+    "Name": "Puntuación de Fama"
   },
   "RULESVERSION": {
     "Name": "Versión de las Reglas",
